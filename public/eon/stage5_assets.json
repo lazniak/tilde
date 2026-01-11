@@ -1,0 +1,83 @@
+{
+  "reference_assets": [],
+  "generated_assets": [
+    {
+      "name": "Outfit_Skin_Body",
+      "category": "Prop",
+      "description": "A matte, flesh-toned bodysuit worn by Woman_The_Medium. It creates the illusion of nudity and vulnerability while maintaining a mannequin-like, 'avatar' aesthetic. Used in Verse 1 and the Bunker scenes.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Outfit_Ivory_Silk",
+      "category": "Prop",
+      "description": "A long, sheer sheet of raw ivory silk wrapped loosely around Woman_The_Medium. It reacts dynamically to wind and water. Worn during the Interlude/Ritual scenes.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Prop_Large_Mirror",
+      "category": "Prop",
+      "description": "A massive, frameless rectangular mirror (2m x 1m) placed vertically in the sand of the Salt_Flat_Desert. It reflects the sky, creating a 'portal' effect when Woman_The_Medium stands near it.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Prop_Mechanical_Strobe",
+      "category": "Prop",
+      "description": "A high-intensity industrial searchlight fitted with a mechanical rotating shutter fan to create a physical, analog stroboscopic effect. Located in the Concrete_Bunker_Interior to light Woman_The_Medium.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Prop_Prism_Lens",
+      "category": "Prop",
+      "description": "A handheld glass prism held in front of the camera lens to refract light and create in-camera 'glitch' effects and fractals of Woman_The_Medium without CGI.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Prop_Dust_Powder",
+      "category": "Prop",
+      "description": "Fine, organic white powder (flour/chalk dust) used in the Concrete_Bunker_Interior. It is blasted into the air to visualize sound waves and impact around Woman_The_Medium.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Prop_Ceramic_Bowl",
+      "category": "Prop",
+      "description": "A simple, unglazed earthen bowl used by Woman_The_Medium in the Salt_Lake_Shallows to pour water over herself during the ritual.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Woman_The_Medium",
+      "category": "Actor",
+      "description": "A striking woman with ageless features and minimal expression, trained in Butoh movement. She represents the Soul trapped in the Avatar. In the desert scenes, she interacts with Prop_Large_Mirror. In the bunker, she is surrounded by Prop_Dust_Powder.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Salt_Flat_Desert",
+      "category": "Location",
+      "description": "A vast, blindingly white dry lake bed under a deep blue sky. Minimalist and barren. Features Woman_The_Medium (wearing Outfit_Skin_Body) standing next to Prop_Large_Mirror. The horizon is infinite.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Concrete_Bunker_Interior",
+      "category": "Location",
+      "description": "A brutalist, cavernous industrial space with raw concrete walls. Pitch black, illuminated only by the harsh, rhythmic flashes of the Prop_Mechanical_Strobe. The air is thick with suspended Prop_Dust_Powder. Features Woman_The_Medium dancing erratically.",
+      "parent_asset": null,
+      "is_reference": false
+    },
+    {
+      "name": "Salt_Lake_Shallows",
+      "category": "Location",
+      "description": "A variant of the desert where a thin layer of water covers the salt crust, creating a perfect mirror of the sky at sunset. Features Woman_The_Medium (wearing Outfit_Ivory_Silk) holding Prop_Ceramic_Bowl.",
+      "parent_asset": "Salt_Flat_Desert",
+      "is_reference": false
+    }
+  ],
+  "total_assets": 11
+}

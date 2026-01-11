@@ -1,0 +1,84 @@
+```json
+{
+    "storyline": "The visual journey begins in the blinding brightness of the 'Salt_Flat_Desert'. In the Intro, the camera captures extreme wide shots where 'Woman_The_Medium' is a mere speck against the horizon, emphasizing the 'Zero one infinity' lyric. She stands motionless, a biological statue in a dead world. As the bass pulse kicks in (Verse 1), macro shots focus on the texture of her 'Outfit_Skin_Body' and the sand slipping through her fingers—the 'memory of atoms.'\n\nSuddenly, at the 'Pre-Chorus Breath' (66s), the scene cuts to black. The 'Chorus 1 Blast' transports us to the 'Concrete_Bunker_Interior'. Here, the lighting is violent and analog; the 'Prop_Mechanical_Strobe' chops her movements into disjointed frames. She performs a spasmodic Butoh dance, surrounded by explosions of 'Prop_Dust_Powder' triggered by air cannons, visualizing the industrial percussion. It is a raw struggle between the soul and the geometry of the trap.\n\nDuring Verse 2 ('Fractal pattern'), we return to the desert, but reality is distorted. 'Woman_The_Medium' interacts with 'Prop_Large_Mirror' set vertically in the sand. The camera films through 'Prop_Prism_Lens', creating optical duplications of her body without CGI. She walks 'into' the sky reflected in the mirror, defying gravity.\n\nFor the 'Climax/Eruption' (138s+), the 'Concrete_Bunker_Interior' returns, but now the 'Prop_Analog_Strobe' is blindingly fast. 'Woman_The_Medium' screams silently into the light, her form blurring. The 'Tangent Break' is visualized by filming her reflection in shattered glass and water droplets suspended in high-speed slow motion.\n\n The 'Interlude' brings the 'Salt_Lake_Shallows' at the golden hour. The violence ceases. 'Woman_The_Medium', now draped in 'Outfit_Ivory_Silk', performs the ritual of 'Avatar removal.' She pours water from 'Prop_Ceramic_Bowl' over herself, the water capturing the dying sunlight. The mood is transcendental and cleansing.\n\nIn the 'Outro', she walks away from the camera into the shimmering heat haze of the 'Salt_Flat_Desert'. As the final whisper 'Zapętlenie' (Loop) fades, her figure optically dissolves into the vibrating air, leaving only the empty horizon.",
+    "assets": [
+        {
+            "name": "Woman_The_Medium",
+            "category": "Actor",
+            "description": "A striking woman with ageless features and minimal expression, trained in Butoh movement. She represents the Soul trapped in the Avatar. In the desert scenes, she interacts with Prop_Large_Mirror. In the bunker, she is surrounded by Prop_Dust_Powder.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Outfit_Skin_Body",
+            "category": "Prop",
+            "description": "A matte, flesh-toned bodysuit worn by Woman_The_Medium. It creates the illusion of nudity and vulnerability while maintaining a mannequin-like, 'avatar' aesthetic. Used in Verse 1 and the Bunker scenes.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Outfit_Ivory_Silk",
+            "category": "Prop",
+            "description": "A long, sheer sheet of raw ivory silk wrapped loosely around Woman_The_Medium. It reacts dynamically to wind and water. Worn during the Interlude/Ritual scenes.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Salt_Flat_Desert",
+            "category": "Location",
+            "description": "A vast, blindingly white dry lake bed under a deep blue sky. Minimalist and barren. Features Woman_The_Medium (wearing Outfit_Skin_Body) standing next to Prop_Large_Mirror. The horizon is infinite.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Salt_Lake_Shallows",
+            "category": "Location",
+            "description": "A variant of the desert where a thin layer of water covers the salt crust, creating a perfect mirror of the sky at sunset. Features Woman_The_Medium (wearing Outfit_Ivory_Silk) holding Prop_Ceramic_Bowl.",
+            "parent_asset": "Salt_Flat_Desert",
+            "is_reference": false
+        },
+        {
+            "name": "Concrete_Bunker_Interior",
+            "category": "Location",
+            "description": "A brutalist, cavernous industrial space with raw concrete walls. Pitch black, illuminated only by the harsh, rhythmic flashes of the Prop_Mechanical_Strobe. The air is thick with suspended Prop_Dust_Powder. Features Woman_The_Medium dancing erratically.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Prop_Large_Mirror",
+            "category": "Prop",
+            "description": "A massive, frameless rectangular mirror (2m x 1m) placed vertically in the sand of the Salt_Flat_Desert. It reflects the sky, creating a 'portal' effect when Woman_The_Medium stands near it.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Prop_Mechanical_Strobe",
+            "category": "Prop",
+            "description": "A high-intensity industrial searchlight fitted with a mechanical rotating shutter fan to create a physical, analog stroboscopic effect. Located in the Concrete_Bunker_Interior to light Woman_The_Medium.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Prop_Prism_Lens",
+            "category": "Prop",
+            "description": "A handheld glass prism held in front of the camera lens to refract light and create in-camera 'glitch' effects and fractals of Woman_The_Medium without CGI.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Prop_Dust_Powder",
+            "category": "Prop",
+            "description": "Fine, organic white powder (flour/chalk dust) used in the Concrete_Bunker_Interior. It is blasted into the air to visualize sound waves and impact around Woman_The_Medium.",
+            "parent_asset": null,
+            "is_reference": false
+        },
+        {
+            "name": "Prop_Ceramic_Bowl",
+            "category": "Prop",
+            "description": "A simple, unglazed earthen bowl used by Woman_The_Medium in the Salt_Lake_Shallows to pour water over herself during the ritual.",
+            "parent_asset": null,
+            "is_reference": false
+        }
+    ]
+}
+```

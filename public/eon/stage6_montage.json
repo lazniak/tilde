@@ -1,0 +1,716 @@
+```json
+{
+    "scenes": [
+        {
+            "description": "Extreme wide shot of Salt_Flat_Desert under a deep blue sky. Woman_The_Medium wearing Outfit_Skin_Body stands motionless on the horizon, a tiny speck in the void. Heat haze shimmers.",
+            "assets": ["Salt_Flat_Desert", "Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene1_SetupA_DesertWide",
+            "setup_description": "Extreme wide static shot, horizon centered, subject distant",
+            "sync_reference": "Intro Silence 0.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Prop_Large_Mirror stands vertically in the sand. The camera is angled so the mirror reflects only the cloudless sky, creating a portal-like hole in the landscape.",
+            "assets": ["Salt_Flat_Desert", "Prop_Large_Mirror"],
+            "setup_id": "Scene1_SetupB_Mirror",
+            "setup_description": "Medium shot of mirror at 45 degree angle",
+            "sync_reference": "Intro Atmosphere 4.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Medium close-up of Woman_The_Medium's face, eyes closed, expressionless. The lighting is harsh sunlight. The wind gently moves a stray hair.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body", "Salt_Flat_Desert"],
+            "setup_id": "Scene1_SetupC_Portrait",
+            "setup_description": "Close up, shallow depth of field, high key lighting",
+            "sync_reference": "Intro Tension 8.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Abstract shot of the sky reflected in Prop_Large_Mirror, with sand blowing across the glass surface in slow motion.",
+            "assets": ["Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene1_SetupB_Mirror",
+            "setup_description": "Close up on mirror surface",
+            "sync_reference": "Intro Atmosphere 12.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Macro shot of Woman_The_Medium's skin texture on her shoulder, juxtaposed with the texture of the dried salt ground. Highly detailed.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene1_SetupD_Macro",
+            "setup_description": "Macro texture shot",
+            "sync_reference": "Intro 16.0s transition",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 5.0
+        },
+        {
+            "description": "Woman_The_Medium opens her eyes sharply. Shot through Prop_Prism_Lens creating a slight spectral duplication of her face. Minimalist background.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupA_Prism",
+            "setup_description": "Close up with prism refraction overlay",
+            "sync_reference": "Lyrics 'Zero jeden' start 21.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Reflection of Woman_The_Medium walking into the Prop_Large_Mirror. The reflection shows her entering the sky.",
+            "assets": ["Woman_The_Medium", "Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupB_MirrorWalk",
+            "setup_description": "Medium shot reflecting movement",
+            "sync_reference": "Lyrics 'nieskończoność' 23.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Close up of sand slipping through fingers of Woman_The_Medium. High contrast sunlight.",
+            "assets": ["Woman_The_Medium", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupC_Hands",
+            "setup_description": "Close up on hands",
+            "sync_reference": "Lyrics 'Tylko sekunda' 26.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Glitchy, refracted shot of Woman_The_Medium's profile using Prop_Prism_Lens. The image splits into three overlapping layers.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene2_SetupA_Prism",
+            "setup_description": "Profile shot with strong refraction",
+            "sync_reference": "Lyrics 'przed ciałem' 28.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Wide shot. Woman_The_Medium stands next to Prop_Large_Mirror. The landscape is vast and empty.",
+            "assets": ["Woman_The_Medium", "Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene1_SetupA_DesertWide",
+            "setup_description": "Wide static tableau",
+            "sync_reference": "Lyrics 'Tu jest wszystko' 31.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Sunlight flares aggressively into the lens through Prop_Prism_Lens, washing out the image with rainbows.",
+            "assets": ["Prop_Prism_Lens", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupD_Flare",
+            "setup_description": "Abstract light leak shot",
+            "sync_reference": "Instrumental pulse 34.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Empty Salt_Flat_Desert. No person. Just the Prop_Large_Mirror reflecting the empty horizon.",
+            "assets": ["Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupE_Empty",
+            "setup_description": "Static shot of empty set",
+            "sync_reference": "Lyrics 'Tu nie ma nic' 36.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.5
+        },
+        {
+            "description": "Tracking shot of Woman_The_Medium's feet walking on the cracked salt earth.",
+            "assets": ["Woman_The_Medium", "Salt_Flat_Desert", "Outfit_Skin_Body"],
+            "setup_id": "Scene2_SetupF_Feet",
+            "setup_description": "Low angle tracking shot",
+            "sync_reference": "Rhythmic walking 39.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Extreme close up of Woman_The_Medium's eye. The pupil dilates. The blue sky is reflected in the cornea.",
+            "assets": ["Woman_The_Medium"],
+            "setup_id": "Scene2_SetupG_Eye",
+            "setup_description": "Macro eye shot",
+            "sync_reference": "Beat pulse 42.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium presses her palm against the surface of Prop_Large_Mirror. The reflection meets the hand perfectly.",
+            "assets": ["Woman_The_Medium", "Prop_Large_Mirror"],
+            "setup_id": "Scene2_SetupH_HandMirror",
+            "setup_description": "Medium close up hand contact",
+            "sync_reference": "Beat pulse 45.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Optical illusion. Prop_Prism_Lens creates a ghosting effect where Woman_The_Medium appears to separate from her body.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens", "Outfit_Skin_Body"],
+            "setup_id": "Scene2_SetupA_Prism",
+            "setup_description": "Medium shot with heavy aberration",
+            "sync_reference": "Atmospheric build 48.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Stark silhouette of Woman_The_Medium against the blinding white sun. High contrast.",
+            "assets": ["Woman_The_Medium", "Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupI_Silhouette",
+            "setup_description": "Low angle silhouette",
+            "sync_reference": "Atmospheric build 52.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Wind picks up salt dust from the ground. Macro focus on the particles flying.",
+            "assets": ["Salt_Flat_Desert"],
+            "setup_id": "Scene2_SetupJ_Dust",
+            "setup_description": "Ground level macro",
+            "sync_reference": "Wind sound 56.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Woman_The_Medium looks up sharply at the sky, tension building in her neck muscles.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene2_SetupK_LookUp",
+            "setup_description": "Medium close up from low angle",
+            "sync_reference": "Tension build 60.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Woman_The_Medium takes a deep, sharp inhale. Her chest expands visibly. The camera zooms in slightly.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene2_SetupL_Breath",
+            "setup_description": "Close up chest/face",
+            "sync_reference": "Pre-chorus inhale 64.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Total darkness. Faint floating particles of Prop_Dust_Powder are barely visible.",
+            "assets": ["Concrete_Bunker_Interior", "Prop_Dust_Powder"],
+            "setup_id": "Scene3_SetupA_Darkness",
+            "setup_description": "Black screen with particles",
+            "sync_reference": "The Breath (Silence) 66.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.0
+        },
+        {
+            "description": "BLAST. Concrete_Bunker_Interior lit by a violent flash of Prop_Mechanical_Strobe. Woman_The_Medium is frozen in a twisted pose.",
+            "assets": ["Concrete_Bunker_Interior", "Woman_The_Medium", "Prop_Mechanical_Strobe", "Outfit_Skin_Body"],
+            "setup_id": "Scene4_SetupA_BunkerWide",
+            "setup_description": "Wide shot, hard strobe lighting",
+            "sync_reference": "Chorus 1 Kick 67.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 0.5
+        },
+        {
+            "description": "Explosion of Prop_Dust_Powder in the air, illuminated by a single strobe flash. Industrial chaos.",
+            "assets": ["Concrete_Bunker_Interior", "Prop_Dust_Powder", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupB_Dust",
+            "setup_description": "Close up on dust cloud",
+            "sync_reference": "Chorus 1 Snare 67.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 0.5
+        },
+        {
+            "description": "Woman_The_Medium performs a spasmodic Butoh movement, jerking her head back. Lit by rapid strobe flickering.",
+            "assets": ["Woman_The_Medium", "Concrete_Bunker_Interior", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupC_Dance",
+            "setup_description": "Medium shot, jerky movement",
+            "sync_reference": "Chorus 1 Rhythm 68.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.5
+        },
+        {
+            "description": "Prop_Mechanical_Strobe light source flares directly into the camera lens, creating analog bloom and artifacts.",
+            "assets": ["Prop_Mechanical_Strobe", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene4_SetupD_Light",
+            "setup_description": "Direct shot of light source",
+            "sync_reference": "Chorus 1 Flare 69.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.5
+        },
+        {
+            "description": "Close up of Woman_The_Medium screaming silently, face distorted by Prop_Prism_Lens and strobe lighting.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupE_Scream",
+            "setup_description": "Close up face with prism",
+            "sync_reference": "Chorus 1 Intensity 71.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Prop_Dust_Powder swirling violently in the air currents inside the bunker. Lit by harsh side light.",
+            "assets": ["Prop_Dust_Powder", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene4_SetupB_Dust",
+            "setup_description": "Medium shot of dust turbulence",
+            "sync_reference": "Chorus 1 Atmosphere 73.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Full body shot. Woman_The_Medium contorts her body into a geometric shape on the concrete floor.",
+            "assets": ["Woman_The_Medium", "Concrete_Bunker_Interior", "Outfit_Skin_Body"],
+            "setup_id": "Scene4_SetupF_Floor",
+            "setup_description": "High angle shot looking down",
+            "sync_reference": "Chorus 1 Dance 75.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "The rotating shutter of the Prop_Mechanical_Strobe spins, chopping the light beam physically.",
+            "assets": ["Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupG_Mech",
+            "setup_description": "Close up on machinery",
+            "sync_reference": "Chorus 1 Beat 77.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Silhouette of Woman_The_Medium dancing in a cloud of illuminated Prop_Dust_Powder. Abstract and ghostly.",
+            "assets": ["Woman_The_Medium", "Prop_Dust_Powder", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene4_SetupH_SilhDust",
+            "setup_description": "Silhouette against dust backlight",
+            "sync_reference": "Chorus 1 Abstract 79.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Close up on hands of Woman_The_Medium in a rigid, claw-like Butoh gesture.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene4_SetupI_Hands",
+            "setup_description": "Close up hands",
+            "sync_reference": "Chorus 1 Detail 81.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Aggressive Prop_Prism_Lens refraction causes Woman_The_Medium to appear to glitch and shatter visually.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene4_SetupE_Scream",
+            "setup_description": "Medium shot heavy refraction",
+            "sync_reference": "Chorus 1 Glitch 83.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Rough concrete texture of the Bunker wall, illuminated by fleeting strobe flashes.",
+            "assets": ["Concrete_Bunker_Interior"],
+            "setup_id": "Scene4_SetupJ_Wall",
+            "setup_description": "Texture shot wall",
+            "sync_reference": "Chorus 1 Texture 86.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium falls backward into a pile of Prop_Dust_Powder, sending a plume into the air. Slow motion.",
+            "assets": ["Woman_The_Medium", "Prop_Dust_Powder", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene4_SetupK_Fall",
+            "setup_description": "Wide shot slow motion fall",
+            "sync_reference": "Chorus 1 Impact 89.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "The strobe slows down. Woman_The_Medium lies on the floor panting. Dust settles.",
+            "assets": ["Woman_The_Medium", "Concrete_Bunker_Interior", "Prop_Dust_Powder"],
+            "setup_id": "Scene4_SetupL_Aftermath",
+            "setup_description": "High angle static",
+            "sync_reference": "Chorus 1 Fade 93.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Woman_The_Medium walks across the Salt_Flat_Desert. The camera tracks sideways. Rhythm matches the bass.",
+            "assets": ["Woman_The_Medium", "Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupA_Walk",
+            "setup_description": "Side tracking shot",
+            "sync_reference": "Verse 2 Start 97.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Prop_Large_Mirror reflects the blue sky, but placed on the ground so it looks like a pool of sky in the sand.",
+            "assets": ["Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupB_MirrorSky",
+            "setup_description": "High angle on mirror",
+            "sync_reference": "Verse 2 Reflection 100.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Detail: Wind blowing salt crystals across the hard ground.",
+            "assets": ["Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupC_Salt",
+            "setup_description": "Macro ground level",
+            "sync_reference": "Lyrics 'Atomy' 103.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Prop_Prism_Lens creates a kaleidoscope effect of Woman_The_Medium's arms moving in a pattern.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene5_SetupD_Kaleido",
+            "setup_description": "Medium shot with kaleidoscope prism",
+            "sync_reference": "Lyrics 'Budowaliśmy' 106.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium stands half 'inside' the reflection of Prop_Large_Mirror, creating a cut-off effect.",
+            "assets": ["Woman_The_Medium", "Prop_Large_Mirror"],
+            "setup_id": "Scene5_SetupE_MirrorCut",
+            "setup_description": "Medium shot optical illusion",
+            "sync_reference": "Lyrics 'Fraktalny' 109.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Close up on face, refracted through glass to look like it is cracking.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene5_SetupF_FaceCrack",
+            "setup_description": "Close up with glass foreground",
+            "sync_reference": "Lyrics 'krawędzi szkła' 112.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "The desert horizon blurs out of focus, shifting into a soft wash of beige and blue.",
+            "assets": ["Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupG_Blur",
+            "setup_description": "Rack focus shot",
+            "sync_reference": "Lyrics 'fizyczna mgła' 115.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Hand pressing against a pane of glass in the middle of the desert (prop), distorting the skin.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene5_SetupH_HandGlass",
+            "setup_description": "Close up hand press",
+            "sync_reference": "Lyrics 'Zalążek istnienia' 118.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Geometric composition: The horizon line cuts Woman_The_Medium perfectly in half.",
+            "assets": ["Woman_The_Medium", "Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupI_Horizon",
+            "setup_description": "Wide shot geometric",
+            "sync_reference": "Lyrics 'Wektor' 121.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Wide shot of multiple Prop_Large_Mirrors arranged in a circle, reflecting each other and the sky.",
+            "assets": ["Prop_Large_Mirror", "Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupJ_MultiMirror",
+            "setup_description": "Wide shot mirror circle",
+            "sync_reference": "Lyrics 'Spełnia pustka' 124.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Sun flare blinding the camera, transitioning to white.",
+            "assets": ["Salt_Flat_Desert"],
+            "setup_id": "Scene5_SetupK_Flare",
+            "setup_description": "Direct sun shot",
+            "sync_reference": "Lyrics 'Neutronowe gwiazdy' 127.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Glitch effect using Prop_Prism_Lens, duplicating Woman_The_Medium's figure rapidly.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene5_SetupD_Kaleido",
+            "setup_description": "Rapid movement prism",
+            "sync_reference": "Lyrics 'we mnie i we śnie' 130.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium freezes mid-motion. The image stutters (in-camera effect).",
+            "assets": ["Woman_The_Medium"],
+            "setup_id": "Scene5_SetupL_Stutter",
+            "setup_description": "Medium shot freeze",
+            "sync_reference": "Lyrics 'Styk gdzie pęka czas' 133.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Rapid wind blows hair and Outfit_Skin_Body fabric violently. Time speeds up.",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene5_SetupM_Wind",
+            "setup_description": "Close up fast motion",
+            "sync_reference": "Lyrics 'Wszystko na raz' 135.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Return to Concrete_Bunker_Interior. Violent flash of Prop_Mechanical_Strobe on the heavy beat.",
+            "assets": ["Concrete_Bunker_Interior", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupA_BunkerWide",
+            "setup_description": "Wide shot strobe blast",
+            "sync_reference": "Chorus 2 Kick 138.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.0
+        },
+        {
+            "description": "Reflection of Woman_The_Medium in shards of broken glass on the concrete floor.",
+            "assets": ["Woman_The_Medium", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupA_Shards",
+            "setup_description": "Macro reflection in debris",
+            "sync_reference": "Lyrics 'rozziew' 139.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.5
+        },
+        {
+            "description": "Hard geometric shadow cast by Woman_The_Medium against the bunker wall.",
+            "assets": ["Woman_The_Medium", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupB_Shadow",
+            "setup_description": "Wall shadow shot",
+            "sync_reference": "Lyrics 'tangens' 140.5s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 1.5
+        },
+        {
+            "description": "Strobe light flickers in reverse rhythm. Woman_The_Medium moves backwards (performed).",
+            "assets": ["Woman_The_Medium", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene6_SetupC_Reverse",
+            "setup_description": "Medium shot uncanny movement",
+            "sync_reference": "Lyrics 'minus w plus' 142.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Water droplets suspended in air, lit by strobe. High speed slow motion.",
+            "assets": ["Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupD_WaterAir",
+            "setup_description": "Macro water droplets strobe",
+            "sync_reference": "Physics break 144.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Woman_The_Medium twists her body unnaturally, defying gravity (leaning too far).",
+            "assets": ["Woman_The_Medium", "Outfit_Skin_Body"],
+            "setup_id": "Scene6_SetupE_Lean",
+            "setup_description": "Full body awkward pose",
+            "sync_reference": "Lyrics 'łamie prawa' 146.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Close up face screaming, lit by erratic strobe.",
+            "assets": ["Woman_The_Medium", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupE_Scream",
+            "setup_description": "Extreme close up scream",
+            "sync_reference": "Lyrics 'milkną krzyki' 148.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Prop_Dust_Powder floating weightlessly in the bunker.",
+            "assets": ["Prop_Dust_Powder", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupF_FloatDust",
+            "setup_description": "Slow motion dust",
+            "sync_reference": "Lyrics 'luz' 150.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "A single beam of light cuts through the darkness of the bunker.",
+            "assets": ["Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupG_Beam",
+            "setup_description": "Light beam wide",
+            "sync_reference": "Lyrics 'Królestwo' 152.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 2.0
+        },
+        {
+            "description": "Camera vibrates physically while filming Woman_The_Medium, creating blur.",
+            "assets": ["Woman_The_Medium"],
+            "setup_id": "Scene6_SetupH_Vibe",
+            "setup_description": "Shaky cam effect",
+            "sync_reference": "Lyrics 'wibracja i ton' 154.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium dances chaotically, flailing arms. Strobe matches tempo.",
+            "assets": ["Woman_The_Medium", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene4_SetupC_Dance",
+            "setup_description": "Medium shot chaotic dance",
+            "sync_reference": "Instrumental climax 157.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Intensity peaks. Blinding white flashes obscure the figure entirely.",
+            "assets": ["Concrete_Bunker_Interior", "Prop_Mechanical_Strobe"],
+            "setup_id": "Scene6_SetupI_Blind",
+            "setup_description": "White out strobe",
+            "sync_reference": "Climax 160.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Massive explosion of Prop_Dust_Powder covering the frame.",
+            "assets": ["Prop_Dust_Powder", "Concrete_Bunker_Interior"],
+            "setup_id": "Scene6_SetupJ_BigDust",
+            "setup_description": "Wide shot dust explosion",
+            "sync_reference": "Climax 163.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.0
+        },
+        {
+            "description": "Woman_The_Medium screams into the light, her form blurring via Prop_Prism_Lens.",
+            "assets": ["Woman_The_Medium", "Prop_Prism_Lens"],
+            "setup_id": "Scene4_SetupE_Scream",
+            "setup_description": "Close up distorted scream",
+            "sync_reference": "Climax Scream 166.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 4.0
+        },
+        {
+            "description": "Sweat and water fly off Woman_The_Medium's hair in super slow motion under strobe.",
+            "assets": ["Woman_The_Medium"],
+            "setup_id": "Scene6_SetupK_Sweat",
+            "setup_description": "High speed macro sweat",
+            "sync_reference": "Slowdown transition 170.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 5.0
+        },
+        {
+            "description": "The strobe slows to a halt. The light remains steady. Dust settles slowly.",
+            "assets": ["Concrete_Bunker_Interior", "Prop_Dust_Powder"],
+            "setup_id": "Scene4_SetupL_Aftermath",
+            "setup_description": "Static wide shot dust settling",
+            "sync_reference": "Transition to Interlude 175.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 5.0
+        },
+        {
+            "description": "Transition to Salt_Lake_Shallows at sunset (golden hour). The water is a perfect mirror. Woman_The_Medium stands wrapped in Outfit_Ivory_Silk.",
+            "assets": ["Salt_Lake_Shallows", "Woman_The_Medium", "Outfit_Ivory_Silk"],
+            "setup_id": "Scene7_SetupA_LakeWide",
+            "setup_description": "Wide shot golden hour",
+            "sync_reference": "Interlude Start 180.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 6.0
+        },
+        {
+            "description": "The Outfit_Ivory_Silk blows gently in the wind, catching the golden light.",
+            "assets": ["Outfit_Ivory_Silk", "Woman_The_Medium"],
+            "setup_id": "Scene7_SetupB_Silk",
+            "setup_description": "Close up silk texture",
+            "sync_reference": "Interlude Wind 186.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 6.0
+        },
+        {
+            "description": "Woman_The_Medium lifts Prop_Ceramic_Bowl and pours water over her shoulder.",
+            "assets": ["Woman_The_Medium", "Prop_Ceramic_Bowl", "Outfit_Ivory_Silk"],
+            "setup_id": "Scene7_SetupC_Pour",
+            "setup_description": "Medium shot ritual pour",
+            "sync_reference": "Ritual 192.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 6.0
+        },
+        {
+            "description": "Water droplets slide down her skin and the silk, glistening in the sunset light. High speed capture.",
+            "assets": ["Woman_The_Medium", "Outfit_Ivory_Silk"],
+            "setup_id": "Scene7_SetupD_WaterSkin",
+            "setup_description": "Macro water skin",
+            "sync_reference": "Ritual Cleansing 198.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 6.0
+        },
+        {
+            "description": "Woman_The_Medium turns and walks slowly away into the shallow water towards the sun.",
+            "assets": ["Woman_The_Medium", "Salt_Lake_Shallows", "Outfit_Ivory_Silk"],
+            "setup_id": "Scene7_SetupE_WalkAway",
+            "setup_description": "Wide shot walking away",
+            "sync_reference": "Departure 204.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 10.0,
+            "trim_duration": 6.0
+        },
+        {
+            "description": "The figure of Woman_The_Medium dissolves into the shimmering heat haze and light of the horizon. Fade to white.",
+            "assets": ["Salt_Lake_Shallows"],
+            "setup_id": "Scene7_SetupF_Dissolve",
+            "setup_description": "Long shot dissolve effect",
+            "sync_reference": "Final Fade 210.0s",
+            "model": "kwaivgi/kling-v2.6",
+            "duration": 5.0,
+            "trim_duration": 3.68
+        }
+    ]
+}
+```

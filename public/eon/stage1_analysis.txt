@@ -1,0 +1,134 @@
+```json
+{
+    "genre": "Alternative / Art Pop / Electronic / Avant-Garde",
+    "bpm": 128,
+    "key": "D minor",
+    "mood": "Transcendental, intense, organic, mystical, futuristic yet primitive",
+    "characteristics": [
+        "Minimalist electronic bass",
+        "Orchestral string swells",
+        "Spoken-word to melodic vocal transitions",
+        "Heavy industrial percussion in chorus",
+        "Sudden dynamic shifts (silence to blast)",
+        "Atmospheric synthesis"
+    ],
+    "lyrics_timestamped": [
+        {"time_start": 21.5, "time_end": 24.0, "text": "Zero jeden nieskończoność"},
+        {"time_start": 25.5, "time_end": 28.5, "text": "Tylko sekunda przed ciałem"},
+        {"time_start": 31.0, "time_end": 34.0, "text": "Tu jest wszystko"},
+        {"time_start": 36.5, "time_end": 39.0, "text": "Tu nie ma nic"},
+        {"time_start": 107.0, "time_end": 109.5, "text": "W pamięci co spaja atomy w granicie"},
+        {"time_start": 110.0, "time_end": 112.5, "text": "Budowaliśmy dom zanim wzeszło życie"},
+        {"time_start": 113.5, "time_end": 116.5, "text": "Fraktalny wzór pękł na krawędzi szkła"},
+        {"time_start": 117.0, "time_end": 120.5, "text": "Gdzie rozum to tylko fizyczna mgła"},
+        {"time_start": 121.0, "time_end": 123.5, "text": "Zalążek istnienia pierwszy splot"},
+        {"time_start": 124.0, "time_end": 126.5, "text": "Zanim wektor uderzył w płot"},
+        {"time_start": 127.0, "time_end": 129.5, "text": "Spełnia pustka równocześnie"},
+        {"time_start": 130.0, "time_end": 132.5, "text": "Neutronowe gwiazdy płyną we mnie i we śnie"},
+        {"time_start": 133.0, "time_end": 135.0, "text": "To jest ten styk gdzie pęka czas"},
+        {"time_start": 135.5, "time_end": 137.0, "text": "Wszystko na raz, wszystko na raz"},
+        {"time_start": 138.0, "time_end": 140.5, "text": "To jestem rozziew funkcji tangens"},
+        {"time_start": 141.0, "time_end": 143.0, "text": "Przeskok z minusa w plus"},
+        {"time_start": 144.0, "time_end": 147.0, "text": "Gdzie wiara łamie prawa fizyki"},
+        {"time_start": 148.0, "time_end": 150.0, "text": "Gdzie milkną krzyki rodzi się luz"},
+        {"time_start": 151.0, "time_end": 153.0, "text": "Królestwo niebieskie eonów dom"},
+        {"time_start": 154.0, "time_end": 157.0, "text": "Gdzie ciało to tylko wibracja i ton"},
+        {"time_start": 220.5, "time_end": 223.0, "text": "Avatara zdejmuję z szacunkiem i drżeniem"},
+        {"time_start": 224.0, "time_end": 227.0, "text": "Już nie tęsknię za materii więzieniem"},
+        {"time_start": 230.0, "time_end": 233.0, "text": "Forma się zmienia częstotliwość drga"},
+        {"time_start": 234.0, "time_end": 237.0, "text": "Wybucham światłem to ty to ja"},
+        {"time_start": 238.0, "time_end": 240.0, "text": "Kolektywny umysł prawda bez słów"},
+        {"time_start": 241.0, "time_end": 244.0, "text": "Jesteśmy w środku jesteśmy znów"},
+        {"time_start": 245.0, "time_end": 246.0, "text": "Erupcja"},
+        {"time_start": 246.5, "time_end": 248.0, "text": "Przetoczenie"},
+        {"time_start": 249.0, "time_end": 251.0, "text": "Mutuje przestrzeń transformuje cienie"},
+        {"time_start": 252.0, "time_end": 254.0, "text": "Nie ma śmierci jest tylko skrót"},
+        {"time_start": 255.0, "time_end": 258.0, "text": "Powrót do źródła słodki chłód"},
+        {"time_start": 300.0, "time_end": 302.0, "text": "To jest ten taniec za szacunek dla prochu"},
+        {"time_start": 303.0, "time_end": 305.0, "text": "Dusza nie umiera ona zmienia krok"},
+        {"time_start": 309.0, "time_end": 310.0, "text": "Zapętlenie"},
+        {"time_start": 310.5, "time_end": 313.0, "text": "Zero jeden nieskończoność"}
+    ],
+    "beats": [
+        {"time": 21.0, "strength": "medium", "type": "synth-pulse"},
+        {"time": 21.47, "strength": "weak", "type": "hi-hat"},
+        {"time": 67.0, "strength": "strong", "type": "kick"},
+        {"time": 67.47, "strength": "medium", "type": "snare"},
+        {"time": 67.94, "strength": "strong", "type": "kick"},
+        {"time": 68.41, "strength": "medium", "type": "snare"},
+        {"time": 107.0, "strength": "strong", "type": "crash"},
+        {"time": 107.47, "strength": "strong", "type": "kick"},
+        {"time": 138.0, "strength": "strong", "type": "kick"},
+        {"time": 138.47, "strength": "strong", "type": "snare"},
+        {"time": 180.0, "strength": "medium", "type": "tom"},
+        {"time": 245.0, "strength": "strong", "type": "impact-fx"},
+        {"time": 246.5, "strength": "strong", "type": "impact-fx"}
+    ],
+    "structure": [
+        {
+            "name": "Intro",
+            "start": 0.0,
+            "end": 21.0,
+            "description": "Atmospheric strings, wind sounds, building tension, silence at end."
+        },
+        {
+            "name": "Verse 1",
+            "start": 21.0,
+            "end": 66.0,
+            "description": "Minimalist, bass pulse, spoken/sung vocals, 'Zero Jeden', cold tone."
+        },
+        {
+            "name": "Pre-Chorus Build",
+            "start": 66.0,
+            "end": 67.0,
+            "description": "Sudden silence/inhale, anticipation for the drop."
+        },
+        {
+            "name": "Chorus 1 (The Blast)",
+            "start": 67.0,
+            "end": 97.0,
+            "description": "Explosion of sound, industrial drums, strobe effect in music, high energy."
+        },
+        {
+            "name": "Verse 2 / Bridge",
+            "start": 97.0,
+            "end": 138.0,
+            "description": "Rhythmic, driving, 'Tangent function' lyrics, increasing complexity."
+        },
+        {
+            "name": "Chorus 2 / Climax",
+            "start": 138.0,
+            "end": 180.0,
+            "description": "Maximum intensity, 'Eruption', layered vocals, chaotic harmony."
+        },
+        {
+            "name": "Interlude / Ritual",
+            "start": 180.0,
+            "end": 220.0,
+            "description": "Sudden drop in tempo, softer, 'Water' sounds, melodic synthesizer."
+        },
+        {
+            "name": "Final Verse",
+            "start": 220.0,
+            "end": 260.0,
+            "description": "Emotional, 'Avatar removal', triumphant but calm."
+        },
+        {
+            "name": "Outro",
+            "start": 260.0,
+            "end": 213.68,
+            "description": "Ambient fade out, return to wind sounds, final whisper 'Zapętlenie', dissolving."
+        }
+    ],
+    "dramaturgy": [
+        {"time": 0.0, "event": "Void/Silence", "intensity": 1},
+        {"time": 21.0, "event": "First Pulse/Life", "intensity": 3},
+        {"time": 66.5, "event": "The Breath (Pause)", "intensity": 0},
+        {"time": 67.0, "event": "BLAST (Chorus 1)", "intensity": 9},
+        {"time": 138.0, "event": "Tangent Break/Glitch", "intensity": 8},
+        {"time": 180.0, "event": "Water/Cleansing", "intensity": 4},
+        {"time": 245.0, "event": "Final Eruption", "intensity": 10},
+        {"time": 300.0, "event": "Dissolution into Light", "intensity": 2}
+    ]
+}
+```

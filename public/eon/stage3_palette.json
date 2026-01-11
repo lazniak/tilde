@@ -1,0 +1,23 @@
+```json
+{
+  "palette": [
+    "#F2F0E4",
+    "#8C929D",
+    "#050505",
+    "#A89F91",
+    "#1C3F94",
+    "#D96C2C",
+    "#E0FFFF"
+  ],
+  "palette_names": [
+    "Bone White (Salt Flats)",
+    "Bunker Concrete (Slate Grey)",
+    "Void Black (Shadows)",
+    "Desaturated Sand (Earth)",
+    "Stratosphere Blue (Vibrant Sky)",
+    "Solar Flare Amber (Analog Light Leak)",
+    "Prismatic Cyan (Optical Refraction)"
+  ],
+  "lighting_mood": "High-contrast chiaroscuro characterized by a violent duality between organic and artificial light. Exterior scenes utilize blinding, high-key natural sunlight (overexposed to wash out detail into 'geometry') creating sharp, razor-edged shadows. Interior scenes rely on 'pitch black' darkness punctured by rhythmic, mechanical stroboscopic flashes synced to the industrial percussion. The aesthetic creates an 'analog glitch' effect through in-camera heavy backlighting, lens whacking to induce spectral flares, and reflection off mirrors/prisms to split white light into chromatic edges, emphasizing the metaphysical dissolution of the subject."
+}
+```
