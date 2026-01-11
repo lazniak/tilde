@@ -205,7 +205,7 @@ class AudioEngine {
   }
 
   private updateVolumes(): void {
-    const activeLayers = ASSEMBLAGE_STAGES[this.currentStage].layers
+    const activeLayers = [...ASSEMBLAGE_STAGES[this.currentStage].layers] as number[]
 
     for (const [, track] of this.stems) {
       if (!track.gainNode) continue
@@ -272,7 +272,7 @@ class AudioEngine {
   }
 
   getActiveStemIds(): StemId[] {
-    const activeLayers = ASSEMBLAGE_STAGES[this.currentStage].layers
+    const activeLayers = [...ASSEMBLAGE_STAGES[this.currentStage].layers] as number[]
     return STEMS.filter(s => activeLayers.includes(s.layer)).map(s => s.id)
   }
 

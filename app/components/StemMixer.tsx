@@ -25,7 +25,7 @@ export default function StemMixer({ isPlaying, currentStage, currentTime, onTogg
   }, [])
 
   useEffect(() => {
-    setActiveLayers(ASSEMBLAGE_STAGES[currentStage].layers)
+    setActiveLayers([...ASSEMBLAGE_STAGES[currentStage].layers])
   }, [currentStage])
 
   useEffect(() => {

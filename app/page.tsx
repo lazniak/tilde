@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { getAudioEngine, type AssemblageStage } from './lib/audioEngine'
-import { ASSEMBLAGE_STAGES, PAUL_PROMPT, NARRATIVE_EXCERPT, KEYWORDS, DRAMATURGY, VIDEO_PROMPTS } from './lib/constants'
+import { getAudioEngine, type AssemblageStage, type StemId } from './lib/audioEngine'
+import { ASSEMBLAGE_STAGES, PAUL_PROMPT, NARRATIVE_EXCERPT, KEYWORDS, DRAMATURGY, VIDEO_PROMPTS, STEMS } from './lib/constants'
 import { getGeminiChat } from './lib/gemini'
 
 type Screen = 'landing' | 'explore' | 'genesis' | 'incarnation' | 'exegesis'
@@ -69,7 +69,7 @@ export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false)
   const [isAudioReady, setIsAudioReady] = useState(false)
   const [loadingProgress, setLoadingProgress] = useState(0)
-  const [stemVolumes, setStemVolumes] = useState<Record<number, number>>({})
+  const [stemVolumes, setStemVolumes] = useState<Record<StemId, number>>({} as Record<StemId, number>)
   const [showMixer, setShowMixer] = useState(false)
   
   // Genesis state
@@ -208,7 +208,7 @@ export default function Home() {
   }
 
   // Adjust stem volume
-  const adjustStemVolume = (stemId: number, volume: number) => {
+  const adjustStemVolume = (stemId: StemId, volume: number) => {
     const engine = getAudioEngine()
     engine.setStemVolume(stemId, volume)
     setStemVolumes(prev => ({ ...prev, [stemId]: volume }))
@@ -355,8 +355,7 @@ export default function Home() {
     })
   }
 
-  // Stem names for mixer
-  const STEM_NAMES = ['Lead', 'BVox', 'Drums', 'Bass', 'Gtr', 'Keys', 'Perc', 'Synth', 'Atm']
+  // Stem names for mixer (using imported STEMS from constants)
 
   // Subtle ambient background component
   const AmbientBackground = ({ screenKey }: { screenKey: Screen }) => {
@@ -630,21 +629,21 @@ export default function Home() {
                   <div className="p-4 border border-bunker/30 bg-void/50">
                     <div className="font-mono text-[10px] text-bunker/60 mb-3">AUDIO STEM MIXER — Control individual layers</div>
                     <div className="grid grid-cols-3 md:grid-cols-9 gap-2">
-                      {STEM_NAMES.map((name, i) => (
-                        <div key={i} className="text-center">
-                          <div className="font-mono text-[9px] text-bunker mb-1">{name}</div>
+                      {STEMS.map((stem) => (
+                        <div key={stem.id} className="text-center">
+                          <div className="font-mono text-[9px] text-bunker mb-1">{stem.name}</div>
                           <input
                             type="range"
                             min="0"
                             max="1"
                             step="0.1"
                             defaultValue="1"
-                            onChange={(e) => adjustStemVolume(i, parseFloat(e.target.value))}
+                            onChange={(e) => adjustStemVolume(stem.id, parseFloat(e.target.value))}
                             className="w-full h-16 -rotate-180 accent-stratosphere"
-                            style={{ writingMode: 'bt-lr', WebkitAppearance: 'slider-vertical' } as React.CSSProperties}
+                            style={{ writingMode: 'vertical-rl', WebkitAppearance: 'slider-vertical' } as React.CSSProperties}
                           />
                           <div className="font-mono text-[9px] text-stratosphere">
-                            {Math.round((stemVolumes[i] ?? 1) * 100)}%
+                            {Math.round((stemVolumes[stem.id] ?? 1) * 100)}%
                           </div>
                         </div>
                       ))}
@@ -812,15 +811,16 @@ export default function Home() {
                   SOUND ASSEMBLAGE — Stage: {ASSEMBLAGE_STAGES[currentStage].label}
                 </div>
                 <div className="flex justify-center gap-1 h-12">
-                  {STEM_NAMES.map((name, i) => {
-                    const isActive = ASSEMBLAGE_STAGES[currentStage].layers.includes(Math.ceil((i+1)/2))
+                  {STEMS.map((stem) => {
+                    const activeLayers = [...ASSEMBLAGE_STAGES[currentStage].layers] as number[]
+                    const isActive = activeLayers.includes(stem.layer)
                     return (
                       <motion.div
-                        key={i}
+                        key={stem.id}
                         className={`w-6 flex flex-col items-center justify-end transition-all ${
                           isActive ? 'opacity-100' : 'opacity-30'
                         }`}
-                        title={name}
+                        title={stem.name}
                       >
                         <motion.div
                           className={`w-4 ${isActive ? 'bg-stratosphere' : 'bg-bunker/50'}`}
@@ -832,7 +832,7 @@ export default function Home() {
                             repeat: Infinity,
                           }}
                         />
-                        <div className="text-[7px] font-mono text-bunker mt-1">{name.slice(0,2)}</div>
+                        <div className="text-[7px] font-mono text-bunker mt-1">{stem.name.slice(0,2)}</div>
                       </motion.div>
                     )
                   })}
@@ -1948,20 +1948,23 @@ export default function Home() {
               {/* Layer indicators */}
               <div className="flex gap-0.5 items-center">
                 <span className="font-mono text-[8px] text-bunker/40 mr-1">LAYERS</span>
-                {[0,1,2,3,4,5].map(i => (
-                  <motion.div 
-                    key={i}
-                    className={`w-1.5 h-5 transition-all ${
-                      ASSEMBLAGE_STAGES[currentStage].layers.includes(i) 
-                        ? 'bg-stratosphere' 
-                        : 'bg-bunker/20'
-                    }`}
-                    animate={ASSEMBLAGE_STAGES[currentStage].layers.includes(i) ? {
-                      opacity: [0.7, 1, 0.7],
-                    } : {}}
-                    transition={{ duration: 2, repeat: Infinity }}
-                  />
-                ))}
+                {[0,1,2,3,4,5].map(i => {
+                  const activeLayers = [...ASSEMBLAGE_STAGES[currentStage].layers] as number[]
+                  return (
+                    <motion.div 
+                      key={i}
+                      className={`w-1.5 h-5 transition-all ${
+                        activeLayers.includes(i) 
+                          ? 'bg-stratosphere' 
+                          : 'bg-bunker/20'
+                      }`}
+                      animate={activeLayers.includes(i) ? {
+                        opacity: [0.7, 1, 0.7],
+                      } : {}}
+                      transition={{ duration: 2, repeat: Infinity }}
+                    />
+                  )
+                })}
               </div>
             </div>
 
