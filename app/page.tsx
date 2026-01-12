@@ -434,22 +434,21 @@ export default function Home() {
               />
             </div>
             
-            {/* Animated particles */}
+            {/* Subtle particles */}
             <div className="absolute inset-0 overflow-hidden z-10">
-              {[...Array(20)].map((_, i) => (
+              {[...Array(8)].map((_, i) => (
                 <motion.div
                   key={i}
-                  className="absolute w-1 h-1 bg-stratosphere/20"
+                  className="absolute w-0.5 h-0.5 bg-flare/30"
                   style={{
-                    left: `${Math.random() * 100}%`,
-                    top: `${Math.random() * 100}%`,
+                    left: `${20 + Math.random() * 60}%`,
+                    top: `${20 + Math.random() * 60}%`,
                   }}
                   animate={{
-                    opacity: [0.1, 0.5, 0.1],
-                    scale: [1, 1.5, 1],
+                    opacity: [0.1, 0.4, 0.1],
                   }}
                   transition={{
-                    duration: 3 + Math.random() * 2,
+                    duration: 4 + Math.random() * 2,
                     repeat: Infinity,
                     delay: Math.random() * 2,
                   }}
@@ -553,85 +552,52 @@ export default function Home() {
               </motion.div>
             </motion.div>
 
-            {/* Loading / Enter Button */}
+            {/* ENTER Button */}
             <motion.div
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.6 }}
-              className="mb-12 relative z-10"
+              transition={{ delay: 1.3 }}
+              className="mt-8 relative z-10"
             >
               {!isAudioReady ? (
                 <button
                   onClick={initAudio}
-                  className="group relative px-12 py-4 border-2 border-stratosphere hover:bg-stratosphere/10 transition-all"
+                  className="group relative px-16 py-5 border-2 border-flare hover:bg-flare/10 transition-all"
                 >
                   {loadingProgress > 0 && loadingProgress < 100 ? (
                     <div className="flex items-center gap-4">
-                      <div className="w-32 h-1 bg-bunker/30">
+                      <div className="w-40 h-1 bg-bunker/30">
                         <motion.div 
-                          className="h-full bg-stratosphere"
+                          className="h-full bg-flare"
                           animate={{ width: `${loadingProgress}%` }}
                         />
                       </div>
-                      <span className="font-mono text-sm">Loading {loadingProgress}%</span>
+                      <span className="font-mono text-sm text-flare">{loadingProgress}%</span>
                     </div>
                   ) : (
-                    <span className="font-mono text-sm tracking-wider">
-                      INITIALIZE AUDIO
+                    <span className="font-mono text-lg tracking-[0.3em] text-flare">
+                      ENTER
                     </span>
                   )}
                 </button>
               ) : (
                 <motion.button
                   onClick={startExperience}
-                  className="group relative px-16 py-5 bg-stratosphere hover:bg-stratosphere/80 transition-all"
+                  className="group relative px-20 py-6 bg-flare hover:bg-flare/80 transition-all"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  <span className="font-mono text-lg tracking-wider text-void">
-                    BEGIN EXPLORATION
+                  <span className="font-mono text-xl tracking-[0.3em] text-void font-bold">
+                    ENTER
                   </span>
                   <motion.div
-                    className="absolute inset-0 border-2 border-stratosphere"
+                    className="absolute inset-0 border-2 border-flare"
                     animate={{ scale: [1, 1.05, 1], opacity: [1, 0.5, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   />
                 </motion.button>
               )}
             </motion.div>
-
-            {/* Preview sections */}
-            <motion.div
-              initial={{ y: 30, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.9 }}
-              className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl w-full relative z-10"
-            >
-              {[
-                { title: 'I. Genesis', desc: 'The metaphysical prompt', icon: '◇', color: 'stratosphere' },
-                { title: 'II. Incarnation', desc: '71 video manifestations', icon: '◈', color: 'flare' },
-                { title: 'III. Exegesis', desc: 'Dialogue with the AI', icon: '◆', color: 'prismatic' },
-              ].map((item, i) => (
-                <motion.div
-                  key={i}
-                  className="p-6 border border-bunker/30 text-center hover:border-stratosphere/50 transition-all group"
-                  whileHover={{ y: -4 }}
-                >
-                  <div className={`text-3xl text-${item.color} mb-3 group-hover:scale-110 transition-transform`}>{item.icon}</div>
-                  <div className="font-mono text-sm text-bone/80 mb-1">{item.title}</div>
-                  <div className="font-mono text-[10px] text-bunker">{item.desc}</div>
-                </motion.div>
-              ))}
-            </motion.div>
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
-              className="mt-8 font-mono text-[10px] text-bunker/50 relative z-10"
-            >
-              🎧 HEADPHONES RECOMMENDED · INTERACTIVE AUDIO EXPERIENCE
-            </motion.p>
           </motion.div>
         )}
 
