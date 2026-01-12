@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description: 'An interactive digital triptych exploring the anomaly of algorithmic creation',
   keywords: ['AI art', 'generative art', 'Tilda Swinton', 'latent space', 'digital liturgy'],
   authors: [{ name: 'Paul Lazniak' }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/apple-icon.svg',
+  },
 }
 
 export const viewport: Viewport = {

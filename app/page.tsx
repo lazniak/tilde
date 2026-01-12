@@ -490,9 +490,9 @@ export default function Home() {
                     <div className="font-mono text-xs text-stratosphere tracking-wider mb-2">THE ARTIST</div>
                     <div className="font-display text-lg text-bone mb-2">Paul Lazniak</div>
                     <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
-                      AI Artist who wrote a metaphysical prompt about infinity, transformation, and the Heavenly Kingdom. 
+                      AI Artist who wrote a metaphysical prompt. Words like "infinity," "transformation," "Heavenly Kingdom." 
                       <span className="text-stratosphere"> No physical description. No name. No photograph.</span> 
-                      Just pure abstract concepts fed into the machine.
+                      Just abstract philosophy.
                     </p>
                   </motion.div>
 
@@ -507,13 +507,13 @@ export default function Home() {
                     <div className="font-mono text-xs text-flare tracking-wider mb-2">THE CORPORATION</div>
                     <div className="font-display text-lg text-bone mb-2">Google</div>
                     <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
-                      The tech giant whose AI model claims it 
+                      Claims its AI 
                       <span className="text-flare"> "does not generate likenesses of real public figures."</span> 
-                      Yet something unexpected emerged from the latent space...
+                      Their official policy. Their public statement. Their legal shield.
                     </p>
                   </motion.div>
 
-                  {/* PROTAGONIST 3: THE FACE */}
+                  {/* PROTAGONIST 3: THE ACTRESS */}
                   <motion.div 
                     className="border border-prismatic/30 bg-void/70 p-5"
                     initial={{ opacity: 0, y: 20 }}
@@ -521,33 +521,34 @@ export default function Home() {
                     transition={{ delay: 0.9 }}
                   >
                     <div className="text-prismatic text-3xl mb-2">∞</div>
-                    <div className="font-mono text-xs text-prismatic tracking-wider mb-2">THE ARCHETYPE</div>
-                    <div className="font-display text-lg text-bone mb-2">asset_Woman_The_Medium.png</div>
+                    <div className="font-mono text-xs text-prismatic tracking-wider mb-2">THE LIKENESS</div>
+                    <div className="font-display text-lg text-bone mb-2">Tilda Swinton</div>
                     <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
-                      A face generatively drawn from neural network resources. 
-                      <span className="text-prismatic"> Never requested, yet unmistakably present.</span> 
-                      The mathematical embodiment of "timelessness" and "transformation."
+                      Whose face appeared — uninvited, unrequested — in 68 generated video clips.
+                      <span className="text-prismatic"> Never mentioned in the prompt. Yet unmistakably her.</span>
                     </p>
                   </motion.div>
 
                 </div>
               </div>
               
-              {/* THE ESSENCE */}
+              {/* THE CONTROVERSY */}
               <motion.div 
-                className="border border-bunker/50 p-5 max-w-2xl mx-auto bg-void/50"
+                className="border-2 border-flare/50 p-5 max-w-2xl mx-auto bg-flare/5"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.1 }}
               >
+                <p className="font-mono text-sm text-flare leading-relaxed mb-3 font-bold">
+                  THIS IS NOT AN ART PROJECT CELEBRATING AI.
+                </p>
                 <p className="font-mono text-xs text-bone/90 leading-relaxed mb-3">
-                  <span className="text-stratosphere">THE PARADOX:</span> When an AI is asked to visualize 
-                  "infinity" and "the soul trapped in the avatar" — why does it consistently generate 
-                  a specific, recognizable human face?
+                  This is evidence. Google's AI generated <span className="text-flare">Tilda Swinton's likeness</span> from 
+                  abstract concepts alone — despite their claims that this is impossible.
                 </p>
                 <p className="font-mono text-[10px] text-bunker leading-relaxed">
-                  Is this a glitch? A hidden bias? Or did the algorithm discover something 
-                  about how humanity encodes archetypes in its collective digital unconscious?
+                  Who owns a face when it emerges from mathematics? What happens when corporate policies 
+                  contradict algorithmic reality? <span className="text-bone">We need to talk about this.</span>
                 </p>
               </motion.div>
             </motion.div>
