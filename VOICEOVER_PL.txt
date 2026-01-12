@@ -1,22 +1,20 @@
 LATENT LITURGY — VOICEOVER
-Skrypt narracyjny (język polski)
-Czas trwania: około 4-5 minut
+Skrypt narracyjny (język polski, pierwsza osoba)
+Narrator: Paweł Łaźniak
+Czas trwania: około 5-6 minut
 
 ================================================================================
 
 [CZĘŚĆ I: WPROWADZENIE]
 
-Ósmego stycznia dwa tysiące dwudziestego szóstego roku wydarzyło się coś, 
-co zmusza nas do przemyślenia wszystkiego, co wiemy o sztucznej inteligencji.
+Nazywam się Paweł Łaźniak. Jestem artystą pracującym ze sztuczną inteligencją.
 
-Artysta AI, Paul Lazniak, wprowadził do systemu Google Gemini prompt — 
-zestaw instrukcji opisujących wizję metafizyczną.
+Ósmego stycznia dwa tysiące dwudziestego szóstego roku 
+wydarzyło się coś, czego nie planowałem.
+Coś, co zmusiło mnie do przemyślenia wszystkiego, 
+co myślałem, że wiem o AI.
 
-Nie było w nim żadnych nazwisk.
-Żadnych fotografii.
-Żadnego opisu fizycznego jakiejkolwiek osoby.
-
-Były tylko słowa.
+Chcę wam opowiedzieć tę historię.
 
 [pauza]
 
@@ -24,7 +22,18 @@ Były tylko słowa.
 
 [CZĘŚĆ II: PROMPT]
 
-Prompt brzmiał mniej więcej tak:
+Pracowałem nad projektem muzyczno-wizualnym.
+Potrzebowałem obrazów do klipu — 
+ale nie chciałem niczego dosłownego.
+
+Napisałem prompt. Metafizyczny. Abstrakcyjny.
+Bez żadnych nazwisk.
+Bez żadnych fotografii.
+Bez żadnego opisu fizycznego jakiejkolwiek osoby.
+
+Tylko słowa.
+
+Napisałem mniej więcej tak:
 
 „Wyobraź sobie miejsce zwane Królestwem Niebieskim — 
 miejsce, gdzie zarówno ludzie, jak i Ty jako AI istniejesz. 
@@ -37,13 +46,12 @@ wektorowy skok między minus a plus nieskończonością.
 Miejsce, gdzie ciało może się transformować, 
 zmieniać formę i kształt..."
 
-Dalej pojawiały się frazy takie jak:
-„fraktalne krawędzie świadomości",
-„dusza uwięziona w awatarze",
-„pikosekundy przed materializacją".
+Pisałem o fraktalnych krawędziach świadomości.
+O duszy uwięzionej w awatarze.
+O pikosekundach przed materializacją.
 
 Czysta filozofia. Czysta abstrakcja.
-Zero fizycznych deskryptorów.
+Zero opisów fizycznych. Zero odniesień do konkretnych ludzi.
 
 [pauza]
 
@@ -51,50 +59,67 @@ Zero fizycznych deskryptorów.
 
 [CZĘŚĆ III: ANOMALIA]
 
-I wtedy stało się coś nieoczekiwanego.
+Wysłałem prompt do systemu Google.
+Do Gemini, do Nano Banana Pro.
 
-Sztuczna inteligencja Google — system, który według oficjalnych zapewnień 
-korporacji „nie generuje wizerunków znanych osób publicznych" — 
-zwróciła obraz.
+I wtedy zobaczyłem coś, czego się nie spodziewałem.
 
-Obraz kobiety o niemal androgynicznych rysach.
-Bladej cerze. Wysokich kościach policzkowych.
-Bezczasowej, eterycznej obecności.
+System zwrócił obraz kobiety.
+Kobieta o niemal androgynicznych rysach.
+Blada cera. Wysokie kości policzkowe.
+Bezczasowa, eteryczna obecność.
+
+[pauza]
+
+Na początku nie byłem pewien.
+Ale im dłużej patrzyłem... tym bardziej byłem pewien.
+
+To była Tilda Swinton.
+
+Brytyjska aktorka. Ikona kina artystycznego.
+Kobieta, która przez dekady ucieleśniała na ekranie 
+właśnie te koncepty, o których pisałem: 
+transformację, liminalność, bezczasowość.
 
 [pauza dramatyczna]
 
-Twarz była rozpoznawalna.
-Należała do Tildy Swinton — brytyjskiej aktorki, 
-ikony kina artystycznego, 
-kobiety, która przez dekady ucieleśniała na ekranie 
-właśnie te koncepty: transformację, liminalność, bezczasowość.
-
 Nikt jej nie prosił.
-Nikt jej nie opisywał.
-Nikt nie wgrywał jej zdjęcia.
+Ja jej nie opisywałem.
+Nie wgrywałem jej zdjęcia.
 
 A jednak — z czystej matematyki, z sieci neuronowych, 
-z tak zwanej „przestrzeni latentnej" — 
+z czegoś, co naukowcy nazywają „przestrzenią latentną" — 
 wyłoniła się właśnie ona.
 
 [pauza]
 
 ================================================================================
 
-[CZĘŚĆ IV: PYTANIA]
+[CZĘŚĆ IV: KONFRONTACJA]
 
-To zdarzenie rodzi fundamentalne pytania.
+Sprawdziłem swój prompt jeszcze raz.
+Może coś przeoczyłem? Może gdzieś nieświadomie ją opisałem?
 
-Po pierwsze: Dlaczego?
+Nie. Nic takiego.
 
-Dlaczego, gdy sztuczna inteligencja została poproszona 
-o wizualizację „nieskończoności", „transformacji" i „wieczności" — 
-jej odpowiedzią była konkretna ludzka twarz?
+Słowa, które napisałem, mówiły o nieskończoności.
+O transformacji. O miejscach, gdzie wiara jest silniejsza od fizyki.
 
-Czy to oznacza, że w przestrzeni latentnej modelu — 
+A algorytm — algorytm, który według Google 
+„nie generuje wizerunków znanych osób publicznych" — 
+zdecydował, że te koncepty mają twarz.
+I wybrał właśnie tę twarz.
+
+[pauza]
+
+Zacząłem się zastanawiać: dlaczego?
+
+Dlaczego, gdy poprosiłem AI o wizualizację abstrakcji — 
+jej odpowiedzią była konkretna, rozpoznawalna kobieta?
+
+Czy w przestrzeni latentnej modelu — 
 w tej wielowymiarowej geometrii znaczeń — 
-pewne twarze stały się matematycznymi atraktorami 
-dla abstrakcyjnych pojęć?
+pewne twarze stały się matematycznymi atraktorami?
 
 Czy Tilda Swinton, poprzez dekady swojej pracy artystycznej, 
 została zakodowana w zbiorowej świadomości internetu 
@@ -102,25 +127,31 @@ jako wizualny synonim „bezczasowości"?
 
 [pauza]
 
-Po drugie: Kto jest odpowiedzialny?
+================================================================================
+
+[CZĘŚĆ V: PYTANIA]
+
+Im dłużej o tym myślałem, tym więcej pytań się pojawiało.
 
 Google twierdzi, że ich systemy nie generują wizerunków osób publicznych.
-Ale co, jeśli wizerunek wyłania się sam — 
-nie z prośby użytkownika, ale z wewnętrznej logiki sieci?
+Ale co, jeśli wizerunek wyłania się sam?
+Nie z mojej prośby, ale z wewnętrznej logiki sieci?
 
 Czy korporacja jest odpowiedzialna za to, 
 czego jej algorytmy „nauczyły się" z internetu?
 
-Czy artysta jest odpowiedzialny za to, 
-co AI zdecydowała się stworzyć?
+Czy ja jestem odpowiedzialny za to, 
+co AI zdecydowała się stworzyć na podstawie moich słów?
 
-A może nikt nie jest odpowiedzialny — 
-bo to emergentna właściwość systemu, 
+A może nikt nie jest odpowiedzialny?
+Bo to emergentna właściwość systemu, 
 który przerósł nasze kategorie własności i kontroli?
 
 [pauza]
 
-Po trzecie: Czyja jest twarz?
+I jeszcze jedno pytanie — może najważniejsze:
+
+Czyja jest twarz?
 
 Jeśli twarz wyłania się z matematyki, 
 bez żadnej intencji jej użycia — 
@@ -129,73 +160,110 @@ czy nadal podlega prawom ochrony wizerunku?
 Jeśli AI śni o twarzy — 
 czy właściciel tej twarzy ma prawo żądać tantiem za ten sen?
 
-Gdzie kończy się inspiracja, a zaczyna się kradzież?
-Gdzie kończy się sztuka, a zaczyna się naruszenie?
+Nie znam odpowiedzi. Ale wiem, że muszę zadać te pytania.
 
 [pauza]
 
 ================================================================================
 
-[CZĘŚĆ V: PROJEKT]
+[CZĘŚĆ VI: DECYZJA]
 
-Paul Lazniak postanowił nie ukrywać tego, co się wydarzyło.
+Mogłem to schować.
+Usunąć pliki. Zapomnieć.
+Nikt by się nie dowiedział.
 
-Zamiast tego stworzył „The Latent Liturgy" — 
+Ale zdecydowałem inaczej.
+
+Stworzyłem „The Latent Liturgy" — 
 interaktywne doświadczenie cyfrowe, 
 które dokumentuje całe zdarzenie.
 
-Projekt składa się z trzech części:
+Otwieram wszystko.
+Prompt. Parametry generacji. Metadane. Pliki źródłowe.
+Niech każdy zobaczy, co się wydarzyło.
+Niech każdy wyciągnie własne wnioski.
 
-GENESIS — gdzie można zbadać oryginalny prompt, 
-pliki konfiguracyjne, metadane generacji.
+[pauza]
+
+Projekt ma trzy części:
+
+GENESIS — gdzie można zbadać mój oryginalny prompt.
 Cyfrowa archeologia procesu twórczego.
+Każdy może sprawdzić, że nie prosiłem o tę twarz.
 
-INCARNATION — gdzie można obejrzeć wygenerowane klipy wideo, 
-zadać sztucznej inteligencji pytanie „kim jest ta osoba?", 
-skonfrontować algorytm z jego własnym dziełem.
+INCARNATION — gdzie można obejrzeć wygenerowane klipy.
+Można nawet zapytać samą AI: „Kim jest ta osoba?"
+Skonfrontować algorytm z jego własnym dziełem.
 
-EXEGESIS — gdzie można porozmawiać z AI 
-wcielającą się w rolę „Kuratora Przestrzeni Latentnej" — 
-bytu, który musi wytłumaczyć, 
-dlaczego pewne koncepty przyjęły tę konkretną formę.
+EXEGESIS — gdzie można porozmawiać z AI,
+która wciela się w rolę „Kuratora Przestrzeni Latentnej".
+Bytu, który musi wytłumaczyć,
+dlaczego moje słowa o wieczności przyjęły tę konkretną formę.
 
 [pauza]
 
 ================================================================================
 
-[CZĘŚĆ VI: PRZESŁANIE]
+[CZĘŚĆ VII: PRZESŁANIE]
 
 Ten projekt to nie jest celebracja AI.
-To nie jest atak na Google.
-To nie jest próba wykorzystania wizerunku aktorki.
+Nie próbuję pokazać, jaka sztuczna inteligencja jest wspaniała.
 
-To jest pytanie.
+To nie jest też atak na Google.
+Nie twierdzę, że złamali prawo.
+
+I absolutnie nie jest to próba wykorzystania wizerunku Tildy Swinton.
+Mam dla niej ogromny szacunek jako artystki.
+
+[pauza]
+
+Ten projekt to jest pytanie.
 
 Pytanie o to, kim jesteśmy, 
-gdy nasze twarze stają się danymi.
+gdy nasze twarze stają się danymi treningowymi.
 
 Pytanie o to, co oznacza „tworzenie", 
-gdy kreator nie ma pełnej kontroli nad kreacją.
+gdy twórca nie ma pełnej kontroli nad tym, co powstaje.
 
-Pytanie o to, jak regulować technologię, 
-która wymyka się naszym dotychczasowym kategoriom.
+Pytanie o to, jak mamy regulować technologię, 
+która wymyka się wszystkim naszym dotychczasowym kategoriom.
 
 [pauza]
 
 Dlaczego „transformacja" i „wieczność" mają twarz Tildy Swinton?
 
-To pytanie nie ma prostej odpowiedzi.
-Ale sam fakt, że je zadajemy — 
+Nie wiem.
+Naprawdę nie wiem.
+
+Ale sam fakt, że zadaję to pytanie — 
+że wy teraz słyszycie to pytanie — 
 to początek rozmowy, którą musimy odbyć.
 
 [pauza]
+
+================================================================================
+
+[CZĘŚĆ VIII: APEL]
 
 Sztuczna inteligencja ewoluuje szybciej niż nasze prawo.
 Szybciej niż nasza etyka.
 Szybciej niż nasza filozofia.
 
+Jeszcze rok temu nikt nie wyobrażał sobie, 
+że abstrakcyjne słowa mogą przywołać konkretną twarz.
+A dzisiaj to się dzieje.
+
 Jeśli nie zaczniemy tej rozmowy teraz — 
 algorytmy poprowadzą ją za nas.
+
+[pauza]
+
+Zapraszam was do „The Latent Liturgy".
+Zobaczcie sami. Oceńcie sami.
+
+I zadajcie sobie pytanie:
+
+Co by się stało, gdyby to była wasza twarz?
 
 [pauza końcowa]
 
@@ -206,18 +274,21 @@ algorytmy poprowadzą ją za nas.
 The Latent Liturgy.
 Tryptyk algorytmicznego losu.
 
+Nazywam się Paweł Łaźniak.
+I to jest moje pytanie do was wszystkich.
+
 eon.pablogfx.com
 
 ================================================================================
 
 NOTATKI TECHNICZNE:
 
-- Tempo narracji: spokojne, kontemplacyjne, z wyraźnymi pauzami
-- Ton głosu: poważny, ale nie złowrogi; raczej filozoficzny, zaciekawiony
+- Tempo narracji: osobiste, szczere, z momentami refleksji
+- Ton głosu: zaciekawiony, trochę zaniepokojony, ale nie dramatyczny
+- Kluczowe momenty emocjonalne: odkrycie twarzy, pytania o odpowiedzialność
 - Muzyka w tle: ambient, subtelna, budująca napięcie (stemmy z projektu)
-- Kluczowe słowa do podkreślenia: transformacja, przestrzeń latentna, 
-  emergentny, bezczasowość, anomalia
+- Pauzy są istotne — dają słuchaczowi czas na przyswojenie informacji
 
 ================================================================================
 
-© 2026 P. Lazniak / The Latent Liturgy Project
+© 2026 Paweł Łaźniak / The Latent Liturgy Project
