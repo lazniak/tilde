@@ -462,40 +462,94 @@ export default function Home() {
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="text-center mb-12 relative z-10"
+              className="text-center mb-8 relative z-10"
             >
               <motion.div 
                 className="font-mono text-xs text-bunker tracking-[0.5em] mb-4"
                 animate={{ opacity: [0.5, 1, 0.5] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                AN INTERACTIVE DIGITAL INVESTIGATION
+                A TRIPTYCH OF ALGORITHMIC FATE
               </motion.div>
-              <h1 className="font-display text-5xl md:text-7xl text-bone mb-4">
+              <h1 className="font-display text-5xl md:text-7xl text-bone mb-6">
                 The Latent Liturgy
               </h1>
               
-              {/* Clear explanation of the project */}
-              <div className="max-w-xl mx-auto mb-6">
-                <p className="font-mono text-sm text-bone/90 leading-relaxed mb-4">
-                  An AI was given <span className="text-stratosphere">abstract metaphysical concepts</span> — 
-                  words like "infinity," "transformation," "fractal edges," and "the Heavenly Kingdom."
-                </p>
-                <p className="font-mono text-sm text-flare/90 leading-relaxed mb-4">
-                  <strong>No name. No photograph. No physical description.</strong>
-                </p>
-                <p className="font-mono text-sm text-bone/90 leading-relaxed">
-                  Yet the AI generated a face — <span className="text-prismatic">a strikingly recognizable face</span> — 
-                  as the visual embodiment of these abstract ideas.
-                </p>
+              {/* THE THREE PROTAGONISTS */}
+              <div className="max-w-4xl mx-auto mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  
+                  {/* PROTAGONIST 1: THE ARTIST */}
+                  <motion.div 
+                    className="border border-stratosphere/30 bg-void/70 p-5"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                  >
+                    <div className="text-stratosphere text-3xl mb-2">I</div>
+                    <div className="font-mono text-xs text-stratosphere tracking-wider mb-2">THE ARTIST</div>
+                    <div className="font-display text-lg text-bone mb-2">Paul Lazniak</div>
+                    <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
+                      AI Artist who wrote a metaphysical prompt about infinity, transformation, and the Heavenly Kingdom. 
+                      <span className="text-stratosphere"> No physical description. No name. No photograph.</span> 
+                      Just pure abstract concepts fed into the machine.
+                    </p>
+                  </motion.div>
+
+                  {/* PROTAGONIST 2: THE CORPORATION */}
+                  <motion.div 
+                    className="border border-flare/30 bg-void/70 p-5"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.7 }}
+                  >
+                    <div className="text-flare text-3xl mb-2">II</div>
+                    <div className="font-mono text-xs text-flare tracking-wider mb-2">THE CORPORATION</div>
+                    <div className="font-display text-lg text-bone mb-2">Google</div>
+                    <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
+                      The tech giant whose AI model claims it 
+                      <span className="text-flare"> "does not generate likenesses of real public figures."</span> 
+                      Yet something unexpected emerged from the latent space...
+                    </p>
+                  </motion.div>
+
+                  {/* PROTAGONIST 3: THE FACE */}
+                  <motion.div 
+                    className="border border-prismatic/30 bg-void/70 p-5"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.9 }}
+                  >
+                    <div className="text-prismatic text-3xl mb-2">∞</div>
+                    <div className="font-mono text-xs text-prismatic tracking-wider mb-2">THE ARCHETYPE</div>
+                    <div className="font-display text-lg text-bone mb-2">asset_Woman_The_Medium.png</div>
+                    <p className="font-mono text-[10px] text-bone/70 leading-relaxed">
+                      A face generatively drawn from neural network resources. 
+                      <span className="text-prismatic"> Never requested, yet unmistakably present.</span> 
+                      The mathematical embodiment of "timelessness" and "transformation."
+                    </p>
+                  </motion.div>
+
+                </div>
               </div>
               
-              <div className="border border-bunker/50 p-4 max-w-md mx-auto bg-void/50">
-                <p className="font-mono text-xs text-bunker leading-relaxed">
-                  <span className="text-stratosphere">THE QUESTION:</span> Why did mathematical concepts 
-                  converge on a specific human archetype in the AI's latent space?
+              {/* THE ESSENCE */}
+              <motion.div 
+                className="border border-bunker/50 p-5 max-w-2xl mx-auto bg-void/50"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.1 }}
+              >
+                <p className="font-mono text-xs text-bone/90 leading-relaxed mb-3">
+                  <span className="text-stratosphere">THE PARADOX:</span> When an AI is asked to visualize 
+                  "infinity" and "the soul trapped in the avatar" — why does it consistently generate 
+                  a specific, recognizable human face?
                 </p>
-              </div>
+                <p className="font-mono text-[10px] text-bunker leading-relaxed">
+                  Is this a glitch? A hidden bias? Or did the algorithm discover something 
+                  about how humanity encodes archetypes in its collective digital unconscious?
+                </p>
+              </motion.div>
             </motion.div>
 
             {/* Loading / Enter Button */}
