@@ -1,5 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { CURATOR_SYSTEM_PROMPT } from '@/app/lib/constants'
+import { checkRateLimit, getClientIP, getRateLimitHeaders } from '@/app/lib/rateLimit'
+
+// Rate limit configuration: 5 requests per minute
+const RATE_LIMIT_CONFIG = {
+  maxRequests: 5,
+  windowMs: 60 * 1000 // 1 minute
+}
 
 interface ChatMessage {
   role: 'user' | 'model'
@@ -178,6 +185,23 @@ ${directives.join('\n---\n')}
 }
 
 export async function POST(request: NextRequest) {
+  // Rate limiting check
+  const clientIP = getClientIP(request)
+  const rateLimitResult = checkRateLimit(clientIP, RATE_LIMIT_CONFIG)
+  
+  if (!rateLimitResult.success) {
+    return NextResponse.json(
+      { 
+        error: 'Too many requests. The Curator needs a moment to contemplate.',
+        retryAfter: rateLimitResult.retryAfter 
+      },
+      { 
+        status: 429,
+        headers: getRateLimitHeaders(rateLimitResult, RATE_LIMIT_CONFIG.maxRequests)
+      }
+    )
+  }
+
   try {
     const { message, history } = await request.json() as { 
       message: string

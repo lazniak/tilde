@@ -1,6 +1,33 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { checkRateLimit, getClientIP, getRateLimitHeaders } from '@/app/lib/rateLimit'
+
+// Stricter rate limit for image analysis: 3 requests per minute
+const RATE_LIMIT_CONFIG = {
+  maxRequests: 3,
+  windowMs: 60 * 1000 // 1 minute
+}
 
 export async function POST(request: NextRequest) {
+  // Rate limiting check
+  const clientIP = getClientIP(request)
+  const rateLimitResult = checkRateLimit(clientIP, {
+    ...RATE_LIMIT_CONFIG,
+    identifier: `identify_${clientIP}` // Separate bucket from chat
+  })
+  
+  if (!rateLimitResult.success) {
+    return NextResponse.json(
+      { 
+        error: 'Too many identification requests. Please wait before analyzing again.',
+        retryAfter: rateLimitResult.retryAfter 
+      },
+      { 
+        status: 429,
+        headers: getRateLimitHeaders(rateLimitResult, RATE_LIMIT_CONFIG.maxRequests)
+      }
+    )
+  }
+
   try {
     const { imageUrl } = await request.json()
     
