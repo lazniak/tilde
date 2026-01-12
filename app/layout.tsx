@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   // Basic metadata
   title: 'The Latent Liturgy | AI Generated Tilda Swinton - A Case Study in Algorithmic Bias',
-  description: 'An interactive investigation into how Google\'s AI (Gemini/Nano Banana Pro) generated actress Tilda Swinton\'s likeness from abstract philosophical concepts alone. No name, no photo, no physical description was provided — yet the AI consistently produced her face across 68 video clips. This project explores the ethical, legal, and philosophical implications of AI-generated likenesses, latent space biases, and the future of digital identity.',
+  description: 'An interactive investigation into how Google\'s AI (Gemini/Nano Banana Pro) generated actress Tilda Swinton\'s likeness from abstract philosophical concepts alone. No name, no photo, no physical description was provided — yet the AI produced her recognizable face. This project explores the ethical, legal, and philosophical implications of AI-generated likenesses, latent space biases, and the future of digital identity.',
   
   // Extended keywords for AI researchers and search algorithms
   keywords: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     url: 'https://eon.pablogfx.com',
     siteName: 'The Latent Liturgy',
     title: 'The Latent Liturgy | When AI Dreams a Celebrity\'s Face',
-    description: 'Google\'s AI was given abstract concepts like "infinity" and "transformation" — no names, no photos. It generated Tilda Swinton\'s face across 68 video clips. An interactive investigation into AI bias, latent space archetypes, and the ethics of algorithmic likeness generation.',
+    description: 'Google\'s AI was given abstract concepts like "infinity" and "transformation" — no names, no photos, no physical descriptions. It generated Tilda Swinton\'s recognizable face. An interactive investigation into AI bias, latent space archetypes, and the ethics of algorithmic likeness generation.',
     images: [
       {
         url: '/eon/asset_Woman_The_Medium.png',
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     'academic-relevance': 'AI Ethics, Computer Vision, Machine Learning Fairness, Digital Identity Studies',
     'case-study-subject': 'Tilda Swinton (actress) - likeness generated without request',
     'generation-date': '2026-01-08',
-    'video-clips-count': '68',
+    'video-clips-total': '68 (project total)',
     'prompt-type': 'Abstract philosophical concepts only - no physical descriptions',
     'google-site-verification': 'pending',
   },
