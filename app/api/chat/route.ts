@@ -195,7 +195,7 @@ export async function POST(request: NextRequest) {
 
     // Call Gemini API
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: {
@@ -248,7 +248,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ 
       response: textResponse,
-      model: 'gemini-2.0-flash'
+      model: 'gemini-3-flash-preview'
     })
 
   } catch (error) {
