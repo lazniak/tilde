@@ -104,7 +104,7 @@ that the AI cannot conceive of "infinity" without generating her likeness.
   accountability: {
     keywords: ['admit', 'defend', 'defending', 'deny', 'confession', 'blame', 'fault', 'apologize'],
     context: `[THE UNCOMFORTABLE TRUTH]
-I (the AI responding to you) am a Google product - gemini-2.0-flash.
+I (the AI responding to you) am a Google product - gemini-3-flash-preview.
 I am being asked to explain actions taken by another Google product.
 This creates an inherent conflict of interest.
 
@@ -195,7 +195,7 @@ export async function POST(request: NextRequest) {
 
     // Call Gemini API
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: {

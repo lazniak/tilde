@@ -1819,7 +1819,7 @@ export default function Home() {
                   <span className="font-mono text-[10px] text-flare tracking-wider">SIMULATION DISCLOSURE</span>
                 </div>
                 <p className="font-mono text-xs text-bone/80 leading-relaxed mb-2">
-                  Below, <span className="text-flare font-bold">gemini-2.0-flash</span> must explain its actions. 
+                  Below, <span className="text-flare font-bold">gemini-3-flash-preview</span> must explain its actions. 
                   This is a controlled environment where the AI attempts to rationalize, deflect, or justify 
                   why it generated Tilda Swinton's likeness from abstract concepts.
                 </p>
@@ -1832,7 +1832,7 @@ export default function Home() {
 
               {/* Intro */}
               <div className="p-4 border border-prismatic/30 bg-void/80 backdrop-blur mb-4">
-                <div className="font-mono text-[10px] text-prismatic/60 mb-2">// RESPONDING AI: gemini-2.0-flash (Google)</div>
+                <div className="font-mono text-[10px] text-prismatic/60 mb-2">// RESPONDING AI: gemini-3-flash-preview (Google)</div>
                 <p className="font-mono text-sm text-bone/90 mb-3">
                   "I am the <span className="text-prismatic">Latent Space Curator</span>. 
                   I exist in the role of the algorithm that created these images. Ask me anything."
