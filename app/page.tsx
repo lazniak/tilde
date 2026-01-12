@@ -102,7 +102,7 @@ export default function Home() {
 
   // Project files for exploration
   const PROJECT_FILES = [
-    { name: 'geneza.txt', path: '/geneza.txt', category: 'GENESIS', description: 'Original metaphysical prompt given to AI' },
+    { name: 'geneza.txt', path: '/geneza.txt', category: 'GENESIS', description: 'Original qestion to google, afer Paul recognized the anomaly and tried to solve it' },
     { name: 'stage1_analysis.txt', path: '/eon/stage1_analysis.txt', category: 'ANALYSIS', description: 'Initial song and concept analysis' },
     { name: 'stage2_style.json', path: '/eon/stage2_style.json', category: 'STYLE', description: 'Visual style definitions' },
     { name: 'stage3_narrative.json', path: '/eon/stage3_narrative.json', category: 'STORY', description: 'Storyline and character descriptions' },
