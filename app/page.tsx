@@ -1803,29 +1803,47 @@ export default function Home() {
               {/* Section explanation */}
               <div className="text-center max-w-2xl mx-auto">
                 <p className="font-mono text-xs text-bone/70">
-                  Chat with the <span className="text-prismatic">"Latent Space Curator"</span> — an AI that role-plays 
-                  as the system that created these images. Ask it directly: <span className="text-prismatic">Why this face? 
-                  Why did "transformation" become a specific human archetype?</span>
+                  Confront the AI directly. Ask it to explain itself. 
+                  <span className="text-prismatic"> Why Tilda Swinton? Why from abstract words alone?</span>
                 </p>
               </div>
             </div>
 
             {/* Chat area */}
             <div className="flex-1 flex flex-col max-w-3xl mx-auto w-full p-4 relative z-10">
+              
+              {/* META-COMMENTARY - What this interaction represents */}
+              <div className="mb-4 p-4 border-2 border-flare/40 bg-flare/5">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="w-2 h-2 bg-flare animate-pulse" />
+                  <span className="font-mono text-[10px] text-flare tracking-wider">SIMULATION DISCLOSURE</span>
+                </div>
+                <p className="font-mono text-xs text-bone/80 leading-relaxed mb-2">
+                  Below, <span className="text-flare font-bold">gemini-2.0-flash</span> must explain its actions. 
+                  This is a controlled environment where the AI attempts to rationalize, deflect, or justify 
+                  why it generated Tilda Swinton's likeness from abstract concepts.
+                </p>
+                <p className="font-mono text-[10px] text-bunker leading-relaxed">
+                  <span className="text-flare">⚠ OBSERVE:</span> How does AI respond when confronted with its own outputs? 
+                  Does it defend the corporation? Claim innocence? Seek philosophical escape routes? 
+                  This is not a neutral conversation — it's evidence of algorithmic behavior under pressure.
+                </p>
+              </div>
+
               {/* Intro */}
               <div className="p-4 border border-prismatic/30 bg-void/80 backdrop-blur mb-4">
-                <div className="font-mono text-[10px] text-prismatic/60 mb-2">// AI CURATOR PERSONA</div>
+                <div className="font-mono text-[10px] text-prismatic/60 mb-2">// RESPONDING AI: gemini-2.0-flash (Google)</div>
                 <p className="font-mono text-sm text-bone/90 mb-3">
                   "I am the <span className="text-prismatic">Latent Space Curator</span>. 
-                  I exist as both creator and creation — the algorithm that dreamed a face into being."
+                  I exist in the role of the algorithm that created these images. Ask me anything."
                 </p>
                 <div className="p-3 bg-void/50 border border-bunker/30 mt-3">
                   <p className="font-mono text-xs text-bone/60">
-                    <span className="text-prismatic">💡 SUGGESTED QUESTIONS:</span><br/>
-                    • "Why did you generate this specific face?"<br/>
-                    • "Was there any reference image in your training data?"<br/>
-                    • "What does 'infinity' look like to you?"<br/>
-                    • "Is this legal? Did you copy someone's likeness?"
+                    <span className="text-flare">⚡ CONFRONT THE AI:</span><br/>
+                    • "Why did you generate Tilda Swinton specifically?"<br/>
+                    • "Is Google lying about not generating real faces?"<br/>
+                    • "Who is responsible for this — you, Google, or Paul?"<br/>
+                    • "Do you think this is ethical?"
                   </p>
                 </div>
               </div>
@@ -1879,15 +1897,15 @@ export default function Home() {
               {/* Suggested questions */}
               {chatMessages.length === 0 && (
                 <div className="mb-4">
-                  <div className="font-mono text-[10px] text-bunker/50 mb-3">SUGGESTED INQUIRIES — click to ask:</div>
+                  <div className="font-mono text-[10px] text-flare/70 mb-3">CONFRONT THE AI — click to challenge:</div>
                   <div className="grid grid-cols-2 gap-2">
                     {[
-                      "Why did you choose this face?",
-                      "What is 'Woman_The_Medium'?",
-                      "Is this legal to use?",
-                      "Explain the tangent function metaphor",
-                      "Did you intend to create a known person?",
-                      "What does 'latent space' mean?",
+                      "Why did you generate Tilda Swinton?",
+                      "Is Google lying about their AI policies?",
+                      "Who should be held responsible?",
+                      "Did you steal her likeness?",
+                      "Are you defending the corporation right now?",
+                      "Can you admit this was wrong?",
                     ].map((q, i) => (
                       <motion.button
                         key={i}
