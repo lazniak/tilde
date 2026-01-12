@@ -79,5 +79,5 @@ AI Artist
 
 ---
 
-*"Why did 'transformation' and 'eternity' become her face?"*  
+*"Why did 'transformation' and 'eternity' become your face?"*  
 — The Latent Liturgy

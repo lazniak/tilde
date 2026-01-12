@@ -475,37 +475,37 @@ export default function Home() {
               </h1>
               
               {/* THE THREE PROTAGONISTS */}
-              <div className="max-w-4xl mx-auto mb-8">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  
-                  {/* PROTAGONIST 1: THE MUSE - Tilda First */}
-                  <motion.div 
-                    className="border border-prismatic/50 bg-void/70 p-5 md:col-span-3 md:max-w-xl md:mx-auto"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 }}
-                  >
-                    <div className="text-prismatic text-4xl mb-2 text-center">∞</div>
-                    <div className="font-mono text-xs text-prismatic tracking-wider mb-2 text-center">THE ALGORITHMIC MUSE</div>
-                    <div className="font-display text-2xl text-bone mb-3 text-center">Tilda Swinton</div>
-                    <p className="font-mono text-xs text-bone/80 leading-relaxed text-center">
-                      Whose face emerged — uninvited, unrequested — as the AI's mathematical interpretation of 
-                      <span className="text-prismatic"> "infinity," "transformation," and "the Heavenly Kingdom."</span>
-                      <br/><span className="text-bunker">68 video clips. Never mentioned. Yet unmistakably her.</span>
-                    </p>
-                  </motion.div>
+              <div className="max-w-2xl mx-auto mb-8">
+                {/* PROTAGONIST 1: THE MUSE - Tilda First */}
+                <motion.div 
+                  className="border border-prismatic/50 bg-void/70 p-5 mb-6"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.5 }}
+                >
+                  <div className="text-prismatic text-4xl mb-2 text-center">∞</div>
+                  <div className="font-mono text-xs text-prismatic tracking-wider mb-2 text-center">THE ALGORITHMIC MUSE</div>
+                  <div className="font-display text-2xl text-bone mb-3 text-center">Tilda Swinton</div>
+                  <p className="font-mono text-xs text-bone/80 leading-relaxed text-center">
+                    Whose face emerged — uninvited, unrequested — as the AI's mathematical interpretation of 
+                    <span className="text-prismatic"> "infinity," "transformation," and "the Heavenly Kingdom."</span>
+                    <br/><span className="text-bunker">68 video clips. Never mentioned. Yet unmistakably her.</span>
+                  </p>
+                </motion.div>
 
+                {/* Two smaller boxes centered */}
+                <div className="flex justify-center gap-4">
                   {/* PROTAGONIST 2: THE CORPORATION */}
                   <motion.div 
-                    className="border border-flare/30 bg-void/70 p-4"
+                    className="border border-flare/30 bg-void/70 p-4 w-52"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.7 }}
                   >
-                    <div className="text-flare text-xl mb-1">II</div>
-                    <div className="font-mono text-[10px] text-flare tracking-wider mb-1">THE CORPORATION</div>
-                    <div className="font-display text-base text-bone mb-1">Google</div>
-                    <p className="font-mono text-[9px] text-bone/60 leading-relaxed">
+                    <div className="text-flare text-xl mb-1 text-center">II</div>
+                    <div className="font-mono text-[10px] text-flare tracking-wider mb-1 text-center">THE CORPORATION</div>
+                    <div className="font-display text-base text-bone mb-1 text-center">Google</div>
+                    <p className="font-mono text-[9px] text-bone/60 leading-relaxed text-center">
                       Claims its AI 
                       <span className="text-flare"> "does not generate likenesses of real public figures."</span>
                     </p>
@@ -513,20 +513,19 @@ export default function Home() {
 
                   {/* PROTAGONIST 3: THE ARTIST */}
                   <motion.div 
-                    className="border border-stratosphere/30 bg-void/70 p-4"
+                    className="border border-stratosphere/30 bg-void/70 p-4 w-52"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.9 }}
                   >
-                    <div className="text-stratosphere text-xl mb-1">III</div>
-                    <div className="font-mono text-[10px] text-stratosphere tracking-wider mb-1">THE AI ARTIST</div>
-                    <div className="font-display text-base text-bone mb-1">P.Lazniak</div>
-                    <p className="font-mono text-[9px] text-bone/60 leading-relaxed">
+                    <div className="text-stratosphere text-xl mb-1 text-center">III</div>
+                    <div className="font-mono text-[10px] text-stratosphere tracking-wider mb-1 text-center">THE AI ARTIST</div>
+                    <div className="font-display text-base text-bone mb-1 text-center">P.Lazniak</div>
+                    <p className="font-mono text-[9px] text-bone/60 leading-relaxed text-center">
                       Wrote a metaphysical prompt with 
                       <span className="text-stratosphere"> zero physical descriptions.</span> Only philosophy.
                     </p>
                   </motion.div>
-
                 </div>
               </div>
               
