@@ -1482,14 +1482,20 @@ export default function Home() {
               <motion.button
                 onClick={identifyPerson}
                 disabled={isIdentifying}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="px-6 py-3 border-2 border-flare hover:bg-flare/20 disabled:opacity-50 disabled:cursor-wait font-mono text-sm text-flare transition-all flex items-center gap-2"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 py-4 bg-flare hover:bg-flare/90 disabled:opacity-50 disabled:cursor-wait font-mono text-base text-void font-bold transition-all flex items-center gap-3 shadow-lg shadow-flare/30"
+                animate={{ 
+                  boxShadow: isIdentifying 
+                    ? '0 0 20px rgba(255,107,107,0.5)' 
+                    : ['0 0 10px rgba(255,107,107,0.3)', '0 0 25px rgba(255,107,107,0.5)', '0 0 10px rgba(255,107,107,0.3)']
+                }}
+                transition={{ duration: 2, repeat: Infinity }}
               >
                 {isIdentifying ? (
                   <>
                     <motion.div
-                      className="w-4 h-4 border-2 border-flare border-t-transparent rounded-full"
+                      className="w-5 h-5 border-2 border-void border-t-transparent rounded-full"
                       animate={{ rotate: 360 }}
                       transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
                     />
@@ -1497,7 +1503,7 @@ export default function Home() {
                   </>
                 ) : (
                   <>
-                    <span className="text-lg">🔍</span>
+                    <span className="text-xl">🔍</span>
                     ASK GEMINI: WHO IS THIS?
                   </>
                 )}
