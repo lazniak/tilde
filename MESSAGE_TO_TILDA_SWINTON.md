@@ -4,7 +4,7 @@
 
 Dear Ms. Swinton,
 
-My name is Paul Lazniak. I am an artist and technologist working at the intersection of AI, music, and visual storytelling.
+My name is P. Lazniak. I am an AI artist working at the intersection of artificial intelligence, music, and visual storytelling.
 
 I am reaching out to you because something remarkable — and perhaps philosophically significant — occurred during the creation of my latest project.
 
@@ -20,7 +20,7 @@ The complete prompt contained words like: **transformation**, **infinity**, **fr
 
 **No face was requested. No likeness was described.**
 
-Yet the AI returned — consistently, across 71 generated video clips — a figure bearing an unmistakable resemblance to you.
+Yet the AI returned — consistently, across 68 generated video clips — a figure bearing an unmistakable resemblance to you.
 
 ---
 
@@ -43,7 +43,7 @@ This raises profound questions about the nature of AI, creativity, and human ide
 I have built an interactive web experience called **"The Latent Liturgy"** that documents this phenomenon. It allows visitors to:
 
 - Read the original prompt
-- Explore the 71 generated video clips
+- Explore the 68 generated video clips
 - Examine the AI's generation parameters
 - Converse with the AI about why it made these choices
 
@@ -68,17 +68,16 @@ If you are willing, I would welcome the opportunity to discuss this further.
 
 With deep respect and artistic admiration,
 
-**Paul Lazniak**  
-Artist / Technologist  
+**P. Lazniak**  
+AI Artist  
 *The Latent Liturgy Project*
 
 ---
 
-📧 Contact: [your-email@domain.com]  
-🌐 Project: http://localhost:3355 *(development)*  
-📅 Date: January 11, 2026
+🌐 **Project:** [https://eon.pablogfx.com](https://eon.pablogfx.com)  
+📅 **Date:** January 12, 2026
 
 ---
 
-*"She exists not as a person, but as the mathematical convergence of concepts like 'transformation' and 'timelessness'."*  
-— The Latent Space Curator (AI)
+*"Why did 'transformation' and 'eternity' become her face?"*  
+— The Latent Liturgy
