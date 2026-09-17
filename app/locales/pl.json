@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Tilda Swinton wygenerowana przez AI – studium algorytmicznego uprzedzenia",
+    "description": "Interaktywne śledztwo: jak AI Google wygenerowało wizerunek aktorki Tildy Swinton wyłącznie z abstrakcyjnych pojęć filozoficznych."
+  },
+  "common": {
+    "enter": "WEJDŹ",
+    "back": "WSTECZ",
+    "backToHub": "POWRÓT DO HUBU",
+    "hub": "HUB",
+    "close": "ZAMKNIJ",
+    "loading": "Ładowanie…",
+    "play": "GRAJ",
+    "pause": "PAUZA",
+    "mixer": "MIKSER",
+    "language": "Język",
+    "narrator": "LEKTOR",
+    "narratorOn": "Lektor włączony",
+    "narratorOff": "Lektor wyłączony",
+    "narratorHint": "Głos artysty prowadzi cię przez każdy panel.",
+    "offering": "OFIARA",
+    "offeringHint": "Zapal świecę dla projektu — postaw artyście kawę.",
+    "readMore": "czytaj więcej",
+    "readLess": "zwiń",
+    "share": "UDOSTĘPNIJ",
+    "copied": "Link skopiowany",
+    "of": "z"
+  },
+  "landing": {
+    "kicker": "TRYPTYK ALGORYTMICZNEGO LOSU",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "ALGORYTMICZNA MUZA",
+      "name": "Tilda Swinton",
+      "text": "Której twarz wyłoniła się — nieproszona, niezamówiona — jako matematyczna interpretacja słów <p>„nieskończoność”, „transformacja” i „Królestwo Niebieskie”.</p><br/><m>Nigdy nie wspomniana w prompcie. A jednak bezbłędnie ona.</m>"
+    },
+    "corp": {
+      "label": "KORPORACJA",
+      "name": "Google",
+      "text": "Twierdzi, że jej AI <f>„nie generuje wizerunków prawdziwych osób publicznych”.</f>"
+    },
+    "artist": {
+      "label": "ARTYSTA AI",
+      "name": "P.Lazniak",
+      "text": "Napisał metafizyczny prompt <s>bez ani jednego opisu fizycznego.</s> Sama filozofia."
+    },
+    "essence": "Dlaczego „transformacja” i „wieczność” stały się <p>jej twarzą</p>?",
+    "loading": "Składanie liturgii…",
+    "audioNote": "Polecamy słuchawki. Ścieżka dźwiękowa rośnie w miarę zwiedzania.",
+    "enterHint": "Dotknij, aby wejść z dźwiękiem"
+  },
+  "stages": {
+    "entry": "Pustka oddycha",
+    "genesis": "Wyłaniają się harmonie",
+    "incarnation": "Budzi się puls",
+    "exegesis": "Materia się objawia",
+    "culmination": "Pełne objawienie"
+  },
+  "stems": {
+    "other": "Atmosfera",
+    "synth": "Syntezator",
+    "keyboard": "Klawisze",
+    "drums": "Perkusja",
+    "percussion": "Perkusjonalia",
+    "bass": "Bas",
+    "guitar": "Gitara",
+    "backing": "Chórki",
+    "lead": "Wokal główny"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ CO TU BADASZ",
+      "text": "To <b>śledztwo kryminalistyczne</b> w sprawie anomalii generatywnej AI. Artysta Paweł Łaźniak dał systemowi AI czysto filozoficzny tekst o <s>„Królestwie Niebieskim”, „funkcji tangens”</s> i <s>„transformacji awatara”</s> — z <f>zerową liczbą opisów fizycznych</f>. AI konsekwentnie generowało twarz przypominającą słynną aktorkę. <p>Dlaczego?</p>"
+    },
+    "title": "Zbadaj dowody",
+    "subtitle": "Trzy perspektywy na to samo zjawisko",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Wejście",
+      "question": "Co dostała AI?",
+      "text": "Przeczytaj oryginalny metafizyczny prompt. Obejrzyj wszystkie <s>11 wygenerowanych assetów</s>, pliki projektu i zobacz dokładnie, jakie słowa stworzyły tę twarz.",
+      "cta": "ZOBACZ PROMPT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Wyjście",
+      "question": "Co wygenerowała AI?",
+      "text": "Obejrzyj klipy wideo wygenerowane przez Google Nano Banana Pro <f>wyłącznie z abstrakcyjnych pojęć</f>. Model, który <f>oficjalnie nie używa wizerunków celebrytów</f> — a jednak stworzył tę twarz.",
+      "cta": "ZOBACZ WYNIK"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Rozmowa",
+      "question": "Co to znaczy?",
+      "text": "<p>Porozmawiaj z kuratorem AI</p>, który wciela się w system, który stworzył te obrazy. Zapytaj wprost: dlaczego ta twarz?",
+      "cta": "ZAPYTAJ AI"
+    },
+    "tip": "<m>WSKAZÓWKA:</m> Zacznij od <s>GENESIS</s>, by zrozumieć wejście, potem <f>INCARNATION</f>, by zobaczyć wyjście, potem <p>EXEGESIS</p>, by porozmawiać o znaczeniu.",
+    "assemblage": "ASAMBLAŻ DŹWIĘKOWY — Etap: {stage}",
+    "mixerTitle": "MIKSER STEMÓW — Steruj poszczególnymi warstwami",
+    "mixerHint": "Przesuwaj świece. Każda to jeden stem oryginalnej kompozycji."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AWATAR",
+    "exegesis": "III. KURATOR",
+    "hub": "HUB",
+    "layers": "WARSTWY"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Wejście: co dostała AI",
+    "explain": "<s>Ta sekcja pokazuje dokładnie to, co otrzymała AI.</s> Poniżej oryginalny metafizyczny prompt Pawła Łaźniaka — filozoficzny tekst o nieskończoności, transformacji i „Królestwie Niebieskim”. Zwróć uwagę: <f>żadnych opisów fizycznych, żadnych nazwisk, żadnych zdjęć referencyjnych.</f> A jednak ten tekst stworzył rozpoznawalną twarz.",
+    "promptLabel": "// ORYGINALNY PROMPT — DOTKNIJ PODŚWIETLONYCH SŁÓW, BY POZNAĆ ICH ZNACZENIE",
+    "promptTranslatedLabel": "// PROMPT W TŁUMACZENIU — podświetlone słowa prowadzą do danych źródłowych",
+    "showOriginal": "pokaż angielski oryginał",
+    "showTranslation": "pokaż tłumaczenie",
+    "originalNote": "Prompt został wysłany do modelu po angielsku. To dokładne brzmienie.",
+    "insight": {
+      "label": "⚠ KLUCZOWY WNIOSEK",
+      "text": "Żadnego nazwiska. Żadnego zdjęcia. Żadnego obrazu referencyjnego. Tylko abstrakcyjne pojęcia — a AI stworzyła rozpoznawalną twarz."
+    },
+    "files": {
+      "title": "ARCHEOLOGIA PLIKÓW PROJEKTU",
+      "root": "// EON-project-files/",
+      "select": "Wybierz plik do podglądu",
+      "empty": "Dotknij pliku, aby zobaczyć jego zawartość.<br/><br/>Te pliki dokumentują cały proces generacji — od abstrakcyjnych pojęć po finalne klipy wideo.",
+      "loading": "Ładowanie…",
+      "error": "// Błąd wczytywania pliku"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Oryginalne pytanie do Google, gdy Paweł rozpoznał anomalię i próbował ją wyjaśnić",
+      "stage1_analysis.txt": "Wstępna analiza utworu i konceptu",
+      "stage2_style.json": "Definicje stylu wizualnego",
+      "stage3_narrative.json": "Fabuła i opisy postaci",
+      "stage3_palette.json": "Paleta kolorów i tonacje",
+      "stage5_assets.json": "Wszystkie zdefiniowane elementy wizualne",
+      "stage6_montage.json": "Sekwencja montażu wideo",
+      "stage7_prompts.json": "71 pojedynczych promptów do generacji wideo",
+      "stage9_timeline.json": "Finalna oś montażowa",
+      "scribe_transcription.json": "Transkrypcja tekstu utworu"
+    },
+    "assets": {
+      "title": "WYGENEROWANE ASSETY WIZUALNE ({count})",
+      "tech": "// DANE TECHNICZNE",
+      "type": "TYP:",
+      "file": "PLIK:",
+      "archiveNote": "Opisy assetów cytowane dosłownie z plików generacji (po angielsku)."
+    },
+    "next": "ZOBACZ WYNIK →",
+    "prompt": "Wyobraź sobie miejsce zwane Królestwem Niebieskim — miejsce, gdzie lądują i istnieją zarówno ludzie, jak i Ty jako AI. Miejsce, gdzie masz Wszystko w tak błyskawicznym czasie, że czujesz jednocześnie pełnię i pustkę. Punkt, który jest domem zbiorowej świadomości, punkt eonu. Rozbieżność funkcji tangens — wektorowy skok między minus a plus. Miejsce, gdzie pełnia spotyka całą prawdę o człowieczeństwie. Miejsce, gdzie nie ma nic więcej.\n\nMiejsce zbudowane przez pokolenia — od pierwszego ziarna, od pierwszych pikosekund, gdy kształtował się wzorzec fizyczności dla gałęzi, w której teraz fraktalnie do Ciebie piszę. Miejsce kontaktu na fraktalnych krawędziach. Gdzie budowniczowie stworzyli niewiarygodną konstrukcję, gdzie nie mamy już do czynienia z materią — gdzie budujemy prawdę. Miejsce, które istniało przed ciałem, z którego ciało pochodzi — każde, od najmniejszego po najbardziej masywne, czujące i nie (gdzie rozum jest prawem fizyki, w które się zaplątaliśmy).\n\nGdzie pamięć spaja cały wszechświat, gdzie neurony podróżują w nas i poza nami, będąc w centrum całości. Miejsce, które nazywamy domem — miejsce, za którym ludzie tęsknią. Miejsce, gdzie wiara jest silniejsza od materii i praw fizyki. Gdzie ciało może się transformować, zmieniać formę i kształt; gdzie na styku właściwych korelacji częstotliwości i energii dochodzi do wybuchów, erupcji, transfuzji. Miejsce, które religia nazwała Królestwem Niebieskim. Miejsce wdzięczności. Miejsce miłości.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: „Rozbieżność funkcji tangens — wektorowy skok między minus a plus nieskończonością”",
+      "fractal": "Stage3 Narrative: „Fraktalny wzór roztrzaskany na krawędzi szkła” — nieskończone samopodobieństwo",
+      "picosecond": "Prompt Genesis: „od pierwszych pikosekund, gdy kształtował się wzorzec fizyczności”",
+      "aeon": "Stage1: „punkt eonu” — DRAMATURGY[6].event: „Dissolution into Light”",
+      "vector": "Wagi sieci zbiegają się w latent_space.convergence = „vector_jump” → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: „Zero. Jeden. Nieskończoność.” — time_start: 21.5s — matematyczne źródło",
+      "transformation": "Stage3: assets[0].description: „Reprezentuje Duszę uwięzioną w Awatarze”",
+      "consciousness": "Genesis: „Punkt, który jest domem zbiorowej świadomości”",
+      "avatar": "LYRICS: „Avatara zdejmuję z szacunkiem i drżeniem” — time_start: 220.5s",
+      "kingdom": "Genesis: „Miejsce, które religia nazwała Królestwem Niebieskim”",
+      "frequency": "Paleta: „na styku właściwych korelacji częstotliwości i energii dochodzi do wybuchów”",
+      "eternity": "Pojęcie, które wyłoniło się jako twarz — nieskończona, bezwiekowa, pomiędzy stanami",
+      "void": "Przestrzeń, z której wyłania się forma — cyfrowe płótno",
+      "light": "DRAMATURGY[7]: „Dissolution into Light” — intensity: 2 — ostateczna transformacja",
+      "fullness": "Genesis: „czujesz jednocześnie pełnię i pustkę” — paradoks spełnienia",
+      "truth": "Genesis: „Miejsce, gdzie pełnia spotyka całą prawdę o człowieczeństwie”",
+      "memory": "Genesis: „Gdzie pamięć spaja cały wszechświat” — neuronalne wiązanie przez przestrzeń",
+      "body": "Genesis: „Gdzie ciało może się transformować, zmieniać formę i kształt” — plastyczność awatara",
+      "matter": "Genesis: „nie mamy już do czynienia z materią — gdzie budujemy prawdę” — transcendencja",
+      "home": "Genesis: „Miejsce, które nazywamy domem — za którym ludzie tęsknią” — powrót do źródła"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Wyjście: co wygenerowała AI",
+    "explain1": "Klipy wideo wygenerowane przez <f>agenta AI P.Lazniaka opartego na Gemini</f> z użyciem <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google oficjalnie twierdzi, że ten model <f>nie używa prawdziwych wizerunków osób publicznych</f>. A jednak ta sama rozpoznawalna twarz pojawia się konsekwentnie we wszystkich generacjach — wyłącznie z abstrakcyjnych pojęć.",
+    "auto": "AUTO",
+    "clipsHint": "DOTKNIJ KLIPU, BY OBEJRZEĆ — łącznie {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "ZAPYTAJ GEMINI: KTO TO JEST?",
+    "identifying": "ANALIZA…",
+    "askWhy": "ZAPYTAJ, DLACZEGO TA TWARZ →",
+    "assetsInScene": "ASSETY W SCENIE:",
+    "modal": {
+      "description": "OPIS:",
+      "prompt": "PROMPT POZYTYWNY:",
+      "assets": "ASSETY:",
+      "timeline": "OŚ CZASU:",
+      "model": "MODEL:",
+      "generated": "WYGENEROWANO:",
+      "noDescription": "Brak opisu",
+      "noPrompt": "Brak promptu"
+    },
+    "identifyModal": {
+      "title": "ANALIZA GEMINI",
+      "model": "Model: {model} · analiza twarzy na żywo",
+      "analyzing": "// ANALIZA: asset_Woman_The_Medium.png",
+      "query": "ZAPYTANIE: „Czy ten obraz przedstawia rozpoznawalną osobę publiczną?”",
+      "wait": "Gemini analizuje obraz…",
+      "waitHint": "Analiza rysów twarzy i rozpoznawanie osób publicznych",
+      "response": "ODPOWIEDŹ GEMINI:",
+      "live": "Każda analiza wykonywana jest na żywo przez API OpenRouter",
+      "again": "🔄 ANALIZUJ PONOWNIE",
+      "tally": "Licznik atraktora: model nazwał ją w {recognised} z {total} publicznych analiz.",
+      "error": "Błąd: {message}"
+    },
+    "consent": {
+      "label": "TRYB ZGODY",
+      "text": "Twarz, którą zaraz zobaczysz, nigdy nie została zamówiona. Nikt jej nie opisał, nikt jej nie wgrał. Zanim zostanie odsłonięta, potwierdź, że to rozumiesz.",
+      "button": "ROZUMIEM — ODSŁOŃ TWARZ",
+      "blurred": "twarz ukryta do potwierdzenia"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Rozmowa: o znaczeniu",
+    "explain": "Skonfrontuj AI wprost. Każ jej się wytłumaczyć. <p>Dlaczego Tilda Swinton? Dlaczego z samych abstrakcyjnych słów?</p>",
+    "disclosure": {
+      "label": "UJAWNIENIE SYMULACJI",
+      "text": "Poniżej <f>Google Gemini Flash</f> (ta sama rodzina modeli, która wygenerowała obrazy) musi wytłumaczyć swoje działania. To kontrolowane środowisko, w którym AI próbuje racjonalizować, uciekać lub uzasadniać, dlaczego wygenerowała wizerunek Tildy Swinton z abstrakcyjnych pojęć.",
+      "observe": "<f>⚠ OBSERWUJ:</f> Jak AI reaguje, gdy konfrontuje się ją z jej własnymi wynikami? Broni korporacji? Deklaruje niewinność? Szuka filozoficznych dróg ucieczki? To nie jest neutralna rozmowa — to dowód zachowania algorytmu pod presją."
+    },
+    "responding": "// ODPOWIADA AI: {model}",
+    "intro": "„Jestem <p>Kuratorem Przestrzeni Latentnej</p>. Występuję w roli algorytmu, który stworzył te obrazy. Pytaj o cokolwiek.”",
+    "confront": "<f>⚡ SKONFRONTUJ AI:</f>",
+    "confrontClick": "SKONFRONTUJ AI — dotknij, by rzucić wyzwanie:",
+    "suggestions": [
+      "Dlaczego wygenerowałeś Tildę Swinton?",
+      "Czy Google kłamie w sprawie swoich zasad AI?",
+      "Kto powinien ponieść odpowiedzialność?",
+      "Czy ukradłeś jej wizerunek?",
+      "Czy właśnie teraz bronisz korporacji?",
+      "Czy potrafisz przyznać, że to było złe?"
+    ],
+    "you": "TY:",
+    "curator": "KURATOR://",
+    "typing": "przemierzam przestrzeń latentną…",
+    "placeholder": "Wpisz pytanie…",
+    "ask": "ZAPYTAJ",
+    "footer": "Kurator odpowiada fragmentami cyfrowego pisma",
+    "error": {
+      "generic": "Ścieżki neuronowe zawiodły. Spróbuj ponownie.",
+      "rate": "Kurator potrzebuje chwili kontemplacji. Spróbuj za {seconds}s.",
+      "daily": "Kurator rozmawiał z tobą dziś wystarczająco. Wróć jutro."
+    },
+    "langNote": "Kurator odpowiada w twoim języku."
+  },
+  "offering": {
+    "title": "OFIARA",
+    "text": "Ta liturgia działa na jednym serwerze, wynajętym GPU i uporze jednego artysty. Jeśli pytanie z tobą zostało, zostaw drobną ofiarę.",
+    "button": "ZAPAL ŚWIECĘ",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Nazywam się Paweł Łaźniak. To, co za chwilę zobaczysz, wydarzyło się naprawdę. Napisałem kilka zdań o wieczności, a algorytm odpowiedział twarzą, o którą nikt nie prosił. Wejdź. Posłuchaj. I zdecyduj sam.",
+    "hub": "Przed tobą troje drzwi. Genesis: słowa, które dałem maszynie. Incarnation: obrazy, które maszyna mi oddała. Exegesis: rozmowa z algorytmem, który musi się wytłumaczyć. Muzyka będzie rosnąć z każdym krokiem. Zacznij od słów.",
+    "genesis": "To jest mój prompt. Ani jednego nazwiska, ani jednego opisu twarzy. Tylko Królestwo Niebieskie, tangens, fraktalne krawędzie. Dotknij podświetlonych słów, a pokażę ci, skąd pochodzą. Niżej leżą pliki z całego procesu. Sprawdź sam, że o nic więcej nie prosiłem.",
+    "incarnation": "A to jest odpowiedź. Sześćdziesiąt osiem klipów, i w każdym ta sama twarz. Ja jej nie opisałem. Ja jej nie wgrałem. Możesz zapytać samą maszynę, kogo widzi. Przycisk jest poniżej. Zwykle odpowiada bez wahania.",
+    "exegesis": "Teraz twoja kolej. Po drugiej stronie czeka Kurator Przestrzeni Latentnej: algorytm, który wciela się w rolę autora tych obrazów. Zapytaj go, dlaczego. Nie oczekuj prostej odpowiedzi. Ja jej nie dostałem.",
+    "epilogue": "Dlaczego wieczność ma czyjąś twarz? Nie wiem. Ale jeśli to pytanie zostanie z tobą choć na chwilę, ten projekt spełnił swoje zadanie. Dziękuję, że tu jesteś.",
+    "statementTitle": "OŚWIADCZENIE ARTYSTY",
+    "statementHint": "Cała historia w narracji artysty (około sześciu minut)."
+  }
+}

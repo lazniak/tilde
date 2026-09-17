@@ -43,3 +43,7 @@ public/eon/STEAMS-music/
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Runtime data (testimonies, counters) and derived audio
+data/
+public/eon/audio/

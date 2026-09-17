@@ -9,22 +9,75 @@ export const PALETTE = {
   prismatic: '#E0FFFF',
 } as const
 
+// Stems are served as AAC (.m4a, ~3 MB each) generated from the master WAVs by
+// scripts/convert-audio.sh — the WAVs weigh 41 MB apiece and killed mobile browsers.
 export const STEMS = [
   // Layer 0 - Atmosphere (starts first - ethereal beginning)
-  { id: 'other', name: 'Atmosphere', file: '8 Other.wav', layer: 0 },
+  { id: 'other', name: 'Atmosphere', file: 'other.m4a', layer: 0 },
   // Layer 1 - Harmonic textures
-  { id: 'synth', name: 'Synth', file: '7 Synth.wav', layer: 1 },
-  { id: 'keyboard', name: 'Keyboard', file: '5 Keyboard.wav', layer: 1 },
+  { id: 'synth', name: 'Synth', file: 'synth.m4a', layer: 1 },
+  { id: 'keyboard', name: 'Keyboard', file: 'keyboard.m4a', layer: 1 },
   // Layer 2 - Rhythmic pulse
-  { id: 'drums', name: 'Drums', file: '2 Drums.wav', layer: 2 },
-  { id: 'percussion', name: 'Percussion', file: '6 Percussion.wav', layer: 2 },
+  { id: 'drums', name: 'Drums', file: 'drums.m4a', layer: 2 },
+  { id: 'percussion', name: 'Percussion', file: 'percussion.m4a', layer: 2 },
   // Layer 3 - Low-end foundation
-  { id: 'bass', name: 'Bass', file: '3 Bass.wav', layer: 3 },
-  { id: 'guitar', name: 'Guitar', file: '4 Guitar.wav', layer: 3 },
+  { id: 'bass', name: 'Bass', file: 'bass.m4a', layer: 3 },
+  { id: 'guitar', name: 'Guitar', file: 'guitar.m4a', layer: 3 },
   // Layer 4 - Backing harmony
-  { id: 'backing', name: 'Backing Vocals', file: '1 Backing Vocals.wav', layer: 4 },
+  { id: 'backing', name: 'Backing Vocals', file: 'backing_vocals.m4a', layer: 4 },
   // Layer 5 - Lead revelation
-  { id: 'lead', name: 'Lead Vocals', file: '0 Lead Vocals.wav', layer: 5 },
+  { id: 'lead', name: 'Lead Vocals', file: 'lead_vocals.m4a', layer: 5 },
+] as const
+
+export const AUDIO_DURATION = 213.68
+
+// Video clips: 71 generated, 3 indices missing from the final set
+export const VIDEO_CLIPS = Array.from({ length: 68 }, (_, i) => {
+  if (i === 21 || i === 50 || i === 54) return null
+  return {
+    index: i,
+    file: `eon_${i.toString().padStart(3, '0')}.mp4`,
+    thumb: `/eon/eon_scene_${i.toString().padStart(3, '0')}.png`,
+    timeRange: `${(i * 4.5).toFixed(1)}s`,
+  }
+}).filter(Boolean) as { index: number; file: string; thumb: string; timeRange: string }[]
+
+// Background images pool for subtle ambience
+export const BACKGROUND_IMAGES = [
+  '/eon/eon_scene_000.png',
+  '/eon/eon_scene_005.png',
+  '/eon/eon_scene_010.png',
+  '/eon/eon_scene_016.png',
+  '/eon/eon_scene_020.png',
+  '/eon/eon_scene_030.png',
+  '/eon/eon_scene_037.png',
+  '/eon/eon_scene_042.png',
+  '/eon/eon_scene_046.png',
+  '/eon/eon_scene_052.png',
+  '/eon/eon_scene_060.png',
+  '/eon/eon_scene_067.png',
+  '/eon/asset_Salt_Flat_Desert.png',
+  '/eon/asset_Concrete_Bunker_Interior.png',
+  '/eon/asset_Salt_Lake_Shallows.png',
+]
+
+export const AVATAR_IMAGE = '/eon/asset_Woman_The_Medium.png'
+
+export const SUPPORT_URL = 'https://buymeacoffee.com/eyb8tkx3to'
+export const SITE_URL = 'https://eon.pablogfx.com'
+
+// Project files for exploration (descriptions are translated via i18n key genesis.fileDescriptions.<name>)
+export const PROJECT_FILES = [
+  { name: 'geneza.txt', path: '/geneza.txt', category: 'GENESIS' },
+  { name: 'stage1_analysis.txt', path: '/eon/stage1_analysis.txt', category: 'ANALYSIS' },
+  { name: 'stage2_style.json', path: '/eon/stage2_style.json', category: 'STYLE' },
+  { name: 'stage3_narrative.json', path: '/eon/stage3_narrative.json', category: 'STORY' },
+  { name: 'stage3_palette.json', path: '/eon/stage3_palette.json', category: 'COLORS' },
+  { name: 'stage5_assets.json', path: '/eon/stage5_assets.json', category: 'ASSETS' },
+  { name: 'stage6_montage.json', path: '/eon/stage6_montage.json', category: 'MONTAGE' },
+  { name: 'stage7_prompts.json', path: '/eon/stage7_prompts.json', category: 'PROMPTS' },
+  { name: 'stage9_timeline.json', path: '/eon/stage9_timeline.json', category: 'TIMELINE' },
+  { name: 'scribe_transcription.json', path: '/eon/scribe_transcription.json', category: 'LYRICS' },
 ] as const
 
 export const ASSEMBLAGE_STAGES = {

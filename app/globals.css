@@ -19,6 +19,16 @@
   margin: 0;
 }
 
+:root {
+  /* Height reserved for the fixed bottom navigation (two rows on phones, one on desktop). */
+  --nav-h: 6.75rem;
+}
+@media (min-width: 640px) {
+  :root {
+    --nav-h: 3.75rem;
+  }
+}
+
 html,
 body {
   max-width: 100vw;
@@ -26,6 +36,31 @@ body {
   background: var(--void);
   color: var(--bone);
   font-family: 'JetBrains Mono', monospace;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior-y: none;
+}
+
+/* RTL languages: keep the monospace "code" bits LTR, mirror the rest naturally. */
+[dir='rtl'] pre,
+[dir='rtl'] code,
+[dir='rtl'] .ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hide scrollbar on the horizontal clip strip (still scrollable) */
+.snap-x::-webkit-scrollbar {
+  height: 2px;
 }
 
 ::selection {
