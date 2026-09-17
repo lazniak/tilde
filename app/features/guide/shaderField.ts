@@ -263,10 +263,21 @@ function loop(now: number) {
     return // visibilitychange restarts us
   }
 
-  const minFrame = halfRes ? 32 : 16
+  // 30 fps is plenty for a background that breathes; halves the GPU cost everywhere.
+  const minFrame = 32
   if (lastFrame && now - lastFrame < minFrame - 1) {
     raf = window.requestAnimationFrame(loop)
     return
+  }
+  // Watchdog: on software GL (no GPU) a frame can take 300+ ms and the whole page freezes.
+  // Sample the first frames; if most are slow, give up for this session and fall back to the still image.
+  if (lastFrame && watchSamples < WATCH_FRAMES) {
+    watchSamples++
+    if (now - lastFrame > SLOW_FRAME_MS) watchSlow++
+    if (watchSamples === WATCH_FRAMES && watchSlow >= WATCH_FRAMES * 0.5) {
+      degrade()
+      return
+    }
   }
   lastFrame = now
 
@@ -298,6 +309,33 @@ function loop(now: number) {
   gl.drawArrays(gl.TRIANGLES, 0, 3)
 
   raf = window.requestAnimationFrame(loop)
+}
+
+const WATCH_FRAMES = 24
+const SLOW_FRAME_MS = 70
+const DEGRADE_KEY = 'liturgy.shader.off'
+let watchSamples = 0
+let watchSlow = 0
+
+/** True when this session already proved the shader is too slow for this device. */
+export function isShaderDegraded(): boolean {
+  try {
+    return typeof window !== 'undefined' && window.sessionStorage.getItem(DEGRADE_KEY) === '1'
+  } catch {
+    return false
+  }
+}
+
+function degrade() {
+  try {
+    window.sessionStorage.setItem(DEGRADE_KEY, '1')
+  } catch {
+    /* ignore */
+  }
+  const cb = onLostCb
+  owner = null
+  disposeField()
+  cb?.()
 }
 
 function ensureVisibilityHook() {

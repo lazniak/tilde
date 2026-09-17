@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { useLiturgy } from '@/app/lib/LiturgyContext'
-import { acquireField, releaseField } from './shaderField'
+import { acquireField, isShaderDegraded, releaseField } from './shaderField'
 
 /**
  * Audio-reactive replacement for the core AmbientBackground.
@@ -22,7 +22,7 @@ export function ShaderBackground() {
   const [live, setLive] = useState(false)
 
   useEffect(() => {
-    if (reducedMotion) {
+    if (reducedMotion || isShaderDegraded()) {
       setLive(false)
       return
     }
