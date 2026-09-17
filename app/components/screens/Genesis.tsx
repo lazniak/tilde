@@ -245,7 +245,7 @@ export function Genesis() {
                 >
                   <div className="h-20 relative overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={asset.image} alt={asset.name} loading="lazy" decoding="async" className="w-full h-full object-cover opacity-60 hover:opacity-90 transition-opacity" />
+                    <img src={asset.thumb} alt={asset.name} loading="lazy" decoding="async" className="w-full h-full object-cover opacity-60 hover:opacity-90 transition-opacity" />
                     <div className="absolute inset-0 bg-gradient-to-t from-void to-transparent" />
                   </div>
                   <div className="p-2">

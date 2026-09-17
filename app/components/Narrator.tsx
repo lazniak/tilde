@@ -52,13 +52,20 @@ function getEl(): HTMLAudioElement {
   return narratorEl!
 }
 
-/** Imperative API for other features (auto-tour, voice ritual…). */
+/**
+ * Imperative API for other features (auto-tour, voice ritual…).
+ * Events emitted on window: 'liturgy:narrate-started' {segment, lang},
+ * 'liturgy:narrate-ended' {segment, queued} (queued=true when another segment follows).
+ */
 export const narrator = {
   play(lang: string, segment: VoiceSegment) {
     window.dispatchEvent(new CustomEvent('liturgy:narrate', { detail: { lang, segment } }))
   },
   stop() {
     window.dispatchEvent(new CustomEvent('liturgy:narrate-stop'))
+  },
+  isPlaying(): boolean {
+    return !!narratorEl && !narratorEl.paused && !narratorEl.ended && narratorEl.src !== SILENT_WAV
   },
 }
 
@@ -104,6 +111,7 @@ export function Narrator() {
           })
           .catch(() => undefined)
         el.src = url
+        el.dataset.segment = segment
         el.currentTime = 0
         setCurrent(segment)
         setProgress(0)
@@ -111,6 +119,7 @@ export function Narrator() {
         getAudioEngine().duck(0.3)
         try {
           await el.play()
+          window.dispatchEvent(new CustomEvent('liturgy:narrate-started', { detail: { segment, lang: l } }))
           return true
         } catch {
           setCurrent(null)
@@ -141,11 +150,13 @@ export function Narrator() {
       }
     }
     const onEnded = () => {
+      const ended = el.dataset.segment
       setCurrent(null)
       setCharIndex(-1)
       const next = queueRef.current.shift()
       if (next) void playSegment(next)
       else getAudioEngine().duck(1)
+      window.dispatchEvent(new CustomEvent('liturgy:narrate-ended', { detail: { segment: ended, queued: !!next } }))
     }
     el.addEventListener('timeupdate', onTime)
     el.addEventListener('ended', onEnded)

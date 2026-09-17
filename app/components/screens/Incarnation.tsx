@@ -40,6 +40,20 @@ export function Incarnation() {
   const clip = VIDEO_CLIPS[currentVideoIndex]
   const prompt = VIDEO_PROMPTS[clip?.index]
 
+  // External clip selection (e.g. the latent map): window.dispatchEvent(new CustomEvent('liturgy:select-clip', { detail: { index } }))
+  useEffect(() => {
+    const onSelect = (e: Event) => {
+      const idx = Number((e as CustomEvent).detail?.index)
+      const pos = VIDEO_CLIPS.findIndex(c => c.index === idx)
+      if (pos >= 0) {
+        setCurrentVideoIndex(pos)
+        setIsVideoPlaying(false)
+      }
+    }
+    window.addEventListener('liturgy:select-clip', onSelect)
+    return () => window.removeEventListener('liturgy:select-clip', onSelect)
+  }, [])
+
   // Video auto-advance
   useEffect(() => {
     if (!isVideoPlaying) return
@@ -188,8 +202,8 @@ export function Incarnation() {
           <video
             key={clip?.file}
             className={`absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-screen transition-[filter] duration-500 ${consentGiven ? '' : 'blur-2xl'}`}
-            src={`/eon/${clip?.file}`}
-            poster={clip?.thumb}
+            src={isTouch ? clip?.mobileSrc : clip?.src}
+            poster={clip?.poster}
             autoPlay
             muted
             loop
@@ -306,7 +320,7 @@ export function Incarnation() {
       <AnimatePresence>
         {selectedClip && (
           <Modal accent="flare" onClose={() => setSelectedClip(null)}>
-            <ClipDetail clip={selectedClip} onClose={() => setSelectedClip(null)} />
+            <ClipDetail clip={selectedClip} mobile={isTouch} onClose={() => setSelectedClip(null)} />
           </Modal>
         )}
       </AnimatePresence>
@@ -371,7 +385,7 @@ export function Incarnation() {
   )
 }
 
-function ClipDetail({ clip, onClose }: { clip: Clip; onClose: () => void }) {
+function ClipDetail({ clip, mobile, onClose }: { clip: Clip; mobile: boolean; onClose: () => void }) {
   const { t } = useI18n()
   const p = VIDEO_PROMPTS[clip.index]
   return (
@@ -385,7 +399,7 @@ function ClipDetail({ clip, onClose }: { clip: Clip; onClose: () => void }) {
           [{t('common.close')}]
         </button>
       </div>
-      <video className="w-full aspect-video bg-void mb-4 border border-bunker/20" src={`/eon/${clip.file}`} poster={clip.thumb} controls autoPlay muted loop playsInline />
+      <video className="w-full aspect-video bg-void mb-4 border border-bunker/20" src={mobile ? clip.mobileSrc : clip.src} poster={clip.poster} controls autoPlay muted loop playsInline />
       <div className="font-mono text-[10px] text-stratosphere mb-2">{t('incarnation.modal.description')}</div>
       <div className="p-3 sm:p-4 bg-void/50 border border-bunker/20 mb-4">
         <p className="font-mono text-sm text-bone/80 leading-relaxed">{p?.description || t('incarnation.modal.noDescription')}</p>

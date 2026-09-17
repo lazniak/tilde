@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://eon.pablogfx.com'),
   // Basic metadata
   title: 'The Latent Liturgy | AI Generated Tilda Swinton - A Case Study in Algorithmic Bias',
   description: 'An interactive investigation into how Google\'s AI (Gemini/Nano Banana Pro) generated actress Tilda Swinton\'s likeness from abstract philosophical concepts alone. No name, no photo, no physical description was provided — yet the AI produced her recognizable face. This project explores the ethical, legal, and philosophical implications of AI-generated likenesses, latent space biases, and the future of digital identity.',
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     description: 'Google\'s AI was given abstract concepts like "infinity" and "transformation" — no names, no photos, no physical descriptions. It generated Tilda Swinton\'s recognizable face. An interactive investigation into AI bias, latent space archetypes, and the ethics of algorithmic likeness generation.',
     images: [
       {
-        url: '/eon/asset_Woman_The_Medium.png',
+        url: '/api/community/og?type=default',
         width: 1024,
         height: 1024,
         alt: 'The Algorithmic Muse - AI-generated image resembling Tilda Swinton, created from abstract philosophical concepts without any physical description',
@@ -66,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'The Latent Liturgy | AI Generated Tilda Swinton Without Being Asked',
     description: 'When asked to visualize "infinity" and "transformation," Google\'s AI consistently generated Tilda Swinton\'s likeness. No name was given. No photo provided. This is evidence of latent space bias — and a question about who owns a face that emerges from mathematics.',
-    images: ['/eon/asset_Woman_The_Medium.png'],
+    images: ['/api/community/og?type=default'],
     creator: '@plazniak',
   },
   

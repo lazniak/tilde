@@ -47,3 +47,6 @@ next-env.d.ts
 # Runtime data (testimonies, counters) and derived audio
 data/
 public/eon/audio/
+public/eon/thumbs/
+public/eon/web/
+public/eon/mobile/

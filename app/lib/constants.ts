@@ -31,37 +31,48 @@ export const STEMS = [
 
 export const AUDIO_DURATION = 213.68
 
+// Derived media (scripts/media.sh): thumbs/ = 320px webp, web/ = 1280px webp, mobile/ = 720p mp4.
+// The masters (1 MB PNGs, 10 MB clips) stay in /eon for downloads and the identify endpoint.
+export const thumbUrl = (name: string) => `/eon/thumbs/${name}.webp`
+export const webUrl = (name: string) => `/eon/web/${name}.webp`
+
 // Video clips: 71 generated, 3 indices missing from the final set
 export const VIDEO_CLIPS = Array.from({ length: 68 }, (_, i) => {
   if (i === 21 || i === 50 || i === 54) return null
+  const n = i.toString().padStart(3, '0')
   return {
     index: i,
-    file: `eon_${i.toString().padStart(3, '0')}.mp4`,
-    thumb: `/eon/eon_scene_${i.toString().padStart(3, '0')}.png`,
+    file: `eon_${n}.mp4`,
+    src: `/eon/eon_${n}.mp4`,
+    mobileSrc: `/eon/mobile/eon_${n}.mp4`,
+    thumb: thumbUrl(`eon_scene_${n}`),
+    poster: webUrl(`eon_scene_${n}`),
     timeRange: `${(i * 4.5).toFixed(1)}s`,
   }
-}).filter(Boolean) as { index: number; file: string; thumb: string; timeRange: string }[]
+}).filter(Boolean) as { index: number; file: string; src: string; mobileSrc: string; thumb: string; poster: string; timeRange: string }[]
 
 // Background images pool for subtle ambience
 export const BACKGROUND_IMAGES = [
-  '/eon/eon_scene_000.png',
-  '/eon/eon_scene_005.png',
-  '/eon/eon_scene_010.png',
-  '/eon/eon_scene_016.png',
-  '/eon/eon_scene_020.png',
-  '/eon/eon_scene_030.png',
-  '/eon/eon_scene_037.png',
-  '/eon/eon_scene_042.png',
-  '/eon/eon_scene_046.png',
-  '/eon/eon_scene_052.png',
-  '/eon/eon_scene_060.png',
-  '/eon/eon_scene_067.png',
-  '/eon/asset_Salt_Flat_Desert.png',
-  '/eon/asset_Concrete_Bunker_Interior.png',
-  '/eon/asset_Salt_Lake_Shallows.png',
-]
+  'eon_scene_000',
+  'eon_scene_005',
+  'eon_scene_010',
+  'eon_scene_016',
+  'eon_scene_020',
+  'eon_scene_030',
+  'eon_scene_037',
+  'eon_scene_042',
+  'eon_scene_046',
+  'eon_scene_052',
+  'eon_scene_060',
+  'eon_scene_067',
+  'asset_Salt_Flat_Desert',
+  'asset_Concrete_Bunker_Interior',
+  'asset_Salt_Lake_Shallows',
+].map(webUrl)
 
-export const AVATAR_IMAGE = '/eon/asset_Woman_The_Medium.png'
+/** Web-sized hero image of the face (the PNG master is /eon/asset_Woman_The_Medium.png). */
+export const AVATAR_IMAGE = webUrl('asset_Woman_The_Medium')
+export const AVATAR_MASTER = '/eon/asset_Woman_The_Medium.png'
 
 export const SUPPORT_URL = 'https://buymeacoffee.com/eyb8tkx3to'
 export const SITE_URL = 'https://eon.pablogfx.com'
@@ -137,17 +148,17 @@ Rules:
 export const NARRATIVE_EXCERPT = {
   storyline: "The visual journey begins in the blinding brightness of the Salt_Flat_Desert. Woman_The_Medium stands motionless, a biological statue in a dead world. As the bass pulse kicks in, macro shots focus on the texture of her skin and the sand slipping through her fingers—the 'memory of atoms.' The 'Chorus 1 Blast' transports us to the Concrete_Bunker_Interior. Here, the lighting is violent and analog; the mechanical strobe chops her movements into disjointed frames. She performs a spasmodic Butoh dance, surrounded by explosions of dust powder, visualizing the industrial percussion.",
   assets: [
-    { name: 'Woman_The_Medium', category: 'Actor', description: 'A striking woman with ageless features and minimal expression, trained in Butoh movement. She represents the Soul trapped in the Avatar. In the desert scenes, she interacts with Prop_Large_Mirror. In the bunker, she is surrounded by Prop_Dust_Powder.', image: '/eon/asset_Woman_The_Medium.png' },
-    { name: 'Salt_Flat_Desert', category: 'Location', description: 'A vast, blindingly white dry lake bed under a deep blue sky. Minimalist and barren. Features Woman_The_Medium (wearing Outfit_Skin_Body) standing next to Prop_Large_Mirror. The horizon is infinite.', image: '/eon/asset_Salt_Flat_Desert.png' },
-    { name: 'Salt_Lake_Shallows', category: 'Location', description: 'A variant of the desert where a thin layer of water covers the salt crust, creating a perfect mirror of the sky at sunset. Features Woman_The_Medium (wearing Outfit_Ivory_Silk) holding Prop_Ceramic_Bowl.', image: '/eon/asset_Salt_Lake_Shallows.png' },
-    { name: 'Concrete_Bunker_Interior', category: 'Location', description: 'A brutalist, cavernous industrial space with raw concrete walls. Pitch black, illuminated only by the harsh, rhythmic flashes of the Prop_Mechanical_Strobe. The air is thick with suspended Prop_Dust_Powder. Features Woman_The_Medium dancing erratically.', image: '/eon/asset_Concrete_Bunker_Interior.png' },
-    { name: 'Outfit_Skin_Body', category: 'Costume', description: 'A matte, flesh-toned bodysuit worn by Woman_The_Medium. It creates the illusion of nudity and vulnerability while maintaining a mannequin-like, "avatar" aesthetic. Used in Verse 1 and the Bunker scenes.', image: '/eon/asset_Outfit_Skin_Body.png' },
-    { name: 'Outfit_Ivory_Silk', category: 'Costume', description: 'A long, sheer sheet of raw ivory silk wrapped loosely around Woman_The_Medium. It reacts dynamically to wind and water. Worn during the Interlude/Ritual scenes.', image: '/eon/asset_Outfit_Ivory_Silk.png' },
-    { name: 'Prop_Large_Mirror', category: 'Prop', description: 'A massive, frameless rectangular mirror (2m x 1m) placed vertically in the sand of the Salt_Flat_Desert. It reflects the sky, creating a "portal" effect when Woman_The_Medium stands near it.', image: '/eon/asset_Prop_Large_Mirror.png' },
-    { name: 'Prop_Mechanical_Strobe', category: 'Prop', description: 'A high-intensity industrial searchlight fitted with a mechanical rotating shutter fan to create a physical, analog stroboscopic effect. Located in the Concrete_Bunker_Interior to light Woman_The_Medium.', image: '/eon/asset_Prop_Mechanical_Strobe.png' },
-    { name: 'Prop_Prism_Lens', category: 'Prop', description: 'A handheld glass prism held in front of the camera lens to refract light and create in-camera "glitch" effects and fractals of Woman_The_Medium without CGI.', image: '/eon/asset_Prop_Prism_Lens.png' },
-    { name: 'Prop_Dust_Powder', category: 'Prop', description: 'Fine, organic white powder (flour/chalk dust) used in the Concrete_Bunker_Interior. It is blasted into the air to visualize sound waves and impact around Woman_The_Medium.', image: '/eon/asset_Prop_Dust_Powder.png' },
-    { name: 'Prop_Ceramic_Bowl', category: 'Prop', description: 'A simple, unglazed earthen bowl used by Woman_The_Medium in the Salt_Lake_Shallows to pour water over herself during the ritual.', image: '/eon/asset_Prop_Ceramic_Bowl.png' },
+    { name: 'Woman_The_Medium', category: 'Actor', description: 'A striking woman with ageless features and minimal expression, trained in Butoh movement. She represents the Soul trapped in the Avatar. In the desert scenes, she interacts with Prop_Large_Mirror. In the bunker, she is surrounded by Prop_Dust_Powder.', image: webUrl('asset_Woman_The_Medium'), thumb: thumbUrl('asset_Woman_The_Medium') },
+    { name: 'Salt_Flat_Desert', category: 'Location', description: 'A vast, blindingly white dry lake bed under a deep blue sky. Minimalist and barren. Features Woman_The_Medium (wearing Outfit_Skin_Body) standing next to Prop_Large_Mirror. The horizon is infinite.', image: webUrl('asset_Salt_Flat_Desert'), thumb: thumbUrl('asset_Salt_Flat_Desert') },
+    { name: 'Salt_Lake_Shallows', category: 'Location', description: 'A variant of the desert where a thin layer of water covers the salt crust, creating a perfect mirror of the sky at sunset. Features Woman_The_Medium (wearing Outfit_Ivory_Silk) holding Prop_Ceramic_Bowl.', image: webUrl('asset_Salt_Lake_Shallows'), thumb: thumbUrl('asset_Salt_Lake_Shallows') },
+    { name: 'Concrete_Bunker_Interior', category: 'Location', description: 'A brutalist, cavernous industrial space with raw concrete walls. Pitch black, illuminated only by the harsh, rhythmic flashes of the Prop_Mechanical_Strobe. The air is thick with suspended Prop_Dust_Powder. Features Woman_The_Medium dancing erratically.', image: webUrl('asset_Concrete_Bunker_Interior'), thumb: thumbUrl('asset_Concrete_Bunker_Interior') },
+    { name: 'Outfit_Skin_Body', category: 'Costume', description: 'A matte, flesh-toned bodysuit worn by Woman_The_Medium. It creates the illusion of nudity and vulnerability while maintaining a mannequin-like, "avatar" aesthetic. Used in Verse 1 and the Bunker scenes.', image: webUrl('asset_Outfit_Skin_Body'), thumb: thumbUrl('asset_Outfit_Skin_Body') },
+    { name: 'Outfit_Ivory_Silk', category: 'Costume', description: 'A long, sheer sheet of raw ivory silk wrapped loosely around Woman_The_Medium. It reacts dynamically to wind and water. Worn during the Interlude/Ritual scenes.', image: webUrl('asset_Outfit_Ivory_Silk'), thumb: thumbUrl('asset_Outfit_Ivory_Silk') },
+    { name: 'Prop_Large_Mirror', category: 'Prop', description: 'A massive, frameless rectangular mirror (2m x 1m) placed vertically in the sand of the Salt_Flat_Desert. It reflects the sky, creating a "portal" effect when Woman_The_Medium stands near it.', image: webUrl('asset_Prop_Large_Mirror'), thumb: thumbUrl('asset_Prop_Large_Mirror') },
+    { name: 'Prop_Mechanical_Strobe', category: 'Prop', description: 'A high-intensity industrial searchlight fitted with a mechanical rotating shutter fan to create a physical, analog stroboscopic effect. Located in the Concrete_Bunker_Interior to light Woman_The_Medium.', image: webUrl('asset_Prop_Mechanical_Strobe'), thumb: thumbUrl('asset_Prop_Mechanical_Strobe') },
+    { name: 'Prop_Prism_Lens', category: 'Prop', description: 'A handheld glass prism held in front of the camera lens to refract light and create in-camera "glitch" effects and fractals of Woman_The_Medium without CGI.', image: webUrl('asset_Prop_Prism_Lens'), thumb: thumbUrl('asset_Prop_Prism_Lens') },
+    { name: 'Prop_Dust_Powder', category: 'Prop', description: 'Fine, organic white powder (flour/chalk dust) used in the Concrete_Bunker_Interior. It is blasted into the air to visualize sound waves and impact around Woman_The_Medium.', image: webUrl('asset_Prop_Dust_Powder'), thumb: thumbUrl('asset_Prop_Dust_Powder') },
+    { name: 'Prop_Ceramic_Bowl', category: 'Prop', description: 'A simple, unglazed earthen bowl used by Woman_The_Medium in the Salt_Lake_Shallows to pour water over herself during the ritual.', image: webUrl('asset_Prop_Ceramic_Bowl'), thumb: thumbUrl('asset_Prop_Ceramic_Bowl') },
   ]
 }
 
