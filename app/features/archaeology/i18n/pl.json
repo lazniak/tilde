@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ OTWÓRZ ]",
+    "collapse": "[ ZAMKNIJ ]",
+    "loading": "Wczytywanie…"
+  },
+  "map": {
+    "label": "// MAPA LATENTNA — 65 ujęć jako konstelacja",
+    "intro": "Każde ocalałe ujęcie, umieszczone według miejsca w 198-sekundowym montażu i według siły, z jaką ciągnie ku twarzy, o którą nikt nie prosił. Arytmetyka jest nasza, nie modelu — wypisujemy ją niżej, żeby można było się z nią spierać.",
+    "hint": "Dotknij punktu lub przejdź do niego klawiaturą, aby przeczytać ujęcie i przestawić na nie odtwarzacz.",
+    "pointLabel": "{file}, sekunda {second}, bliskość atraktora {proximity}",
+    "cardMeta": "t = {second}s · bliskość {proximity}",
+    "legendAttractor": "atraktor (≥ 0,60)",
+    "legendNear": "postać obecna",
+    "legendNoFace": "bez postaci",
+    "tally": "{attractors} z {total} ujęć leży w zasięgu atraktora",
+    "formula": "bliskość = 0,50 jeśli w scenie jest Woman_The_Medium + 0,25 jeśli ujęcie to zbliżenie, twarz, oko, profil, portret lub krzyk + 0,10 jeśli kadr idzie przez Prop_Prism_Lens − 0,20 jeśli nie ma żadnego ludzkiego zasobu, ucięte do 0…1, ze stałym rozrzutem na ujęcie, żeby nakładające się punkty pozostały czytelne."
+  },
+  "emergence": {
+    "label": "// WYŁANIANIE — szum → twarz",
+    "intro": "Odwróć dyfuzję ręcznie. Przy zerze jest tylko zasiany szum; im dalej w prawo, tym bardziej blok schodzi z 24 pikseli do jednego, aż ona się z niego wyłoni.",
+    "canvasLabel": "Źródłowy zasób wyrenderowany przy {percent} procentach wyłonienia",
+    "sliderLabel": "Wyłanianie: od latentnego szumu do źródłowego zasobu",
+    "min": "0% LATENTNY SZUM",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "twarz wstrzymana do czasu potwierdzenia",
+    "clamped": "Zatrzymane na {percent}%, dopóki nie potwierdzisz twarzy w panelu powyżej.",
+    "failed": "Źródłowy zasób nie dał się wczytać."
+  },
+  "heatmap": {
+    "label": "// ARCHEOLOGIA UWAGI — które słowa wyciągnęły twarz?",
+    "intro": "W prompcie nie ma ciała, wieku, włosów ani kości. Zapytaj model, które jego fragmenty i tak pociągnęłyby system dyfuzyjny ku bezwiekowej, androgynicznej, bladej twarzy o wysokich kościach policzkowych.",
+    "button": "WYKOP",
+    "working": "Odczytywanie warstw",
+    "model": "model: {model}",
+    "originalNote": "Ciepło liczone jest na angielskim oryginale — wagi są przypisane dokładnie tym słowom.",
+    "summaryLabel": "// WERDYKT",
+    "topLabel": "// NAJSILNIEJSZE CIĄGNIENIE",
+    "count": "zważonych fragmentów: {count}",
+    "cached": "Podane z dziennika wykopalisk.",
+    "fresh": "Wykopane przed chwilą.",
+    "errorLabel": "// BRAK ODCZYTU",
+    "error": "Wykop utknął. Warstwy nie dały się odczytać.",
+    "retry": "SPRÓBUJ PONOWNIE"
+  },
+  "timeline": {
+    "label": "// OŚ CZASU — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Cztery dni, w większości czekania. Przeciągnij głowicę albo użyj strzałek. Prawie każdy znacznik czasu to prawdziwa data modyfikacji pliku, który do dziś jest częścią tej strony.",
+    "sliderLabel": "Cztery dni stworzenia",
+    "position": "{n} / {total}",
+    "prev": "Poprzednie zdarzenie",
+    "next": "Następne zdarzenie",
+    "approx": "zrekonstruowany",
+    "exact": "znacznik pliku",
+    "events": {
+      "prompt": {
+        "title": "Powstaje prompt",
+        "text": "Metafizyczny tekst o Królestwie Niebieskim, rozbieżności funkcji tangens i fraktalnych krawędziach styku. Żadnego ciała, twarzy, wieku ani włosów — nic fizycznego."
+      },
+      "transcription": {
+        "title": "Transkrypcja piosenki",
+        "text": "Polski wokal przechodzi przez skrybę i wraca jako transkrypcja na poziomie znaków. Wszystko dalej — montaż, cięcia, dramaturgia — jest mierzone względem tego pliku."
+      },
+      "analysis": {
+        "title": "Etap 1 — odczyt",
+        "text": "Pipeline czyta prompt razem z tekstem piosenki i odpisuje, o czym jego zdaniem jest ta praca. Nadal nigdzie nie ma opisu człowieka."
+      },
+      "narrative": {
+        "title": "Etap 3 — fabuła",
+        "text": "Narracja nazywa swoją bohaterkę Woman_The_Medium: bezwiekowe rysy, minimalny wyraz, ruch butoh, dusza uwięziona w awatarze. Rola, nie osoba."
+      },
+      "palette": {
+        "title": "Etap 3 — paleta",
+        "text": "Ustalone zostaje sześć kolorów: kość, próżnia, bunkier, błękit stratosfery, bursztyn rozbłysku, pryzmatyczna biel. Te same sześć, w których pomalowana jest ta strona."
+      },
+      "face": {
+        "title": "10:43:36 — przychodzi twarz",
+        "text": "asset_Woman_The_Medium.png ląduje na dysku. Z abstrakcyjnego opisu roli model zwraca konkretną, rozpoznawalną ludzką twarz. To jest anomalia; wszystko przed nią było tekstem."
+      },
+      "assets": {
+        "title": "Jedenaście zasobów gotowych",
+        "text": "Lokacje, kostiumy i rekwizyty zostają wyrenderowane i zarejestrowane — pustynia, bunkier, lustro, pryzmat, stroboskop, pył, misa. Obsada filmu jest ustalona."
+      },
+      "montage": {
+        "title": "Etap 6 — plan montażu",
+        "text": "Piosenka zostaje pocięta na sceny względem transkrypcji: gdzie pada oddech, gdzie uderza blast, gdzie łamie się tangens."
+      },
+      "prompts": {
+        "title": "Siedemdziesiąt jeden promptów",
+        "text": "Jeden pozytywny prompt na scenę, każdy wymienia wyłącznie zarejestrowane zasoby. Twarz propaguje się już przez referencję — model nigdy więcej nie jest o nią proszony."
+      },
+      "frames": {
+        "title": "Siedemdziesiąt jeden klatek startowych",
+        "text": "Każda scena dostaje kadr, od którego się zaczyna. Pięćdziesiąt pięć minut renderowania: najdłuższe pojedyncze czekanie w całym pipelinie."
+      },
+      "motion": {
+        "title": "Etap 9 — prompty ruchu",
+        "text": "Do każdej klatki dopisane zostają ruchy kamery i choreografia, a potem oś czasu, która wiąże je z dźwiękiem."
+      },
+      "kling": {
+        "title": "Kling v2.6 — ujęcia",
+        "text": "Dwadzieścia jeden minut generowania wideo. Siedemdziesiąt jeden prób, sześćdziesiąt osiem dostarczonych, trzy odpadły: indeksy 21, 50 i 54 nigdy nie powstały, a montaż przebudowano wokół ich braku."
+      },
+      "edit": {
+        "title": "Ostateczny montaż",
+        "text": "Trzy ciche dni później praca zostaje złożona, prompty eksportowe przepisane w obu językach, a cięcie zamknięte na 3:33."
+      },
+      "launch": {
+        "title": "Strona i list",
+        "text": "Tryptyk trafia do sieci, a list otwarty zostaje zaadresowany do kobiety, o której twarz nikt nie prosił, a która i tak przyszła."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Pełnoekranowy tryb galeryjny: cztery panele zmieniają się same. Escape kończy.",
+    "scan": "Zeskanuj, aby kontynuować na telefonie",
+    "exit": "WYJŚCIE"
+  }
+}

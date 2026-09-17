@@ -1,1 +1,26 @@
-{}
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Start the guided tour",
+    "stop": "Stop the guided tour",
+    "hint": "Let the artist's voice walk you through all three panels. Touch anything to take over.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURATOR",
+      "epilogue": "EPILOGUE"
+    }
+  },
+  "tilt": {
+    "label": "TILT",
+    "on": "Mix by tilting the phone",
+    "off": "Stop mixing by tilt",
+    "rhythm": "RHYTHM",
+    "harmony": "HARMONY",
+    "voices": "VOICES",
+    "denied": "Motion access refused. Allow it in your browser settings to mix by tilt.",
+    "unsupported": "This device reports no orientation. Use the mixer instead."
+  }
+}

@@ -15,7 +15,7 @@ const RATE_LIMIT_CONFIG = {
   dailyMax: 10,
 }
 
-export const PROMPT_MAX_CHARS = 600
+const PROMPT_MAX_CHARS = 600
 const EXCERPT_CHARS = 120
 
 export interface ConfessionResult {

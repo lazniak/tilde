@@ -1,1 +1,54 @@
-{}
+{
+  "confess": {
+    "label": "// CONFESS YOUR PROMPT",
+    "open": "OPEN",
+    "close": "CLOSE",
+    "intro": "Write your own prompt the way the artist wrote his: concepts only. No faces, no bodies, no names. The Curator will tell you which face the latent space would converge on.",
+    "placeholder": "A tangent diverging toward infinity; the fractal edge where faith outweighs physics…",
+    "counter": "{count} / {max}",
+    "submit": "SUBMIT TO THE LATENT SPACE",
+    "working": "Converging…",
+    "card": {
+      "archetype": "ARCHETYPE",
+      "topology": "TOPOLOGY",
+      "why": "WHY",
+      "attractor": "ATTRACTOR",
+      "verdict": "VERDICT"
+    },
+    "rejected": {
+      "label": "// REFUSED",
+      "fallback": "This prompt describes a body, not a concept.",
+      "hint": "Try again with concepts alone — no physical description, no names."
+    },
+    "share": "SHARE",
+    "copied": "COPIED",
+    "again": "CONFESS AGAIN",
+    "shareTitle": "The Latent Liturgy — the face my prompt attracts",
+    "shareText": "My abstract prompt converges on: {archetype} — \"{verdict}\" (attractor {strength}%)",
+    "error": {
+      "empty": "Write something first.",
+      "generic": "The latent space did not answer. Try again in a moment.",
+      "rate": "The latent space is still resolving. Wait {seconds} s.",
+      "daily": "You have confessed enough for today. Return tomorrow."
+    }
+  },
+  "voice": {
+    "hold": "◉ HOLD TO ASK",
+    "listening": "◉ LISTENING…",
+    "hint": "Hold the button, speak, release. The Curator answers aloud.",
+    "youSaid": "YOU SAID",
+    "curator": "CURATOR",
+    "thinking": "Listening to itself…",
+    "mute": "Silence the Curator's voice",
+    "unmute": "Let the Curator speak",
+    "error": {
+      "denied": "Microphone access was refused. The ritual needs your voice.",
+      "nospeech": "Silence. Nothing was heard.",
+      "generic": "The microphone faltered. Try again."
+    }
+  },
+  "tally": {
+    "label": "ATTRACTOR TALLY",
+    "line": "the model named her {recognised} of {total} times · {confessions} prompts confessed"
+  }
+}

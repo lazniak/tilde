@@ -1,1 +1,74 @@
-{}
+{
+  "testimonies": {
+    "label": "// TESTIMONIES — WHOSE FACE IS IT?",
+    "title": "The wall of witnesses",
+    "intro": "One sentence. Who do you see in the face the machine was never asked to make? The litany scrolls slowly, like credits for a film nobody cast.",
+    "count": "{n} testimonies recorded",
+    "loading": "Reading the wall…",
+    "empty": "No one has spoken yet. Be the first witness.",
+    "anonymous": "Anonymous",
+    "share": "Share",
+    "copied": "Link copied",
+    "pause": "Pause",
+    "resume": "Resume",
+    "pauseHint": "Hover or tap the litany to hold it still.",
+    "form": {
+      "sentenceLabel": "Your sentence",
+      "sentencePlaceholder": "I see someone who was never photographed…",
+      "nameLabel": "Name (optional)",
+      "namePlaceholder": "How you want to be listed",
+      "counter": "{n} / {max}",
+      "submit": "Leave testimony",
+      "sending": "Recording…",
+      "thanks": "Recorded. Your sentence is on the wall.",
+      "queued": "Recorded. A moderator will release it to the wall."
+    },
+    "errors": {
+      "empty": "Say something first.",
+      "rate": "Too fast. Let the litany breathe.",
+      "url": "This wall holds sentences, not links.",
+      "email": "This wall holds sentences, not addresses.",
+      "slur": "That sentence will not be carved here.",
+      "duplicate": "You already said that.",
+      "network": "The wall did not answer. Try again.",
+      "generic": "The wall refused the offering. Try again."
+    }
+  },
+  "cosign": {
+    "label": "// CO-SIGN THE LETTER TO TILDA SWINTON",
+    "title": "Add your name to the letter",
+    "readLetter": "Read the full letter",
+    "hideLetter": "Hide the letter",
+    "counting": "Counting the signatures…",
+    "count": "{n} people have co-signed",
+    "privacy": "We store your full name, but only ever display a first name and an initial. The city is optional and shown as written.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "cityLabel": "City / country (optional)",
+      "cityPlaceholder": "Warsaw, PL",
+      "consent": "I sign as myself and agree to have my name shown.",
+      "submit": "Co-sign the letter",
+      "sending": "Signing…",
+      "thanks": "Signed. Thank you for standing with the question."
+    },
+    "errors": {
+      "name": "A signature needs a name.",
+      "consent": "Tick the box to sign as yourself.",
+      "rate": "You have already signed today.",
+      "duplicate": "This device has already signed.",
+      "rejected": "Names only — no links, no insults.",
+      "network": "The register did not answer. Try again.",
+      "generic": "The register refused the signature. Try again."
+    }
+  },
+  "embed": {
+    "kicker": "A TRIPTYCH OF ALGORITHMIC FATE",
+    "title": "The Latent Liturgy",
+    "question": "Why did \"transformation\" and \"eternity\" become her face?",
+    "clips": "clips",
+    "testimonies": "testimonies",
+    "verdicts": "verdicts",
+    "enter": "ENTER THE LITURGY"
+  }
+}

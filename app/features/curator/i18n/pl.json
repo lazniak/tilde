@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// WYZNAJ SWÓJ PROMPT",
+    "open": "OTWÓRZ",
+    "close": "ZAMKNIJ",
+    "intro": "Napisz własny prompt tak, jak napisał go artysta: same pojęcia. Żadnych twarzy, ciał ani nazwisk. Kurator powie ci, na jakiej twarzy zbiegłaby się przestrzeń latentna.",
+    "placeholder": "Tangens rozbiegający się do nieskończoności; fraktalna krawędź, gdzie wiara waży więcej niż fizyka…",
+    "counter": "{count} / {max}",
+    "submit": "ZŁÓŻ W PRZESTRZENI LATENTNEJ",
+    "working": "Zbieganie…",
+    "card": {
+      "archetype": "ARCHETYP",
+      "topology": "TOPOLOGIA",
+      "why": "DLACZEGO",
+      "attractor": "ATRAKTOR",
+      "verdict": "WERDYKT"
+    },
+    "rejected": {
+      "label": "// ODRZUCONE",
+      "fallback": "Ten prompt opisuje ciało, a nie pojęcie.",
+      "hint": "Spróbuj jeszcze raz, samymi pojęciami — bez opisu wyglądu, bez nazwisk."
+    },
+    "share": "UDOSTĘPNIJ",
+    "copied": "SKOPIOWANO",
+    "again": "WYZNAJ PONOWNIE",
+    "shareTitle": "The Latent Liturgy — twarz, którą przyciąga mój prompt",
+    "shareText": "Mój abstrakcyjny prompt zbiega się na: {archetype} — „{verdict}” (atraktor {strength}%)",
+    "error": {
+      "empty": "Najpierw coś napisz.",
+      "generic": "Przestrzeń latentna nie odpowiedziała. Spróbuj za chwilę.",
+      "rate": "Przestrzeń latentna wciąż się zbiega. Odczekaj {seconds} s.",
+      "daily": "Na dziś wyznałeś wystarczająco. Wróć jutro."
+    }
+  },
+  "voice": {
+    "hold": "◉ PRZYTRZYMAJ, BY ZAPYTAĆ",
+    "listening": "◉ SŁUCHAM…",
+    "hint": "Przytrzymaj przycisk, mów, puść. Kurator odpowie na głos.",
+    "youSaid": "POWIEDZIAŁEŚ",
+    "curator": "KURATOR",
+    "thinking": "Wsłuchuje się w siebie…",
+    "mute": "Wycisz głos Kuratora",
+    "unmute": "Pozwól Kuratorowi mówić",
+    "error": {
+      "denied": "Odmówiono dostępu do mikrofonu. Ten rytuał potrzebuje twojego głosu.",
+      "nospeech": "Cisza. Nic nie usłyszano.",
+      "generic": "Mikrofon zawiódł. Spróbuj ponownie."
+    }
+  },
+  "tally": {
+    "label": "REJESTR ATRAKTORA",
+    "line": "model nazwał ją {recognised} na {total} razy · wyznanych promptów: {confessions}"
+  }
+}

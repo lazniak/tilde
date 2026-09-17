@@ -1,1 +1,121 @@
-{}
+{
+  "common": {
+    "expand": "[ OPEN ]",
+    "collapse": "[ CLOSE ]",
+    "loading": "Loading…"
+  },
+  "map": {
+    "label": "// LATENT MAP — 65 clips as a constellation",
+    "intro": "Every surviving clip, placed by where it falls in the 198-second montage and by how hard it pulls toward the face nobody asked for. The arithmetic is ours, not the model's — it is printed below so you can disagree with it.",
+    "hint": "Tap or focus a point to read the clip and send the player to it.",
+    "pointLabel": "{file}, second {second}, attractor proximity {proximity}",
+    "cardMeta": "t = {second}s · proximity {proximity}",
+    "legendAttractor": "attractor (≥ 0.60)",
+    "legendNear": "figure present",
+    "legendNoFace": "no figure",
+    "tally": "{attractors} of {total} clips sit in attractor range",
+    "formula": "proximity = 0.50 if Woman_The_Medium is in the scene + 0.25 if the shot is a close-up, face, eye, profile, portrait or scream + 0.10 if shot through Prop_Prism_Lens − 0.20 if no human asset at all, clamped to 0…1, with a fixed per-clip jitter so overlapping dots stay readable."
+  },
+  "emergence": {
+    "label": "// EMERGENCE — noise → face",
+    "intro": "Run the diffusion backwards by hand. At zero there is only seeded grain; as you pull right the block size collapses from 24 pixels to one and she resolves out of it.",
+    "canvasLabel": "The source asset rendered at {percent} percent emergence",
+    "sliderLabel": "Emergence: from latent noise to the source asset",
+    "min": "0% LATENT NOISE",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "face withheld until acknowledged",
+    "clamped": "Held at {percent}% until you acknowledge the face in the panel above.",
+    "failed": "The source asset would not load."
+  },
+  "heatmap": {
+    "label": "// ATTENTION ARCHAEOLOGY — which words pulled the face?",
+    "intro": "The prompt contains no body, no age, no hair, no bones. Ask the model which fragments of it would still drag a diffusion system toward an ageless, androgynous, pale, high-cheekboned face.",
+    "button": "EXCAVATE",
+    "working": "Reading the strata",
+    "model": "model: {model}",
+    "originalNote": "The heat is computed on the English original — the weights are keyed to those exact words.",
+    "summaryLabel": "// VERDICT",
+    "topLabel": "// STRONGEST PULL",
+    "count": "{count} fragments weighted",
+    "cached": "Served from the excavation log.",
+    "fresh": "Excavated just now.",
+    "errorLabel": "// NO READING",
+    "error": "The excavation stalled. The strata would not read.",
+    "retry": "TRY AGAIN"
+  },
+  "timeline": {
+    "label": "// TIMELINE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Four days, most of them waiting. Drag the playhead or use the arrow keys. Almost every timestamp is the real modification time of a file that still ships with this site.",
+    "sliderLabel": "Four days of creation",
+    "position": "{n} / {total}",
+    "prev": "Previous event",
+    "next": "Next event",
+    "approx": "reconstructed",
+    "exact": "file timestamp",
+    "events": {
+      "prompt": {
+        "title": "The prompt is written",
+        "text": "A metaphysical text about the Heavenly Kingdom, the divergence of the tangent function and the fractal edges of contact. No body, no face, no age, no hair — nothing physical at all."
+      },
+      "transcription": {
+        "title": "The song is transcribed",
+        "text": "The Polish vocal is run through the scribe and lands as a character-level transcript. Everything downstream — the montage, the cuts, the dramaturgy — is timed against this file."
+      },
+      "analysis": {
+        "title": "Stage 1 — the reading",
+        "text": "The pipeline reads the prompt and the lyrics together and writes back what it believes the piece is about. Still no person described anywhere."
+      },
+      "narrative": {
+        "title": "Stage 3 — the storyline",
+        "text": "The narrative names its protagonist Woman_The_Medium: ageless features, minimal expression, Butoh movement, the soul trapped in the avatar. A role, not a person."
+      },
+      "palette": {
+        "title": "Stage 3 — the palette",
+        "text": "Six colours are fixed: bone, void, bunker, stratosphere blue, solar flare amber, prismatic white. The same six this site is painted in."
+      },
+      "face": {
+        "title": "10:43:36 — the face arrives",
+        "text": "asset_Woman_The_Medium.png is written to disk. From an abstract role description the model returns a specific, recognisable human face. This is the anomaly; everything before it is text."
+      },
+      "assets": {
+        "title": "Eleven assets complete",
+        "text": "Locations, costumes and props are rendered and registered — desert, bunker, mirror, prism, strobe, dust, bowl. The cast of the film is now fixed."
+      },
+      "montage": {
+        "title": "Stage 6 — the montage plan",
+        "text": "The song is cut into scenes against the transcription: where the breath falls, where the blast lands, where the tangent breaks."
+      },
+      "prompts": {
+        "title": "Seventy-one clip prompts",
+        "text": "One positive prompt per scene, each naming only the registered assets. The face is now propagated by reference — the model is never asked for it again."
+      },
+      "frames": {
+        "title": "Seventy-one start frames",
+        "text": "Every scene gets a still to start from. Fifty-five minutes of rendering: the longest single wait in the whole pipeline."
+      },
+      "motion": {
+        "title": "Stage 9 — the motion prompts",
+        "text": "Camera moves and choreography are written for each frame, then the timeline that binds them to the audio is emitted."
+      },
+      "kling": {
+        "title": "Kling v2.6 — the clips",
+        "text": "Twenty-one minutes of video generation. Seventy-one clips attempted, sixty-eight delivered, three dropped: indices 21, 50 and 54 never made it and the montage was rebuilt around their absence."
+      },
+      "edit": {
+        "title": "The final edit",
+        "text": "Three quiet days later the piece is assembled, the export prompts are rewritten in both languages and the cut is locked at 3:33."
+      },
+      "launch": {
+        "title": "The site, and the letter",
+        "text": "The triptych goes online and an open letter is addressed to the woman whose face was never requested and arrived anyway."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Full-screen gallery mode: the four panels cycle on their own. Escape to leave.",
+    "scan": "Scan to continue on your phone",
+    "exit": "EXIT"
+  }
+}

@@ -10,12 +10,13 @@ import { StemMixer } from '../StemMixer'
 import { OfferingBlock } from '../Offering'
 import { LanguageSwitcher } from '../LanguageSwitcher'
 import { Slot } from '../Slot'
+import { narrator } from '../Narrator'
 
 const fmt = (s: number) => `${Math.floor(s / 60)}:${Math.floor(s % 60).toString().padStart(2, '0')}`
 
 export function Hub() {
   const { goToSection, currentStage, currentTime, isPlaying, toggleAudio, showMixer, setShowMixer } = useLiturgy()
-  const { t } = useI18n()
+  const { t, lang } = useI18n()
   const activeLayers = [...ASSEMBLAGE_STAGES[currentStage].layers] as number[]
 
   const cards = [
@@ -132,6 +133,20 @@ export function Hub() {
             })}
           </div>
         </motion.div>
+
+        {/* Artist's statement — the long narration in the artist's voice */}
+        <button
+          onClick={() => narrator.play(lang, 'statement')}
+          className="mt-6 max-w-md mx-auto w-full flex items-center gap-3 p-3 border border-bunker/30 hover:border-prismatic/50 bg-void/60 text-left transition-colors"
+        >
+          <span className="w-8 h-8 shrink-0 flex items-center justify-center border border-prismatic/40 text-prismatic" aria-hidden>
+            ▶
+          </span>
+          <span className="min-w-0">
+            <span className="block font-mono text-[10px] text-prismatic tracking-[0.3em]">{t('voice.statementTitle')}</span>
+            <span className="block font-mono text-[10px] text-bunker truncate">{t('voice.statementHint')}</span>
+          </span>
+        </button>
 
         <OfferingBlock />
       </div>

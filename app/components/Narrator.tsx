@@ -12,7 +12,7 @@ import { getAudioEngine } from '@/app/lib/audioEngine'
  * ElevenLabs character alignment for karaoke subtitles). Missing language → English.
  */
 
-export type VoiceSegment = 'entry' | 'hub' | 'genesis' | 'incarnation' | 'exegesis' | 'epilogue'
+export type VoiceSegment = 'entry' | 'hub' | 'genesis' | 'incarnation' | 'exegesis' | 'epilogue' | 'statement'
 
 const SCREEN_SEGMENT: Partial<Record<Screen, VoiceSegment>> = {
   explore: 'hub',
@@ -187,27 +187,29 @@ export function Narrator() {
     if (!entered || !narratorOn) return
     const segment = SCREEN_SEGMENT[screen]
     if (!segment) return
+    const firstHub = screen === 'explore' && !visitedRef.current.has('explore')
+    const allPanelsSeen = ['genesis', 'incarnation', 'exegesis'].every(s => visitedRef.current.has(s as Screen))
+    visitedRef.current.add(screen)
+
+    // Epilogue once the visitor has seen all three panels and returns to the hub.
+    if (screen === 'explore' && allPanelsSeen && !playedRef.current.has(`${lang}:epilogue`)) {
+      playedRef.current.add(`${lang}:epilogue`)
+      queueRef.current = []
+      void playSegment('epilogue')
+      return
+    }
+
     const key = `${lang}:${segment}`
     if (playedRef.current.has(key)) return
     playedRef.current.add(key)
 
-    if (screen === 'explore' && !visitedRef.current.has('explore')) {
+    if (firstHub) {
       // First arrival: intro, then the hub guidance.
       queueRef.current = ['hub']
       void playSegment('entry')
     } else {
       queueRef.current = []
       void playSegment(segment)
-    }
-    visitedRef.current.add(screen)
-    // Epilogue once the visitor has seen all three panels and returns to the hub.
-    if (
-      screen === 'explore' &&
-      ['genesis', 'incarnation', 'exegesis'].every(s => visitedRef.current.has(s as Screen)) &&
-      !playedRef.current.has(`${lang}:epilogue`)
-    ) {
-      playedRef.current.add(`${lang}:epilogue`)
-      queueRef.current = ['epilogue']
     }
   }, [screen, entered, narratorOn, lang, playSegment])
 
@@ -222,7 +224,7 @@ export function Narrator() {
     if (isPlaying && current) void getEl().play().catch(() => undefined)
   }, [isPlaying, current])
 
-  const text = current ? tOptional(`voice.${current}`) : undefined
+  const text = current ? tOptional(`voice.${current}`) ?? (current === 'statement' ? t('voice.statementTitle') : undefined) : undefined
   const alignment = alignmentRef.current
   const highlightUpTo = alignment && charIndex >= 0 ? alignment.characters.slice(0, charIndex + 1).join('').length : -1
 
@@ -234,7 +236,7 @@ export function Narrator() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 12 }}
-            className="fixed left-2 right-2 sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(40rem,92vw)] z-40 bottom-[calc(var(--nav-h)+0.5rem)]"
+            className="fixed left-2 right-2 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 sm:w-[min(40rem,92vw)] z-40 bottom-[calc(var(--nav-h)+0.5rem)]"
             role="status"
             aria-live="polite"
           >

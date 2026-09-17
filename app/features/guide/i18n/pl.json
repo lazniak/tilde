@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TRASA",
+    "start": "Uruchom zwiedzanie z przewodnikiem",
+    "stop": "Zatrzymaj zwiedzanie",
+    "hint": "Pozwól, by głos artysty przeprowadził cię przez wszystkie trzy panele. Dotknij czegokolwiek, by przejąć stery.",
+    "indicator": "TRASA · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AWATAR",
+      "exegesis": "KURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "PRZECHYŁ",
+    "on": "Miksuj przechylając telefon",
+    "off": "Zakończ miksowanie przechyłem",
+    "rhythm": "RYTM",
+    "harmony": "HARMONIA",
+    "voices": "GŁOSY",
+    "denied": "Odmówiono dostępu do czujnika ruchu. Zezwól na niego w ustawieniach przeglądarki, by miksować przechyłem.",
+    "unsupported": "To urządzenie nie podaje orientacji. Użyj miksera."
+  }
+}

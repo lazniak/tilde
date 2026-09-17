@@ -20,7 +20,7 @@ OPENROUTER_API_KEY=sk-or-v1-…
 SESSION_SECRET=<64 random hex chars>          # keeps anti-abuse tokens valid across restarts
 SITE_URL=https://eon.pablogfx.com
 # optional
-OPENROUTER_MODEL=google/gemini-flash-latest
+OPENROUTER_MODEL=~google/gemini-flash-latest
 TESTIMONY_MODERATION=post                     # 'pre' = testimonies need approval
 MOD_TOKEN=<random>                            # header x-mod-token for DELETE /api/community/testimony
 LITURGY_DATA_DIR=/var/www/liturgy/data

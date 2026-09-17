@@ -4,7 +4,7 @@
 
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
-export const CHAT_MODEL = process.env.OPENROUTER_MODEL || 'google/gemini-flash-latest'
+export const CHAT_MODEL = process.env.OPENROUTER_MODEL || '~google/gemini-flash-latest'
 export const VISION_MODEL = process.env.OPENROUTER_VISION_MODEL || CHAT_MODEL
 
 export type LlmRole = 'system' | 'user' | 'assistant'

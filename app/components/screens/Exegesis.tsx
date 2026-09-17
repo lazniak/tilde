@@ -8,8 +8,9 @@ import { AVATAR_IMAGE } from '@/app/lib/constants'
 import { CuratorError, streamCurator, type ChatMessage } from '@/app/lib/curatorClient'
 import { AmbientBackground } from '../AmbientBackground'
 import { Slot } from '../Slot'
+import { NoiseReveal } from '@/app/features/curator'
 
-const MODEL_LABEL = 'google/gemini-flash-latest'
+const MODEL_LABEL = '~google/gemini-flash-latest'
 
 export function Exegesis() {
   const { setScreen, currentStage, setStage, consentGiven } = useLiturgy()
@@ -142,7 +143,7 @@ export function Exegesis() {
                 </div>
                 {streaming ? (
                   <p className="font-mono text-[13px] sm:text-sm text-bone/90 whitespace-pre-wrap leading-relaxed">
-                    {streaming}
+                    <NoiseReveal text={streaming} done={!isTyping} />
                     <span className="inline-block w-2 h-3.5 bg-prismatic/70 align-middle ml-0.5 animate-pulse" />
                   </p>
                 ) : (

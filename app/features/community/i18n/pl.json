@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// ŚWIADECTWA — CZYJA TO TWARZ?",
+    "title": "Ściana świadków",
+    "intro": "Jedno zdanie. Kogo widzisz w twarzy, o którą maszyny nikt nie prosił? Litania przewija się powoli, jak napisy końcowe filmu, do którego nikt nie robił castingu.",
+    "count": "zapisanych świadectw: {n}",
+    "loading": "Czytanie ściany…",
+    "empty": "Nikt jeszcze nie przemówił. Bądź pierwszym świadkiem.",
+    "anonymous": "Anonim",
+    "share": "Udostępnij",
+    "copied": "Skopiowano link",
+    "pause": "Zatrzymaj",
+    "resume": "Wznów",
+    "pauseHint": "Najedź lub dotknij litanii, aby ją zatrzymać.",
+    "form": {
+      "sentenceLabel": "Twoje zdanie",
+      "sentencePlaceholder": "Widzę kogoś, kogo nigdy nie sfotografowano…",
+      "nameLabel": "Imię (opcjonalnie)",
+      "namePlaceholder": "Jak chcesz być podpisany",
+      "counter": "{n} / {max}",
+      "submit": "Zostaw świadectwo",
+      "sending": "Zapisywanie…",
+      "thanks": "Zapisane. Twoje zdanie jest na ścianie.",
+      "queued": "Zapisane. Moderator wypuści je na ścianę."
+    },
+    "errors": {
+      "empty": "Najpierw coś napisz.",
+      "rate": "Za szybko. Daj litanii odetchnąć.",
+      "url": "Ta ściana przyjmuje zdania, nie linki.",
+      "email": "Ta ściana przyjmuje zdania, nie adresy.",
+      "slur": "Tego zdania tu nie wyryjemy.",
+      "duplicate": "To już powiedziałeś.",
+      "network": "Ściana nie odpowiedziała. Spróbuj ponownie.",
+      "generic": "Ściana odrzuciła ofiarę. Spróbuj ponownie."
+    }
+  },
+  "cosign": {
+    "label": "// PODPISZ LIST DO TILDY SWINTON",
+    "title": "Dopisz swoje imię do listu",
+    "readLetter": "Przeczytaj cały list",
+    "hideLetter": "Ukryj list",
+    "counting": "Liczenie podpisów…",
+    "count": "list podpisało osób: {n}",
+    "privacy": "Przechowujemy pełne imię i nazwisko, ale pokazujemy wyłącznie imię i pierwszą literę nazwiska. Miasto jest opcjonalne i wyświetlane tak, jak je wpiszesz.",
+    "form": {
+      "nameLabel": "Imię i nazwisko",
+      "namePlaceholder": "Twoje imię i nazwisko",
+      "cityLabel": "Miasto / kraj (opcjonalnie)",
+      "cityPlaceholder": "Warszawa, PL",
+      "consent": "Podpisuję się jako ja i zgadzam się na pokazanie mojego imienia.",
+      "submit": "Podpisz list",
+      "sending": "Podpisywanie…",
+      "thanks": "Podpisano. Dziękujemy, że stoisz przy tym pytaniu."
+    },
+    "errors": {
+      "name": "Podpis potrzebuje imienia.",
+      "consent": "Zaznacz zgodę, aby podpisać.",
+      "rate": "Dziś już podpisałeś.",
+      "duplicate": "To urządzenie już podpisało.",
+      "rejected": "Tylko imiona — bez linków i obelg.",
+      "network": "Rejestr nie odpowiedział. Spróbuj ponownie.",
+      "generic": "Rejestr odrzucił podpis. Spróbuj ponownie."
+    }
+  },
+  "embed": {
+    "kicker": "TRYPTYK ALGORYTMICZNEGO LOSU",
+    "title": "The Latent Liturgy",
+    "question": "Dlaczego „transformacja” i „wieczność” stały się jej twarzą?",
+    "clips": "klipów",
+    "testimonies": "świadectw",
+    "verdicts": "werdyktów",
+    "enter": "WEJDŹ W LITURGIĘ"
+  }
+}

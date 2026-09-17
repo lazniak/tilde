@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Machine-translate the UI dictionaries into every locale from app/lib/i18n/config.ts
- * using OpenRouter (default model: google/gemini-flash-latest).
+ * using OpenRouter (default model: ~google/gemini-flash-latest).
  *
  *   node scripts/translate.mjs                 # translate missing keys for all locales
  *   node scripts/translate.mjs --lang de,fr    # only some locales
@@ -30,7 +30,7 @@ if (!API_KEY) {
   console.error('OPENROUTER_API_KEY missing (set it in .env.local)')
   process.exit(1)
 }
-const MODEL = process.env.OPENROUTER_TRANSLATE_MODEL || process.env.OPENROUTER_MODEL || 'google/gemini-flash-latest'
+const MODEL = process.env.OPENROUTER_TRANSLATE_MODEL || process.env.OPENROUTER_MODEL || '~google/gemini-flash-latest'
 
 // Parse the locale registry without importing TS: pull `{ code: 'xx', ... llm: '...' }` pairs.
 const configSrc = await fs.readFile(path.join(ROOT, 'app/lib/i18n/config.ts'), 'utf8')

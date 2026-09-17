@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://eon.pablogfx.com'),
   // Basic metadata
   title: 'The Latent Liturgy | AI Generated Tilda Swinton - A Case Study in Algorithmic Bias',
   description: 'An interactive investigation into how Google\'s AI (Gemini/Nano Banana Pro) generated actress Tilda Swinton\'s likeness from abstract philosophical concepts alone. No name, no photo, no physical description was provided — yet the AI produced her recognizable face. This project explores the ethical, legal, and philosophical implications of AI-generated likenesses, latent space biases, and the future of digital identity.',
@@ -54,8 +53,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/api/community/og?type=default',
-        width: 1024,
-        height: 1024,
+        width: 1200,
+        height: 630,
         alt: 'The Algorithmic Muse - AI-generated image resembling Tilda Swinton, created from abstract philosophical concepts without any physical description',
         type: 'image/png',
       },

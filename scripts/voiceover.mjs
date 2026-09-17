@@ -33,6 +33,7 @@ const VOICE_ID = process.env.ELEVEN_VOICE_ID || 'q2Jflwxxc8OoEk4kjqyg'
 const MODEL_ID = process.env.ELEVEN_MODEL_ID || 'eleven_v3'
 const SEGMENTS = ['entry', 'hub', 'genesis', 'incarnation', 'exegesis', 'epilogue']
 const TRAILER = ' [pause].'
+const MAX_CHARS = 4800
 
 if (!API_KEY && !flag('--dry')) {
   console.error('ELEVENLABS_API_KEY missing')
@@ -80,11 +81,29 @@ for (const lang of langs) {
     }
     process.stdout.write(`  ${lang}/${job.segment}: generating (${text.length} chars)… `)
     try {
-      const { audio, alignment } = await tts(text)
-      await fs.writeFile(mp3, audio)
-      if (alignment) await fs.writeFile(path.join(outDir, `${job.segment}.json`), JSON.stringify(alignment), 'utf8')
-      generated++
-      console.log(`ok${alignment ? ' +alignment' : ''}`)
+      if (text.length > MAX_CHARS) {
+        // ElevenLabs caps a request at 5000 chars: split at paragraph boundaries, each part ends with the tag, then concatenate.
+        const parts = splitText(normalise(job.text), MAX_CHARS - TRAILER.length).map(p => p + TRAILER)
+        const tmpFiles = []
+        for (let i = 0; i < parts.length; i++) {
+          const { audio } = await tts(parts[i])
+          const tmp = path.join(outDir, `${job.segment}.part${i}.mp3`)
+          await fs.writeFile(tmp, audio)
+          tmpFiles.push(tmp)
+          process.stdout.write(`${i + 1}/${parts.length} `)
+          await sleep(400)
+        }
+        await concatMp3(tmpFiles, mp3)
+        for (const f of tmpFiles) await fs.unlink(f).catch(() => undefined)
+        generated++
+        console.log('ok (concatenated)')
+      } else {
+        const { audio, alignment } = await tts(text)
+        await fs.writeFile(mp3, audio)
+        if (alignment) await fs.writeFile(path.join(outDir, `${job.segment}.json`), JSON.stringify(alignment), 'utf8')
+        generated++
+        console.log(`ok${alignment ? ' +alignment' : ''}`)
+      }
     } catch (e) {
       console.log(`FAILED: ${e.message}`)
     }
@@ -115,7 +134,53 @@ async function tts(text) {
 }
 
 function normalise(t) {
-  return t.replace(/\s+/g, ' ').replace(/\s+\[pause\]\.?$/i, '').trim()
+  return t
+    .replace(/[ \t]+/g, ' ')
+    .replace(/\r/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/\s+\[pause\]\.?$/i, '')
+    .trim()
+}
+
+/** Split long text at paragraph (then sentence) boundaries into chunks ≤ limit chars. */
+function splitText(text, limit) {
+  const paras = text.split(/\n\s*\n/)
+  const chunks = []
+  let cur = ''
+  const push = () => {
+    if (cur.trim()) chunks.push(cur.trim())
+    cur = ''
+  }
+  for (const p of paras) {
+    if (p.length > limit) {
+      push()
+      for (const sentence of p.match(/[^.!?]+[.!?]+["»”]?\s*|[^.!?]+$/g) || [p]) {
+        if ((cur + sentence).length > limit) push()
+        cur += sentence
+      }
+      push()
+    } else if ((cur + '\n\n' + p).length > limit) {
+      push()
+      cur = p
+    } else {
+      cur = cur ? cur + '\n\n' + p : p
+    }
+  }
+  push()
+  return chunks
+}
+
+async function concatMp3(files, out) {
+  const { execFile } = await import('node:child_process')
+  const { promisify } = await import('node:util')
+  const list = out + '.txt'
+  const lines = files.map(f => `file '${path.resolve(f).replace(/\\/g, '/').replace(/'/g, "'\\''")}'`)
+  await fs.writeFile(list, lines.join('\n'), 'utf8')
+  try {
+    await promisify(execFile)('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', out])
+  } finally {
+    await fs.unlink(list).catch(() => undefined)
+  }
 }
 
 async function readStatement(lang) {
