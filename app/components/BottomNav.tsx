@@ -59,15 +59,31 @@ export function BottomNav() {
             <span className="hidden sm:inline">{t('nav.hub')}</span>
           </button>
 
-          {/* Desktop: audio + extras on the same row */}
-          <div className="hidden sm:flex items-center gap-3 ml-auto">
-            <AudioCluster />
+          {/* Wide screens (lg+): audio + extras on the same row; below that the cluster gets its own row so it never overflows */}
+          <div className="hidden lg:flex items-center gap-3 ml-auto">
+            <AudioCluster
+              isPlaying={isPlaying}
+              toggleAudio={toggleAudio}
+              currentTime={currentTime}
+              duration={duration}
+              stageLabel={t(`stages.${currentStage}`)}
+              playLabel={t('common.play')}
+              pauseLabel={t('common.pause')}
+            />
           </div>
         </div>
 
-        {/* Row 2 (mobile only): audio cluster */}
-        <div className="flex sm:hidden items-center gap-2">
-          <AudioCluster />
+        {/* Row 2 (below lg): audio cluster */}
+        <div className="flex lg:hidden items-center gap-2">
+          <AudioCluster
+              isPlaying={isPlaying}
+              toggleAudio={toggleAudio}
+              currentTime={currentTime}
+              duration={duration}
+              stageLabel={t(`stages.${currentStage}`)}
+              playLabel={t('common.play')}
+              pauseLabel={t('common.pause')}
+            />
         </div>
       </div>
 
@@ -84,32 +100,48 @@ export function BottomNav() {
       <LayerDots layers={activeLayers} />
     </motion.nav>
   )
+}
 
-  function AudioCluster() {
-    return (
-      <>
-        <button
-          onClick={toggleAudio}
-          aria-label={isPlaying ? t('common.pause') : t('common.play')}
-          className={`w-9 h-9 flex items-center justify-center border transition-all ${
-            isPlaying ? 'border-flare bg-flare/10 text-flare' : 'border-bunker bg-void text-bunker hover:border-stratosphere hover:text-stratosphere'
-          }`}
-        >
-          <span className="text-base leading-none">{isPlaying ? '❚❚' : '▶'}</span>
-        </button>
-        <div className="flex flex-col min-w-0 flex-1 sm:flex-none sm:min-w-[7rem]">
-          <div className="font-mono text-[11px] text-bone leading-tight">
-            {fmt(currentTime)} <span className="text-bunker/50">/ {fmt(duration)}</span>
-          </div>
-          <div className="font-mono text-[9px] text-bunker/60 truncate">{t(`stages.${currentStage}`)}</div>
+interface AudioClusterProps {
+  isPlaying: boolean
+  toggleAudio: () => void
+  currentTime: number
+  duration: number
+  stageLabel: string
+  playLabel: string
+  pauseLabel: string
+}
+
+/**
+ * Kept at module level on purpose: defining it inside BottomNav would create a
+ * new component type on every currentTime tick, and React would then unmount
+ * and remount the narrator toggle, tour button, candle and language switcher
+ * several times a second (flicker, lost clicks, restarted animations).
+ */
+function AudioCluster({ isPlaying, toggleAudio, currentTime, duration, stageLabel, playLabel, pauseLabel }: AudioClusterProps) {
+  return (
+    <>
+      <button
+        onClick={toggleAudio}
+        aria-label={isPlaying ? pauseLabel : playLabel}
+        className={`w-9 h-9 flex items-center justify-center border transition-all ${
+          isPlaying ? 'border-flare bg-flare/10 text-flare' : 'border-bunker bg-void text-bunker hover:border-stratosphere hover:text-stratosphere'
+        }`}
+      >
+        <span className="text-base leading-none">{isPlaying ? '❚❚' : '▶'}</span>
+      </button>
+      <div className="flex flex-col min-w-0 flex-1 lg:flex-none lg:min-w-[7rem]">
+        <div className="font-mono text-[11px] text-bone leading-tight">
+          {fmt(currentTime)} <span className="text-bunker/50">/ {fmt(duration)}</span>
         </div>
-        <NarratorToggle />
-        <Slot name="navExtras" />
-        <OfferingLink />
-        <LanguageSwitcher className="hidden md:inline-flex" />
-      </>
-    )
-  }
+        <div className="font-mono text-[9px] text-bunker/60 truncate">{stageLabel}</div>
+      </div>
+      <NarratorToggle />
+      <Slot name="navExtras" />
+      <OfferingLink />
+      <LanguageSwitcher className="hidden md:inline-flex" />
+    </>
+  )
 }
 
 function LayerDots({ layers }: { layers: number[] }) {

@@ -1,13 +1,15 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useLiturgy } from '@/app/lib/LiturgyContext'
 import { useI18n } from '@/app/lib/i18n/I18nProvider'
 import { STEMS } from '@/app/lib/constants'
 import type { StemId } from '@/app/lib/audioEngine'
 
 /**
- * Phone-only tilt mixer. DeviceOrientation drives the stem levels:
+ * Phone-only tilt mixer, rendered as a button in the bottom nav (navExtras slot)
+ * with its readout floating just above the bar. DeviceOrientation drives the stem levels:
  *   gamma (roll, ±30°)  — left favours rhythm (drums/percussion/bass),
  *                         right favours harmony (synth/keyboard/other/backing);
  *                         the losing group drops to FLOOR.
@@ -182,54 +184,64 @@ export function TiltMixer() {
 
   if (!isTouch || screen === 'landing') return null
 
+  const panel =
+    (on || status !== 'idle') && typeof document !== 'undefined'
+      ? createPortal(
+          <div className="fixed right-2 bottom-[calc(var(--nav-h)+0.5rem)] z-40 flex flex-col items-end gap-1 pointer-events-none" aria-hidden>
+            {on ? (
+              <div className="w-[7.5rem] p-1.5 border border-flare/30 bg-void/85 backdrop-blur-sm flex flex-col gap-1.5">
+                <div>
+                  <div className="flex justify-between font-mono text-[7px] tracking-[0.15em] text-bunker/70">
+                    <span>{t('guide.tilt.rhythm')}</span>
+                    <span>{t('guide.tilt.harmony')}</span>
+                  </div>
+                  <div className="relative h-[3px] bg-bunker/20 mt-0.5">
+                    <div className="absolute inset-y-0 left-1/2 w-px bg-bunker/40" />
+                    <div
+                      className="absolute inset-y-0 bg-stratosphere"
+                      style={{
+                        left: `${Math.min(readout.balance, 0.5) * 100}%`,
+                        width: `${Math.abs(readout.balance - 0.5) * 100}%`,
+                      }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="font-mono text-[7px] tracking-[0.15em] text-bunker/70">{t('guide.tilt.voices')}</div>
+                  <div className="relative h-[3px] bg-bunker/20 mt-0.5">
+                    <div className="absolute inset-y-0 left-0 bg-flare" style={{ width: `${readout.voices * 100}%` }} />
+                  </div>
+                </div>
+              </div>
+            ) : null}
+
+            {status !== 'idle' && !on ? (
+              <p className="max-w-[10.5rem] p-1.5 border border-bunker/30 bg-void/85 font-mono text-[9px] leading-snug text-bunker/80 text-right">
+                {t(status === 'denied' ? 'guide.tilt.denied' : 'guide.tilt.unsupported')}
+              </p>
+            ) : null}
+          </div>,
+          document.body
+        )
+      : null
+
   return (
-    <div className="fixed top-14 right-3 z-40 flex flex-col items-end gap-1">
+    <>
       <button
         type="button"
         onClick={() => (on ? disable() : void enable())}
         aria-pressed={on}
         aria-label={on ? t('guide.tilt.off') : t('guide.tilt.on')}
-        className={`h-9 px-2 flex items-center gap-1.5 border font-mono text-[9px] tracking-[0.2em] uppercase transition-all ${
-          on ? 'border-flare/60 text-flare bg-flare/10' : 'border-bunker/40 text-bunker bg-void/80'
+        title={t('guide.tilt.label')}
+        className={`h-9 px-2 xl:px-3 flex items-center gap-1.5 border font-mono text-[9px] sm:text-[10px] tracking-wider transition-all ${
+          on ? 'border-flare/60 text-flare bg-flare/10' : 'border-bunker/30 text-bunker hover:text-bone hover:border-bone'
         }`}
       >
         <span aria-hidden>⟁</span>
-        <span>{t('guide.tilt.label')}</span>
+        <span className="hidden xl:inline">{t('guide.tilt.label')}</span>
       </button>
-
-      {on ? (
-        <div className="w-[7.5rem] p-1.5 border border-flare/30 bg-void/85 flex flex-col gap-1.5" aria-hidden>
-          <div>
-            <div className="flex justify-between font-mono text-[7px] tracking-[0.15em] text-bunker/70">
-              <span>{t('guide.tilt.rhythm')}</span>
-              <span>{t('guide.tilt.harmony')}</span>
-            </div>
-            <div className="relative h-[3px] bg-bunker/20 mt-0.5">
-              <div className="absolute inset-y-0 left-1/2 w-px bg-bunker/40" />
-              <div
-                className="absolute inset-y-0 bg-stratosphere"
-                style={{
-                  left: `${Math.min(readout.balance, 0.5) * 100}%`,
-                  width: `${Math.abs(readout.balance - 0.5) * 100}%`,
-                }}
-              />
-            </div>
-          </div>
-          <div>
-            <div className="font-mono text-[7px] tracking-[0.15em] text-bunker/70">{t('guide.tilt.voices')}</div>
-            <div className="relative h-[3px] bg-bunker/20 mt-0.5">
-              <div className="absolute inset-y-0 left-0 bg-flare" style={{ width: `${readout.voices * 100}%` }} />
-            </div>
-          </div>
-        </div>
-      ) : null}
-
-      {status !== 'idle' && !on ? (
-        <p className="max-w-[10.5rem] p-1.5 border border-bunker/30 bg-void/85 font-mono text-[9px] leading-snug text-bunker/80 text-right">
-          {t(status === 'denied' ? 'guide.tilt.denied' : 'guide.tilt.unsupported')}
-        </p>
-      ) : null}
-    </div>
+      {panel}
+    </>
   )
 }
 

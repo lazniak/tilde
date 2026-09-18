@@ -325,14 +325,14 @@ export function TourButton() {
         aria-pressed={running}
         aria-label={running ? t('guide.tour.stop') : t('guide.tour.start')}
         title={running ? t('guide.tour.stop') : t('guide.tour.hint')}
-        className={`h-9 px-2 sm:px-3 flex items-center gap-1.5 border font-mono text-[9px] sm:text-[10px] tracking-wider transition-all ${
+        className={`h-9 px-2 xl:px-3 flex items-center gap-1.5 border font-mono text-[9px] sm:text-[10px] tracking-wider transition-all ${
           running
             ? 'border-prismatic/60 text-prismatic bg-prismatic/5'
             : 'border-bunker/30 text-bunker hover:text-bone hover:border-bone'
         }`}
       >
         <span aria-hidden>{running ? '■' : '▷'}</span>
-        <span className="hidden sm:inline">{t('guide.tour.label')}</span>
+        <span className="hidden xl:inline">{t('guide.tour.label')}</span>
       </button>
 
       {mounted && step
