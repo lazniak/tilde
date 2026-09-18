@@ -24,6 +24,8 @@ const RATE_LIMIT = {
 }
 
 const MIN_PHRASES = 12
+/** Below this the answer is served but not cached, so the next visitor gets a fresh attempt. */
+const CACHE_MIN_PHRASES = 8
 const MAX_PHRASES = 18
 const MAX_REASON_CHARS = 180
 const MAX_SUMMARY_CHARS = 600
@@ -137,7 +139,7 @@ export async function POST(request: NextRequest) {
         { role: 'system', content: systemPrompt(langName) },
         { role: 'user', content: `PROMPT (English original, do not translate the "phrase" values):\n\n${PAUL_PROMPT}` },
       ],
-      { json: true, temperature: 0.5, maxTokens: 1600 }
+      { json: true, temperature: 0.5, maxTokens: 3000 }
     )
 
     let parsed: { phrases?: unknown; summary?: unknown }
@@ -153,7 +155,11 @@ export async function POST(request: NextRequest) {
     if (!phrases.length) throw new LlmError(502, 'no phrase survived validation')
     const summary = typeof parsed.summary === 'string' ? parsed.summary.trim().slice(0, MAX_SUMMARY_CHARS) : ''
 
-    await appendRecord(COLLECTION, { lang, model: CHAT_MODEL, phrases, summary })
+    if (phrases.length >= CACHE_MIN_PHRASES && summary) {
+      await appendRecord(COLLECTION, { lang, model: CHAT_MODEL, phrases, summary })
+    } else {
+      console.warn(`heatmap ${lang}: thin answer (${phrases.length} phrases, summary ${summary.length} chars) — not cached`)
+    }
 
     return NextResponse.json(
       { phrases, summary, lang, model: CHAT_MODEL, cached: false },

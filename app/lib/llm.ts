@@ -25,6 +25,12 @@ export interface LlmOptions {
   topP?: number
   /** Ask OpenRouter for a JSON object response */
   json?: boolean
+  /**
+   * Thinking budget. OpenRouter counts reasoning tokens against max_tokens, and
+   * Gemini Flash happily burns the whole budget on thinking before writing a
+   * single visible character, so every call defaults to a low effort.
+   */
+  reasoning?: 'none' | 'minimal' | 'low' | 'medium' | 'high'
 }
 
 export class LlmError extends Error {
@@ -54,6 +60,7 @@ function body(messages: LlmMessage[], opts: LlmOptions, stream: boolean) {
     temperature: opts.temperature ?? 0.9,
     top_p: opts.topP ?? 0.95,
     max_tokens: opts.maxTokens ?? 1024,
+    reasoning: { effort: opts.reasoning ?? 'low', exclude: true },
     ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
   })
 }
