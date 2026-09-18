@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TUR",
+    "start": "Rehberli turu başlat",
+    "stop": "Rehberli turu durdur",
+    "hint": "Sanatçının sesinin size üç panel boyunca eşlik etmesine izin verin. Kontrolü devralmak için herhangi bir yere dokunun.",
+    "indicator": "TUR · {label} {step}/{total}",
+    "step": {
+      "hub": "MERKEZ",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KÜRATÖR",
+      "epilogue": "EPİLOG"
+    }
+  },
+  "tilt": {
+    "label": "EĞİM",
+    "on": "Telefonu eğerek miksle",
+    "off": "Eğerek mikslemeyi durdur",
+    "rhythm": "RİTİM",
+    "harmony": "HARMONİ",
+    "voices": "SESLER",
+    "denied": "Hareket erişimi reddedildi. Eğerek mikslemek için tarayıcı ayarlarınızdan izin verin.",
+    "unsupported": "Bu cihaz yönelim bilgisi bildirmiyor. Bunun yerine mikseri kullanın."
+  }
+}

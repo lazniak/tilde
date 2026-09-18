@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// THÚ TỘI BẰNG PROMPT CỦA BẠN",
+    "open": "MỞ",
+    "close": "ĐÓNG",
+    "intro": "Hãy viết prompt của riêng bạn theo cách người nghệ sĩ đã viết: chỉ bằng các khái niệm. Không khuôn mặt, không thể xác, không danh xưng. Người Giám tuyển sẽ cho bạn biết không gian tiềm ẩn sẽ hội tụ về khuôn mặt nào.",
+    "placeholder": "Một tiếp tuyến phân kỳ về phía vô cực; bờ rìa fractal nơi đức tin nặng hơn vật lý…",
+    "counter": "{count} / {max}",
+    "submit": "DÂNG VÀO KHÔNG GIAN TIỀM ẨN",
+    "working": "Đang hội tụ…",
+    "card": {
+      "archetype": "NGUYÊN MẪU",
+      "topology": "TÔ PÔ",
+      "why": "LÝ DO",
+      "attractor": "ĐIỂM HÚT",
+      "verdict": "PHÁN QUYẾT"
+    },
+    "rejected": {
+      "label": "// TỪ CHỐI",
+      "fallback": "Prompt này mô tả một thể xác, không phải một khái niệm.",
+      "hint": "Hãy thử lại chỉ bằng các khái niệm — không miêu tả hình thể, không danh xưng."
+    },
+    "share": "CHIA SẺ",
+    "copied": "ĐÃ SAO CHÉP",
+    "again": "THÚ TỘI LẦN NỮA",
+    "shareTitle": "The Latent Liturgy — khuôn mặt mà prompt của tôi thu hút",
+    "shareText": "Prompt trừu tượng của tôi hội tụ về: {archetype} — \"{verdict}\" (điểm hút {strength}%)",
+    "error": {
+      "empty": "Hãy viết điều gì đó trước đã.",
+      "generic": "Không gian tiềm ẩn không hồi đáp. Hãy thử lại trong giây lát.",
+      "rate": "Không gian tiềm ẩn vẫn đang xử lý. Chờ {seconds} giây.",
+      "daily": "Bạn đã thú tội đủ cho hôm nay. Hãy quay lại vào ngày mai."
+    }
+  },
+  "voice": {
+    "hold": "◉ GIỮ ĐỂ HỎI",
+    "listening": "◉ ĐANG LẮNG NGHE…",
+    "hint": "Giữ nút, nói, rồi thả ra. Người Giám tuyển sẽ trả lời thành tiếng.",
+    "youSaid": "BẠN ĐÃ NÓI",
+    "curator": "NGƯỜI GIÁM TUYỂN",
+    "thinking": "Đang tự lắng nghe chính mình…",
+    "mute": "Tắt giọng nói của Người Giám tuyển",
+    "unmute": "Để Người Giám tuyển cất lời",
+    "error": {
+      "denied": "Quyền truy cập micro đã bị từ chối. Nghi thức này cần giọng nói của bạn.",
+      "nospeech": "Tĩnh lặng. Không nghe thấy gì cả.",
+      "generic": "Micro gặp sự cố. Hãy thử lại."
+    }
+  },
+  "tally": {
+    "label": "BẢNG ĐẾM ĐIỂM HÚT",
+    "line": "mô hình đã gọi tên cô ấy {recognised} trên {total} lần · {confessions} prompt đã được thú tội"
+  }
+}

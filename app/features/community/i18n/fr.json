@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TÉMOIGNAGES — À QUI APPARTIENT CE VISAGE ?",
+    "title": "Le mur des témoins",
+    "intro": "Une phrase. Qui voyez-vous dans ce visage que l'on n'a jamais demandé à la machine de créer ? La litanie défile lentement, comme le générique d'un film dont personne n'a distribué les rôles.",
+    "count": "{n} témoignages enregistrés",
+    "loading": "Lecture du mur…",
+    "empty": "Personne n'a encore parlé. Soyez le premier témoin.",
+    "anonymous": "Anonyme",
+    "share": "Partager",
+    "copied": "Lien copié",
+    "pause": "Pause",
+    "resume": "Reprendre",
+    "pauseHint": "Survolez ou touchez la litanie pour l'immobiliser.",
+    "form": {
+      "sentenceLabel": "Votre phrase",
+      "sentencePlaceholder": "Je vois quelqu'un qui n'a jamais été photographié…",
+      "nameLabel": "Nom (facultatif)",
+      "namePlaceholder": "Comment vous souhaitez apparaître",
+      "counter": "{n} / {max}",
+      "submit": "Déposer un témoignage",
+      "sending": "Enregistrement…",
+      "thanks": "Enregistré. Votre phrase est sur le mur.",
+      "queued": "Enregistré. Un modérateur la publiera sur le mur."
+    },
+    "errors": {
+      "empty": "Dites quelque chose d'abord.",
+      "rate": "Trop rapide. Laissez respirer la litanie.",
+      "url": "Ce mur accueille des phrases, pas des liens.",
+      "email": "Ce mur accueille des phrases, pas des adresses.",
+      "slur": "Cette phrase ne sera pas gravée ici.",
+      "duplicate": "Vous avez déjà dit cela.",
+      "network": "Le mur n'a pas répondu. Réessayez.",
+      "generic": "Le mur a refusé l'offrande. Réessayez."
+    }
+  },
+  "cosign": {
+    "label": "// COSIGNER LA LETTRE À TILDA SWINTON",
+    "title": "Ajoutez votre nom à la lettre",
+    "readLetter": "Lire la lettre complète",
+    "hideLetter": "Masquer la lettre",
+    "counting": "Décompte des signatures…",
+    "count": "{n} personnes ont cosigné",
+    "privacy": "Nous conservons votre nom complet, mais n'affichons que le prénom et une initiale. La ville est facultative et affichée telle quelle.",
+    "form": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom complet",
+      "cityLabel": "Ville / pays (facultatif)",
+      "cityPlaceholder": "Varsovie, PL",
+      "consent": "Je signe en mon nom propre et j'accepte que mon nom soit affiché.",
+      "submit": "Cosigner la lettre",
+      "sending": "Signature…",
+      "thanks": "Signé. Merci de vous tenir aux côtés de la question."
+    },
+    "errors": {
+      "name": "Une signature exige un nom.",
+      "consent": "Cochez la case pour signer en votre nom.",
+      "rate": "Vous avez déjà signé aujourd'hui.",
+      "duplicate": "Cet appareil a déjà signé.",
+      "rejected": "Noms uniquement — aucun lien, aucune insulte.",
+      "network": "Le registre n'a pas répondu. Réessayez.",
+      "generic": "Le registre a refusé la signature. Réessayez."
+    }
+  },
+  "embed": {
+    "kicker": "UN TRIPTYQUE DU DESTIN ALGORITHMIQUE",
+    "title": "The Latent Liturgy",
+    "question": "Pourquoi « transformation » et « éternité » sont-elles devenues son visage ?",
+    "clips": "extraits",
+    "testimonies": "témoignages",
+    "verdicts": "verdicts",
+    "enter": "ENTRER DANS LA LITURGIE"
+  }
+}

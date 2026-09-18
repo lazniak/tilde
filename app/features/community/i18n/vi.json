@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// NHÂN CHỨNG — ĐÓ LÀ KHUÔN MẶT CỦA AI?",
+    "title": "Bức tường nhân chứng",
+    "intro": "Một câu duy nhất. Bạn nhìn thấy ai trong khuôn mặt mà cỗ máy chưa từng được yêu cầu tạo tác? Lời nguyện cầu chầm chậm cuộn trôi, tựa danh đề của một bộ phim không ai tuyển diễn viên.",
+    "count": "{n} lời chứng đã ghi lại",
+    "loading": "Đang đọc bức tường…",
+    "empty": "Chưa ai lên tiếng. Hãy là nhân chứng đầu tiên.",
+    "anonymous": "Ẩn danh",
+    "share": "Chia sẻ",
+    "copied": "Đã sao chép liên kết",
+    "pause": "Tạm dừng",
+    "resume": "Tiếp tục",
+    "pauseHint": "Rê chuột hoặc chạm vào lời nguyện cầu để dừng lại.",
+    "form": {
+      "sentenceLabel": "Câu của bạn",
+      "sentencePlaceholder": "Tôi nhìn thấy một người chưa từng được chụp lại…",
+      "nameLabel": "Tên (không bắt buộc)",
+      "namePlaceholder": "Tên bạn muốn được ghi danh",
+      "counter": "{n} / {max}",
+      "submit": "Để lại lời chứng",
+      "sending": "Đang ghi lại…",
+      "thanks": "Đã ghi nhận. Câu của bạn đã hiện trên tường.",
+      "queued": "Đã ghi nhận. Người kiểm duyệt sẽ đưa câu của bạn lên tường."
+    },
+    "errors": {
+      "empty": "Hãy nói điều gì đó trước đã.",
+      "rate": "Quá nhanh. Hãy để lời nguyện cầu được thở.",
+      "url": "Bức tường này lưu giữ những câu văn, không phải liên kết.",
+      "email": "Bức tường này lưu giữ những câu văn, không phải địa chỉ.",
+      "slur": "Câu đó sẽ không được khắc lên nơi này.",
+      "duplicate": "Bạn đã nói điều đó rồi.",
+      "network": "Bức tường không hồi đáp. Thử lại sau.",
+      "generic": "Bức tường từ chối lễ vật. Thử lại sau."
+    }
+  },
+  "cosign": {
+    "label": "// ĐỒNG KÝ BỨC THƯ GỬI TILDA SWINTON",
+    "title": "Ghi tên bạn vào bức thư",
+    "readLetter": "Đọc toàn bộ bức thư",
+    "hideLetter": "Ẩn bức thư",
+    "counting": "Đang đếm các chữ ký…",
+    "count": "{n} người đã đồng ký",
+    "privacy": "Chúng tôi lưu tên đầy đủ của bạn, nhưng chỉ hiển thị tên gọi cùng chữ cái đầu của họ. Thành phố là tùy chọn và được hiển thị nguyên văn.",
+    "form": {
+      "nameLabel": "Tên",
+      "namePlaceholder": "Họ và tên đầy đủ của bạn",
+      "cityLabel": "Thành phố / quốc gia (không bắt buộc)",
+      "cityPlaceholder": "Warsaw, PL",
+      "consent": "Tôi ký tên với tư cách chính mình và đồng ý để tên được hiển thị.",
+      "submit": "Đồng ký bức thư",
+      "sending": "Đang ký…",
+      "thanks": "Đã ký. Cảm ơn bạn đã cùng đứng về phía câu hỏi này."
+    },
+    "errors": {
+      "name": "Chữ ký cần có một cái tên.",
+      "consent": "Đánh dấu vào ô để ký tên với tư cách chính mình.",
+      "rate": "Hôm nay bạn đã ký rồi.",
+      "duplicate": "Thiết bị này đã ký tên rồi.",
+      "rejected": "Chỉ ghi tên — không kèm liên kết hay lời xúc phạm.",
+      "network": "Sổ bộ không hồi đáp. Thử lại sau.",
+      "generic": "Sổ bộ từ chối chữ ký. Thử lại sau."
+    }
+  },
+  "embed": {
+    "kicker": "BỘ BA TRANH VỀ ĐỊNH MỆNH THUẬT TOÁN",
+    "title": "The Latent Liturgy",
+    "question": "Vì sao \"chuyển hóa\" và \"vĩnh hằng\" lại hóa thành gương mặt của cô ấy?",
+    "clips": "đoạn trích",
+    "testimonies": "lời chứng",
+    "verdicts": "phán quyết",
+    "enter": "BƯỚC VÀO PHỤNG VỤ"
+  }
+}

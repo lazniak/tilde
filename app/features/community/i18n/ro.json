@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// MĂRTURII — AL CUI CHIP ESTE?",
+    "title": "Zidul martorilor",
+    "intro": "O singură frază. Pe cine vezi în chipul pe care nimeni nu i-a cerut mașinii să-l creeze? Litania se derulează lent, precum genericul unui film în care nimeni n-a fost distribuit.",
+    "count": "{n} mărturii consemnate",
+    "loading": "Se citește zidul…",
+    "empty": "Nimeni nu a vorbit încă. Fii primul martor.",
+    "anonymous": "Anonim",
+    "share": "Distribuie",
+    "copied": "Link copiat",
+    "pause": "Pauză",
+    "resume": "Reia",
+    "pauseHint": "Treci cu cursorul sau atinge litania pentru a o opri pe loc.",
+    "form": {
+      "sentenceLabel": "Fraza ta",
+      "sentencePlaceholder": "Văd pe cineva care nu a fost fotografiat niciodată…",
+      "nameLabel": "Nume (opțional)",
+      "namePlaceholder": "Cum dorești să apari",
+      "counter": "{n} / {max}",
+      "submit": "Lasă o mărturie",
+      "sending": "Se consemnează…",
+      "thanks": "Consemnat. Fraza ta este pe zid.",
+      "queued": "Consemnat. Un moderator o va afișa pe zid."
+    },
+    "errors": {
+      "empty": "Spune ceva mai întâi.",
+      "rate": "Prea repede. Lasă litania să respire.",
+      "url": "Acest zid poartă fraze, nu linkuri.",
+      "email": "Acest zid poartă fraze, nu adrese.",
+      "slur": "Această frază nu va fi săpată aici.",
+      "duplicate": "Ai spus deja asta.",
+      "network": "Zidul nu a răspuns. Încearcă din nou.",
+      "generic": "Zidul a refuzat ofranda. Încearcă din nou."
+    }
+  },
+  "cosign": {
+    "label": "// CO-SEMNEAZĂ SCRISOAREA CĂTRE TILDA SWINTON",
+    "title": "Adaugă-ți numele pe scrisoare",
+    "readLetter": "Citește scrisoarea integrală",
+    "hideLetter": "Ascunde scrisoarea",
+    "counting": "Se numără semnăturile…",
+    "count": "{n} persoane au cosemnat",
+    "privacy": "Păstrăm numele complet, dar afișăm doar prenumele și inițiala. Orașul este opțional și este afișat așa cum a fost scris.",
+    "form": {
+      "nameLabel": "Nume",
+      "namePlaceholder": "Numele tău complet",
+      "cityLabel": "Oraș / țară (opțional)",
+      "cityPlaceholder": "Varșovia, PL",
+      "consent": "Semnez în nume propriu și sunt de acord ca numele meu să fie afișat.",
+      "submit": "Cosemnează scrisoarea",
+      "sending": "Se semnează…",
+      "thanks": "Semnat. Îți mulțumim că ești alături de această întrebare."
+    },
+    "errors": {
+      "name": "O semnătură are nevoie de un nume.",
+      "consent": "Bifează căsuța pentru a semna în nume propriu.",
+      "rate": "Ai semnat deja astăzi.",
+      "duplicate": "De pe acest dispozitiv s-a semnat deja.",
+      "rejected": "Doar nume — fără linkuri, fără insulte.",
+      "network": "Registrul nu a răspuns. Încearcă din nou.",
+      "generic": "Registrul a refuzat semnătura. Încearcă din nou."
+    }
+  },
+  "embed": {
+    "kicker": "UN TRIPTIH AL DESTINULUI ALGORITMIC",
+    "title": "The Latent Liturgy",
+    "question": "De ce „transformarea” și „eternitatea” au devenit chipul ei?",
+    "clips": "clipuri",
+    "testimonies": "mărturii",
+    "verdicts": "verdicte",
+    "enter": "INTRĂ ÎN LITURGHIE"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "PREHLIADKA",
+    "start": "Spustiť komentovanú prehliadku",
+    "stop": "Zastaviť komentovanú prehliadku",
+    "hint": "Nechajte sa hlasom umelca previesť všetkými tromi panelmi. Dotknite sa čohokoľvek, aby ste prevzali kontrolu.",
+    "indicator": "PREHLIADKA · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURÁTOR",
+      "epilogue": "EPILÓG"
+    }
+  },
+  "tilt": {
+    "label": "NÁKLON",
+    "on": "Mixovať nakláňaním telefónu",
+    "off": "Zastaviť mixovanie náklonom",
+    "rhythm": "RYTMUS",
+    "harmony": "HARMÓNIA",
+    "voices": "HLASY",
+    "denied": "Prístup k pohybovým senzorom bol zamietnutý. Povoľte ho v nastaveniach prehliadača, ak chcete mixovať náklonom.",
+    "unsupported": "Toto zariadenie nerozpoznáva orientáciu. Použite namiesto toho mixér."
+  }
+}

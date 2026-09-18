@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TESTIMONIOS — ¿DE QUIÉN ES ESE ROSTRO?",
+    "title": "El muro de los testigos",
+    "intro": "Una frase. ¿A quién ves en el rostro que nunca se le pidió crear a la máquina? La letanía se desplaza lentamente, como los créditos de una película para la que nadie hizo casting.",
+    "count": "{n} testimonios registrados",
+    "loading": "Leyendo el muro…",
+    "empty": "Nadie ha hablado aún. Sé el primer testigo.",
+    "anonymous": "Anónimo",
+    "share": "Compartir",
+    "copied": "Enlace copiado",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "pauseHint": "Pasa el cursor o pulsa sobre la letanía para detenerla.",
+    "form": {
+      "sentenceLabel": "Tu frase",
+      "sentencePlaceholder": "Veo a alguien a quien nunca fotografiaron…",
+      "nameLabel": "Nombre (opcional)",
+      "namePlaceholder": "Cómo deseas figurar",
+      "counter": "{n} / {max}",
+      "submit": "Dejar testimonio",
+      "sending": "Registrando…",
+      "thanks": "Registrado. Tu frase está en el muro.",
+      "queued": "Registrado. Un moderador la publicará en el muro."
+    },
+    "errors": {
+      "empty": "Di algo primero.",
+      "rate": "Demasiado rápido. Deja respirar a la letanía.",
+      "url": "Este muro sostiene frases, no enlaces.",
+      "email": "Este muro sostiene frases, no direcciones.",
+      "slur": "Esa frase no será grabada aquí.",
+      "duplicate": "Ya has dicho eso.",
+      "network": "El muro no respondió. Inténtalo de nuevo.",
+      "generic": "El muro rechazó la ofrenda. Inténtalo de nuevo."
+    }
+  },
+  "cosign": {
+    "label": "// FIRMAR LA CARTA A TILDA SWINTON",
+    "title": "Añade tu nombre a la carta",
+    "readLetter": "Leer la carta completa",
+    "hideLetter": "Ocultar la carta",
+    "counting": "Contando las firmas…",
+    "count": "{n} personas han firmado",
+    "privacy": "Guardamos tu nombre completo, pero solo mostramos el primer nombre y una inicial. La ciudad es opcional y se muestra tal como se escribe.",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "cityLabel": "Ciudad / país (opcional)",
+      "cityPlaceholder": "Varsovia, PL",
+      "consent": "Firmo en mi propio nombre y acepto que se muestre.",
+      "submit": "Firmar la carta",
+      "sending": "Firmando…",
+      "thanks": "Firmado. Gracias por respaldar la pregunta."
+    },
+    "errors": {
+      "name": "Una firma necesita un nombre.",
+      "consent": "Marca la casilla para firmar en tu propio nombre.",
+      "rate": "Ya has firmado hoy.",
+      "duplicate": "Este dispositivo ya ha firmado.",
+      "rejected": "Solo nombres: sin enlaces ni insultos.",
+      "network": "El registro no respondió. Inténtalo de nuevo.",
+      "generic": "El registro rechazó la firma. Inténtalo de nuevo."
+    }
+  },
+  "embed": {
+    "kicker": "UN TRÍPTICO DEL DESTINO ALGORÍTMICO",
+    "title": "The Latent Liturgy",
+    "question": "¿Por qué «transformación» y «eternidad» se convirtieron en su rostro?",
+    "clips": "clips",
+    "testimonies": "testimonios",
+    "verdicts": "veredictos",
+    "enter": "ENTRAR EN LA LITURGIA"
+  }
+}

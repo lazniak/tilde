@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ OTVORIŤ ]",
+    "collapse": "[ ZAVRIEŤ ]",
+    "loading": "Načítava sa…"
+  },
+  "map": {
+    "label": "// LATENTNÁ MAPA — 65 klipov ako konštelácia",
+    "intro": "Každý zachovaný klip, umiestnený podľa toho, kam spadá v 198-sekundovej montáži a ako silno ho to ťahá k tvári, ktorú nikto nežiadal. Aritmetika je naša, nie modelu — je uvedená nižšie, aby ste s ňou mohli nesúhlasiť.",
+    "hint": "Ťuknutím alebo zameraním bodu zobrazíte klip a prehrávač naň preskočí.",
+    "pointLabel": "{file}, sekunda {second}, blízkosť atraktora {proximity}",
+    "cardMeta": "t = {second}s · blízkosť {proximity}",
+    "legendAttractor": "atraktor (≥ 0.60)",
+    "legendNear": "postava prítomná",
+    "legendNoFace": "bez postavy",
+    "tally": "{attractors} z {total} klipov leží v dosahu atraktora",
+    "formula": "blízkosť = 0.50 ak je v scéne Woman_The_Medium + 0.25 ak ide o detail, tvár, oko, profil, portrét alebo výkrik + 0.10 ak je záber cez Prop_Prism_Lens − 0.20 ak chýba akýkoľvek ľudský asset, ohraničené na 0…1, s pevným rozptylom pre každý klip, aby prekrývajúce sa body zostali čitateľné."
+  },
+  "emergence": {
+    "label": "// EMERGENCIA — šum → tvár",
+    "intro": "Spustite difúziu ručne pospiatky. Na nule je len počiatočné zrno; ako ťaháte doprava, veľkosť bloku sa zrúti z 24 pixelov na jeden a z neho sa vynorí ona.",
+    "canvasLabel": "Zdrojový asset vykreslený na {percent} percent emergencie",
+    "sliderLabel": "Emergencia: od latentného šumu k zdrojovému assetu",
+    "min": "0% LATENTNÝ ŠUM",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "tvár zadržaná až do potvrdenia",
+    "clamped": "Zadržané na {percent}%, kým nepotvrdíte tvár v paneli vyššie.",
+    "failed": "Zdrojový asset sa nepodarilo načítať."
+  },
+  "heatmap": {
+    "label": "// ARCHEOLÓGIA POZORNOSTI — ktoré slová privolali tvár?",
+    "intro": "Prompt neobsahuje žiadne telo, vek, vlasy, kosti. Opýtajte sa modelu, ktoré jeho fragmenty by difúzny systém napriek tomu strhli k bezvekej, androgýnnej, bledej tvári s vysokými lícnymi kosťami.",
+    "button": "ODKRYŤ",
+    "working": "Čítanie vrstiev",
+    "model": "model: {model}",
+    "originalNote": "Teplo sa počíta na anglickom origináli — váhy sú priradené presne k týmto slovám.",
+    "summaryLabel": "// VERDIKT",
+    "topLabel": "// NAJSILNEJŠÍ ŤAH",
+    "count": "{count} ohodnotených fragmentov",
+    "cached": "Poskytnuté zo záznamu vykopávok.",
+    "fresh": "Práve odkryté.",
+    "errorLabel": "// BEZ ÚDAJOV",
+    "error": "Odkrývanie sa zastavilo. Vrstvy sa nepodarilo prečítať.",
+    "retry": "SKÚSIŤ ZNOVA"
+  },
+  "timeline": {
+    "label": "// ČASOVÁ OS — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Štyri dni, väčšina z nich čakanie. Potiahnite prehrávaciu hlavu alebo použite šípky. Takmer každá časová pečiatka je skutočným časom úpravy súboru, ktorý je dodnes súčasťou tejto stránky.",
+    "sliderLabel": "Štyri dni tvorby",
+    "position": "{n} / {total}",
+    "prev": "Predchádzajúca udalosť",
+    "next": "Nasledujúca udalosť",
+    "approx": "rekonštruované",
+    "exact": "časová pečiatka súboru",
+    "events": {
+      "prompt": {
+        "title": "Prompt je napísaný",
+        "text": "Metafyzický text o Nebeskom kráľovstve, divergencii funkcie tangens a fraktálnych hranách dotyku. Žiadne telo, žiadna tvár, žiadny vek, žiadne vlasy — vôbec nič fyzické."
+      },
+      "transcription": {
+        "title": "Skladba je prepísaná",
+        "text": "Poľský vokál prejde prepisovačom a vznikne transkripcia na úrovni jednotlivých znakov. Všetko, čo nasleduje — montáž, strihy, dramaturgia — je časované podľa tohto súboru."
+      },
+      "analysis": {
+        "title": "Fáza 1 — čítanie",
+        "text": "Pipeline spoločne načíta prompt a text piesne a odpovie tým, o čom si myslí, že dielo je. Stále nikde nie je opísaná žiadna osoba."
+      },
+      "narrative": {
+        "title": "Fáza 3 — dejová línia",
+        "text": "Rozprávanie pomenuje svoju protagonistku Woman_The_Medium: bezveká tvár, minimálna mimika, butó pohyb, duša uväznená v avatarovi. Rola, nie človek."
+      },
+      "palette": {
+        "title": "Fáza 3 — paleta",
+        "text": "Ustanoví sa šesť farieb: kosť, prázdnota, bunker, stratosférická modrá, slnečná jantárová, prizmatická biela. Tých istých šesť, v ktorých je namaľovaná táto stránka."
+      },
+      "face": {
+        "title": "10:43:36 — tvár prichádza",
+        "text": "asset_Woman_The_Medium.png sa zapíše na disk. Z abstraktného opisu roly model vráti konkrétnu, rozpoznateľnú ľudskú tvár. Toto je anomália; všetko pred ňou je text."
+      },
+      "assets": {
+        "title": "Jedenásť assetov hotových",
+        "text": "Lokácie, kostýmy a rekvizity sú vygenerované a zaregistrované — púšť, bunker, zrkadlo, prizma, stroboskop, prach, miska. Obsadenie filmu je teraz nemenné."
+      },
+      "montage": {
+        "title": "Fáza 6 — plán montáže",
+        "text": "Pieseň je nastrihaná na scény podľa transkripcie: kde padá dych, kde dopadá úder, kde sa láme tangenta."
+      },
+      "prompts": {
+        "title": "Sedemdesiatjeden promptov pre klipy",
+        "text": "Jeden pozitívny prompt pre každú scénu, každý menuje iba zaregistrované assety. Tvár sa odteraz šíri referenciou — model o ňu už nikdy nebol požiadaný."
+      },
+      "frames": {
+        "title": "Sedemdesiatjeden počiatočných snímok",
+        "text": "Každá scéna dostane statický záber, z ktorého vychádza. Päťdesiatpäť minút renderovania: najdlhšie jediné čakanie v celej pipeline."
+      },
+      "motion": {
+        "title": "Fáza 9 — pohybové prompty",
+        "text": "Pre každý záber sa napíšu pohyby kamery a choreografia, potom sa vygeneruje časová os, ktorá ich spojí so zvukom."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klipy",
+        "text": "Dvadsaťjeden minút generovania videa. Sedemdesiatjeden pokusov o klip, šesťdesiatosem doručených, tri vypadli: indexy 21, 50 a 54 nikdy nedorazili a montáž bola prestavaná okolo ich absencie."
+      },
+      "edit": {
+        "title": "Finálny strih",
+        "text": "O tri tiché dni neskôr je dielo zostavené, exportné prompty sú prepísané v oboch jazykoch a strih je uzamknutý na čase 3:33."
+      },
+      "launch": {
+        "title": "Stránka a list",
+        "text": "Triptych vychádza online a otvorený list je adresovaný žene, ktorej tvár nebola nikdy vyžiadaná, no napriek tomu prišla."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Celorozovkový galerijný režim: štyri panely sa cyklicky striedajú samy. Kláves Escape na ukončenie.",
+    "scan": "Naskenujte a pokračujte v telefóne",
+    "exit": "UKONČIŤ"
+  }
+}

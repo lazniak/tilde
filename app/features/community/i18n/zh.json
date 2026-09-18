@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TESTIMONIES — 那是谁的面容？",
+    "title": "见证之墙",
+    "intro": "一句话。在机器从未被要求生成的面容里，你看到了谁？祈愿文缓缓滚动，宛如一部无人选角的电影片尾演职员表。",
+    "count": "已记录 {n} 条见证",
+    "loading": "正在读取见证之墙…",
+    "empty": "尚无人发声。成为第一位见证者。",
+    "anonymous": "匿名",
+    "share": "分享",
+    "copied": "链接已复制",
+    "pause": "暂停",
+    "resume": "继续",
+    "pauseHint": "悬停或轻触祈愿文以使其定格。",
+    "form": {
+      "sentenceLabel": "你的一句话",
+      "sentencePlaceholder": "我看见了一个从未被摄影记录的人…",
+      "nameLabel": "姓名（选填）",
+      "namePlaceholder": "你希望展示的署名",
+      "counter": "{n} / {max}",
+      "submit": "留下见证",
+      "sending": "正在记录…",
+      "thanks": "已记录。你的话已铭刻在墙上。",
+      "queued": "已记录。审核员将在审核后将其发布至墙上。"
+    },
+    "errors": {
+      "empty": "请先写下你想说的话。",
+      "rate": "太快了。让祈愿文呼吸片刻。",
+      "url": "此墙铭刻言语，而非链接。",
+      "email": "此墙铭刻言语，而非地址。",
+      "slur": "此句不会被刻于此处。",
+      "duplicate": "你已经说过这句话了。",
+      "network": "见证之墙未作应答。请重试。",
+      "generic": "见证之墙拒绝了此项奉献。请重试。"
+    }
+  },
+  "cosign": {
+    "label": "// 联署致 TILDA SWINTON 的信",
+    "title": "在信上添上你的名字",
+    "readLetter": "阅读信件全文",
+    "hideLetter": "折叠信件",
+    "counting": "正在统计签名…",
+    "count": "已有 {n} 人联署",
+    "privacy": "我们会储存你的全名，但公开时仅显示名和姓氏首字母。城市为选填项，将照原样显示。",
+    "form": {
+      "nameLabel": "姓名",
+      "namePlaceholder": "你的全名",
+      "cityLabel": "城市 / 国家（选填）",
+      "cityPlaceholder": "Warsaw, PL",
+      "consent": "我以本人身份签名，并同意展示我的姓名。",
+      "submit": "联署此信",
+      "sending": "正在签署…",
+      "thanks": "已签署。感谢你与这一质问站在一起。"
+    },
+    "errors": {
+      "name": "签名需要姓名。",
+      "consent": "请勾选选框以本人身份签名。",
+      "rate": "你今天已经签过名了。",
+      "duplicate": "此设备已完成过签署。",
+      "rejected": "仅限姓名 —— 不得包含链接或侮辱性字句。",
+      "network": "签署名册未作应答。请重试。",
+      "generic": "签署名册拒绝了该签名。请重试。"
+    }
+  },
+  "embed": {
+    "kicker": "算法宿命的三联画",
+    "title": "The Latent Liturgy",
+    "question": "为何“嬗变”与“永恒”最终化作了她的面容？",
+    "clips": "片段",
+    "testimonies": "见证",
+    "verdicts": "裁决",
+    "enter": "步入仪式"
+  }
+}

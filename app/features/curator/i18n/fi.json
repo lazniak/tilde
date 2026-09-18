@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// TUNNUSTA KEHOTTEESI",
+    "open": "AVAA",
+    "close": "SULJE",
+    "intro": "Kirjoita oma kehotteesi niin kuin taiteilija kirjoitti omansa: vain käsitteitä. Ei kasvoja, ei kehoja, ei nimiä. Kuraattori kertoo sinulle, mihin kasvoihin latentti avaruus konvergoituisi.",
+    "placeholder": "Kohti ääretöntä erkaneva tangentti; fraktaalinen reuna, jossa usko painaa enemmän kuin fysiikka…",
+    "counter": "{count} / {max}",
+    "submit": "ALISTA LATENTILLE AVARUUDELLE",
+    "working": "Konvergoituu…",
+    "card": {
+      "archetype": "ARKKITYYPPI",
+      "topology": "TOPOLOGIA",
+      "why": "MIKSI",
+      "attractor": "ATTRAKTORI",
+      "verdict": "TUOMIO"
+    },
+    "rejected": {
+      "label": "// HYLÄTTY",
+      "fallback": "Tämä kehote kuvaa kehoa, ei käsitettä.",
+      "hint": "Yritä uudelleen pelkillä käsitteillä – ei fyysistä kuvausta, ei nimiä."
+    },
+    "share": "JAA",
+    "copied": "KOPIOITU",
+    "again": "TUNNUSTA UUDELLEEN",
+    "shareTitle": "The Latent Liturgy – kasvot, joita kehotteeni vetää puoleensa",
+    "shareText": "Abstrakti kehotteeni konvergoituu kohteeseen: {archetype} – \"{verdict}\" (attraktori {strength} %)",
+    "error": {
+      "empty": "Kirjoita ensin jotain.",
+      "generic": "Latentti avaruus ei vastannut. Yritä hetken kuluttua uudelleen.",
+      "rate": "Latentti avaruus ratkaisee yhä. Odota {seconds} s.",
+      "daily": "Olet tunnustanut tarpeeksi tälle päivälle. Palaa huomenna."
+    }
+  },
+  "voice": {
+    "hold": "◉ PIDÄ PAINETTUNA KYSYÄKSESI",
+    "listening": "◉ KUUNNELLAAN…",
+    "hint": "Pidä painiketta pohjassa, puhu, vapauta. Kuraattori vastaa ääneen.",
+    "youSaid": "SANOIT",
+    "curator": "KURAATTORI",
+    "thinking": "Kuuntelee itseään…",
+    "mute": "Vaimenna Kuraattorin ääni",
+    "unmute": "Anna Kuraattorin puhua",
+    "error": {
+      "denied": "Mikrofonin käyttö estettiin. Rituaali tarvitsee ääntäsi.",
+      "nospeech": "Hiljaisuus. Mitään ei kuulunut.",
+      "generic": "Mikrofoni horjahti. Yritä uudelleen."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTORIEN LASKURI",
+    "line": "malli nimesi hänet {recognised} / {total} kertaa · {confessions} kehotetta tunnustettu"
+  }
+}

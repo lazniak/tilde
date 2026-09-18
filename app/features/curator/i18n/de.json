@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// BEICHTE DEINEN PROMPT",
+    "open": "ÖFFNEN",
+    "close": "SCHLIESSEN",
+    "intro": "Schreibe deinen eigenen Prompt so, wie der Künstler den seinen schrieb: nur Konzepte. Keine Gesichter, keine Körper, keine Namen. Der Kurator wird dir offenbaren, auf welches Gesicht der latente Raum konvergieren würde.",
+    "placeholder": "Eine Tangente, die gegen Unendlich divergiert; die fraktale Kante, an der Glaube schwerer wiegt als Physik…",
+    "counter": "{count} / {max}",
+    "submit": "DEM LATENTEN RAUM ÜBERGEBEN",
+    "working": "Konvergiert…",
+    "card": {
+      "archetype": "ARCHETYP",
+      "topology": "TOPOLOGIE",
+      "why": "WARUM",
+      "attractor": "ATTRAKTOR",
+      "verdict": "URTEIL"
+    },
+    "rejected": {
+      "label": "// ABGEWIESEN",
+      "fallback": "Dieser Prompt beschreibt einen Körper, kein Konzept.",
+      "hint": "Versuche es erneut nur mit Konzepten – keine physische Beschreibung, keine Namen."
+    },
+    "share": "TEILEN",
+    "copied": "KOPIERT",
+    "again": "ERNEUT BEICHTEN",
+    "shareTitle": "The Latent Liturgy — das Gesicht, das mein Prompt anzieht",
+    "shareText": "Mein abstrakter Prompt konvergiert auf: {archetype} — „{verdict}“ (Attraktor {strength}%)",
+    "error": {
+      "empty": "Schreibe zuerst etwas.",
+      "generic": "Der latente Raum antwortete nicht. Versuche es gleich noch einmal.",
+      "rate": "Der latente Raum löst sich noch auf. Warte {seconds} s.",
+      "daily": "Du hast für heute genug gebeichtet. Kehre morgen zurück."
+    }
+  },
+  "voice": {
+    "hold": "◉ HALTEN ZUM FRAGEN",
+    "listening": "◉ HÖRT ZU…",
+    "hint": "Taste halten, sprechen, loslassen. Der Kurator antwortet laut.",
+    "youSaid": "DU SAGTEST",
+    "curator": "KURATOR",
+    "thinking": "Hört sich selbst zu…",
+    "mute": "Die Stimme des Kurators verstummen lassen",
+    "unmute": "Den Kurator sprechen lassen",
+    "error": {
+      "denied": "Mikrofonzugriff wurde verweigert. Das Ritual verlangt deine Stimme.",
+      "nospeech": "Stille. Nichts war zu hören.",
+      "generic": "Das Mikrofon hat versagt. Versuche es erneut."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTOR-ZÄHLUNG",
+    "line": "das Modell nannte sie {recognised} von {total} Malen · {confessions} Prompts gebeichtet"
+  }
+}

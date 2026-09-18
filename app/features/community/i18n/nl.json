@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// GETUIGENISSEN — WIENS GEZICHT IS HET?",
+    "title": "De muur van getuigen",
+    "intro": "Eén zin. Wie zie je in het gezicht dat de machine nooit gevraagd werd te maken? De litanie scrolt langzaam voorbij, als de aftiteling van een film die door niemand gecast is.",
+    "count": "{n} getuigenissen vastgelegd",
+    "loading": "De muur wordt gelezen…",
+    "empty": "Nog niemand heeft gesproken. Wees de eerste getuige.",
+    "anonymous": "Anoniem",
+    "share": "Delen",
+    "copied": "Link gekopieerd",
+    "pause": "Pauzeren",
+    "resume": "Hervatten",
+    "pauseHint": "Beweeg over of tik op de litanie om haar stil te zetten.",
+    "form": {
+      "sentenceLabel": "Jouw zin",
+      "sentencePlaceholder": "Ik zie iemand die nooit gefotografeerd is…",
+      "nameLabel": "Naam (optioneel)",
+      "namePlaceholder": "Hoe je vermeld wilt worden",
+      "counter": "{n} / {max}",
+      "submit": "Getuigenis achterlaten",
+      "sending": "Vastleggen…",
+      "thanks": "Vastgelegd. Jouw zin staat op de muur.",
+      "queued": "Vastgelegd. Een moderator zal het vrijgeven voor de muur."
+    },
+    "errors": {
+      "empty": "Zeg eerst iets.",
+      "rate": "Te snel. Laat de litanie ademen.",
+      "url": "Deze muur draagt zinnen, geen links.",
+      "email": "Deze muur draagt zinnen, geen adressen.",
+      "slur": "Die zin zal hier niet worden gebeiteld.",
+      "duplicate": "Dat heb je al gezegd.",
+      "network": "De muur antwoordde niet. Probeer het opnieuw.",
+      "generic": "De muur weigerde het offer. Probeer het opnieuw."
+    }
+  },
+  "cosign": {
+    "label": "// ONDERTEKEN DE BRIEF AAN TILDA SWINTON",
+    "title": "Voeg je naam toe aan de brief",
+    "readLetter": "Lees de volledige brief",
+    "hideLetter": "Verberg de brief",
+    "counting": "De handtekeningen worden geteld…",
+    "count": "{n} mensen hebben medeondertekend",
+    "privacy": "We slaan je volledige naam op, maar tonen altijd alleen een voornaam en een initiaal. De stad is optioneel en wordt getoond zoals ingevoerd.",
+    "form": {
+      "nameLabel": "Naam",
+      "namePlaceholder": "Je volledige naam",
+      "cityLabel": "Stad / land (optioneel)",
+      "cityPlaceholder": "Warschau, PL",
+      "consent": "Ik onderteken uit eigen naam en ga ermee akkoord dat mijn naam wordt getoond.",
+      "submit": "Medeonderteken de brief",
+      "sending": "Ondertekenen…",
+      "thanks": "Ondertekend. Dank dat je achter de vraag staat."
+    },
+    "errors": {
+      "name": "Een handtekening heeft een naam nodig.",
+      "consent": "Vink het vakje aan om uit eigen naam te ondertekenen.",
+      "rate": "Je hebt vandaag al ondertekend.",
+      "duplicate": "Vanaf dit apparaat is al ondertekend.",
+      "rejected": "Alleen namen — geen links, geen beledigingen.",
+      "network": "Het register antwoordde niet. Probeer het opnieuw.",
+      "generic": "Het register weigerde de handtekening. Probeer het opnieuw."
+    }
+  },
+  "embed": {
+    "kicker": "EEN DRIELUIK VAN ALGORITMISCH NOODLOT",
+    "title": "The Latent Liturgy",
+    "question": "Waarom werden \"transformatie\" en \"eeuwigheid\" haar gezicht?",
+    "clips": "clips",
+    "testimonies": "getuigenissen",
+    "verdicts": "oordelen",
+    "enter": "BETREED DE LITURGIE"
+  }
+}

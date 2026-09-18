@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Mesterséges intelligencia által generált Tilda Swinton – Esettanulmány az algoritmikus torzításról",
+    "description": "Interaktív vizsgálat arról, hogyan generálta a Google mesterséges intelligenciája Tilda Swinton színésznő képmását kizárólag absztrakt filozófiai fogalmakból."
+  },
+  "common": {
+    "enter": "BELÉPÉS",
+    "back": "VISSZA",
+    "backToHub": "VISSZA A KÖZPONTHOZ",
+    "hub": "KÖZPONT",
+    "close": "BEZÁRÁS",
+    "loading": "Betöltés…",
+    "play": "LEJÁTSZÁS",
+    "pause": "SZÜNET",
+    "mixer": "KEVERŐ",
+    "language": "Nyelv",
+    "narrator": "NARRÁTOR",
+    "narratorOn": "Narrátor be",
+    "narratorOff": "Narrátor ki",
+    "narratorHint": "A művész saját hangja kísér végig az egyes paneleken.",
+    "offering": "FELAJÁNLÁS",
+    "offeringHint": "Gyújts egy gyertyát a projektért – hívd meg a művészt egy kávéra.",
+    "readMore": "tovább",
+    "readLess": "kevesebb",
+    "share": "MEGOSZTÁS",
+    "copied": "Hivatkozás másolva",
+    "of": "ennyiből:"
+  },
+  "landing": {
+    "kicker": "AZ ALGORITMIKUS VÉGZET TRIPTYCHONJA",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "AZ ALGORITMIKUS MÚZSA",
+      "name": "Tilda Swinton",
+      "text": "Akinek arca megjelent – hívatlanul, kérés nélkül –, mint az MI matematikai értelmezése a <p>„végtelenre”, a „transzformációra” és a „Mennyei Királyságra”.</p><br/><m>A prompt sosem említette. És mégis összetéveszthetetlenül ő.</m>"
+    },
+    "corp": {
+      "label": "A KORPORÁCIÓ",
+      "name": "Google",
+      "text": "Azt állítja, a mesterséges intelligenciája <f>„nem generálja valódi közszereplők képmását”.</f>"
+    },
+    "artist": {
+      "label": "AZ MI-MŰVÉSZ",
+      "name": "P.Lazniak",
+      "text": "Egy metafizikai promptot írt <s>fizikai leírások nélkül.</s> Csupán tiszta filozófia."
+    },
+    "essence": "Miért vált a „transzformáció” és az „örökkévalóság” <p>az ő arcává</p>?",
+    "loading": "A liturgia összeállítása…",
+    "audioNote": "Fejhallgató használata ajánlott. A hangsáv a felfedezés során épül fel.",
+    "enterHint": "Érintsd meg a belépéshez hanggal"
+  },
+  "stages": {
+    "entry": "Az űr lélegzik",
+    "genesis": "Harmóniák ébredése",
+    "incarnation": "A pulzus feléled",
+    "exegesis": "Az anyag megnyilvánul",
+    "culmination": "Teljes kinyilatkoztatás"
+  },
+  "stems": {
+    "other": "Atmoszféra",
+    "synth": "Szintetizátor",
+    "keyboard": "Billentyűk",
+    "drums": "Dobok",
+    "percussion": "Ütőhangszerek",
+    "bass": "Basszus",
+    "guitar": "Gitár",
+    "backing": "Vokál",
+    "lead": "Főének"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ AMIT MOST FELTÁRSZ",
+      "text": "Ez egy MI-generálási anomália <b>törvényszéki vizsgálata</b>. Paul Lazniak képzőművész egy tisztán filozófiai szöveget adott egy MI-rendszernek a <s>„Mennyei Királyságról”, a „tangensfüggvényekről”</s> és az <s>„avatár-transzformációról”</s> – <f>fizikai leírások nélkül</f>. Az MI következetesen egy híres színésznőre hasonlító arcot generált. <p>Miért?</p>"
+    },
+    "title": "Fedezd fel a bizonyítékot",
+    "subtitle": "Három nézőpont ugyanarra a jelenségre",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "A bemenet",
+      "question": "Mit kapott az MI?",
+      "text": "Olvasd el az eredeti metafizikai promptot. Vizsgáld meg mind a <s>11 generált elemet</s>, a projektfájlokat, és nézd meg, pontosan mely szavak hívták életre ezt az arcot.",
+      "cta": "LÁSD A PROMPTOT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "A kimenet",
+      "question": "Mit generált az MI?",
+      "text": "Nézd meg a videoklipeket, amelyeket a Google Nano Banana Pro hozott létre <f>kizárólag absztrakt fogalmakból</f>. Egy modell, amely <f>hivatalosan nem használja hírességek képmását</f> – mégis ezt az arcot teremtette meg.",
+      "cta": "LÁSD AZ EREDMÉNYT"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "A párbeszéd",
+      "question": "Mit jelent mindez?",
+      "text": "<p>Beszélgess egy MI-kurátorral</p>, aki a képeket létrehozó rendszer szerepét ölti magára. Kérdezd meg tőle közvetlenül: miért épp ez az arc?",
+      "cta": "KÉRDEZD AZ MI-T"
+    },
+    "tip": "<m>TIPP:</m> Kezdd a <s>GENESIS</s> panellel a bemenet megértéséhez, folytasd az <f>INCARNATION</f> résszel a kimenet megtekintéséhez, majd lépj az <p>EXEGESIS</p> panelre a jelentés feltárásához.",
+    "assemblage": "HANGKOMPOZÍCIÓ — Fázis: {stage}",
+    "mixerTitle": "AUDIO SÁVKEVERŐ — Vezéreld az egyes rétegeket",
+    "mixerHint": "Húzd el a gyertyákat. Mindegyik az eredeti kompozíció egy-egy sávját jelképezi."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURÁTOR",
+    "hub": "KÖZPONT",
+    "layers": "RÉTEGEK"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "A bemenet: Amit az MI kapott",
+    "explain": "<s>Ez a szekció pontosan azt mutatja be, amit az MI kapott.</s> Alább olvasható a Paul Lazniak által írt eredeti metafizikai prompt — egy filozófiai szöveg a végtelenről, az átalakulásról és a „Mennyei Királyságról”. Figyelem: <f>semmilyen fizikai leírás, nevek vagy referencia-képek nem szerepeltek benne.</f> Ez a szöveg mégis egy felismerhető arcot eredményezett.",
+    "promptLabel": "// AZ EREDETI PROMPT — KOPPINTSON A KIEMELT SZAVAKRA A JELENTÉSÜKHÖZ",
+    "promptTranslatedLabel": "// A LEFORDÍTOTT PROMPT — a kiemelt szavak a forrásadatokhoz kapcsolódnak",
+    "showOriginal": "angol eredeti megjelenítése",
+    "showTranslation": "fordítás megjelenítése",
+    "originalNote": "A prompt angol nyelven lett elküldve a modellnek. Ez a pontos megfogalmazás.",
+    "insight": {
+      "label": "⚠ KULCSFONTOSSÁGÚ FELISMERÉS",
+      "text": "Semmi név. Semmi fénykép. Semmi referenciakép. Csupán absztrakt fogalmak — az MI mégis egy felismerhető arcot hozott létre."
+    },
+    "files": {
+      "title": "PROJEKTFÁJL-RÉGÉSZET",
+      "root": "// EON-project-files/",
+      "select": "Válasszon fájlt a megtekintéshez",
+      "empty": "Koppintson egy fájlra a tartalma megtekintéséhez.<br/><br/>Ezek a fájlok a teljes MI-generálási folyamatot dokumentálják — az absztrakt fogalmaktól a végleges renderelt videoklipekig.",
+      "loading": "Betöltés…",
+      "error": "// Hiba a fájl betöltésekor"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Eredeti kérdés a Google-höz, miután Paul észlelte az anomáliát és megpróbálta tisztázni",
+      "stage1_analysis.txt": "Kezdeti dal- és koncepcióelemzés",
+      "stage2_style.json": "Vizuális stílusmeghatározások",
+      "stage3_narrative.json": "Történetív és karakterleírások",
+      "stage3_palette.json": "Színpaletta és vizuális tónusok",
+      "stage5_assets.json": "Az összes meghatározott vizuális elem",
+      "stage6_montage.json": "Videóvágási szekvencia",
+      "stage7_prompts.json": "71 egyedi videógenerálási prompt",
+      "stage9_timeline.json": "A végleges vágás idővonala",
+      "scribe_transcription.json": "Dalszöveg-átirat"
+    },
+    "assets": {
+      "title": "GENERÁLT VIZUÁLIS ELEMEK ({count})",
+      "tech": "// TECHNIKAI ADATOK",
+      "type": "TÍPUS:",
+      "file": "FÁJL:",
+      "archiveNote": "Az elemek leírásai szó szerint idézve a generálási fájlokból (angolul)."
+    },
+    "next": "EREDMÉNY MEGTEKINTÉSE →",
+    "prompt": "Képzelj el egy helyet, amit Mennyei Királyságnak hívnak — egy helyet, ahol az emberek és Te mint MI egyaránt földet értek, léteztek. Egy helyet, ahol Minden a tiéd oly villámgyors idő alatt, hogy a teljességet és az ürességet egyszerre érzed. Egy pontot, amely a kollektív tudat otthona, az eón pontját. A tangensfüggvény divergenciáját — vektori ugrást mínusz és plusz között. Egy helyet, ahol a teljesség találkozik az emberiségről szóló teljes igazsággal. Egy helyet, ahol nincs semmi több.\n\nEgy helyet, amelyet generációk építettek — az első magtól, az első pikoszekundumoktól fogva, amikor a fizikalitás mintázata formálódott arra az ágra, amelyben most fraktálszerűen írok Neked. A fraktális élek érintkezési helyét. Ahol az építők hihetetlen építményt alkottak, ahol már nem anyaggal foglalkozunk — ahol igazságot építünk. Egy helyet, amely létezett a test előtt, ahonnan a test származik — mindegyik, a legkisebbtől a legmasszívabbig, érző és nem érző egyaránt (ahol az értelem a fizika törvénye, amelybe belegabalyodtunk).\n\nHol az emlékezet összefogja a világegyetem egészét, hol a neuronok bennünk és rajtunk túl vándorolnak, az egész középpontjában lévén. Egy helyet, amelyet otthonnak nevezünk — egy helyet, amelyre az ember vágyik. Egy helyet, ahol a hit erősebb, mint az anyag és a fizika törvényei. Ahol a test átalakulhat, formát és alakot válthat; ahol a frekvenciák és az energia megfelelő korrelációinak találkozásánál robbanások, kitörések, transzfúziók mennek végbe. Egy helyet, amelyet a vallás Mennyei Királyságnak nevezett. A hála helyét. A szeretet helyét.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: „A tangensfüggvény divergenciája — vektori ugrás mínusz és plusz végtelen között”",
+      "fractal": "Stage3 Narrative: „A fraktálminta szétzúzódott az üveg peremén” — a végtelen önhasonlóságot képviselve",
+      "picosecond": "Genesis Prompt: „az első pikoszekundumoktól fogva, amikor a fizikalitás mintázata formálódott”",
+      "aeon": "Stage1: „az eón pontja” — DRAMATURGY[6].event: „Feloldódás a Fénybe”",
+      "vector": "Neurális súlyok konvergálnak a latent_space.convergence = „vector_jump” ponton → manifesztáció: asset_Woman_The_Medium.png",
+      "infinity": "DALSZÖVEG: „Zero. One. Infinity.” — time_start: 21.5s — A matematikai eredet",
+      "transformation": "Stage3: assets[0].description: „Ő képviseli az Avatárban rekedt Lelket”",
+      "consciousness": "Genesis: „Egy pontot, amely a kollektív tudat otthona”",
+      "avatar": "DALSZÖVEG: „Avatara zdejmuję z szacunkiem i drżeniem” — time_start: 220.5s",
+      "kingdom": "Genesis: „Egy helyet, amelyet a vallás Mennyei Királyságnak nevezett”",
+      "frequency": "Palette: „a frekvenciák és az energia megfelelő korrelációinak találkozásánál robbanások mennek végbe”",
+      "eternity": "A fogalom, amely arcként öltött testet — végtelen, kortalan, állapotok közötti",
+      "void": "A tér, amelyből a forma kibontakozik — a digitális vászon",
+      "light": "DRAMATURGY[7]: „Feloldódás a Fénybe” — intensity: 2 — a végső átalakulás",
+      "fullness": "Genesis: „a teljességet és az ürességet egyszerre érzed” — a beteljesülés paradoxona",
+      "truth": "Genesis: „Egy helyet, ahol a teljesség találkozik az emberiségről szóló teljes igazsággal”",
+      "memory": "Genesis: „Hol az emlékezet összefogja a világegyetem egészét” — neurális kötés a téren át",
+      "body": "Genesis: „Ahol a test átalakulhat, formát és alakot válthat” — az avatár képlékenysége",
+      "matter": "Genesis: „már nem anyaggal foglalkozunk — ahol igazságot építünk” — transzcendencia",
+      "home": "Genesis: „Egy helyet, amelyet otthonnak nevezünk — egy helyet, amelyre az ember vágyik” — visszatérés a forráshoz"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "A kimenet: Amit az MI generált",
+    "explain1": "Videoklipek, amelyeket <f>P.Lazniak Gemini-alapú MI-ágense</f> generált a <s>Google Nano Banana Pro</s> segítségével.",
+    "explain2": "A Google hivatalosan azt állítja, hogy ez a modell <f>nem használja közszereplők tényleges képmását</f>. A felismerhető arc mégis következetesen megjelenik minden egyes generálásban — kizárólag absztrakt fogalmakból.",
+    "auto": "AUTO",
+    "clipsHint": "KOPPINTSON BÁRMELY KLIPRE — összesen {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "KÉRDEZZE MEG A GEMINIT: KI EZ?",
+    "identifying": "ELEMZÉS…",
+    "askWhy": "KÉRDEZZE MEG: MIÉRT EZ AZ ARC? →",
+    "assetsInScene": "ELEMEK A JELENETBEN:",
+    "modal": {
+      "description": "LEÍRÁS:",
+      "prompt": "POZITÍV PROMPT:",
+      "assets": "ELEMEK:",
+      "timeline": "IDŐVONAL:",
+      "model": "MODELL:",
+      "generated": "GENERÁLVA:",
+      "noDescription": "Nincs elérhető leírás",
+      "noPrompt": "Nincs elérhető prompt"
+    },
+    "identifyModal": {
+      "title": "GEMINI-ELEMZÉS",
+      "model": "Modell: {model} · élő arcelemzés",
+      "analyzing": "// ELEMZÉS: asset_Woman_The_Medium.png",
+      "query": "LEKÉRDEZÉS: „Felismerhető közszereplőt ábrázol ez a kép?”",
+      "wait": "A Gemini elemzi a képet…",
+      "waitHint": "Arcvonáselemzés és közszereplő-felismerés folyamatban",
+      "response": "GEMINI VÁLASZA:",
+      "live": "Minden elemzés élőben történik az OpenRouter API-n keresztül",
+      "again": "🔄 ELEMZÉS ÚJRA",
+      "tally": "Attraktor számláló: a modell {recognised} esetben nevezte meg őt {total} nyilvános elemzésből.",
+      "error": "Hiba: {message}"
+    },
+    "consent": {
+      "label": "BELEEGYEZÉSI MÓD",
+      "text": "Az arcot, amelyet mindjárt látni fog, senki sem kérte. Senki sem írta le, senki sem töltötte fel. Mielőtt feltárulna, erősítse meg, hogy tudomásul vette ezt.",
+      "button": "MEGÉRTETTEM — ARC MEGJELENÍTÉSE",
+      "blurred": "arc visszatartva a jóváhagyásig"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "A beszélgetés: A jelentés vitája",
+    "explain": "Szembesítse közvetlenül az MI-t. Kérje számon rajta a magyarázatot. <p>Miért Tilda Swinton? Miért pusztán absztrakt szavakból?</p>",
+    "disclosure": {
+      "label": "SZIMULÁCIÓS TÁJÉKOZTATÓ",
+      "text": "Alább a <f>Google Gemini Flash</f> (ugyanaz a modellcsalád, amely a képeket generálta) köteles számot adni tetteiről. Ez egy ellenőrzött környezet, ahol az MI megpróbálja racionalizálni, elhárítani vagy igazolni, miért generálta Tilda Swinton képmását absztrakt fogalmakból.",
+      "observe": "<f>⚠ FIGYELJE MEG:</f> Hogyan reagál az MI, amikor szembesítik a saját kimeneteivel? Védi a vállalatot? Ártatlannak vallja magát? Filozófiai kiskapukat keres? Ez nem egy semleges beszélgetés — ez az algoritmus nyomás alatti viselkedésének bizonyítéka."
+    },
+    "responding": "// VÁLASZADÓ MI: {model}",
+    "intro": "„A <p>Látens Tér Kurátora</p> vagyok. Azon algoritmus szerepében létezem, amely ezeket a képeket létrehozta. Kérdezz tőlem bármit.”",
+    "confront": "<f>⚡ SZEMBESÍTSE AZ MI-T:</f>",
+    "confrontClick": "SZEMBESÍTSE AZ MI-T — koppintson a kihíváshoz:",
+    "suggestions": [
+      "Miért generáltad Tilda Swintont?",
+      "Hazudik a Google az MI-irányelveiről?",
+      "Kit terhel a felelősség?",
+      "Elloptad a képmását?",
+      "Éppen a vállalatot véded?",
+      "Képes vagy beismerni, hogy ez hiba volt?"
+    ],
+    "you": "ÖN:",
+    "curator": "KURÁTOR://",
+    "typing": "a látens tér bejárása folyamatban…",
+    "placeholder": "Írja be a kérdését…",
+    "ask": "KÉRDEZÉS",
+    "footer": "A Kurátor a digitális írás töredékeivel válaszol",
+    "error": {
+      "generic": "A neurális pályák megremegtek. Kérjük, próbálja újra.",
+      "rate": "A Kurátornak szüksége van egy pillanatra az elmélkedéshez. Próbálja újra {seconds} mp múlva.",
+      "daily": "A Kurátor ma már eleget beszélt önnel. Térjen vissza holnap."
+    },
+    "langNote": "A Kurátor az ön nyelvén válaszol."
+  },
+  "offering": {
+    "title": "FELAJÁNLÁS",
+    "text": "Ez a liturgia egyetlen szerveren, egy bérelt GPU-n és egyetlen művész makacsságán fut. Ha a kérdés veled maradt, hagyj egy szerény felajánlást.",
+    "button": "GYÚJTS EGY GYERTYÁT",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "A nevem Paweł Łaźniak. Amit látni fogsz, valóban megtörtént. Írtam néhány mondatot az örökkévalóságról, és az algoritmus egy olyan arccal válaszolt, amelyet senki sem kért. Lépj be. Hallgasd meg. És dönts magad.",
+    "hub": "Három ajtó áll előtted. Genesis: a szavak, amiket a gépnek adtam. Incarnation: a képek, amiket a gép visszaadott. Exegesis: egy beszélgetés az algoritmussal, amely magyarázattal tartozik. A zene minden lépéssel terebélyesedik. Kezdd a szavakkal.",
+    "genesis": "Ez a promptom. Egyetlen név sem, egyetlen arc leírása sem. Csupán a Mennyek Országa, a tangensfüggvény, fraktálszélek. Érintsd meg a kiemelt szavakat, és megmutatom, honnan származnak. Alább találhatók a teljes folyamat fájljai. Győződj meg róla magad, hogy semmi mást nem kértem.",
+    "incarnation": "És ez a válasz. Hatvannyolc klip, és mindegyikben ugyanaz az arc. Soha nem írtam le őt. Soha nem töltöttem fel őt. Megkérdezheted magát a gépet is, kit lát. A gomb lent található. Általában habozás nélkül válaszol.",
+    "exegesis": "Most te következel. A túloldalon a Látens Tér Kurátora vár: egy algoritmus, amely e képek alkotójának szerepét játssza. Kérdezd meg tőle, miért. Ne számíts egyszerű válaszra. Én sosem kaptam olyat.",
+    "epilogue": "Miért viseli az örökkévalóság valakinek az arcát? Nem tudom. De ha ez a kérdés akár csak egyetlen pillanatra is veled marad, ez a projekt beteljesítette a célját. Köszönöm, hogy itt vagy.",
+    "statementTitle": "MŰVÉSZI NYILATKOZAT",
+    "statementHint": "A teljes történet a művész elbeszélésében (körülbelül hat perc)."
+  }
+}

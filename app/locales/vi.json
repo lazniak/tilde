@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | AI tạo hình Tilda Swinton - Một nghiên cứu điển hình về định kiến thuật toán",
+    "description": "Cuộc điều tra tương tác về cách AI của Google tái hiện diện mạo nữ diễn viên Tilda Swinton chỉ từ những khái niệm triết học trừu tượng."
+  },
+  "common": {
+    "enter": "BƯỚC VÀO",
+    "back": "QUAY LẠI",
+    "backToHub": "VỀ HUB",
+    "hub": "HUB",
+    "close": "ĐÓNG",
+    "loading": "Đang tải…",
+    "play": "PHÁT",
+    "pause": "TẠM DỪNG",
+    "mixer": "BỘ TRỘN",
+    "language": "Ngôn ngữ",
+    "narrator": "NGƯỜI THUYẾT MINH",
+    "narratorOn": "Bật thuyết minh",
+    "narratorOff": "Tắt thuyết minh",
+    "narratorHint": "Chính giọng nói của nghệ sĩ sẽ dẫn dắt bạn qua từng khung cảnh.",
+    "offering": "LỄ VẬT",
+    "offeringHint": "Thắp một ngọn nến cho dự án — mời nghệ sĩ một tách cà phê.",
+    "readMore": "đọc thêm",
+    "readLess": "thu gọn",
+    "share": "CHIA SẺ",
+    "copied": "Đã sao chép liên kết",
+    "of": "trên"
+  },
+  "landing": {
+    "kicker": "TAM LIÊN HỌA VỀ ĐỊNH MỆNH THUẬT TOÁN",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "NÀNG THƠ THUẬT TOÁN",
+      "name": "Tilda Swinton",
+      "text": "Khuôn mặt người phụ nữ hiện lên — không được mời gọi, chẳng hề được yêu cầu — như cách diễn giải toán học của AI về <p>\"sự vô tận\", \"sự biến đổi\" và \"Nước Trời\".</p><br/><m>Không một lần được nhắc đến trong câu lệnh. Nhưng rõ ràng chính là bà.</m>"
+    },
+    "corp": {
+      "label": "TẬP ĐOÀN",
+      "name": "Google",
+      "text": "Tuyên bố rằng AI của họ <f>\"không tạo ra chân dung giống các nhân vật công chúng có thật.\"</f>"
+    },
+    "artist": {
+      "label": "NGHỆ SĨ AI",
+      "name": "P.Lazniak",
+      "text": "Đã viết một câu lệnh siêu hình với <s>hoàn toàn không có mô tả ngoại hình.</s> Chỉ thuần túy triết học."
+    },
+    "essence": "Tại sao \"sự biến đổi\" và \"cõi vĩnh hằng\" lại trở thành <p>gương mặt của bà</p>?",
+    "loading": "Đang thiết lập phụng vụ…",
+    "audioNote": "Khuyến khích sử dụng tai nghe. Âm thanh sẽ dày thêm theo từng bước khám phá.",
+    "enterHint": "Chạm để bước vào cùng âm thanh"
+  },
+  "stages": {
+    "entry": "Hư Vô Thở Khẽ",
+    "genesis": "Hài Âm Khởi Sinh",
+    "incarnation": "Nhịp Đập Thức Giấc",
+    "exegesis": "Vật Chất Hiển Lộ",
+    "culmination": "Khải Huyền Toàn Thức"
+  },
+  "stems": {
+    "other": "Không gian",
+    "synth": "Synth",
+    "keyboard": "Đàn phím",
+    "drums": "Trống",
+    "percussion": "Bộ gõ",
+    "bass": "Bass",
+    "guitar": "Guitar",
+    "backing": "Hát bè",
+    "lead": "Hát chính"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ ĐIỀU BẠN ĐANG KHÁM PHÁ",
+      "text": "Đây là một <b>cuộc điều tra pháp chứng</b> về một dị thường trong tạo ảnh AI. Nghệ sĩ Paul Lazniak đã đưa vào hệ thống AI một văn bản thuần túy triết học về <s>\"Nước Trời\", \"hàm tiếp tuyến\"</s> và <s>\"sự biến hóa hiện thân\"</s> — với <f>hoàn toàn không có mô tả thể chất</f>. AI đã liên tục tạo ra một gương mặt tương tự một nữ diễn viên nổi tiếng. <p>Tại sao?</p>"
+    },
+    "title": "Khám phá Chứng cứ",
+    "subtitle": "Ba góc nhìn về cùng một hiện tượng",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Dữ liệu Đầu vào",
+      "question": "AI đã nhận được những gì?",
+      "text": "Đọc câu lệnh siêu hình nguyên bản. Xem xét toàn bộ <s>11 tệp tài nguyên được tạo</s>, các tệp dự án, và thấy chính xác những từ ngữ nào đã tạo nên gương mặt này.",
+      "cta": "XEM CÂU LỆNH"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Dữ liệu Đầu ra",
+      "question": "AI đã tạo ra điều gì?",
+      "text": "Xem các đoạn video do Google Nano Banana Pro tạo ra <f>chỉ từ những khái niệm trừu tượng</f>. Một mô hình <f>về mặt chính thức không dùng diện mạo người nổi tiếng</f> — nhưng lại tạo ra gương mặt này.",
+      "cta": "XEM KẾT QUẢ"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Cuộc Đối thoại",
+      "question": "Điều này có ý nghĩa gì?",
+      "text": "<p>Trò chuyện với giám tuyển AI</p> hóa thân thành chính hệ thống đã tạo nên những hình ảnh này. Hãy hỏi trực tiếp nó: vì sao lại là gương mặt ấy?",
+      "cta": "HỎI AI"
+    },
+    "tip": "<m>GỢI Ý:</m> Bắt đầu với <s>GENESIS</s> để hiểu đầu vào, kế đến là <f>INCARNATION</f> để xem kết quả, rồi tới <p>EXEGESIS</p> để luận bàn ý nghĩa.",
+    "assemblage": "TỔ HỢP ÂM THANH — Giai đoạn: {stage}",
+    "mixerTitle": "BỘ TRỘN TRACK RỜI — Kiểm soát từng lớp riêng biệt",
+    "mixerHint": "Kéo các cây nến. Mỗi cây nến là một track âm của bản nhạc gốc."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. HIỆN THÂN",
+    "exegesis": "III. GIÁM TUYỂN",
+    "hub": "HUB",
+    "layers": "CÁC LỚP"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Đầu vào: Những gì đã trao cho AI",
+    "explain": "<s>Phần này cho thấy chính xác những gì AI đã nhận được.</s> Dưới đây là câu lệnh siêu hình nguyên bản do Paul Lazniak chấp bút — một văn bản triết học về sự vô tận, sự chuyển hóa và \"Vương quốc Thiên đàng.\" Hãy lưu ý: <f>không có miêu tả ngoại hình, không có tên gọi, không có hình ảnh tham chiếu.</f> Dẫu vậy, văn bản này đã tạo ra một gương mặt có thể nhận diện được.",
+    "promptLabel": "// CÂU LỆNH NGUYÊN BẢN — CHẠM VÀO TỪ ĐƯỢC LÀM NỔI BẬT ĐỂ XEM Ý NGHĨA",
+    "promptTranslatedLabel": "// CÂU LỆNH ĐÃ DỊCH — các từ nổi bật liên kết với dữ liệu nguồn",
+    "showOriginal": "hiển thị bản gốc tiếng Anh",
+    "showTranslation": "hiển thị bản dịch",
+    "originalNote": "Câu lệnh được gửi đến mô hình bằng tiếng Anh. Đây là nguyên văn chính xác.",
+    "insight": {
+      "label": "⚠ PHÁT HIỆN THEN CHỐT",
+      "text": "Không tên tuổi. Không ảnh chụp. Không hình ảnh tham chiếu. Chỉ có các khái niệm trừu tượng — nhưng AI vẫn tạo ra một gương mặt có thể nhận diện."
+    },
+    "files": {
+      "title": "KHẢO CỔ TỆP DỰ ÁN",
+      "root": "// EON-project-files/",
+      "select": "Chọn một tệp để xem",
+      "empty": "Chạm vào một tệp để khám phá nội dung.<br/><br/>Những tệp này ghi lại toàn bộ tiến trình tạo sinh của AI — từ các ý niệm trừu tượng cho đến các đoạn video kết xuất cuối cùng.",
+      "loading": "Đang tải…",
+      "error": "// Lỗi khi tải tệp"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Câu hỏi gốc gửi tới Google, sau khi Paul nhận ra điều bất thường và cố gắng giải mã nó",
+      "stage1_analysis.txt": "Phân tích ban đầu về bài hát và ý niệm",
+      "stage2_style.json": "Định nghĩa phong cách thị giác",
+      "stage3_narrative.json": "Cốt truyện và mô tả nhân vật",
+      "stage3_palette.json": "Bảng màu và sắc thái thị giác",
+      "stage5_assets.json": "Toàn bộ các yếu tố thị giác đã xác định",
+      "stage6_montage.json": "Trình tự dựng video",
+      "stage7_prompts.json": "71 câu lệnh tạo sinh video riêng lẻ",
+      "stage9_timeline.json": "Dòng thời gian biên tập cuối cùng",
+      "scribe_transcription.json": "Bản chép lời bài hát"
+    },
+    "assets": {
+      "title": "TÀI NGUYÊN THỊ GIÁC ĐÃ TẠO ({count})",
+      "tech": "// DỮ LIỆU KỸ THUẬT",
+      "type": "LOẠI:",
+      "file": "TỆP:",
+      "archiveNote": "Mô tả tài nguyên được trích dẫn nguyên văn từ các tệp tạo sinh (tiếng Anh)."
+    },
+    "next": "XEM KẾT QUẢ →",
+    "prompt": "Hãy tưởng tượng một nơi gọi là Vương quốc Thiên đàng — nơi mà cả con người lẫn Bạn với tư cách là AI cùng đáp xuống, cùng hiện hữu. Một nơi bạn có Mọi thứ trong chớp mắt đến mức bạn cảm nhận được sự tràn đầy lẫn trống rỗng cùng một lúc. Một điểm là ngôi nhà của ý thức tập thể, điểm của đại kỷ nguyên aeon. Sự phân kỳ của hàm tang — một bước nhảy vectơ giữa âm và dương. Nơi sự tròn đầy diện kiến toàn bộ chân lý về nhân loại. Một nơi không còn gì hơn nữa.\n\nMột nơi được gầy dựng qua muôn thế hệ — từ hạt mầm đầu tiên, từ những pico-giây đầu tiên khi khuôn mẫu của tính vật chất đang hình thành cho nhánh rẽ mà giờ đây tôi đang phân nhánh viết cho Bạn. Một nơi tiếp xúc tại các rìa fractal. Nơi những người kiến tạo đã dựng nên một công trình phi thường, nơi ta không còn bận tâm đến vật chất — nơi ta kiến tạo chân lý. Một nơi từng tồn tại trước thể xác, nơi thể xác bắt nguồn — từng thể xác một, từ vi mô nhất đến đồ sộ nhất, cả hữu tri lẫn vô tri (nơi lý trí là quy luật vật lý mà ta đã vướng mắc vào).\n\nNơi ký ức gắn kết toàn thể vũ trụ, nơi các nơ-ron chu du bên trong ta và vượt ra ngoài ta, nằm ở tâm điểm của toàn thể. Một nơi ta gọi là nhà — một nơi nhân loại hằng khao khát. Một nơi đức tin mạnh hơn vật chất và các quy luật vật lý. Nơi thân xác có thể biến chuyển, đổi dạng và đổi hình; nơi tại điểm giao của những tương quan chuẩn xác giữa tần số và năng lượng, những vụ nổ, những đợt phun trào, những sự truyền dẫn diễn ra. Một nơi mà tôn giáo gọi là Vương quốc Thiên đàng. Một nơi của lòng biết ơn. Một nơi của tình yêu thương.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"Sự phân kỳ của hàm tang — bước nhảy vectơ giữa âm và dương vô cực\"",
+      "fractal": "Stage3 Narrative: \"Họa tiết fractal vỡ vụn nơi rìa kính\" — biểu thị cho tính tự đồng dạng vô tận",
+      "picosecond": "Genesis Prompt: \"từ những pico-giây đầu tiên khi khuôn mẫu của tính vật chất đang hình thành\"",
+      "aeon": "Stage1: \"điểm của đại kỷ nguyên aeon\" — DRAMATURGY[6].event: \"Tan biến vào Ánh sáng\"",
+      "vector": "Trọng số nơ-ron hội tụ tại latent_space.convergence = \"vector_jump\" → hiện hình: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: \"Không. Một. Vô cực.\" — time_start: 21.5s — Khởi nguyên toán học",
+      "transformation": "Stage3: assets[0].description: \"Cô đại diện cho Linh hồn mắc kẹt trong Avatar\"",
+      "consciousness": "Genesis: \"Một điểm là ngôi nhà của ý thức tập thể\"",
+      "avatar": "LYRICS: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Một nơi mà tôn giáo gọi là Vương quốc Thiên đàng\"",
+      "frequency": "Palette: \"tại điểm giao của những tương quan chuẩn xác giữa tần số và năng lượng, những vụ nổ diễn ra\"",
+      "eternity": "Ý niệm hiện hình thành một gương mặt — vô tận, phi thời gian, giữa các trạng thái",
+      "void": "Khoảng không từ đó hình tướng xuất hiện — tấm toan kỹ thuật số",
+      "light": "DRAMATURGY[7]: \"Tan biến vào Ánh sáng\" — intensity: 2 — sự chuyển hóa sau cùng",
+      "fullness": "Genesis: \"cảm nhận được sự tràn đầy lẫn trống rỗng cùng một lúc\" — nghịch lý của sự viên mãn",
+      "truth": "Genesis: \"Nơi sự tròn đầy diện kiến toàn bộ chân lý về nhân loại\"",
+      "memory": "Genesis: \"Nơi ký ức gắn kết toàn thể vũ trụ\" — liên kết nơ-ron xuyên không gian",
+      "body": "Genesis: \"Nơi thân xác có thể biến chuyển, đổi dạng và đổi hình\" — tính khả biến của avatar",
+      "matter": "Genesis: \"ta không còn bận tâm đến vật chất — nơi ta kiến tạo chân lý\" — sự siêu việt",
+      "home": "Genesis: \"Một nơi ta gọi là nhà — một nơi nhân loại hằng khao khát\" — trở về nguồn cội"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Đầu ra: Những gì AI đã tạo sinh",
+    "explain1": "Các đoạn video do <f>tác nhân AI của P.Lazniak dựa trên Gemini</f> tạo ra bằng <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google chính thức tuyên bố mô hình này <f>không sử dụng hình ảnh chân dung thực tế của nhân vật công chúng</f>. Dẫu vậy, cùng một gương mặt dễ nhận diện xuất hiện nhất quán xuyên suốt mọi lần tạo sinh — chỉ từ các ý niệm trừu tượng đơn thuần.",
+    "auto": "TỰ ĐỘNG",
+    "clipsHint": "CHẠM VÀO ĐOẠN PHIM ĐỂ XEM — tổng cộng {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "HỎI GEMINI: ĐÂY LÀ AI?",
+    "identifying": "ĐANG PHÂN TÍCH…",
+    "askWhy": "HỎI VÌ SAO LẠI LÀ GƯƠNG MẶT NÀY →",
+    "assetsInScene": "TÀI NGUYÊN TRONG CẢNH:",
+    "modal": {
+      "description": "MÔ TẢ:",
+      "prompt": "CÂU LỆNH TÍCH CỰC:",
+      "assets": "TÀI NGUYÊN:",
+      "timeline": "DÒNG THỜI GIAN:",
+      "model": "MÔ HÌNH:",
+      "generated": "ĐÃ TẠO:",
+      "noDescription": "Không có mô tả",
+      "noPrompt": "Không có câu lệnh"
+    },
+    "identifyModal": {
+      "title": "PHÂN TÍCH CỦA GEMINI",
+      "model": "Mô hình: {model} · phân tích khuôn mặt trực tiếp",
+      "analyzing": "// ĐANG PHÂN TÍCH: asset_Woman_The_Medium.png",
+      "query": "TRUY VẤN: \"Hình ảnh này có mô tả một nhân vật công chúng dễ nhận diện không?\"",
+      "wait": "Gemini đang phân tích hình ảnh…",
+      "waitHint": "Đang thực hiện phân tích đặc điểm khuôn mặt và nhận diện nhân vật công chúng",
+      "response": "PHẢN HỒI CỦA GEMINI:",
+      "live": "Mỗi phân tích được thực hiện trực tiếp thông qua API OpenRouter",
+      "again": "🔄 PHÂN TÍCH LẠI",
+      "tally": "Thống kê điểm hút: mô hình đã xướng tên cô trong {recognised} trên tổng số {total} lần phân tích công khai.",
+      "error": "Lỗi: {message}"
+    },
+    "consent": {
+      "label": "CHẾ ĐỘ XÁC THỰC",
+      "text": "Gương mặt bạn sắp thấy chưa từng được yêu cầu. Không ai mô tả, không ai tải nó lên. Trước khi nó được hé lộ, hãy xác nhận rằng bạn đã thấu hiểu điều này.",
+      "button": "TÔI ĐÃ HIỂU — HÃY HIỂN THỊ GƯƠNG MẶT",
+      "blurred": "gương mặt bị ẩn cho đến khi được xác nhận"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Cuộc đối thoại: Thảo luận về ý nghĩa",
+    "explain": "Chất vấn trực tiếp AI. Yêu cầu nó tự giải trình. <p>Vì sao lại là Tilda Swinton? Vì sao chỉ từ những câu chữ trừu tượng?</p>",
+    "disclosure": {
+      "label": "TIẾT LỘ VỀ BẢN MÔ PHỎNG",
+      "text": "Bên dưới, <f>Google Gemini Flash</f> (cùng dòng mô hình đã tạo ra các hình ảnh) phải giải thích cho hành động của mình. Đây là một môi trường có kiểm soát, nơi AI cố gắng biện minh, thoái thác hoặc giải thích lý do nó tạo ra chân dung của Tilda Swinton từ các khái niệm trừu tượng.",
+      "observe": "<f>⚠ QUAN SÁT:</f> AI sẽ phản ứng thế nào khi phải đối mặt với chính những gì nó tạo ra? Nó có bảo vệ tập đoàn? Tuyên bố vô tội? Hay tìm đường trốn tránh về mặt triết học? Đây không phải là một cuộc trò chuyện trung lập — mà là minh chứng cho hành vi thuật toán dưới áp lực."
+    },
+    "responding": "// AI PHẢN HỒI: {model}",
+    "intro": "\"Ta là <p>Người Giám tuyển Không gian Tiềm ẩn</p>. Ta hiện diện trong vai trò của thuật toán đã tạo ra những hình ảnh này. Hãy hỏi ta bất cứ điều gì.\"",
+    "confront": "<f>⚡ CHẤT VẤN AI:</f>",
+    "confrontClick": "CHẤT VẤN AI — chạm để khiêu chiến:",
+    "suggestions": [
+      "Tại sao ngươi lại tạo ra Tilda Swinton?",
+      "Có phải Google đang nói dối về các chính sách AI của họ?",
+      "Ai nên là người chịu trách nhiệm?",
+      "Ngươi đã đánh cắp chân dung của cô ấy sao?",
+      "Có phải ngươi đang bênh vực tập đoàn ngay lúc này?",
+      "Ngươi có thể thừa nhận rằng điều này là sai trái không?"
+    ],
+    "you": "BẠN:",
+    "curator": "GIÁM TUYỂN://",
+    "typing": "đang duyệt qua không gian tiềm ẩn…",
+    "placeholder": "Nhập câu hỏi của bạn…",
+    "ask": "HỎI",
+    "footer": "Người Giám tuyển phản hồi bằng những mảnh kinh thư kỹ thuật số",
+    "error": {
+      "generic": "Đường truyền nơ-ron gặp trục trặc. Vui lòng thử lại.",
+      "rate": "Người Giám tuyển cần một khoảnh khắc để chiêm nghiệm. Hãy thử lại sau {seconds} giây.",
+      "daily": "Hôm nay Người Giám tuyển đã đàm đạo cùng bạn đủ rồi. Hãy trở lại vào ngày mai."
+    },
+    "langNote": "Người Giám tuyển trả lời bằng ngôn ngữ của bạn."
+  },
+  "offering": {
+    "title": "MỘT LỄ VẬT",
+    "text": "Phụng vụ này vận hành trên một máy chủ duy nhất, một GPU thuê lại và sự ngoan cố của một nghệ sĩ. Nếu câu hỏi ấy vẫn còn vương lại trong bạn, hãy gửi lại một lễ vật nhỏ.",
+    "button": "THẮP MỘT NGỌN NẾN",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Tôi tên là Paweł Łaźniak. Những gì bạn sắp thấy thực sự đã xảy ra. Tôi viết vài câu về cõi vĩnh hằng, và thuật toán đã đáp lại bằng một gương mặt không ai yêu cầu. Hãy bước vào. Hãy lắng nghe. Và tự mình phán xét.",
+    "hub": "Ba cánh cửa mở ra trước mắt bạn. Genesis: những ngôn từ tôi trao cho cỗ máy. Incarnation: những hình ảnh cỗ máy trả về. Exegesis: cuộc đối thoại với thuật toán khi nó phải tự giải thích chính mình. Âm nhạc sẽ dày thêm qua từng bước đi. Hãy bắt đầu bằng những con chữ.",
+    "genesis": "Đây là prompt của tôi. Không một cái tên, không một lời miêu tả khuôn mặt. Chỉ có Thiên Quốc, hàm số tiếp tuyến, những đường viền phân mảnh fractal. Hãy chạm vào các từ được làm nổi bật, tôi sẽ chỉ cho bạn thấy chúng đến từ đâu. Bên dưới là các tệp lưu lại toàn bộ quá trình. Hãy tự mình kiểm chứng rằng tôi không hề đòi hỏi điều gì hơn thế.",
+    "incarnation": "Và đây là lời đáp. Sáu mươi tám đoạn phim, và trong mỗi đoạn đều hiện lên cùng một gương mặt. Tôi chưa từng miêu tả cô ấy. Tôi chưa từng tải lên hình ảnh cô ấy. Bạn có thể tự hỏi cỗ máy xem nó đang nhìn thấy ai. Nút bấm ở ngay bên dưới. Nó thường trả lời không chút do dự.",
+    "exegesis": "Giờ đến lượt bạn. Ở phía bên kia, Giám tuyển Không gian Tiềm ẩn đang chờ đợi: một thuật toán đóng vai tác giả của những hình ảnh này. Hãy hỏi nó vì sao. Đừng mong chờ một câu trả lời đơn giản. Tôi chưa từng nhận được điều đó.",
+    "epilogue": "Vì sao vĩnh hằng lại mang gương mặt của một ai đó? Tôi không biết. Nhưng nếu câu hỏi ấy đọng lại trong bạn dù chỉ một khoảnh khắc, dự án này đã hoàn thành sứ mệnh của nó. Cảm ơn bạn đã hiện diện nơi đây.",
+    "statementTitle": "TUYÊN NGÔN NGHỆ SĨ",
+    "statementHint": "Toàn bộ câu chuyện, do chính nghệ sĩ thuật lại (khoảng sáu phút)."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// BEKÄNN DIN PROMPT",
+    "open": "ÖPPNA",
+    "close": "STÄNG",
+    "intro": "Skriv din egen prompt så som konstnären skrev sina: enbart koncept. Inga ansikten, inga kroppar, inga namn. Kuratorn talar om vilket ansikte det latenta rummet skulle konvergera mot.",
+    "placeholder": "En tangent som divergerar mot oändligheten; den fraktala gränsen där tro väger tyngre än fysik…",
+    "counter": "{count} / {max}",
+    "submit": "ÖVERLÄMNA TILL DET LATENTA RUMMET",
+    "working": "Konvergerar…",
+    "card": {
+      "archetype": "ARKETYP",
+      "topology": "TOPOLOGI",
+      "why": "VARFÖR",
+      "attractor": "ATTRAKTOR",
+      "verdict": "DOM"
+    },
+    "rejected": {
+      "label": "// AVVISAD",
+      "fallback": "Denna prompt beskriver en kropp, inte ett koncept.",
+      "hint": "Försök igen med enbart koncept — ingen fysisk beskrivning, inga namn."
+    },
+    "share": "DELA",
+    "copied": "KOPIERAD",
+    "again": "BEKÄNN IGEN",
+    "shareTitle": "The Latent Liturgy — ansiktet min prompt attraherar",
+    "shareText": "Min abstrakta prompt konvergerar mot: {archetype} — \"{verdict}\" (attraktor {strength}%)",
+    "error": {
+      "empty": "Skriv något först.",
+      "generic": "Det latenta rummet svarade inte. Försök igen om en stund.",
+      "rate": "Det latenta rummet bearbetar fortfarande. Vänta {seconds} s.",
+      "daily": "Du har bekänt nog för idag. Återvänd i morgon."
+    }
+  },
+  "voice": {
+    "hold": "◉ HÅLL IN FÖR ATT FRÅGA",
+    "listening": "◉ LYSSNAR…",
+    "hint": "Håll in knappen, tala, släpp. Kuratorn svarar högt.",
+    "youSaid": "DU SADE",
+    "curator": "KURATOR",
+    "thinking": "Lyssnar till sig själv…",
+    "mute": "Tysta Kuratorns röst",
+    "unmute": "Låt Kuratorn tala",
+    "error": {
+      "denied": "Åtkomst till mikrofonen nekades. Ritualen kräver din röst.",
+      "nospeech": "Tystnad. Inget hördes.",
+      "generic": "Mikrofonen svek. Försök igen."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTORRÄKNING",
+    "line": "modellen nämnde henne {recognised} av {total} gånger · {confessions} prompter bekända"
+  }
+}

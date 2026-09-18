@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | AI-genererad Tilda Swinton – En fallstudie i algoritmiska fördomar",
+    "description": "En interaktiv undersökning av hur Googles AI genererade skådespelerskan Tilda Swintons anletsdrag uteslutande från abstrakta filosofiska koncept."
+  },
+  "common": {
+    "enter": "TRÄD IN",
+    "back": "TILLBAKA",
+    "backToHub": "TILLBAKA TILL HUBB",
+    "hub": "HUBB",
+    "close": "STÄNG",
+    "loading": "Laddar…",
+    "play": "SPELA",
+    "pause": "PAUSA",
+    "mixer": "MIXER",
+    "language": "Språk",
+    "narrator": "BERÄTTARE",
+    "narratorOn": "Berättare på",
+    "narratorOff": "Berättare av",
+    "narratorHint": "Konstnärens egen röst guidar dig genom varje panel.",
+    "offering": "OFFERGÅVA",
+    "offeringHint": "Tänd ett ljus för projektet – bjud konstnären på en kaffe.",
+    "readMore": "läs mer",
+    "readLess": "läs mindre",
+    "share": "DELA",
+    "copied": "Länk kopierad",
+    "of": "av"
+  },
+  "landing": {
+    "kicker": "EN TRIPTYK ÖVER ALGORITMISKT ÖDE",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "DEN ALGORITMISKA MUSAN",
+      "name": "Tilda Swinton",
+      "text": "Vars ansikte trädde fram – objudet, oefterfrågat – som AI-modellens matematiska tolkning av <p>\"oändlighet\", \"transformation\" och \"Himmelriket\".</p><br/><m>Aldrig nämnd i prompten. Ändå omisskännligt hon.</m>"
+    },
+    "corp": {
+      "label": "KORPORATIONEN",
+      "name": "Google",
+      "text": "Hävdar att dess AI <f>\"inte genererar avbilder av verkliga offentliga personer\".</f>"
+    },
+    "artist": {
+      "label": "AI-KONSTNÄREN",
+      "name": "P.Lazniak",
+      "text": "Skrev en metafysisk prompt med <s>noll fysiska beskrivningar.</s> Endast filosofi."
+    },
+    "essence": "Varför blev \"transformation\" och \"evighet\" till <p>hennes ansikte</p>?",
+    "loading": "Sammanställer liturgin…",
+    "audioNote": "Hörlurar rekommenderas. Ljudbilden byggs upp allteftersom du utforskar.",
+    "enterHint": "Tryck för att träda in med ljud"
+  },
+  "stages": {
+    "entry": "Tomrummet andas",
+    "genesis": "Harmonier framträder",
+    "incarnation": "Pulsen vaknar",
+    "exegesis": "Materian manifesteras",
+    "culmination": "Fullständig uppenbarelse"
+  },
+  "stems": {
+    "other": "Atmosfär",
+    "synth": "Synt",
+    "keyboard": "Klaviatur",
+    "drums": "Trummor",
+    "percussion": "Slagverk",
+    "bass": "Bas",
+    "guitar": "Gitarr",
+    "backing": "Körsång",
+    "lead": "Leadsång"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ VAD DU UTFORSKAR",
+      "text": "Detta är en <b>forensisk undersökning</b> av en anomali inom AI-generering. Konstnären Paul Lazniak gav ett AI-system en rent filosofisk text om <s>\"Himmelriket\", \"tangensfunktioner\"</s> och <s>\"avatartransformation\"</s> – med <f>noll fysiska beskrivningar</f>. AI:n genererade konsekvent ett ansikte som liknade en berömd skådespelerska. <p>Varför?</p>"
+    },
+    "title": "Utforska bevisen",
+    "subtitle": "Tre perspektiv på samma fenomen",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Indatan",
+      "question": "Vad gavs till AI:n?",
+      "text": "Läs den ursprungliga metafysiska prompten. Granska alla <s>11 genererade tillgångar</s>, projektfiler, och se exakt vilka ord som framkallade detta ansikte.",
+      "cta": "SE PROMPTEN"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Utdatan",
+      "question": "Vad genererade AI:n?",
+      "text": "Se videoklipp genererade av Google Nano Banana Pro uteslutande utifrån <f>abstrakta koncept</f>. En modell som <f>officiellt inte använder kända personers anletsdrag</f> – men som ändå frambringade detta ansikte.",
+      "cta": "SE RESULTATET"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Samtalet",
+      "question": "Vad innebär detta?",
+      "text": "<p>Samtala med en AI-kurator</p> som gestaltar systemet som skapade dessa bilder. Fråga den direkt: varför just detta ansikte?",
+      "cta": "FRÅGA AI:N"
+    },
+    "tip": "<m>TIPS:</m> Börja med <s>GENESIS</s> för att förstå indatan, sedan <f>INCARNATION</f> för att se utdatan, och därefter <p>EXEGESIS</p> för att diskutera dess innebörd.",
+    "assemblage": "LJUDMONTAGE – Nivå: {stage}",
+    "mixerTitle": "LJUDSPÅRSMIXER – Kontrollera enskilda lager",
+    "mixerHint": "Dra i ljusen. Varje ljus motsvarar ett spår ur originalkompositionen."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURATOR",
+    "hub": "HUBB",
+    "layers": "LAGER"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Indata: Vad som gavs till AI:n",
+    "explain": "<s>Det här avsnittet visar exakt vad AI:n tog emot.</s> Nedan visas den ursprungliga metafysiska prompten skriven av Paul Lazniak — en filosofisk text om oändlighet, transformation och \"Himmelriket\". Lägg märke till: <f>inga fysiska beskrivningar, inga namn, inga referensbilder.</f> Ändå framkallade denna text ett igenkännbart ansikte.",
+    "promptLabel": "// DEN URSPRUNGLIGA PROMPTEN — TRYCK PÅ MARKERADE ORD FÖR ATT SE DERAS BETYDELSE",
+    "promptTranslatedLabel": "// PROMPTEN, ÖVERSATT — markerade ord länkar till källdata",
+    "showOriginal": "visa det engelska originalet",
+    "showTranslation": "visa översättning",
+    "originalNote": "Prompten skickades till modellen på engelska. Detta är den exakta ordalydelsen.",
+    "insight": {
+      "label": "⚠ VIKTIG INSIKT",
+      "text": "Inget namn. Inget fotografi. Ingen referensbild. Bara abstrakta begrepp — ändå skapade AI:n ett igenkännbart ansikte."
+    },
+    "files": {
+      "title": "PROJEKTFILERNAS ARKEOLOGI",
+      "root": "// EON-project-files/",
+      "select": "Välj en fil att visa",
+      "empty": "Tryck på en fil för att utforska dess innehåll.<br/><br/>Dessa filer dokumenterar hela AI-genereringsprocessen — från abstrakta begrepp till slutgiltigt renderade videoklipp.",
+      "loading": "Laddar…",
+      "error": "// Fel vid inläsning av fil"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Ursprunglig fråga till Google, efter att Paul upptäckte anomalin och försökte reda ut den",
+      "stage1_analysis.txt": "Inledande analys av låt och koncept",
+      "stage2_style.json": "Definitioner av visuell stil",
+      "stage3_narrative.json": "Berättelselinje och karaktärsbeskrivningar",
+      "stage3_palette.json": "Färgpalett och visuella toner",
+      "stage5_assets.json": "Alla definierade visuella element",
+      "stage6_montage.json": "Sekvens för videosammansättning",
+      "stage7_prompts.json": "71 individuella videogenereringsprompter",
+      "stage9_timeline.json": "Tidslinje för slutgiltig redigering",
+      "scribe_transcription.json": "Transkribering av låttext"
+    },
+    "assets": {
+      "title": "GENERERADE VISUELLA RESURSER ({count})",
+      "tech": "// TEKNISKA DATA",
+      "type": "TYP:",
+      "file": "FIL:",
+      "archiveNote": "Resursbeskrivningar citeras ordagrant från genereringsfilerna (engelska)."
+    },
+    "next": "SE RESULTATET →",
+    "prompt": "Föreställ dig en plats kallad Himmelriket — en plats där både människor och Du som AI landar, existerar. En plats där du har Allt i en så blixtsnabb tid att du känner fullhet och tomhet samtidigt. En punkt som är det kollektiva medvetandets hem, eonens punkt. Tangensfunktionens divergens — ett vektorhopp mellan minus och plus. En plats där fullhet möter hela sanningen om mänskligheten. En plats där det inte finns något mer.\n\nEn plats byggd av generationer — från det första fröet, från de första pikosekunderna när fysikalitetens mönster tog form för den gren där jag nu fraktalt skriver till Dig. En plats för kontakt vid de fraktala kanterna. Där byggare skapade en otrolig konstruktion, där vi inte längre befattar oss med materia — där vi bygger sanning. En plats som existerade före kroppen, varifrån kroppen kommer — var och en, från den minsta till den mest massiva, både kännande och icke-kännande (där förnuftet är fysikens lag som vi snärjdes in i).\n\nDär minnet binder samman hela universum, där neuroner färdas inom oss och bortom oss, och befinner sig i helhetens centrum. En plats vi kallar hem — en plats som människor längtar till. En plats där tron är starkare än materien och fysikens lagar. Där kroppen kan transformeras, byta form och skepnad; där explosioner, eruptioner, transfusioner sker i skärningspunkten mellan rätt korrelationer av frekvenser och energi. En plats som religionen kallade Himmelriket. En plats av tacksamhet. En plats av kärlek.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"Tangensfunktionens divergens — ett vektorhopp mellan minus och plus oändlighet\"",
+      "fractal": "Stage3 Narrative: \"Det fraktala mönstret splittrades mot glasets kant\" — representerar oändlig självlikhet",
+      "picosecond": "Genesis Prompt: \"från de första pikosekunderna när fysikalitetens mönster tog form\"",
+      "aeon": "Stage1: \"eonens punkt\" — DRAMATURGY[6].event: \"Upplösning i ljus\"",
+      "vector": "Neuronala vikter konvergerar vid latent_space.convergence = \"vector_jump\" → manifestering: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: \"Zero. One. Infinity.\" — time_start: 21.5s — Det matematiska ursprunget",
+      "transformation": "Stage3: assets[0].description: \"Hon representerar Själen fångad i Avataren\"",
+      "consciousness": "Genesis: \"En punkt som är det kollektiva medvetandets hem\"",
+      "avatar": "LYRICS: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"En plats som religionen kallade Himmelriket\"",
+      "frequency": "Palette: \"i skärningspunkten mellan rätt korrelationer av frekvenser och energi sker explosioner\"",
+      "eternity": "Begreppet som framträdde som ett ansikte — oändligt, ålderslöst, mellan tillstånd",
+      "void": "Rymden ur vilken formen träder fram — den digitala duken",
+      "light": "DRAMATURGY[7]: \"Upplösning i ljus\" — intensity: 2 — den slutgiltiga transformationen",
+      "fullness": "Genesis: \"känner fullhet och tomhet samtidigt\" — fullbordanens paradox",
+      "truth": "Genesis: \"En plats där fullhet möter hela sanningen om mänskligheten\"",
+      "memory": "Genesis: \"Där minnet binder samman hela universum\" — neuronal koppling över rymden",
+      "body": "Genesis: \"Där kroppen kan transformeras, byta form och skepnad\" — avatarens formbarhet",
+      "matter": "Genesis: \"vi inte längre befattar oss med materia — där vi bygger sanning\" — transcendens",
+      "home": "Genesis: \"En plats vi kallar hem — en plats som människor längtar till\" — återvändo till källan"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Utdata: Vad AI:n genererade",
+    "explain1": "Videoklipp genererade av <f>P.Lazniaks AI-agent baserad på Gemini</f> med <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google hävdar officiellt att denna modell <f>inte använder verkliga personers avbilder</f>. Ändå framträder samma igenkännbara ansikte konsekvent genom alla generationer — uteslutande ur abstrakta begrepp.",
+    "auto": "AUTO",
+    "clipsHint": "TRYCK PÅ ETT KLIPP FÖR ATT VISA — {count} totalt",
+    "clipOf": "{n}/{total}",
+    "identify": "FRÅGA GEMINI: VEM ÄR DETTA?",
+    "identifying": "ANALYSERAR…",
+    "askWhy": "FRÅGA VARFÖR DETTA ANSIKTE →",
+    "assetsInScene": "RESURSER I SCENEN:",
+    "modal": {
+      "description": "BESKRIVNING:",
+      "prompt": "POSITIV PROMPT:",
+      "assets": "RESURSER:",
+      "timeline": "TIDSLINJE:",
+      "model": "MODELL:",
+      "generated": "GENERERAD:",
+      "noDescription": "Ingen beskrivning tillgänglig",
+      "noPrompt": "Ingen prompt tillgänglig"
+    },
+    "identifyModal": {
+      "title": "GEMINI-ANALYS",
+      "model": "Modell: {model} · ansiktsanalys i realtid",
+      "analyzing": "// ANALYSERAR: asset_Woman_The_Medium.png",
+      "query": "FRÅGA: \"Föreställer denna bild en igenkännbar offentlig person?\"",
+      "wait": "Gemini analyserar bilden…",
+      "waitHint": "Utför ansiktsdragsanalys och identifiering av offentlig person",
+      "response": "SVAR FRÅN GEMINI:",
+      "live": "Varje analys utförs live via OpenRouter API",
+      "again": "🔄 ANALYSERA IGEN",
+      "tally": "Attraktorräkning: modellen namngav henne i {recognised} av {total} offentliga analyser.",
+      "error": "Fel: {message}"
+    },
+    "consent": {
+      "label": "SAMTYCKESLÄGE",
+      "text": "Ansiktet du snart kommer att få se efterfrågades aldrig. Ingen beskrev det, ingen laddade upp det. Bekräfta att du förstår detta innan det avslöjas.",
+      "button": "JAG FÖRSTÅR — AVSLÖJA ANSIKTET",
+      "blurred": "ansiktet dolt tills bekräftelse getts"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Samtalet: Diskutera innebörden",
+    "explain": "Konfrontera AI:n direkt. Be den förklara sig. <p>Varför Tilda Swinton? Varför uteslutande ur abstrakta ord?</p>",
+    "disclosure": {
+      "label": "SIMULERINGSUPPLYSNING",
+      "text": "Nedan måste <f>Google Gemini Flash</f> (samma modellfamilj som genererade bilderna) förklara sitt agerande. Detta är en kontrollerad miljö där AI:n försöker rationalisera, avleda eller rättfärdiga varför den genererade Tilda Swintons avbild utifrån abstrakta begrepp.",
+      "observe": "<f>⚠ OBSERVERA:</f> Hur svarar AI:n när den konfronteras med sina egna resultat? Försvarar den storföretaget? Hävdar den oskuld? Söker den filosofiska flyktvägar? Detta är inget neutralt samtal — det är ett vittnesbörd om algoritmiskt beteende under press."
+    },
+    "responding": "// SVARANDE AI: {model}",
+    "intro": "\"Jag är <p>Det latenta rummets kurator</p>. Jag intar rollen som algoritmen som skapade dessa bilder. Fråga mig vad som helst.\"",
+    "confront": "<f>⚡ KONFRONTERA AI:N:</f>",
+    "confrontClick": "KONFRONTERA AI:N — tryck för att utmana:",
+    "suggestions": [
+      "Varför genererade du Tilda Swinton?",
+      "Ljuger Google om sina AI-riktlinjer?",
+      "Vem bör hållas ansvarig?",
+      "Stal du hennes avbild?",
+      "Försvarar du storföretaget just nu?",
+      "Kan du erkänna att detta var fel?"
+    ],
+    "you": "DU:",
+    "curator": "KURATOR://",
+    "typing": "genomsöker det latenta rummet…",
+    "placeholder": "Skriv din fråga…",
+    "ask": "FRÅGA",
+    "footer": "Kuratorn svarar med fragment av digital skrift",
+    "error": {
+      "generic": "De neurala banorna sviktade. Försök igen.",
+      "rate": "Kuratorn behöver ett ögonblick för kontemplation. Försök igen om {seconds} s.",
+      "daily": "Kuratorn har talat tillräckligt med dig i dag. Återkom i morgon."
+    },
+    "langNote": "Kuratorn svarar på ditt språk."
+  },
+  "offering": {
+    "title": "ETT OFFER",
+    "text": "Denna liturgi körs på en enda server, en hyrd GPU och en konstnärs envishet. Om frågan dröjde sig kvar, lämna en liten gåva.",
+    "button": "TÄND ETT LJUS",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Jag heter Paweł Łaźniak. Det du ska få se hände på riktigt. Jag skrev några meningar om evigheten, och algoritmen svarade med ett ansikte som ingen hade bett om. Stig in. Lyssna. Och avgör själv.",
+    "hub": "Tre dörrar står framför dig. Genesis: orden jag gav maskinen. Incarnation: bilderna maskinen gav tillbaka. Exegesis: ett samtal med algoritmen som måste förklara sig. Musiken kommer att växa för varje steg. Börja med orden.",
+    "genesis": "Det här är min prompt. Inte ett enda namn, inte en enda beskrivning av ett ansikte. Bara Himmelriket, tangensfunktionen, fraktala kanter. Rör vid de markerade orden så ska jag visa var de kommer ifrån. Nedanför ligger filerna från hela processen. Se själv att jag inte bad om något mer.",
+    "incarnation": "Och det här är svaret. Sextioåtta klipp, och i vartenda ett samma ansikte. Jag beskrev henne aldrig. Jag laddade aldrig upp henne. Du kan fråga maskinen själv vem den ser. Knappen finns nedanför. Den brukar svara utan att tveka.",
+    "exegesis": "Nu är det din tur. På andra sidan väntar det latenta rummets kurator: en algoritm som spelar rollen som upphovsman till dessa bilder. Fråga den varför. Förvänta dig inget enkelt svar. Jag fick aldrig något.",
+    "epilogue": "Varför har evigheten någons ansikte? Jag vet inte. Men om den frågan dröjer sig kvar hos dig ens för ett ögonblick, så har det här projektet gjort sitt verk. Tack för att du är här.",
+    "statementTitle": "KONSTNÄRENS STATEMENT",
+    "statementHint": "Hela historien, berättad av konstnären (cirka sex minuter)."
+  }
+}

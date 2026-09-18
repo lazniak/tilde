@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Iniciar la visita guiada",
+    "stop": "Detener la visita guiada",
+    "hint": "Deja que la voz del artista te guíe por los tres paneles. Toca cualquier elemento para tomar el control.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURADOR",
+      "epilogue": "EPÍLOGO"
+    }
+  },
+  "tilt": {
+    "label": "INCLINAR",
+    "on": "Mezclar inclinando el teléfono",
+    "off": "Detener la mezcla por inclinación",
+    "rhythm": "RITMO",
+    "harmony": "ARMONÍA",
+    "voices": "VOCES",
+    "denied": "Acceso al movimiento denegado. Permítelo en los ajustes de tu navegador para mezclar por inclinación.",
+    "unsupported": "Este dispositivo no detecta la orientación. Usa el mezclador en su lugar."
+  }
+}

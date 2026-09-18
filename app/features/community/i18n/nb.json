@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// VITNESBYRD — HVEIS ANSIKT ER DET?",
+    "title": "Vitnenes vegg",
+    "intro": "Én setning. Hvem ser du i ansiktet maskinen aldri ble bedt om å skape? Litanet ruller langsomt forbi, som rulleteksten til en film ingen har besatt.",
+    "count": "{n} vitnesbyrd registrert",
+    "loading": "Leser veggen…",
+    "empty": "Ingen har talt ennå. Vær det første vitnet.",
+    "anonymous": "Anonym",
+    "share": "Del",
+    "copied": "Lenke kopiert",
+    "pause": "Pause",
+    "resume": "Fortsett",
+    "pauseHint": "Hold markøren over eller trykk på litaniet for å stanse det.",
+    "form": {
+      "sentenceLabel": "Din setning",
+      "sentencePlaceholder": "Jeg ser noen som aldri ble fotografert…",
+      "nameLabel": "Navn (valgfritt)",
+      "namePlaceholder": "Hvordan du vil føres opp",
+      "counter": "{n} / {max}",
+      "submit": "Avlegg vitnesbyrd",
+      "sending": "Registrerer…",
+      "thanks": "Registrert. Setningen din står på veggen.",
+      "queued": "Registrert. En moderator vil frigjøre den til veggen."
+    },
+    "errors": {
+      "empty": "Si noe først.",
+      "rate": "For fort. La litaniet puste.",
+      "url": "Denne veggen bærer setninger, ikke lenker.",
+      "email": "Denne veggen bærer setninger, ikke adresser.",
+      "slur": "Den setningen blir ikke ristet inn her.",
+      "duplicate": "Det har du allerede sagt.",
+      "network": "Veggen svarte ikke. Prøv igjen.",
+      "generic": "Veggen avviste offergaven. Prøv igjen."
+    }
+  },
+  "cosign": {
+    "label": "// MEDUNDERTEGN BREVET TIL TILDA SWINTON",
+    "title": "Føy navnet ditt til brevet",
+    "readLetter": "Les hele brevet",
+    "hideLetter": "Skjul brevet",
+    "counting": "Teller underskriftene…",
+    "count": "{n} personer har medundertegnet",
+    "privacy": "Vi lagrer det fulle navnet ditt, men viser kun fornavn og initial. By er valgfritt og vises slik det er skrevet.",
+    "form": {
+      "nameLabel": "Navn",
+      "namePlaceholder": "Ditt fulle navn",
+      "cityLabel": "By / land (valgfritt)",
+      "cityPlaceholder": "Warszawa, PL",
+      "consent": "Jeg skriver under som meg selv og samtykker i at navnet mitt vises.",
+      "submit": "Medundertegn brevet",
+      "sending": "Signerer…",
+      "thanks": "Signert. Takk for at du slutter deg til spørsmålet."
+    },
+    "errors": {
+      "name": "En underskrift krever et navn.",
+      "consent": "Kryss av i boksen for å signere som deg selv.",
+      "rate": "Du har allerede signert i dag.",
+      "duplicate": "Denne enheten har allerede signert.",
+      "rejected": "Kun navn — ingen lenker, ingen fornærmelser.",
+      "network": "Registeret svarte ikke. Prøv igjen.",
+      "generic": "Registeret avviste signaturen. Prøv igjen."
+    }
+  },
+  "embed": {
+    "kicker": "EN TRIPTYK OVER ALGORITMISK SKJEBNE",
+    "title": "The Latent Liturgy",
+    "question": "Hvorfor ble «forvandling» og «evighet» til hennes ansikt?",
+    "clips": "klipp",
+    "testimonies": "vitnesbyrd",
+    "verdicts": "dommer",
+    "enter": "TRÅ INN I LITURGIEN"
+  }
+}

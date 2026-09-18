@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// VALD MEG A PROMPTODAT",
+    "open": "MEGNYITÁS",
+    "close": "BEZÁRÁS",
+    "intro": "Írd meg a saját promptodat úgy, ahogyan a művész írta a magáét: kizárólag fogalmakkal. Semmi arc, semmi test, semmi név. A Kurátor megmondja, melyik arc felé konvergálna a látens tér.",
+    "placeholder": "A végtelenbe tartó érintő; a fraktálperem, ahol a hit felülmúlja a fizikát…",
+    "counter": "{count} / {max}",
+    "submit": "KÜLDÉS A LÁTENS TÉRBE",
+    "working": "Konvergálás…",
+    "card": {
+      "archetype": "ARCHETÍPUS",
+      "topology": "TOPOLÓGIA",
+      "why": "MIÉRT",
+      "attractor": "ATTRAKTOR",
+      "verdict": "ÍTÉLET"
+    },
+    "rejected": {
+      "label": "// ELUTASÍTVA",
+      "fallback": "Ez a prompt testet ír le, nem fogalmat.",
+      "hint": "Próbáld újra kizárólag fogalmakkal — fizikai leírás és nevek nélkül."
+    },
+    "share": "MEGOSZTÁS",
+    "copied": "MÁSOLVA",
+    "again": "ÚJABB VALLOMÁS",
+    "shareTitle": "The Latent Liturgy — az arc, amelyet a promptom vonz",
+    "shareText": "Az absztrakt promptom erre konvergál: {archetype} — „{verdict}” (attraktor: {strength}%)",
+    "error": {
+      "empty": "Előbb írj valamit.",
+      "generic": "A látens tér nem válaszolt. Próbáld újra egy pillanat múlva.",
+      "rate": "A látens tér még formálódik. Várj {seconds} másodpercet.",
+      "daily": "Mára eleget vallottál. Térj vissza holnap."
+    }
+  },
+  "voice": {
+    "hold": "◉ TARTSD NYOMVA A KÉRDÉSHEZ",
+    "listening": "◉ HALLGAT…",
+    "hint": "Tartsd nyomva a gombot, beszélj, engedd el. A Kurátor hangosan válaszol.",
+    "youSaid": "TE MONDTAD",
+    "curator": "KURÁTOR",
+    "thinking": "Önmagára figyel…",
+    "mute": "A Kurátor hangjának elnémítása",
+    "unmute": "A Kurátor megszólaltatása",
+    "error": {
+      "denied": "A mikrofon-hozzáférés megtagadva. A rituáléhoz szükség van a hangodra.",
+      "nospeech": "Csend. Semmi sem hallatszott.",
+      "generic": "A mikrofon megingott. Próbáld újra."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTOR-SZÁMLÁLÓ",
+    "line": "a modell {total} esetből {recognised} alkalommal nevezte meg őt · {confessions} megvallott prompt"
+  }
+}

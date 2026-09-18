@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// BIECHT JE PROMPT OP",
+    "open": "OPEN",
+    "close": "SLUIT",
+    "intro": "Schrijf je eigen prompt zoals de kunstenaar de zijne schreef: uitsluitend concepten. Geen gezichten, geen lichamen, geen namen. De Curator zal je vertellen naar welk gezicht de latente ruimte zou convergeren.",
+    "placeholder": "Een raaklijn die divergeert naar het oneindige; de fractale rand waar geloof zwaarder weegt dan fysica…",
+    "counter": "{count} / {max}",
+    "submit": "VOORLEGGEN AAN DE LATENTE RUIMTE",
+    "working": "Convergeert…",
+    "card": {
+      "archetype": "ARCHETYPE",
+      "topology": "TOPOLOGIE",
+      "why": "WAAROM",
+      "attractor": "ATTRACTOR",
+      "verdict": "VERDICT"
+    },
+    "rejected": {
+      "label": "// GEWEIGERD",
+      "fallback": "Deze prompt beschrijft een lichaam, geen concept.",
+      "hint": "Probeer het opnieuw met uitsluitend concepten — geen fysieke beschrijving, geen namen."
+    },
+    "share": "DELEN",
+    "copied": "GEKOPIEERD",
+    "again": "OPNIEUW BIECHTEN",
+    "shareTitle": "The Latent Liturgy — het gezicht dat mijn prompt aantrekt",
+    "shareText": "Mijn abstracte prompt convergeert naar: {archetype} — \"{verdict}\" (attractor {strength}%)",
+    "error": {
+      "empty": "Schrijf eerst iets.",
+      "generic": "De latente ruimte gaf geen antwoord. Probeer het over een ogenblik opnieuw.",
+      "rate": "De latente ruimte is nog aan het oplossen. Wacht {seconds} s.",
+      "daily": "Je hebt voor vandaag genoeg gebiecht. Keer morgen terug."
+    }
+  },
+  "voice": {
+    "hold": "◉ HOUD INGEDRUKT OM TE VRAGEN",
+    "listening": "◉ LUISTERT…",
+    "hint": "Houd de knop ingedrukt, spreek, laat los. De Curator antwoordt hardop.",
+    "youSaid": "JE ZEI",
+    "curator": "CURATOR",
+    "thinking": "Luistert naar zichzelf…",
+    "mute": "Demp de stem van de Curator",
+    "unmute": "Laat de Curator spreken",
+    "error": {
+      "denied": "Toegang tot de microfoon werd geweigerd. Het ritueel heeft je stem nodig.",
+      "nospeech": "Stilte. Er werd niets gehoord.",
+      "generic": "De microfoon haperde. Probeer het opnieuw."
+    }
+  },
+  "tally": {
+    "label": "ATTRACTORTELLING",
+    "line": "het model noemde haar {recognised} van de {total} keer · {confessions} prompts gebiecht"
+  }
+}

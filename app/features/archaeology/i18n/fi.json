@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ AVAA ]",
+    "collapse": "[ SULJE ]",
+    "loading": "Ladataan…"
+  },
+  "map": {
+    "label": "// LATENTTI KARTTA — 65 leikettä tähtikuviona",
+    "intro": "Jokainen säilynyt leike sijoitettuna sen mukaan, mihin kohtaan se osuu 198-sekuntisessa montaasissa ja kuinka voimakkaasti se vetää kohti kasvoja, joita kukaan ei pyytänyt. Aritmetiikka on meidän, ei mallin — se on painettu alle, jotta voit olla eri mieltä.",
+    "hint": "Napauta tai valitse piste lukeaksesi leikkeen tiedot ja siirtääksesi soittimen siihen.",
+    "pointLabel": "{file}, sekunti {second}, attraktorin läheisyys {proximity}",
+    "cardMeta": "t = {second} s · läheisyys {proximity}",
+    "legendAttractor": "attraktori (≥ 0.60)",
+    "legendNear": "hahmo läsnä",
+    "legendNoFace": "ei hahmoa",
+    "tally": "{attractors} / {total} leikkeestä asettuu attraktorin alueelle",
+    "formula": "läheisyys = 0.50 jos Woman_The_Medium on kohtauksessa + 0.25 jos otos on lähikuva, kasvot, silmä, profiili, muotokuva tai huuto + 0.10 jos kuvattu Prop_Prism_Lens -linssin läpi − 0.20 jos ihmisresurssia ei ole lainkaan, rajattu välille 0…1, kiinteällä leikekohtaisella hajautuksella, jotta päällekkäiset pisteet pysyvät luettavina."
+  },
+  "emergence": {
+    "label": "// ILMAANTUMINEN — kohina → kasvot",
+    "intro": "Aja diffuusiota taaksepäin käsin. Nollassa on vain siemennettyä raetta; kun vedät oikealle, lohkokoko luhistuu 24 pikselistä yhteen ja hän hahmottuu siitä esiin.",
+    "canvasLabel": "Lähderesurssi renderöitynä {percent} prosentin ilmaantumisasteella",
+    "sliderLabel": "Ilmaantuminen: latentista kohinasta lähderesurssiin",
+    "min": "0 % LATENTTI KOHINA",
+    "max": "100 % asset_Woman_The_Medium.png",
+    "current": "{percent} %",
+    "withheld": "kasvot pidätetty, kunnes ne tunnustetaan",
+    "clamped": "Pysäytetty kohtaan {percent} %, kunnes tunnustat kasvot yllä olevassa paneelissa.",
+    "failed": "Lähderesurssia ei voitu ladata."
+  },
+  "heatmap": {
+    "label": "// HUOMIOARKEOLOGIA — mitkä sanat vetivät kasvot esiin?",
+    "intro": "Kehote ei sisällä vartaloa, ikää, hiuksia, luita. Kysy mallilta, mitkä sen katkelmista yhä vetäisivät diffuusiojärjestelmää kohti iättömiä, androgyynejä, kalpeita, korkeaposkipäisiä kasvoja.",
+    "button": "KAIVA",
+    "working": "Luetaan kerrostumia",
+    "model": "malli: {model}",
+    "originalNote": "Lämpö lasketaan englanninkielisestä alkuperäistekstistä — painotukset on sidottu nimenomaan kyseisiin sanoihin.",
+    "summaryLabel": "// TUOMIO",
+    "topLabel": "// VAHVIN VETOVOIMA",
+    "count": "{count} katkelmaa painotettu",
+    "cached": "Tarjoiltu kaivauslokista.",
+    "fresh": "Kaivettu juuri nyt.",
+    "errorLabel": "// EI LUKEMAA",
+    "error": "Kaivaus pysähtyi. Kerrostumia ei voitu lukea.",
+    "retry": "YRITÄ UUDELLEEN"
+  },
+  "timeline": {
+    "label": "// AIKAJANA — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Neljä päivää, joista suurin osa odotusta. Vedä toistopäätä tai käytä nuolinäppäimiä. Lähes jokainen aikaleima on tämän sivuston mukana yhä toimitettavan tiedoston todellinen muokkausaika.",
+    "sliderLabel": "Neljä luomispäivää",
+    "position": "{n} / {total}",
+    "prev": "Edellinen tapahtuma",
+    "next": "Seuraava tapahtuma",
+    "approx": "rekonstruoitu",
+    "exact": "tiedoston aikaleima",
+    "events": {
+      "prompt": {
+        "title": "Kehote kirjoitetaan",
+        "text": "Metafyysinen teksti Taivasten valtakunnasta, tangenttifunktion divergenssistä ja kosketuksen fraktaalisista reunoista. Ei ruumista, ei kasvoja, ei ikää, ei hiuksia — ei mitään fyysistä."
+      },
+      "transcription": {
+        "title": "Laulu litteroidaan",
+        "text": "Puolankielinen lauluosuus ajetaan kirjurimallin läpi ja se tallentuu kirjaintason transkriptiona. Kaikki myöhempi — montaasi, leikkaukset, dramaturgia — tahdistetaan tätä tiedostoa vasten."
+      },
+      "analysis": {
+        "title": "Vaihe 1 — luenta",
+        "text": "Tuotantoputki lukee kehotteen ja sanoitukset yhdessä ja kirjoittaa takaisin käsityksensä siitä, mistä teoksessa on kyse. Ketään ihmistä ei edelleenkään kuvailla missään."
+      },
+      "narrative": {
+        "title": "Vaihe 3 — tarinalinja",
+        "text": "Narratiivi nimeää päähenkilökseen Woman_The_Medium: iättömät piirteet, minimaalinen ilmeikkyys, Butoh-liike, avatariin vangittu sielu. Rooli, ei ihminen."
+      },
+      "palette": {
+        "title": "Vaihe 3 — paletti",
+        "text": "Kuusi väriä lukitaan: luu, tyhjiö, bunkkeri, stratosfäärinsininen, aurinkosoihdun meripihka, prismaattinen valkoinen. Samat kuusi, joilla tämä sivusto on maalattu."
+      },
+      "face": {
+        "title": "10:43:36 — kasvot saapuvat",
+        "text": "asset_Woman_The_Medium.png kirjoitetaan levylle. Abstraktista roolikuvauksesta malli palauttaa tietyt, tunnistettavat ihmiskasvot. Tämä on anomalia; kaikki sitä edeltävä on tekstiä."
+      },
+      "assets": {
+        "title": "Yksitoista resurssia valmiina",
+        "text": "Lokaatiot, puvut ja rekvisiitat renderöidään ja rekisteröidään — aavikko, bunkkeri, peili, prisma, strobovalo, pöly, malja. Elokuvan roolitus on nyt lukittu."
+      },
+      "montage": {
+        "title": "Vaihe 6 — montaasisuunnitelma",
+        "text": "Laulu leikataan kohtauksiksi transkriptiota vasten: mihin hengenveto osuu, minne paineaalto iskee, missä tangentti katkeaa."
+      },
+      "prompts": {
+        "title": "Seitsemänkymmentäyksi leikekehotetta",
+        "text": "Yksi positiivinen kehote kohtausta kohden, kukin viitaten vain rekisteröityihin resursseihin. Kasvot etenevät nyt viittauksena — mallilta ei enää koskaan pyydetä niitä."
+      },
+      "frames": {
+        "title": "Seitsemänkymmentäyksi aloituskuvaa",
+        "text": "Jokainen kohtaus saa aloitusruudun. Viisikymmentäviisi minuuttia renderöintiä: koko tuotantoputken pisin yksittäinen odotus."
+      },
+      "motion": {
+        "title": "Vaihe 9 — liikekehotteet",
+        "text": "Kameraliikkeet ja koreografia kirjoitetaan jokaiselle ruudulle, minkä jälkeen luodaan aikajana, joka sitoo ne ääneen."
+      },
+      "kling": {
+        "title": "Kling v2.6 — leikkeet",
+        "text": "Kaksikymmentäyksi minuuttia videon luontia. Seitsemääkymmentäyhtä leikettä yritettiin, kuusikymmentäkahdeksan toimitettiin, kolme putosi: indeksit 21, 50 ja 54 eivät koskaan valmistuneet, ja montaasi rakennettiin uudelleen niiden puuttumisen ympärille."
+      },
+      "edit": {
+        "title": "Lopullinen leikkaus",
+        "text": "Kolme hiljaista päivää myöhemmin teos kootaan, vientikehotteet kirjoitetaan uudelleen molemmilla kielillä ja leikkaus lukitaan aikaan 3:33."
+      },
+      "launch": {
+        "title": "Sivusto ja kirje",
+        "text": "Triptyykki julkaistaan verkossa ja avoin kirje osoitetaan naiselle, jonka kasvoja ei koskaan pyydetty ja joka saapui silti."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSKI",
+    "hint": "Koko näytön galleriatila: neljä paneelia vaihtuvat itsestään. Poistu painamalla Escape.",
+    "scan": "Skannaa jatkaaksesi puhelimellasi",
+    "exit": "POISTU"
+  }
+}

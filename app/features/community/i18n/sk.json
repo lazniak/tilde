@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// SVEDECTVÁ — ČIA TVÁR TO JE?",
+    "title": "Múr svedkov",
+    "intro": "Jedna veta. Koho vidíte v tvári, ktorú stroj nikdy nemal vytvoriť? Litánia plynie pomaly, ako titulky k filmu, do ktorého nikto nerobil kasting.",
+    "count": "{n} zaznamenaných svedectiev",
+    "loading": "Čítanie z múru…",
+    "empty": "Zatiaľ nikto neprehovoril. Buďte prvým svedkom.",
+    "anonymous": "Anonym",
+    "share": "Zdieľať",
+    "copied": "Odkaz skopírovaný",
+    "pause": "Pozastaviť",
+    "resume": "Pokračovať",
+    "pauseHint": "Prejdite kurzorom alebo klepnite na litániu, aby sa zastavila.",
+    "form": {
+      "sentenceLabel": "Vaša veta",
+      "sentencePlaceholder": "Vidím niekoho, koho nikdy nevyfotografovali…",
+      "nameLabel": "Meno (voliteľné)",
+      "namePlaceholder": "Ako si želáte byť uvedený",
+      "counter": "{n} / {max}",
+      "submit": "Zanechať svedectvo",
+      "sending": "Zaznamenáva sa…",
+      "thanks": "Zaznamenané. Vaša veta je na múre.",
+      "queued": "Zaznamenané. Moderátor vetu zverejní na múre."
+    },
+    "errors": {
+      "empty": "Najprv niečo povedzte.",
+      "rate": "Príliš rýchlo. Nechajte litániu dýchať.",
+      "url": "Tento múr nesie vety, nie odkazy.",
+      "email": "Tento múr nesie vety, nie adresy.",
+      "slur": "Takáto veta tu nebude vytesaná.",
+      "duplicate": "Toto ste už povedali.",
+      "network": "Múr neodpovedal. Skúste to znova.",
+      "generic": "Múr obetu odmietol. Skúste to znova."
+    }
+  },
+  "cosign": {
+    "label": "// PRIDAŤ PODPIS K LISTU PRE TILDA SWINTON",
+    "title": "Pridajte svoje meno k listu",
+    "readLetter": "Prečítať celý list",
+    "hideLetter": "Skryť list",
+    "counting": "Počítanie podpisov…",
+    "count": "{n} ľudí pripojilo svoj podpis",
+    "privacy": "Vaše celé meno uchovávame, no zobrazujeme vždy len krstné meno a iniciálu. Mesto je voliteľné a zobrazuje sa v pôvodnom znení.",
+    "form": {
+      "nameLabel": "Meno",
+      "namePlaceholder": "Vaše celé meno",
+      "cityLabel": "Mesto / krajina (voliteľné)",
+      "cityPlaceholder": "Bratislava, SK",
+      "consent": "Podpisujem sám za seba a súhlasím so zobrazením svojho mena.",
+      "submit": "Podpísať list",
+      "sending": "Podpisuje sa…",
+      "thanks": "Podpísané. Ďakujeme, že stojíte pri tejto otázke."
+    },
+    "errors": {
+      "name": "K podpisu je potrebné meno.",
+      "consent": "Zaškrtnite pole, ak chcete podpisovať sám za seba.",
+      "rate": "Dnes ste sa už podpísali.",
+      "duplicate": "Z tohto zariadenia sa už podpis odoslal.",
+      "rejected": "Iba mená — žiadne odkazy, žiadne urážky.",
+      "network": "Register neodpovedal. Skúste to znova.",
+      "generic": "Register podpis odmietol. Skúste to znova."
+    }
+  },
+  "embed": {
+    "kicker": "TRIPTYCH ALGORITMICKEJ PRETURPÁCIE A OSUDU",
+    "title": "The Latent Liturgy",
+    "question": "Prečo sa „premena“ a „večnosť“ zhmotnili do jej tváre?",
+    "clips": "klipy",
+    "testimonies": "svedectvá",
+    "verdicts": "verdikty",
+    "enter": "VSTÚPIŤ DO LITURGIE"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// SVĚDECTVÍ — ČÍ JE TO TVÁŘ?",
+    "title": "Zeď svědků",
+    "intro": "Jedna věta. Koho vidíte ve tváři, kterou po stroji nikdo nežádal stvořit? Litanie plyne pomalu, jako titulky filmu, do kterého nikdo neobsadil herce.",
+    "count": "{n} zaznamenaných svědectví",
+    "loading": "Čtení zdi…",
+    "empty": "Zatím nikdo nepromluvil. Buďte prvním svědkem.",
+    "anonymous": "Anonym",
+    "share": "Sdílet",
+    "copied": "Odkaz zkopírován",
+    "pause": "Pozastavit",
+    "resume": "Pokračovat",
+    "pauseHint": "Přejeďte kurzorem nebo klepněte na litanii, abyste ji zastavili.",
+    "form": {
+      "sentenceLabel": "Vaše věta",
+      "sentencePlaceholder": "Vidím někoho, kdo nebyl nikdy vyfotografován…",
+      "nameLabel": "Jméno (volitelné)",
+      "namePlaceholder": "Jak si přejete být uvedeni",
+      "counter": "{n} / {max}",
+      "submit": "Zanechat svědectví",
+      "sending": "Zaznamenává se…",
+      "thanks": "Zaznamenáno. Vaše věta je na zdi.",
+      "queued": "Zaznamenáno. Moderátor ji uvolní na zeď."
+    },
+    "errors": {
+      "empty": "Nejprve něco řekněte.",
+      "rate": "Příliš rychle. Nechte litanii vydechnout.",
+      "url": "Tato zeď nese věty, ne odkazy.",
+      "email": "Tato zeď nese věty, ne adresy.",
+      "slur": "Tato věta zde vytesána nebude.",
+      "duplicate": "Tohle už jste řekli.",
+      "network": "Zeď neodpověděla. Zkuste to znovu.",
+      "generic": "Zeď oběť odmítla. Zkuste to znovu."
+    }
+  },
+  "cosign": {
+    "label": "// SPOLUPODEPIŠTE DOPIS PRO TILDA SWINTON",
+    "title": "Připojte své jméno k dopisu",
+    "readLetter": "Přečíst celý dopis",
+    "hideLetter": "Skrýt dopis",
+    "counting": "Sčítání podpisů…",
+    "count": "Dopis spolupodepsalo {n} lidí",
+    "privacy": "Ukládáme vaše celé jméno, ale zobrazujeme pouze křestní jméno a iniciálu. Město je volitelné a zobrazuje se tak, jak bylo zadáno.",
+    "form": {
+      "nameLabel": "Jméno",
+      "namePlaceholder": "Vaše celé jméno",
+      "cityLabel": "Město / země (volitelné)",
+      "cityPlaceholder": "Varšava, PL",
+      "consent": "Podepisuji za sebe a souhlasím se zobrazením svého jména.",
+      "submit": "Spolupodepsat dopis",
+      "sending": "Podepisování…",
+      "thanks": "Podepsáno. Děkujeme, že stojíte za touto otázkou."
+    },
+    "errors": {
+      "name": "Podpis vyžaduje jméno.",
+      "consent": "Zaškrtnutím políčka potvrďte, že podepisujete za sebe.",
+      "rate": "Dnes už jste podepsali.",
+      "duplicate": "Z tohoto zařízení již bylo podepsáno.",
+      "rejected": "Pouze jména — žádné odkazy, žádné urážky.",
+      "network": "Registr neodpověděl. Zkuste to znovu.",
+      "generic": "Registr podpis odmítl. Zkuste to znovu."
+    }
+  },
+  "embed": {
+    "kicker": "TRIPTYCH ALGORITMICKÉHO OSUDU",
+    "title": "The Latent Liturgy",
+    "question": "Proč se „transformace“ a „věčnost“ staly její tváří?",
+    "clips": "klipy",
+    "testimonies": "svědectví",
+    "verdicts": "verdikty",
+    "enter": "VSTOUPIT DO LITURGIE"
+  }
+}

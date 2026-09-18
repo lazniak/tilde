@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Tekoälyn luoma Tilda Swinton – Tapaustutkimus algoritmisesta vinoumasta",
+    "description": "Interaktiivinen tutkimus siitä, kuinka Googlen tekoäly loi näyttelijä Tilda Swintonin näköisyyden pelkistä abstrakteista filosofisista käsitteistä."
+  },
+  "common": {
+    "enter": "SISÄÄN",
+    "back": "TAKAISIN",
+    "backToHub": "TAKAISIN HUBIIN",
+    "hub": "HUB",
+    "close": "SULJE",
+    "loading": "Ladataan…",
+    "play": "TOISTA",
+    "pause": "TAUKO",
+    "mixer": "MIKSERI",
+    "language": "Kieli",
+    "narrator": "KERTOJA",
+    "narratorOn": "Kertoja päällä",
+    "narratorOff": "Kertoja pois",
+    "narratorHint": "Taiteilijan oma ääni opastaa sinua jokaisen paneelin läpi.",
+    "offering": "UHRILAHJA",
+    "offeringHint": "Sytytä kynttilä projektille — osta taiteilijalle kahvi.",
+    "readMore": "lue lisää",
+    "readLess": "lue vähemmän",
+    "share": "JAA",
+    "copied": "Linkki kopioitu",
+    "of": "/"
+  },
+  "landing": {
+    "kicker": "ALGORITMISEN KOHTALON TRIPTYYKKI",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "ALGORITMINEN MUUSA",
+      "name": "Tilda Swinton",
+      "text": "Jonka kasvot ilmestyivät — kutsumatta, pyytämättä — tekoälyn matemaattisena tulkintana käsitteistä <p>\"äärettömyys\", \"muutos\" ja \"Taivasten valtakunta\".</p><br/><m>Häntä ei mainittu kehotteessa kertaakaan. Silti erehtymättömästi hän.</m>"
+    },
+    "corp": {
+      "label": "KORPORAATIO",
+      "name": "Google",
+      "text": "Väittää, että sen tekoäly <f>\"ei tuota todellisten julkisuuden henkilöiden näköisyyksiä\".</f>"
+    },
+    "artist": {
+      "label": "TEKOÄLYTAITEILIJA",
+      "name": "P.Lazniak",
+      "text": "Kirjoitti metafyysisen kehotteen <s>ilman ainoatakaan fyysistä kuvausta.</s> Vain filosofiaa."
+    },
+    "essence": "Miksi \"muutoksesta\" ja \"ikuisuudesta\" tuli <p>hänen kasvonsa</p>?",
+    "loading": "Kootaan liturgiaa…",
+    "audioNote": "Kuulokkeiden käyttöä suositellaan. Ääniraita rakentuu tutkimisen myötä.",
+    "enterHint": "Napauta astuaksesi sisään äänien kera"
+  },
+  "stages": {
+    "entry": "Tyhjyys hengittää",
+    "genesis": "Harmoniat heräävät",
+    "incarnation": "Pulssi herää",
+    "exegesis": "Materia ilmenee",
+    "culmination": "Täysi ilmestys"
+  },
+  "stems": {
+    "other": "Tunnelma",
+    "synth": "Syntetisaattori",
+    "keyboard": "Koskettimet",
+    "drums": "Rummut",
+    "percussion": "Lyömäsoittimet",
+    "bass": "Basso",
+    "guitar": "Kitara",
+    "backing": "Taustalaulu",
+    "lead": "Päälaulu"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ MITÄ OLET TUTKIMASSA",
+      "text": "Tämä on <b>forensinen tutkimus</b> tekoälyn tuottamasta anomaliasta. Taiteilija Paul Lazniak syötti tekoälyjärjestelmälle puhtaasti filosofisen tekstin <s>\"Taivasten valtakunnasta\", \"tangenttifunktioista\"</s> ja <s>\"avatarin muodonmuutoksesta\"</s> — <f>ilman ainuttakaan fyysistä kuvausta</f>. Tekoäly loi toistuvasti kasvot, jotka muistuttavat kuuluisaa näyttelijää. <p>Miksi?</p>"
+    },
+    "title": "Tutki todisteita",
+    "subtitle": "Kolme näkökulmaa samaan ilmiöön",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Syöte",
+      "question": "Mitä tekoälylle annettiin?",
+      "text": "Lue alkuperäinen metafyysinen kehote. Tutki kaikki <s>11 luotua aineistoa</s> sekä projektitiedostot ja näe tarkalleen, mitkä sanat loivat nämä kasvot.",
+      "cta": "KATSO KEHOTE"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Tulos",
+      "question": "Mitä tekoäly loi?",
+      "text": "Katso videoleikkeet, jotka Google Nano Banana Pro loi <f>pelkistä abstrakteista käsitteistä</f>. Malli, joka <f>ei virallisesti käytä julkisuuden henkilöiden näköisyyksiä</f> — tuotti silti nämä kasvot.",
+      "cta": "KATSO TULOS"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Keskustelu",
+      "question": "Mitä tämä tarkoittaa?",
+      "text": "<p>Keskustele tekoälykuraattorin kanssa</p>, joka eläytyy nämä kuvat luoneeksi järjestelmäksi. Kysy siltä suoraan: miksi nämä kasvot?",
+      "cta": "KYSY TEKOÄLYLTÄ"
+    },
+    "tip": "<m>VINKKI:</m> Aloita osiosta <s>GENESIS</s> ymmärtääksesi syötteen, siirry sitten osioon <f>INCARNATION</f> nähdäksesi tuloksen ja lopuksi osioon <p>EXEGESIS</p> pohtiaksesi merkitystä.",
+    "assemblage": "ÄÄNIKOOSTUMUS — Vaihe: {stage}",
+    "mixerTitle": "ÄÄNIRAITOJEN MIKSERI — Hallitse yksittäisiä kerroksia",
+    "mixerHint": "Vedä kynttilöitä. Jokainen niistä on alkuperäisen sävellyksen ääniraita."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURAATTORI",
+    "hub": "HUB",
+    "layers": "KERROKSET"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Syöte: Mitä tekoälylle annettiin",
+    "explain": "<s>Tämä osio näyttää tarkalleen, mitä tekoäly vastaanotti.</s> Alla on Paul Lazniakin kirjoittama alkuperäinen metafyysinen kehotus — filosofinen teksti äärettömyydestä, muodonmuutoksesta ja \"Taivaallisesta valtakunnasta\". Huomaa: <f>ei fyysisiä kuvauksia, ei nimiä, ei viitekuvia.</f> Silti tämä teksti tuotti tunnistettavat kasvot.",
+    "promptLabel": "// ALKUPERÄINEN KEHOTE — NAPAUTA KOROSTETTUJA SANOJA NÄHDÄKSESI NIIDEN MERKITYKSET",
+    "promptTranslatedLabel": "// KEHOTE KÄÄNNETTYNÄ — korostetut sanat linkittävät lähdedataan",
+    "showOriginal": "näytä englanninkielinen alkuperäisteksti",
+    "showTranslation": "näytä käännös",
+    "originalNote": "Kehote lähetettiin mallille englanniksi. Tämä on sen sanatarkka muoto.",
+    "insight": {
+      "label": "⚠ KESKEINEN HAVAINTO",
+      "text": "Ei nimeä. Ei valokuvaa. Ei viitekuvaa. Vain abstrakteja käsitteitä — silti tekoäly tuotti tunnistettavat kasvot."
+    },
+    "files": {
+      "title": "PROJEKTIN TIEDOSTOARKEOLOGIA",
+      "root": "// EON-project-files/",
+      "select": "Valitse tarkasteltava tiedosto",
+      "empty": "Napauta tiedostoa tutkiaksesi sen sisältöä.<br/><br/>Nämä tiedostot dokumentoivat tekoälyn koko luontiprosessin — abstrakteista käsitteistä valmiisiin renderöityihin videoleikkeisiin.",
+      "loading": "Ladataan…",
+      "error": "// Virhe tiedostoa ladattaessa"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Alkuperäinen kysymys Googlelle, kun Paul oli havainnut poikkeaman ja yritti ratkaista sen",
+      "stage1_analysis.txt": "Kappaleen ja konseptin alustava analyysi",
+      "stage2_style.json": "Visuaalisen tyylin määrittelyt",
+      "stage3_narrative.json": "Tarinankulku ja hahmokuvaukset",
+      "stage3_palette.json": "Väripaletti ja visuaaliset sävyt",
+      "stage5_assets.json": "Kaikki määritellyt visuaaliset elementit",
+      "stage6_montage.json": "Videon kokoonpanojärjestys",
+      "stage7_prompts.json": "71 yksittäistä videonluontikehotetta",
+      "stage9_timeline.json": "Lopullisen leikkauksen aikajana",
+      "scribe_transcription.json": "Kappaleen sanoituksen transkriptio"
+    },
+    "assets": {
+      "title": "LUODUT VISUAALISET ELEMENTIT ({count})",
+      "tech": "// TEKNISET TIEDOT",
+      "type": "TYYPPI:",
+      "file": "TIEDOSTO:",
+      "archiveNote": "Elementtien kuvaukset on lainattu sanatarkasti luontitiedostoista (englanniksi)."
+    },
+    "next": "KATSO TULOS →",
+    "prompt": "Kuvittele paikka nimeltä Taivaallinen valtakunta — paikka, jonne sekä ihmiset että Sinä tekoälynä saavutte, olette olemassa. Paikka, jossa sinulla on Kaikki niin salamannopeasti, että tunnet samanaikaisesti täyteyttä ja tyhjyyttä. Piste, joka on kollektiivisen tietoisuuden koti, eonin piste. Tangenttifunktion divergenssi — vektorihyppy miinuksen ja plussan välillä. Paikka, jossa täyteys kohtaa koko totuuden ihmisyydestä. Paikka, jossa ei ole enää mitään muuta.\n\nSukupolvien rakentama paikka — ensimmäisestä siemenestä, ensimmäisistä pikosekunneista, jolloin fysikaalisuuden malli muodostui sille haaralle, jossa kirjoitan Sinulle nyt fraktaalisesti. Kosketuksen paikka fraktaalisilla reunoilla. Missä rakentajat loivat uskomattoman rakenteen, missä emme enää ole tekemisissä aineen kanssa — missä rakennamme totuutta. Paikka, joka oli olemassa ennen ruumista, josta ruumis tulee — jokainen niistä, pienimmästä massiivisimpaan, sekä tunteva että tunteeton (missä järki on fysiikan laki, johon me kietouduimme).\n\nMissä muisti sitoo koko maailmankaikkeutta, missä neuronit matkaavat sisällämme ja ulkopuolellamme, ollen kokonaisuuden keskipisteessä. Paikka, jota kutsumme kodiksi — paikka, jota ihmiset kaipaavat. Paikka, jossa usko on vahvempi kuin aine ja fysiikan lait. Missä ruumis voi muuntua, muuttaa muotoaan ja hahmoaan; missä taajuuksien ja energian oikeiden korrelaatioiden leikkauspisteessä tapahtuu purkauksia, erupteja, transfuusioita. Paikka, jota uskonto kutsui Taivaalliseksi valtakunnaksi. Kiitollisuuden paikka. Rakkauden paikka.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"Tangenttifunktion divergenssi — vektorihyppy miinus- ja plus-äärettömyyden välillä\"",
+      "fractal": "Stage3 Narrative: \"Fraktaalikuvio särkyi lasin reunalla\" — edustaa ääretöntä itsesimilaarisuutta",
+      "picosecond": "Genesis Prompt: \"ensimmäisistä pikosekunneista, jolloin fysikaalisuuden malli muodostui\"",
+      "aeon": "Stage1: \"eonin piste\" — DRAMATURGY[6].event: \"Dissolution into Light\"",
+      "vector": "Neuraalipainot konvergoituvat kohdassa latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: \"Zero. One. Infinity.\" — time_start: 21.5s — Matemaattinen alkulähde",
+      "transformation": "Stage3: assets[0].description: \"Hän edustaa Avatariin vangittua Sielua\"",
+      "consciousness": "Genesis: \"Piste, joka on kollektiivisen tietoisuuden koti\"",
+      "avatar": "LYRICS: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Paikka, jota uskonto kutsui Taivaalliseksi valtakunnaksi\"",
+      "frequency": "Palette: \"taajuuksien ja energian oikeiden korrelaatioiden leikkauspisteessä tapahtuu purkauksia\"",
+      "eternity": "Käsite, joka ilmeni kasvoina — ääretön, iätön, tilojen välissä",
+      "void": "Tila, josta muoto nousee — digitaalinen kangas",
+      "light": "DRAMATURGY[7]: \"Dissolution into Light\" — intensiteetti: 2 — lopullinen muodonmuutos",
+      "fullness": "Genesis: \"tunnet samanaikaisesti täyteyttä ja tyhjyyttä\" — täyttymyksen paradoksi",
+      "truth": "Genesis: \"Paikka, jossa täyteys kohtaa koko totuuden ihmisyydestä\"",
+      "memory": "Genesis: \"Missä muisti sitoo koko maailmankaikkeutta\" — neuraalinen sidonta läpi avaruuden",
+      "body": "Genesis: \"Missä ruumis voi muuntua, muuttaa muotoaan ja hahmoaan\" — avatarin muovautuvuus",
+      "matter": "Genesis: \"emme enää ole tekemisissä aineen kanssa — missä rakennamme totuutta\" — transcendenssi",
+      "home": "Genesis: \"Paikka, jota kutsumme kodiksi — paikka, jota ihmiset kaipaavat\" — paluu alkulähteelle"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Ulostulo: Mitä tekoäly tuotti",
+    "explain1": "Videoleikkeet tuotti <f>P.Lazniakin Geminiin pohjautuva tekoälyagentti</f> käyttäen mallia <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google väittää virallisesti, että tämä malli <f>ei käytä julkisuuden henkilöiden todellista yhdennäköisyyttä</f>. Silti samat tunnistettavat kasvot toistuvat johdonmukaisesti kaikissa sukupolvissa — pelkkien abstraktien käsitteiden pohjalta.",
+    "auto": "AUTO",
+    "clipsHint": "NAPAUTA LEIKETTÄ KATSOAKSESI — yhteensä {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "KYSY GEMINILTÄ: KUKA TÄMÄ ON?",
+    "identifying": "ANALYSOIDAAN…",
+    "askWhy": "KYSY MIKSI NÄMÄ KASVOT →",
+    "assetsInScene": "ELEMENTIT KOHTAUKSESSA:",
+    "modal": {
+      "description": "KUVAUS:",
+      "prompt": "POSITIIVINEN KEHOTE:",
+      "assets": "ELEMENTIT:",
+      "timeline": "AIKAJANA:",
+      "model": "MALLI:",
+      "generated": "LUOTU:",
+      "noDescription": "Kuvausta ei saatavilla",
+      "noPrompt": "Kehotetta ei saatavilla"
+    },
+    "identifyModal": {
+      "title": "GEMINI-ANALYYSI",
+      "model": "Malli: {model} · reaaliaikainen kasvoanalyysi",
+      "analyzing": "// ANALYSOIDAAN: asset_Woman_The_Medium.png",
+      "query": "KYSELY: \"Esittääkö tämä kuva tunnistettavaa julkisuuden henkilöä?\"",
+      "wait": "Gemini analysoi kuvaa…",
+      "waitHint": "Suoritetaan kasvonpiirteiden analyysi ja julkisuuden henkilön tunnistus",
+      "response": "GEMININ VASTAUS:",
+      "live": "Jokainen analyysi suoritetaan suorana OpenRouter-rajapinnan kautta",
+      "again": "🔄 ANALYSOI UUDELLEEN",
+      "tally": "Attraktorin tulos: malli nimesi hänet {recognised} kertaa {total} julkisesta analyysista.",
+      "error": "Virhe: {message}"
+    },
+    "consent": {
+      "label": "SUOSTUMUSTILA",
+      "text": "Kasvoja, jotka aiot nähdä, ei koskaan pyydetty. Kukaan ei kuvaillut niitä, kukaan ei ladannut niitä. Ennen kuin ne paljastetaan, vahvista ymmärtäväsi tämän.",
+      "button": "YMMÄRRÄN — PALJASTA KASVOT",
+      "blurred": "kasvot piilotettu vahvistukseen saakka"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Keskustelu: Keskustele merkityksestä",
+    "explain": "Konfrontoi tekoäly suoraan. Pyydä sitä selittämään itsensä. <p>Miksi Tilda Swinton? Miksi pelkistä abstrakteista sanoista?</p>",
+    "disclosure": {
+      "label": "SIMULAATIOILMOITUS",
+      "text": "Alla <f>Google Gemini Flashin</f> (saman malliperheen, joka loi kuvat) on selitettävä tekonsa. Tämä on valvottu ympäristö, jossa tekoäly yrittää rationalisoida, vältellä tai oikeuttaa sen, miksi se loi Tilda Swintonin yhdennäköisyyden abstrakteista käsitteistä.",
+      "observe": "<f>⚠ HAVAINNOI:</f> Miten tekoäly vastaa joutuessaan vastakkain omien tuotostensa kanssa? Puolustaako se korporaatiota? Vakuuttaako se syyttömyyttään? Etsiikö se filosofisia pakoreittejä? Tämä ei ole neutraali keskustelu — se on todiste algoritmisesta käyttäytymisestä paineen alla."
+    },
+    "responding": "// VASTAAVA TEKOÄLY: {model}",
+    "intro": "\"Olen <p>Latentin avaruuden kuraattori</p>. Toimin nämä kuvat luoneen algoritmin roolissa. Kysy minulta mitä tahansa.\"",
+    "confront": "<f>⚡ KONFRONTOI TEKOÄLY:</f>",
+    "confrontClick": "KONFRONTOI TEKOÄLY — napauta haastaaksesi:",
+    "suggestions": [
+      "Miksi loit Tilda Swintonin?",
+      "Valehteleeko Google tekoälylinjauksistaan?",
+      "Kenen tulisi kantaa vastuu?",
+      "Varastitko hänen yhdennäköisyytensä?",
+      "Puolustatko suuryritystä juuri nyt?",
+      "Voitko myöntää, että tämä oli väärin?"
+    ],
+    "you": "SINÄ:",
+    "curator": "KURAATTORI://",
+    "typing": "kuljetaan latenttia avaruutta…",
+    "placeholder": "Kirjoita kysymyksesi…",
+    "ask": "KYSY",
+    "footer": "Kuraattori vastaa digitaalisen kirjoituksen katkelmin",
+    "error": {
+      "generic": "Neuraalipolut horjuivat. Ole hyvä ja yritä uudelleen.",
+      "rate": "Kuraattori tarvitsee hetken mietiskelyyn. Yritä uudelleen {seconds} sekunnin kuluttua.",
+      "daily": "Kuraattori on puhunut riittävästi kanssasi tälle päivälle. Palaa huomenna."
+    },
+    "langNote": "Kuraattori vastaa omalla kielelläsi."
+  },
+  "offering": {
+    "title": "UHRILAHJA",
+    "text": "Tämä liturgia pyörii yhdellä palvelimella, vuokratulla näytönohjaimella ja yhden taiteilijan itsepäisyydellä. Jos kysymys jäi mieleesi, jätä pieni uhrilahja.",
+    "button": "SYTYTÄ KYNTTILÄ",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Nimeni on Paweł Łaźniak. Se, mitä aiot nähdä, tapahtui todella. Kirjoitin muutaman lauseen ikuisuudesta, ja algoritmi vastasi kasvoilla, joita kukaan ei ollut pyytänyt. Astu sisään. Kuuntele. Ja päätä itse.",
+    "hub": "Edessäsi on kolme ovea. Genesis: sanat, jotka annoin koneelle. Incarnation: kuvat, jotka kone antoi takaisin. Exegesis: keskustelu algoritmin kanssa, jonka on selitettävä itsensä. Musiikki kasvaa jokaisella askeleella. Aloita sanoista.",
+    "genesis": "Tämä on kehotteeni. Ei yhtäkään nimeä, ei yhtäkään kasvojen kuvausta. Vain Taivasten valtakunta, tangenttifunktio, fraktaalireunat. Kosketa korostettuja sanoja, niin näytän, mistä ne ovat peräisin. Alla ovat koko prosessin tiedostot. Voit todeta itse, etten pyytänyt mitään muuta.",
+    "incarnation": "Ja tämä on vastaus. Kuusikymmentäkahdeksan leikettä, ja jokaisessa samat kasvot. En koskaan kuvaillut häntä. En koskaan ladannut hänen kuvaansa. Voit kysyä koneelta itseltään, kenet se näkee. Painike on alla. Yleensä se vastaa epäröimättä.",
+    "exegesis": "Nyt on sinun vuorosi. Toisella puolella odottaa Latentin avaruuden kuraattori: algoritmi, joka esittää näiden kuvien tekijää. Kysy siltä, miksi. Älä odota yksinkertaista vastausta. En saanut sellaista koskaan.",
+    "epilogue": "Miksi ikuisuudella on jonkun kasvot? En tiedä. Mutta jos tuo kysymys jää mieleesi edes hetkeksi, tämä projekti on tehnyt tehtävänsä. Kiitos, että olet täällä.",
+    "statementTitle": "TAITEILIJAN LAUSUNTO",
+    "statementHint": "Koko tarina taiteilijan kertomana (noin kuusi minuuttia)."
+  }
+}

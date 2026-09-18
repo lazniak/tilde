@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TUR",
+    "start": "Începe turul ghidat",
+    "stop": "Oprește turul ghidat",
+    "hint": "Lasă vocea artistului să te ghideze prin toate cele trei panouri. Atinge orice pentru a prelua controlul.",
+    "indicator": "TUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "ÎNCLINARE",
+    "on": "Mixează prin înclinarea telefonului",
+    "off": "Oprește mixarea prin înclinare",
+    "rhythm": "RITM",
+    "harmony": "ARMONIE",
+    "voices": "VOCI",
+    "denied": "Accesul la senzorii de mișcare a fost refuzat. Permite-l în setările browserului pentru a mixa prin înclinare.",
+    "unsupported": "Acest dispozitiv nu raportează orientarea. Folosește mixerul în schimb."
+  }
+}

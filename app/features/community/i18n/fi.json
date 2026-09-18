@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TODISTUKSET — KENEN KASVOT NE OVAT?",
+    "title": "Todistajien muuri",
+    "intro": "Yksi lause. Kenet näet kasvoissa, joita konetta ei koskaan pyydetty tekemään? Litania vierii hitaasti, kuin lopputekstit elokuvassa, johon ketään ei koskaan valittu.",
+    "count": "{n} todistusta tallennettu",
+    "loading": "Luetaan muuria…",
+    "empty": "Kukaan ei ole vielä puhunut. Ole ensimmäinen todistaja.",
+    "anonymous": "Nimetön",
+    "share": "Jaa",
+    "copied": "Linkki kopioitu",
+    "pause": "Pysäytä",
+    "resume": "Jatka",
+    "pauseHint": "Vie osoitin litanian päälle tai kosketa sitä pysäyttääksesi sen.",
+    "form": {
+      "sentenceLabel": "Lauseesi",
+      "sentencePlaceholder": "Näen jonkun, jota ei koskaan valokuvattu…",
+      "nameLabel": "Nimi (valinnainen)",
+      "namePlaceholder": "Miten haluat nimesi näkyvän",
+      "counter": "{n} / {max}",
+      "submit": "Jätä todistus",
+      "sending": "Tallennetaan…",
+      "thanks": "Tallennettu. Lauseesi on muurissa.",
+      "queued": "Tallennettu. Moderaattori vapauttaa sen muuriin."
+    },
+    "errors": {
+      "empty": "Sano ensin jotakin.",
+      "rate": "Liian nopeasti. Anna litanian hengittää.",
+      "url": "Tämä muuri kantaa lauseita, ei linkkejä.",
+      "email": "Tämä muuri kantaa lauseita, ei osoitteita.",
+      "slur": "Tätä lausetta ei kaiverreta tänne.",
+      "duplicate": "Sanoit tuon jo.",
+      "network": "Muuri ei vastannut. Yritä uudelleen.",
+      "generic": "Muuri hylkäsi uhrilahjan. Yritä uudelleen."
+    }
+  },
+  "cosign": {
+    "label": "// ALLEKIRJOITA KIRJE TILDA SWINTONILLE",
+    "title": "Lisää nimesi kirjeeseen",
+    "readLetter": "Lue kirje kokonaisuudessaan",
+    "hideLetter": "Kätke kirje",
+    "counting": "Lasketaan allekirjoituksia…",
+    "count": "{n} ihmistä on allekirjoittanut",
+    "privacy": "Tallennamme koko nimesi, mutta näytämme aina vain etunimen ja sukunimen alkukirjaimen. Kaupunki on valinnainen ja näytetään sellaisena kuin se on kirjoitettu.",
+    "form": {
+      "nameLabel": "Nimi",
+      "namePlaceholder": "Koko nimesi",
+      "cityLabel": "Kaupunki / maa (valinnainen)",
+      "cityPlaceholder": "Helsinki, FI",
+      "consent": "Allekirjoitan omana itsenäni ja hyväksyn nimeni näyttämisen.",
+      "submit": "Allekirjoita kirje",
+      "sending": "Allekirjoitetaan…",
+      "thanks": "Allekirjoitettu. Kiitos, että seisot kysymyksen äärellä."
+    },
+    "errors": {
+      "name": "Allekirjoitus vaatii nimen.",
+      "consent": "Merkitse ruutu allekirjoittaaksesi omana itsenäsi.",
+      "rate": "Olet jo allekirjoittanut tänään.",
+      "duplicate": "Tältä laitteelta on jo allekirjoitettu.",
+      "rejected": "Vain nimiä — ei linkkejä, ei solvauksia.",
+      "network": "Rekisteri ei vastannut. Yritä uudelleen.",
+      "generic": "Rekisteri hylkäsi allekirjoituksen. Yritä uudelleen."
+    }
+  },
+  "embed": {
+    "kicker": "ALGORITMISEN KOHTALON TRIPTYYKKI",
+    "title": "The Latent Liturgy",
+    "question": "Miksi ”muutoksesta” ja ”ikuisuudesta” tuli hänen kasvonsa?",
+    "clips": "leikkeet",
+    "testimonies": "todistukset",
+    "verdicts": "tuomiot",
+    "enter": "ASTU LITURGIAAN"
+  }
+}

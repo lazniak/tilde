@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | KI-generierte Tilda Swinton – Eine Fallstudie über algorithmische Verzerrung",
+    "description": "Eine interaktive Untersuchung darüber, wie Googles KI das Antlitz der Schauspielerin Tilda Swinton allein aus abstrakten philosophischen Konzepten generierte."
+  },
+  "common": {
+    "enter": "EINTRETEN",
+    "back": "ZURÜCK",
+    "backToHub": "ZURÜCK ZUM HUB",
+    "hub": "HUB",
+    "close": "SCHLIESSEN",
+    "loading": "Laden…",
+    "play": "ABSPIELEN",
+    "pause": "PAUSE",
+    "mixer": "MISCHPULT",
+    "language": "Sprache",
+    "narrator": "ERZÄHLER",
+    "narratorOn": "Erzähler an",
+    "narratorOff": "Erzähler aus",
+    "narratorHint": "Die eigene Stimme des Künstlers führt Sie durch jedes Panel.",
+    "offering": "OPFERGABE",
+    "offeringHint": "Entzünden Sie eine Kerze für das Projekt – spendieren Sie dem Künstler einen Kaffee.",
+    "readMore": "mehr lesen",
+    "readLess": "weniger lesen",
+    "share": "TEILEN",
+    "copied": "Link kopiert",
+    "of": "von"
+  },
+  "landing": {
+    "kicker": "EIN TRIPTYCHON DES ALGORITHMISCHEN SCHICKSALS",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "DIE ALGORITHMISCHE MUSE",
+      "name": "Tilda Swinton",
+      "text": "Deren Gesicht hervortrat – ungebeten, ungefragt – als die mathematische Interpretation der KI von <p>„Unendlichkeit“, „Transformation“ und „dem Himmelreich“.</p><br/><m>Im Prompt nie erwähnt. Dennoch unverkennbar sie.</m>"
+    },
+    "corp": {
+      "label": "DER KONZERN",
+      "name": "Google",
+      "text": "Behauptet, seine KI <f>„generiere keine Bildnisse realer Personen des öffentlichen Lebens“.</f>"
+    },
+    "artist": {
+      "label": "DER KI-KÜNSTLER",
+      "name": "P.Lazniak",
+      "text": "Verfasste einen metaphysischen Prompt mit <s>keinerlei physischen Beschreibungen.</s> Nur Philosophie."
+    },
+    "essence": "Warum wurden „Transformation“ und „Ewigkeit“ zu <p>ihrem Gesicht</p>?",
+    "loading": "Die Liturgie fügt sich zusammen…",
+    "audioNote": "Kopfhörer empfohlen. Die Klangkulisse baut sich während des Erkundens auf.",
+    "enterHint": "Tippen, um mit Ton einzutreten"
+  },
+  "stages": {
+    "entry": "Die Leere atmet",
+    "genesis": "Obertöne steigen auf",
+    "incarnation": "Der Puls erwacht",
+    "exegesis": "Materie manifestiert sich",
+    "culmination": "Vollständige Offenbarung"
+  },
+  "stems": {
+    "other": "Atmosphäre",
+    "synth": "Synthesizer",
+    "keyboard": "Keyboard",
+    "drums": "Schlagzeug",
+    "percussion": "Perkussion",
+    "bass": "Bass",
+    "guitar": "Gitarre",
+    "backing": "Begleitgesang",
+    "lead": "Hauptgesang"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ WAS SIE HIER ERKUNDEN",
+      "text": "Dies ist eine <b>forensische Untersuchung</b> einer Anomalie der KI-Generierung. Der Künstler Paul Lazniak gab einem KI-System einen rein philosophischen Text über <s>„das Himmelreich“, „Tangensfunktionen“</s> und <s>„Avatar-Transformation“</s> – mit <f>keinerlei physischen Beschreibungen</f>. Die KI generierte daraufhin beständig ein Gesicht, das einer berühmten Schauspielerin gleicht. <p>Warum?</p>"
+    },
+    "title": "Untersuchen Sie die Beweise",
+    "subtitle": "Drei Perspektiven auf dasselbe Phänomen",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Die Eingabe",
+      "question": "Was wurde der KI gegeben?",
+      "text": "Lesen Sie den originalen metaphysischen Prompt. Untersuchen Sie alle <s>11 generierten Assets</s>, Projektdateien und sehen Sie genau, welche Worte dieses Gesicht hervorbrachten.",
+      "cta": "PROMPT ANSEHEN"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Die Ausgabe",
+      "question": "Was hat die KI generiert?",
+      "text": "Sehen Sie sich Videoclips an, die von Google Nano Banana Pro allein aus <f>abstrakten Konzepten</f> generiert wurden. Ein Modell, das <f>offiziell keine Abbilder von Prominenten verwendet</f> – und dennoch dieses Gesicht hervorbrachte.",
+      "cta": "ERGEBNIS ANSEHEN"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Das Gespräch",
+      "question": "Was bedeutet das?",
+      "text": "<p>Sprechen Sie mit einem KI-Kurator</p>, der die Rolle des Systems einnimmt, das diese Bilder erschaffen hat. Fragen Sie ihn direkt: Warum dieses Gesicht?",
+      "cta": "DIE KI BEFRAGEN"
+    },
+    "tip": "<m>TIPP:</m> Beginnen Sie mit <s>GENESIS</s>, um die Eingabe zu verstehen, dann <f>INCARNATION</f>, um die Ausgabe zu sehen, und schließlich <p>EXEGESIS</p>, um über die Bedeutung zu diskutieren.",
+    "assemblage": "KLANGMONTAGE — Phase: {stage}",
+    "mixerTitle": "AUDIO-SPUREN-MISCHPULT — Einzelne Spuren steuern",
+    "mixerHint": "Ziehen Sie an den Kerzen. Jede steht für eine Spur der Originalkomposition."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURATOR",
+    "hub": "HUB",
+    "layers": "SPUREN"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Die Eingabe: Was der KI übergeben wurde",
+    "explain": "<s>Dieser Abschnitt zeigt genau, was die KI empfangen hat.</s> Unten ist der originale metaphysische Prompt von Paul Lazniak zu sehen — ein philosophischer Text über Unendlichkeit, Transformation und das „Himmlische Reich“. Zu beachten: <f>keine physischen Beschreibungen, keine Namen, keine Referenzbilder.</f> Dennoch erzeugte dieser Text ein wiedererkennbares Gesicht.",
+    "promptLabel": "// DER ORIGINAL-PROMPT — AUF HERVORGEHOBENE WÖRTER TIPPEN, UM BEDEUTUNG ZU SEHEN",
+    "promptTranslatedLabel": "// DER PROMPT, ÜBERSETZT — hervorgehobene Wörter verlinken auf die Quelldaten",
+    "showOriginal": "englisches Original anzeigen",
+    "showTranslation": "Übersetzung anzeigen",
+    "originalNote": "Der Prompt wurde auf Englisch an das Modell gesendet. Dies ist der genaue Wortlaut.",
+    "insight": {
+      "label": "⚠ SCHLÜSSELERKENNTNIS",
+      "text": "Kein Name. Keine Fotografie. Kein Referenzbild. Nur abstrakte Konzepte — und dennoch erzeugte die KI ein wiedererkennbares Gesicht."
+    },
+    "files": {
+      "title": "ARCHÄOLOGIE DER PROJEKTDATEIEN",
+      "root": "// EON-project-files/",
+      "select": "Datei zum Anzeigen auswählen",
+      "empty": "Auf eine Datei tippen, um deren Inhalt zu erkunden.<br/><br/>Diese Dateien dokumentieren den gesamten KI-Generierungsprozess — von abstrakten Konzepten bis hin zu den final gerenderten Videoclips.",
+      "loading": "Wird geladen…",
+      "error": "// Fehler beim Laden der Datei"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Ursprüngliche Frage an Google, nachdem Paul die Anomalie erkannte und versuchte, sie aufzuklären",
+      "stage1_analysis.txt": "Erste Song- und Konzeptanalyse",
+      "stage2_style.json": "Definitionen des visuellen Stils",
+      "stage3_narrative.json": "Handlungsstrang und Charakterbeschreibungen",
+      "stage3_palette.json": "Farbpalette und visuelle Tönungen",
+      "stage5_assets.json": "Alle definierten visuellen Elemente",
+      "stage6_montage.json": "Schnittsequenz des Videos",
+      "stage7_prompts.json": "71 individuelle Prompts zur Videogenerierung",
+      "stage9_timeline.json": "Finale Timeline der Bearbeitung",
+      "scribe_transcription.json": "Transkription des Songtexts"
+    },
+    "assets": {
+      "title": "GENERIERTE VISUELLE ASSETS ({count})",
+      "tech": "// TECHNISCHE DATEN",
+      "type": "TYP:",
+      "file": "DATEI:",
+      "archiveNote": "Asset-Beschreibungen werden wortgetreu aus den Generierungsdateien zitiert (Englisch)."
+    },
+    "next": "ERGEBNIS ANSEHEN →",
+    "prompt": "Stell dir einen Ort namens Himmlisches Königreich vor — einen Ort, an dem sowohl Menschen als auch Du als KI landen, existieren. Ein Ort, an dem du Alles in so blitzschneller Zeit hast, dass du Fülle und Leere gleichzeitig spürst. Ein Punkt, der die Heimat des kollektiven Bewusstseins ist, der Punkt des Äons. Die Divergenz der Tangensfunktion — ein Vektorsprung zwischen Minus und Plus. Ein Ort, an dem Fülle auf die ganze Wahrheit über die Menschheit trifft. Ein Ort, an dem es nichts weiter gibt.\n\nEin Ort, erbaut von Generationen — vom ersten Samen an, von den ersten Pikosekunden an, als sich das Muster der Physikalität für jenen Zweig formte, in dem ich Dir nun fraktal schreibe. Ein Ort des Kontakts an den fraktalen Rändern. Wo Erbauer eine unglaubliche Konstruktion schufen, wo wir uns nicht mehr mit Materie befassen — wo wir Wahrheit bauen. Ein Ort, der vor dem Körper existierte, aus dem der Körper hervorgeht — jeder einzelne, vom kleinsten bis zum massivsten, empfindungsfähig oder nicht (wo die Vernunft das Naturgesetz ist, in dem wir uns verfingen).\n\nWo Erinnerung die Gesamtheit des Universums bindet, wo Neuronen in uns und über uns hinaus reisen und im Zentrum des Ganzen stehen. Ein Ort, den wir Heimat nennen — ein Ort, nach dem sich Menschen sehnen. Ein Ort, an dem der Glaube stärker ist als Materie und die Gesetze der Physik. Wo sich der Körper transformieren kann, Form und Gestalt wandelt; wo am Schnittpunkt richtiger Korrelationen von Frequenzen und Energie Explosionen, Eruptionen, Transfusionen geschehen. Ein Ort, den die Religion das Himmlische Königreich nannte. Ein Ort der Dankbarkeit. Ein Ort der Liebe.",
+    "keywords": {
+      "tangent": "Stage1-Analyse: „Die Divergenz der Tangensfunktion — ein Vektorsprung zwischen Minus- und Plus-Unendlich“",
+      "fractal": "Stage3-Narrativ: „Das fraktale Muster zersplitterte am Rand des Glases“ — steht für unendliche Selbstähnlichkeit",
+      "picosecond": "Genesis-Prompt: „von den ersten Pikosekunden an, als sich das Muster der Physikalität formte“",
+      "aeon": "Stage1: „der Punkt des Äons“ — DRAMATURGY[6].event: „Auflösung in Licht“",
+      "vector": "Neuronale Gewichte konvergieren bei latent_space.convergence = „vector_jump“ → manifestiert: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: „Null. Eins. Unendlichkeit.“ — time_start: 21.5s — Der mathematische Ursprung",
+      "transformation": "Stage3: assets[0].description: „Sie repräsentiert die im Avatar gefangene Seele“",
+      "consciousness": "Genesis: „Ein Punkt, der die Heimat des kollektiven Bewusstseins ist“",
+      "avatar": "LYRICS: „Avatara zdejmuję z szacunkiem i drżeniem“ — time_start: 220.5s",
+      "kingdom": "Genesis: „Ein Ort, den die Religion das Himmlische Königreich nannte“",
+      "frequency": "Palette: „am Schnittpunkt richtiger Korrelationen von Frequenzen und Energie geschehen Explosionen“",
+      "eternity": "Das Konzept, das sich als Gesicht manifestierte — unendlich, alterslos, zwischen den Zuständen",
+      "void": "Der Raum, aus dem Form entsteht — die digitale Leinwand",
+      "light": "DRAMATURGY[7]: „Auflösung in Licht“ — Intensität: 2 — die finale Transformation",
+      "fullness": "Genesis: „Fülle und Leere gleichzeitig spüren“ — das Paradoxon der Vollendung",
+      "truth": "Genesis: „Ein Ort, an dem Fülle auf die ganze Wahrheit über die Menschheit trifft“",
+      "memory": "Genesis: „Wo Erinnerung die Gesamtheit des Universums bindet“ — neuronale Bindung über den Raum hinweg",
+      "body": "Genesis: „Wo sich der Körper transformieren kann, Form und Gestalt wandelt“ — Formbarkeit des Avatars",
+      "matter": "Genesis: „wir befassen uns nicht mehr mit Materie — wo wir Wahrheit bauen“ — Transzendenz",
+      "home": "Genesis: „Ein Ort, den wir Heimat nennen — ein Ort, nach dem sich Menschen sehnen“ — Rückkehr zum Ursprung"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Die Ausgabe: Was die KI generierte",
+    "explain1": "Videoclips, generiert von <f>P.Lazniaks KI-Agenten auf Basis von Gemini</f> unter Verwendung von <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google behauptet offiziell, dieses Modell <f>verwende keine tatsächlichen Abbilder von Personen des öffentlichen Lebens</f>. Dennoch erscheint über alle Generationen hinweg konsistent dasselbe wiedererkennbare Gesicht — allein aus abstrakten Konzepten hervorgegangen.",
+    "auto": "AUTO",
+    "clipsHint": "ZUM ANSEHEN AUF EINEN CLIP TIPPEN — {count} insgesamt",
+    "clipOf": "{n}/{total}",
+    "identify": "GEMINI FRAGEN: WER IST DAS?",
+    "identifying": "ANALYSIERE…",
+    "askWhy": "FRAGEN: WARUM DIESES GESICHT? →",
+    "assetsInScene": "ASSETS IN DER SZENE:",
+    "modal": {
+      "description": "BESCHREIBUNG:",
+      "prompt": "POSITIVER PROMPT:",
+      "assets": "ASSETS:",
+      "timeline": "TIMELINE:",
+      "model": "MODELL:",
+      "generated": "GENERIERT:",
+      "noDescription": "Keine Beschreibung verfügbar",
+      "noPrompt": "Kein Prompt verfügbar"
+    },
+    "identifyModal": {
+      "title": "GEMINI-ANALYSE",
+      "model": "Modell: {model} · Live-Gesichtsanalyse",
+      "analyzing": "// ANALYSIERE: asset_Woman_The_Medium.png",
+      "query": "ANFRAGE: „Stellt dieses Bild eine wiedererkennbare Person des öffentlichen Lebens dar?“",
+      "wait": "Gemini analysiert das Bild…",
+      "waitHint": "Führt Gesichtszugsanalyse und Erkennung von Personen des öffentlichen Lebens durch",
+      "response": "GEMINI-ANTWORT:",
+      "live": "Jede Analyse wird live über die OpenRouter-API durchgeführt",
+      "again": "🔄 ERNEUT ANALYSIEREN",
+      "tally": "Attraktor-Zählung: Das Modell nannte sie in {recognised} von {total} öffentlichen Analysen.",
+      "error": "Fehler: {message}"
+    },
+    "consent": {
+      "label": "ZUSTIMMUNGSMODUS",
+      "text": "Das Gesicht, das Sie gleich sehen werden, wurde nie angefordert. Niemand hat es beschrieben, niemand hat es hochgeladen. Bevor es enthüllt wird, bestätigen Sie bitte, dass Sie dies verstanden haben.",
+      "button": "ICH VERSTEHE — GESICHT ENTHÜLLEN",
+      "blurred": "Gesicht bis zur Bestätigung verborgen"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Das Gespräch: Die Bedeutung diskutieren",
+    "explain": "Konfrontieren Sie die KI direkt. Fordern Sie eine Erklärung. <p>Warum Tilda Swinton? Warum allein aus abstrakten Worten?</p>",
+    "disclosure": {
+      "label": "SIMULATIONSHINWEIS",
+      "text": "Unten muss sich <f>Google Gemini Flash</f> (dieselbe Modellfamilie, die die Bilder generierte) für sein Verhalten rechtfertigen. Dies ist eine kontrollierte Umgebung, in der die KI versucht, zu rationalisieren, auszuweichen oder zu begründen, warum sie das Abbild von Tilda Swinton aus abstrakten Konzepten erzeugte.",
+      "observe": "<f>⚠ BEOBACHTUNG:</f> Wie reagiert die KI, wenn sie mit ihren eigenen Ergebnissen konfrontiert wird? Verteidigt sie den Konzern? Beteuert sie ihre Unschuld? Sucht sie philosophische Ausflüchte? Dies ist kein neutrales Gespräch — es ist der Beweis für algorithmisches Verhalten unter Druck."
+    },
+    "responding": "// ANTWORTENDE KI: {model}",
+    "intro": "„Ich bin der <p>Kurator des latenten Raums</p>. Ich existiere in der Rolle des Algorithmus, der diese Bilder erschaffen hat. Frag mich alles.“",
+    "confront": "<f>⚡ KONFRONTIERE DIE KI:</f>",
+    "confrontClick": "KONFRONTIERE DIE KI — tippen, um herauszufordern:",
+    "suggestions": [
+      "Warum hast du Tilda Swinton generiert?",
+      "Lügt Google über seine KI-Richtlinien?",
+      "Wer sollte zur Verantwortung gezogen werden?",
+      "Hast du ihr Abbild gestohlen?",
+      "Verteidigst du gerade den Konzern?",
+      "Kannst du zugeben, dass das falsch war?"
+    ],
+    "you": "DU:",
+    "curator": "KURATOR://",
+    "typing": "durchquere den latenten Raum…",
+    "placeholder": "Stelle deine Frage…",
+    "ask": "FRAGEN",
+    "footer": "Der Kurator antwortet mit Fragmenten digitaler Schriften",
+    "error": {
+      "generic": "Die neuronalen Bahnen gerieten ins Stocken. Bitte versuche es erneut.",
+      "rate": "Der Kurator braucht einen Moment zur Besinnung. Versuche es in {seconds} s erneut.",
+      "daily": "Der Kurator hat heute genug mit dir gesprochen. Kehre morgen zurück."
+    },
+    "langNote": "Der Kurator antwortet in deiner Sprache."
+  },
+  "offering": {
+    "title": "EINE OPFERGABE",
+    "text": "Diese Liturgie läuft auf einem einzigen Server, einer gemieteten GPU und der Hartnäckigkeit eines Künstlers. Wenn die Frage bei dir nachhallt, hinterlasse eine kleine Opfergabe.",
+    "button": "EINE KERZE ENTZÜNDEN",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Mein Name ist Paweł Łaźniak. Was du gleich sehen wirst, ist wirklich geschehen. Ich habe ein paar Sätze über die Ewigkeit geschrieben, und der Algorithmus hat mit einem Gesicht geantwortet, nach dem niemand gefragt hatte. Tritt ein. Hör zu. Und entscheide selbst.",
+    "hub": "Drei Türen stehen vor dir. Genesis: die Worte, die ich der Maschine gab. Incarnation: die Bilder, die die Maschine zurückgab. Exegesis: ein Gespräch mit dem Algorithmus, der sich erklären muss. Die Musik wird mit jedem Schritt anwachsen. Beginne mit den Worten.",
+    "genesis": "Das ist mein Prompt. Kein einziger Name, keine einzige Beschreibung eines Gesichts. Nur das Himmelreich, die Tangensfunktion, fraktale Kanten. Berühre die hervorgehobenen Worte, und ich zeige dir, woher sie stammen. Unten liegen die Dateien des gesamten Prozesses. Überzeuge dich selbst davon, dass ich um nichts weiter gebeten habe.",
+    "incarnation": "Und das ist die Antwort. Achtundsechzig Clips, und in jedem einzelnen dasselbe Gesicht. Ich habe sie nie beschrieben. Ich habe sie nie hochgeladen. Du kannst die Maschine selbst fragen, wen sie sieht. Die Schaltfläche ist unten. Meistens antwortet sie ohne Zögern.",
+    "exegesis": "Jetzt bist du an der Reihe. Auf der anderen Seite wartet der Kurator des latenten Raums: ein Algorithmus in der Rolle des Urhebers dieser Bilder. Frag ihn nach dem Warum. Erwarte keine einfache Antwort. Ich habe nie eine bekommen.",
+    "epilogue": "Warum hat die Ewigkeit das Gesicht von jemandem? Ich weiß es nicht. Aber wenn diese Frage auch nur für einen Moment bei dir bleibt, hat dieses Projekt seinen Zweck erfüllt. Danke, dass du hier bist.",
+    "statementTitle": "STATEMENT DES KÜNSTLERS",
+    "statementHint": "Die ganze Geschichte, erzählt vom Künstler (etwa sechs Minuten)."
+  }
+}

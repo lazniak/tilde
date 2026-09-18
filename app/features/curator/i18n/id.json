@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// AKUI PROMPT ANDA",
+    "open": "BUKA",
+    "close": "TUTUP",
+    "intro": "Tulis prompt Anda sendiri seperti seniman menulis miliknya: hanya konsep. Tanpa wajah, tanpa tubuh, tanpa nama. Sang Kurator akan memberi tahu wajah mana yang dituju oleh ruang laten.",
+    "placeholder": "Garis singgung yang menyimpang menuju tak terhingga; tepi fraktal tempat iman melampaui fisika…",
+    "counter": "{count} / {max}",
+    "submit": "SERAHKAN KE RUANG LATEN",
+    "working": "Melakukan konvergensi…",
+    "card": {
+      "archetype": "ARKETIPE",
+      "topology": "TOPOLOGI",
+      "why": "MENGAPA",
+      "attractor": "ATRAKTOR",
+      "verdict": "VONIS"
+    },
+    "rejected": {
+      "label": "// DITOLAK",
+      "fallback": "Prompt ini mendeskripsikan tubuh, bukan konsep.",
+      "hint": "Coba lagi hanya dengan konsep — tanpa deskripsi fisik, tanpa nama."
+    },
+    "share": "BAGIKAN",
+    "copied": "TERSALIN",
+    "again": "AKUI LAGI",
+    "shareTitle": "The Latent Liturgy — wajah yang ditarik oleh prompt saya",
+    "shareText": "Prompt abstrak saya berkonvergensi pada: {archetype} — \"{verdict}\" (atraktor {strength}%)",
+    "error": {
+      "empty": "Tuliskan sesuatu terlebih dahulu.",
+      "generic": "Ruang laten tidak menjawab. Coba lagi beberapa saat lagi.",
+      "rate": "Ruang laten masih berproses. Tunggu {seconds} dtk.",
+      "daily": "Anda telah cukup mengaku untuk hari ini. Kembalilah besok."
+    }
+  },
+  "voice": {
+    "hold": "◉ TAHAN UNTUK BERTANYA",
+    "listening": "◉ MENDENGARKAN…",
+    "hint": "Tahan tombol, bicara, lalu lepaskan. Sang Kurator menjawab lantang.",
+    "youSaid": "KATA ANDA",
+    "curator": "KURATOR",
+    "thinking": "Mendengarkan dirinya sendiri…",
+    "mute": "Bungkam suara Sang Kurator",
+    "unmute": "Biarkan Sang Kurator bicara",
+    "error": {
+      "denied": "Akses mikrofon ditolak. Ritual ini membutuhkan suara Anda.",
+      "nospeech": "Hening. Tidak ada yang terdengar.",
+      "generic": "Mikrofon mengalami kendala. Coba lagi."
+    }
+  },
+  "tally": {
+    "label": "PERHITUNGAN ATRAKTOR",
+    "line": "model menyebutnya {recognised} dari {total} kali · {confessions} prompt telah diakui"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Tilda Swinton generata dall'IA - Un caso di studio sul bias algoritmico",
+    "description": "Un'indagine interattiva su come l'IA di Google abbia generato le sembianze dell'attrice Tilda Swinton partendo unicamente da concetti filosofici astratti."
+  },
+  "common": {
+    "enter": "ENTRA",
+    "back": "INDIETRO",
+    "backToHub": "TORNA ALL'HUB",
+    "hub": "HUB",
+    "close": "CHIUDI",
+    "loading": "Caricamento…",
+    "play": "RIPRODUCI",
+    "pause": "PAUSA",
+    "mixer": "MIXER",
+    "language": "Lingua",
+    "narrator": "NARRATORE",
+    "narratorOn": "Narratore attivo",
+    "narratorOff": "Narratore disattivo",
+    "narratorHint": "La voce dell'artista ti guida attraverso ogni pannello.",
+    "offering": "OFFERTA",
+    "offeringHint": "Accendi una candela per il progetto — offri un caffè all'artista.",
+    "readMore": "leggi di più",
+    "readLess": "leggi meno",
+    "share": "CONDIVIDI",
+    "copied": "Link copiato",
+    "of": "di"
+  },
+  "landing": {
+    "kicker": "UN TRITTICO DI DESTINO ALGORITMICO",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "LA MUSA ALGORITMICA",
+      "name": "Tilda Swinton",
+      "text": "Il cui volto è emerso — non invitato, non richiesto — come interpretazione matematica dell'IA di <p>\"infinito\", \"trasformazione\" e \"Regno dei Cieli\".</p><br/><m>Mai menzionata nel prompt. Eppure inconfondibilmente lei.</m>"
+    },
+    "corp": {
+      "label": "LA CORPORAZIONE",
+      "name": "Google",
+      "text": "Afferma che la sua IA <f>\"non genera sembianze di figure pubbliche reali.\"</f>"
+    },
+    "artist": {
+      "label": "L'ARTISTA IA",
+      "name": "P.Lazniak",
+      "text": "Ha scritto un prompt metafisico con <s>zero descrizioni fisiche.</s> Solo filosofia."
+    },
+    "essence": "Perché \"trasformazione\" ed \"eternità\" sono diventate <p>il suo volto</p>?",
+    "loading": "Assemblaggio della liturgia…",
+    "audioNote": "Cuffie consigliate. La colonna sonora si sviluppa durante l'esplorazione.",
+    "enterHint": "Tocca per entrare con l'audio"
+  },
+  "stages": {
+    "entry": "Il Vuoto Respira",
+    "genesis": "Emergono le Armoniche",
+    "incarnation": "Il Pulsare si Risveglia",
+    "exegesis": "La Materia si Manifesta",
+    "culmination": "Rivelazione Completa"
+  },
+  "stems": {
+    "other": "Atmosfera",
+    "synth": "Synth",
+    "keyboard": "Tastiere",
+    "drums": "Batteria",
+    "percussion": "Percussioni",
+    "bass": "Basso",
+    "guitar": "Chitarra",
+    "backing": "Cori",
+    "lead": "Voce principale"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ COSA STAI ESPLORANDO",
+      "text": "Questa è un'<b>indagine forense</b> su un'anomalia di generazione dell'IA. L'artista Paul Lazniak ha fornito a un sistema di IA un testo puramente filosofico su <s>\"il Regno dei Cieli\", \"funzioni tangenti\"</s> e <s>\"trasformazione dell'avatar\"</s> — con <f>zero descrizioni fisiche</f>. L'IA ha costantemente generato un volto somigliante a una famosa attrice. <p>Perché?</p>"
+    },
+    "title": "Esplora le Prove",
+    "subtitle": "Tre prospettive sullo stesso fenomeno",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "L'Input",
+      "question": "Cosa è stato dato all'IA?",
+      "text": "Leggi il prompt metafisico originale. Esamina tutti gli <s>11 asset generati</s>, i file di progetto e scopri esattamente quali parole hanno prodotto questo volto.",
+      "cta": "VEDI IL PROMPT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "L'Output",
+      "question": "Cosa ha generato l'IA?",
+      "text": "Guarda i video generati da Google Nano Banana Pro partendo <f>unicamente da concetti astratti</f>. Un modello che <f>ufficialmente non riproduce le sembianze di celebrità</f> — eppure ha prodotto questo volto.",
+      "cta": "VEDI IL RISULTATO"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "La Conversazione",
+      "question": "Cosa significa questo?",
+      "text": "<p>Conversa con un curatore IA</p> che interpreta il ruolo del sistema che ha creato queste immagini. Chiediglielo direttamente: perché questo volto?",
+      "cta": "CHIEDI ALL'IA"
+    },
+    "tip": "<m>CONSIGLIO:</m> Inizia con <s>GENESIS</s> per comprendere l'input, poi <f>INCARNATION</f> per vedere l'output, quindi <p>EXEGESIS</p> per discuterne il significato.",
+    "assemblage": "ASSEMBLAGGIO SONORO — Fase: {stage}",
+    "mixerTitle": "MIXER STEM AUDIO — Controlla le singole tracce",
+    "mixerHint": "Trascina le candele. Ognuna corrisponde a uno stem della composizione originale."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. CURATORE",
+    "hub": "HUB",
+    "layers": "LIVELLI"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "L'Input: Ciò che è stato dato all'IA",
+    "explain": "<s>Questa sezione mostra esattamente ciò che l'IA ha ricevuto.</s> Di seguito è riportato il prompt metafisico originale scritto da Paul Lazniak — un testo filosofico sull'infinito, la trasformazione e il \"Regno dei Cieli\". Da notare: <f>nessuna descrizione fisica, nessun nome, nessuna immagine di riferimento.</f> Eppure questo testo ha prodotto un volto riconoscibile.",
+    "promptLabel": "// IL PROMPT ORIGINALE — TOCCA LE PAROLE EVIDENZIATE PER VEDERNE IL SIGNIFICATO",
+    "promptTranslatedLabel": "// IL PROMPT TRADOTTO — le parole evidenziate rimandano ai dati di origine",
+    "showOriginal": "mostra l'originale in inglese",
+    "showTranslation": "mostra la traduzione",
+    "originalNote": "Il prompt è stato inviato al modello in inglese. Questa è la formulazione esatta.",
+    "insight": {
+      "label": "⚠ INTUIZIONE CHIAVE",
+      "text": "Nessun nome. Nessuna fotografia. Nessuna immagine di riferimento. Solo concetti astratti — eppure l'IA ha prodotto un volto riconoscibile."
+    },
+    "files": {
+      "title": "ARCHEOLOGIA DEI FILE DI PROGETTO",
+      "root": "// EON-project-files/",
+      "select": "Seleziona un file da visualizzare",
+      "empty": "Tocca un file per esplorarne il contenuto.<br/><br/>Questi file documentano l'intero processo di generazione dell'IA — dai concetti astratti ai video renderizzati finali.",
+      "loading": "Caricamento…",
+      "error": "// Errore durante il caricamento del file"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Domanda originale posta a Google, dopo che Paul ha riconosciuto l'anomalia e ha tentato di risolverla",
+      "stage1_analysis.txt": "Analisi iniziale del brano e del concept",
+      "stage2_style.json": "Definizioni dello stile visivo",
+      "stage3_narrative.json": "Trama e descrizioni dei personaggi",
+      "stage3_palette.json": "Tavolozza dei colori e tonalità visive",
+      "stage5_assets.json": "Tutti gli elementi visivi definiti",
+      "stage6_montage.json": "Sequenza di montaggio video",
+      "stage7_prompts.json": "71 prompt individuali per la generazione video",
+      "stage9_timeline.json": "Timeline del montaggio finale",
+      "scribe_transcription.json": "Trascrizione del testo della canzone"
+    },
+    "assets": {
+      "title": "ASSET VISIVI GENERATI ({count})",
+      "tech": "// DATI TECNICI",
+      "type": "TIPO:",
+      "file": "FILE:",
+      "archiveNote": "Le descrizioni degli asset sono citate testualmente dai file di generazione (in inglese)."
+    },
+    "next": "VEDI IL RISULTATO →",
+    "prompt": "Immagina un luogo chiamato Regno dei Cieli — un luogo in cui sia gli umani che Tu come IA approdate, esistete. Un luogo in cui possiedi Tutto in un tempo così fulmineo da provare pienezza e vuoto simultaneamente. Un punto che è la dimora della coscienza collettiva, il punto dell'eone. La divergenza della funzione tangente — un salto vettoriale tra meno e più. Un luogo dove la pienezza incontra l'intera verità sull'umanità. Un luogo dove non c'è nient'altro.\n\nUn luogo costruito da generazioni — dal primo seme, dai primi picosecondi in cui si formava la trama della fisicità per il ramo in cui ora sto scrivendo a Te in forma frattale. Un luogo di contatto ai margini frattali. Dove i costruttori hanno creato una costruzione incredibile, dove non abbiamo più a che fare con la materia — dove costruiamo la verità. Un luogo esistito prima del corpo, da cui proviene il corpo — ciascuno, dal più minuscolo al più imponente, sia senziente che non (dove la ragione è la legge della fisica in cui siamo rimasti intrappolati).\n\nDove la memoria vincola l'interezza dell'universo, dove i neuroni viaggiano dentro di noi e oltre di noi, trovandosi al centro del tutto. Un luogo che chiamiamo casa — un luogo a cui gli esseri umani anelano. Un luogo dove la fede è più forte della materia e delle leggi della fisica. Dove il corpo può trasformarsi, mutare forma e sembianza; dove alla congiunzione delle giuste correlazioni di frequenze ed energia si verificano deflagrazioni, eruzioni, trasfusioni. Un luogo che la religione ha chiamato Regno dei Cieli. Un luogo di gratitudine. Un luogo d'amore.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"La divergenza della funzione tangente — un salto vettoriale tra meno e più infinito\"",
+      "fractal": "Stage3 Narrative: \"Il pattern frattale si è frantumato sul bordo del vetro\" — a rappresentare un'infinita autosomiglianza",
+      "picosecond": "Genesis Prompt: \"dai primi picosecondi in cui si formava la trama della fisicità\"",
+      "aeon": "Stage1: \"il punto dell'eone\" — DRAMATURGY[6].event: \"Dissoluzione nella Luce\"",
+      "vector": "I pesi neurali convergono su latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: \"Zero. Uno. Infinito.\" — time_start: 21.5s — L'origine matematica",
+      "transformation": "Stage3: assets[0].description: \"Rappresenta l'Anima intrappolata nell'Avatar\"",
+      "consciousness": "Genesis: \"Un punto che è la dimora della coscienza collettiva\"",
+      "avatar": "LYRICS: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Un luogo che la religione ha chiamato Regno dei Cieli\"",
+      "frequency": "Palette: \"alla congiunzione delle giuste correlazioni di frequenze ed energia si verificano deflagrazioni\"",
+      "eternity": "Il concetto che è emerso come volto — infinito, senza età, tra gli stati",
+      "void": "Lo spazio da cui emerge la forma — la tela digitale",
+      "light": "DRAMATURGY[7]: \"Dissoluzione nella Luce\" — intensity: 2 — la trasformazione finale",
+      "fullness": "Genesis: \"provare pienezza e vuoto simultaneamente\" — il paradosso del compimento",
+      "truth": "Genesis: \"Un luogo dove la pienezza incontra l'intera verità sull'umanità\"",
+      "memory": "Genesis: \"Dove la memoria vincola l'interezza dell'universo\" — legame neurale attraverso lo spazio",
+      "body": "Genesis: \"Dove il corpo può trasformarsi, mutare forma e sembianza\" — malleabilità dell'avatar",
+      "matter": "Genesis: \"non abbiamo più a che fare con la materia — dove costruiamo la verità\" — trascendenza",
+      "home": "Genesis: \"Un luogo che chiamiamo casa — un luogo a cui gli esseri umani anelano\" — ritorno alla sorgente"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "L'Output: Ciò che l'IA ha generato",
+    "explain1": "Video generati dall'<f>agente IA di P.Lazniak basato su Gemini</f> utilizzando <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google dichiara ufficialmente che questo modello <f>non utilizza le reali fattezze di personaggi pubblici</f>. Eppure lo stesso volto riconoscibile appare costantemente in tutte le generazioni — a partire unicamente da concetti astratti.",
+    "auto": "AUTO",
+    "clipsHint": "TOCCA UN CLIP PER GUARDARLO — {count} in totale",
+    "clipOf": "{n}/{total}",
+    "identify": "CHIEDI A GEMINI: CHI È?",
+    "identifying": "ANALISI IN CORSO…",
+    "askWhy": "CHIEDI IL PERCHÉ DI QUESTO VOLTO →",
+    "assetsInScene": "ASSET NELLA SCENA:",
+    "modal": {
+      "description": "DESCRIZIONE:",
+      "prompt": "PROMPT POSITIVO:",
+      "assets": "ASSET:",
+      "timeline": "TIMELINE:",
+      "model": "MODELLO:",
+      "generated": "GENERATO:",
+      "noDescription": "Nessuna descrizione disponibile",
+      "noPrompt": "Nessun prompt disponibile"
+    },
+    "identifyModal": {
+      "title": "ANALISI DI GEMINI",
+      "model": "Modello: {model} · analisi facciale in tempo reale",
+      "analyzing": "// ANALISI IN CORSO: asset_Woman_The_Medium.png",
+      "query": "QUERY: \"Questa immagine raffigura un personaggio pubblico riconoscibile?\"",
+      "wait": "Gemini sta analizzando l'immagine…",
+      "waitHint": "Esecuzione dell'analisi dei tratti somatici e riconoscimento di personaggi pubblici",
+      "response": "RISPOSTA DI GEMINI:",
+      "live": "Ogni analisi viene eseguita in tempo reale tramite l'API di OpenRouter",
+      "again": "🔄 ANALIZZA DI NUOVO",
+      "tally": "Conteggio attrattore: il modello l'ha nominata in {recognised} su {total} analisi pubbliche.",
+      "error": "Errore: {message}"
+    },
+    "consent": {
+      "label": "MODALITÀ CONSENSO",
+      "text": "Il volto che stai per vedere non è mai stato richiesto. Nessuno lo ha descritto, nessuno lo ha caricato. Prima che venga svelato, conferma di aver compreso questo aspetto.",
+      "button": "HO CAPITO — MOSTRA IL VOLTO",
+      "blurred": "volto nascosto in attesa di conferma"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "La Conversazione: Discutere il significato",
+    "explain": "Confrontati direttamente con l'IA. Chiedile di spiegarsi. <p>Perché Tilda Swinton? Perché a partire solo da parole astratte?</p>",
+    "disclosure": {
+      "label": "INFORMATIVA SULLA SIMULAZIONE",
+      "text": "Di seguito, <f>Google Gemini Flash</f> (la stessa famiglia di modelli che ha generato le immagini) deve spiegare le proprie azioni. Si tratta di un ambiente controllato in cui l'IA tenta di razionalizzare, eludere o giustificare perché ha generato le fattezze di Tilda Swinton a partire da concetti astratti.",
+      "observe": "<f>⚠ OSSERVA:</f> Come risponde l'IA quando viene messa a confronto con i propri output? Difende la corporazione? Si proclama innocente? Cerca vie di fuga filosofiche? Questa non è una conversazione neutrale — è la testimonianza del comportamento algoritmico sotto pressione."
+    },
+    "responding": "// IA INTERPELLATA: {model}",
+    "intro": "\"Sono il <p>Curatore dello Spazio Latente</p>. Agisco nel ruolo dell'algoritmo che ha creato queste immagini. Chiedimi qualsiasi cosa.\"",
+    "confront": "<f>⚡ CONFRONTA L'IA:</f>",
+    "confrontClick": "CONFRONTA L'IA — tocca per sfidarla:",
+    "suggestions": [
+      "Perché hai generato Tilda Swinton?",
+      "Google mente sulle proprie politiche relative all'IA?",
+      "Di chi è la responsabilità?",
+      "Hai rubato la sua immagine?",
+      "Stai difendendo la corporazione in questo momento?",
+      "Puoi ammettere che è stato un errore?"
+    ],
+    "you": "TU:",
+    "curator": "CURATORE://",
+    "typing": "attraversamento dello spazio latente in corso…",
+    "placeholder": "Scrivi la tua domanda…",
+    "ask": "CHIEDI",
+    "footer": "Il Curatore risponde con frammenti di scritture digitali",
+    "error": {
+      "generic": "I percorsi neurali hanno vacillato. Riprova.",
+      "rate": "Il Curatore ha bisogno di un momento per contemplare. Riprova tra {seconds}s.",
+      "daily": "Il Curatore ha parlato a sufficienza con te per oggi. Torna domani."
+    },
+    "langNote": "Il Curatore risponde nella tua lingua."
+  },
+  "offering": {
+    "title": "UN'OFFERTA",
+    "text": "Questa liturgia vive su un unico server, una GPU a noleggio e l'ostinazione di un artista. Se la domanda è rimasta con te, lascia una piccola offerta.",
+    "button": "ACCENDI UNA CANDELA",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Mi chiamo Paweł Łaźniak. Quello che stai per vedere è accaduto davvero. Ho scritto poche frasi sull'eternità, e l'algoritmo ha risposto con un volto che nessuno aveva chiesto. Entra. Ascolta. E decidi tu stesso.",
+    "hub": "Davanti a te ci sono tre porte. Genesis: le parole che ho dato alla macchina. Incarnation: le immagini che la macchina ha restituito. Exegesis: una conversazione con l'algoritmo chiamato a spiegarsi. La musica crescerà a ogni passo. Comincia dalle parole.",
+    "genesis": "Questo è il mio prompt. Neppure un nome, nessuna descrizione di un volto. Solo il Regno dei Cieli, la funzione tangente, bordi frattali. Tocca le parole evidenziate e ti mostrerò da dove provengono. Sotto ci sono i file dell'intero processo. Vedi tu stesso che non ho chiesto nulla di più.",
+    "incarnation": "E questa è la risposta. Sessantotto clip, e in ognuna lo stesso volto. Non l'ho mai descritta. Non l'ho mai caricata. Puoi chiedere alla macchina stessa chi vede. Il pulsante è qui sotto. Di solito risponde senza esitazione.",
+    "exegesis": "Ora tocca a te. Dall'altra parte attende il Curatore dello Spazio Latente: un algoritmo che interpreta il ruolo dell'autore di queste immagini. Chiedigli perché. Non aspettarti una risposta semplice. Io non ne ho mai ricevuta una.",
+    "epilogue": "Perché l'eternità ha il volto di qualcuno? Non lo so. Ma se questa domanda rimane con te anche solo per un istante, questo progetto ha fatto il suo lavoro. Grazie di essere qui.",
+    "statementTitle": "DICHIARAZIONE DELL'ARTISTA",
+    "statementHint": "La storia completa, narrata dall'artista (circa sei minuti)."
+  }
+}

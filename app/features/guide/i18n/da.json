@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "RUNDVISNING",
+    "start": "Start den guidede rundvisning",
+    "stop": "Stop den guidede rundvisning",
+    "hint": "Lad kunstnerens stemme føre dig gennem alle tre paneler. Rør ved hvad som helst for at overtage.",
+    "indicator": "RUNDVISNING · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "TILT",
+    "on": "Miks ved at vippe telefonen",
+    "off": "Stop miksning ved at vippe",
+    "rhythm": "RYTME",
+    "harmony": "HARMONI",
+    "voices": "STEMMER",
+    "denied": "Adgang til bevægelse afvist. Tillad det i dine browserindstillinger for at mikse ved at vippe.",
+    "unsupported": "Denne enhed registrerer ingen orientering. Brug mikseren i stedet."
+  }
+}

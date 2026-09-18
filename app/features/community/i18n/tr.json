@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TANIKLIKLAR — BU KİMİN YÜZÜ?",
+    "title": "Tanıklar duvarı",
+    "intro": "Tek bir cümle. Makineden asla yapması istenmeyen bu yüzde kimi görüyorsunuz? Litani, kimsenin oyuncu seçmediği bir filmin jeneriği gibi yavaşça akıyor.",
+    "count": "{n} tanıklık kaydedildi",
+    "loading": "Duvar okunuyor…",
+    "empty": "Henüz kimse konuşmadı. İlk tanık siz olun.",
+    "anonymous": "Anonim",
+    "share": "Paylaş",
+    "copied": "Bağlantı kopyalandı",
+    "pause": "Duraklat",
+    "resume": "Sürdür",
+    "pauseHint": "Litaniyi sabit tutmak için üzerine gelin veya dokunun.",
+    "form": {
+      "sentenceLabel": "Cümleniz",
+      "sentencePlaceholder": "Fotoğrafı hiç çekilmemiş birini görüyorum…",
+      "nameLabel": "İsim (isteğe bağlı)",
+      "namePlaceholder": "Nasıl listelenmek istersiniz",
+      "counter": "{n} / {max}",
+      "submit": "Tanıklık bırak",
+      "sending": "Kaydediliyor…",
+      "thanks": "Kaydedildi. Cümleniz duvarda yerini aldı.",
+      "queued": "Kaydedildi. Bir moderatör onaylayıp duvara aktaracak."
+    },
+    "errors": {
+      "empty": "Önce bir şeyler söyleyin.",
+      "rate": "Çok hızlı. Bırakın litani nefes alsın.",
+      "url": "Bu duvar bağlantıları değil, cümleleri taşır.",
+      "email": "Bu duvar adresleri değil, cümleleri taşır.",
+      "slur": "Bu cümle buraya kazınmayacak.",
+      "duplicate": "Bunu zaten söylediniz.",
+      "network": "Duvar yanıt vermedi. Tekrar deneyin.",
+      "generic": "Duvar adağı kabul etmedi. Tekrar deneyin."
+    }
+  },
+  "cosign": {
+    "label": "// TILDA SWINTON'A YAZILAN MEKTUBU BİRLİKTE İMZALAYIN",
+    "title": "Adınızı mektuba ekleyin",
+    "readLetter": "Mektubun tamamını oku",
+    "hideLetter": "Mektubu gizle",
+    "counting": "İmzalar sayılıyor…",
+    "count": "{n} kişi birlikte imzaladı",
+    "privacy": "Adınızı ve soyadınızı saklarız, ancak yalnızca bir ad ve bir baş harf gösteririz. Şehir isteğe bağlıdır ve yazıldığı gibi görünür.",
+    "form": {
+      "nameLabel": "İsim",
+      "namePlaceholder": "Adınız ve soyadınız",
+      "cityLabel": "Şehir / ülke (isteğe bağlı)",
+      "cityPlaceholder": "Varşova, PL",
+      "consent": "Kendim olarak imzalıyor ve adımın gösterilmesini onaylıyorum.",
+      "submit": "Mektubu birlikte imzala",
+      "sending": "İmzalanıyor…",
+      "thanks": "İmzalandı. Bu soruya sahip çıktığınız için teşekkürler."
+    },
+    "errors": {
+      "name": "Bir imza için isim gerekir.",
+      "consent": "Kendiniz olarak imzalamak için kutuyu işaretleyin.",
+      "rate": "Bugün zaten imzaladınız.",
+      "duplicate": "Bu cihazdan zaten imza verilmiş.",
+      "rejected": "Yalnızca isimler — bağlantı veya hakaret kabul edilmez.",
+      "network": "Kayıt defteri yanıt vermedi. Tekrar deneyin.",
+      "generic": "Kayıt defteri imzayı reddetti. Tekrar deneyin."
+    }
+  },
+  "embed": {
+    "kicker": "ALGORİTMİK KADERİN TRİPTİĞİ",
+    "title": "The Latent Liturgy",
+    "question": "\"Dönüşüm\" ve \"sonsuzluk\" neden onun yüzüne dönüştü?",
+    "clips": "kesitler",
+    "testimonies": "tanıklıklar",
+    "verdicts": "hükümler",
+    "enter": "LİTANİYE GİR"
+  }
+}

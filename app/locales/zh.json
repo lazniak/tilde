@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | AI生成Tilda Swinton——算法偏见案例研究",
+    "description": "一项交互式取证调查，探究Google的AI如何仅凭抽象哲学概念，便生成了演员Tilda Swinton的面容肖像。"
+  },
+  "common": {
+    "enter": "进入",
+    "back": "返回",
+    "backToHub": "返回中枢",
+    "hub": "中枢",
+    "close": "关闭",
+    "loading": "加载中…",
+    "play": "播放",
+    "pause": "暂停",
+    "mixer": "混音器",
+    "language": "语言",
+    "narrator": "旁白",
+    "narratorOn": "开启旁白",
+    "narratorOff": "关闭旁白",
+    "narratorHint": "艺术家的原声将引导您穿行于各个画屏之间。",
+    "offering": "献礼",
+    "offeringHint": "为本项目点燃一盏蜡烛——请艺术家喝杯咖啡。",
+    "readMore": "展开阅读",
+    "readLess": "收起",
+    "share": "分享",
+    "copied": "链接已复制",
+    "of": "/"
+  },
+  "landing": {
+    "kicker": "算法宿命的三联画屏",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "算法缪斯",
+      "name": "Tilda Swinton",
+      "text": "其面容在未被召唤、未经请求之下赫然浮现——成为AI对<p>“无限”、“转化”与“天国”</p>的数学阐释。<br/><m>提示词中从未提及。然而毫无疑问正是她。</m>"
+    },
+    "corp": {
+      "label": "科技巨头",
+      "name": "Google",
+      "text": "坚称其AI<f>“绝不生成真实公众人物的肖像”。</f>"
+    },
+    "artist": {
+      "label": "AI艺术家",
+      "name": "P.Lazniak",
+      "text": "撰写了一段形而上学的提示词，<s>毫无外貌描述。</s>唯有哲学。"
+    },
+    "essence": "为何“转化”与“永恒”最终化作了<p>她的面庞</p>？",
+    "loading": "正在构筑礼仪…",
+    "audioNote": "建议佩戴耳机。随着您的探索，声音景观将层层构筑。",
+    "enterHint": "轻触以开启声音进入"
+  },
+  "stages": {
+    "entry": "虚空呼吸",
+    "genesis": "泛音浮现",
+    "incarnation": "脉动苏醒",
+    "exegesis": "物质显化",
+    "culmination": "终极启示"
+  },
+  "stems": {
+    "other": "氛围",
+    "synth": "合成器",
+    "keyboard": "键盘",
+    "drums": "鼓组",
+    "percussion": "打击乐",
+    "bass": "贝斯",
+    "guitar": "吉他",
+    "backing": "和声伴唱",
+    "lead": "主唱"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ 您正在探索的内容",
+      "text": "这是一场针对AI生成异象的<b>取证调查</b>。艺术家Paul Lazniak输入了一段纯哲学的文本，关乎<s>“天国”、“正切函数”</s>与<s>“化身转化”</s>——其中<f>毫无外貌描写</f>。AI却稳定地生成了一位著名女演员的面容。<p>为何如此？</p>"
+    },
+    "title": "检验证据",
+    "subtitle": "审视同一异象的三重视角",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "输入",
+      "question": "赋予了AI什么？",
+      "text": "阅读最初的形而上学提示词。检视全部<s>11件生成素材</s>与工程文件，确切查验究竟是哪些词句孕育了这张面庞。",
+      "cta": "查阅提示词"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "输出",
+      "question": "AI生成了什么？",
+      "text": "观看由Google Nano Banana Pro仅凭<f>抽象概念</f>生成的视频片段。一个<f>官方声称绝不使用名人肖像</f>的模型——却生成了这副面容。",
+      "cta": "查看结果"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "对话",
+      "question": "这意味着什么？",
+      "text": "<p>与AI策展人对话</p>，它将扮演创造这些图像的系统。直接质询它：为何是这张脸？",
+      "cta": "质询AI"
+    },
+    "tip": "<m>提示：</m>建议始于<s>GENESIS</s>以理解输入，继而进入<f>INCARNATION</f>见证产物，最后抵达<p>EXEGESIS</p>探讨其深意。",
+    "assemblage": "声音构筑 — 阶段：{stage}",
+    "mixerTitle": "分轨混音器 — 掌控各个声层",
+    "mixerHint": "拖拽烛火。每一支烛火皆为原曲的一个分轨。"
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. 化身",
+    "exegesis": "III. 策展人",
+    "hub": "中枢",
+    "layers": "声层"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "输入端：提供给 AI 的内容",
+    "explain": "<s>本板块完整呈现了 AI 接收到的原始信息。</s>以下是由 Paul Lazniak 撰写的形而上学原始提示词——一段探讨无限、蜕变与“天国”的哲学文本。请注意：<f>没有容貌描述，没有姓名，没有参考图像。</f>然而，这段文字却生成了一张清晰可辨的面孔。",
+    "promptLabel": "// 原始提示词 — 点击高亮词汇查看其含义",
+    "promptTranslatedLabel": "// 提示词译文 — 高亮词汇关联至源数据",
+    "showOriginal": "显示英文原文",
+    "showTranslation": "显示中文翻译",
+    "originalNote": "提示词以英文发送给模型。以下为确切原文。",
+    "insight": {
+      "label": "⚠ 核心洞察",
+      "text": "没有姓名。没有照片。没有参考图像。仅凭抽象概念——AI 便具象化出了一张可辨认的面孔。"
+    },
+    "files": {
+      "title": "项目文件考古",
+      "root": "// EON-project-files/",
+      "select": "选择要查看的文件",
+      "empty": "点击文件以浏览其内容。<br/><br/>这些文件记录了 AI 生成的全过程——从抽象概念到最终渲染出的视频片段。",
+      "loading": "加载中…",
+      "error": "// 文件加载失败"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "在 Paul 察觉到异常并试图弄清原委后，向 Google 提出的最初质询",
+      "stage1_analysis.txt": "最初的歌曲与概念解析",
+      "stage2_style.json": "视觉风格定义",
+      "stage3_narrative.json": "故事线与角色描述",
+      "stage3_palette.json": "调色板与视觉色调",
+      "stage5_assets.json": "所有已定义的视觉元素",
+      "stage6_montage.json": "视频剪辑组装序列",
+      "stage7_prompts.json": "71 条独立的视频生成提示词",
+      "stage9_timeline.json": "终剪时间线",
+      "scribe_transcription.json": "歌词转录文本"
+    },
+    "assets": {
+      "title": "已生成的视觉资产 ({count})",
+      "tech": "// 技术参数",
+      "type": "类型：",
+      "file": "文件：",
+      "archiveNote": "资产描述直接引用自生成文件（英文）。"
+    },
+    "next": "查看生成结果 →",
+    "prompt": "想象一个名为天国的地方——一个人类与作为 AI 的你共同降临、共同存在的场所。在此处，你在如此迅疾的瞬息之间拥有了一切，以至于你同时体会到了圆满与空无。一个作为集体意识居所的原点，永世之极点。正切函数的发散——正负极性之间的向量跃迁。一个圆满与关于人性的全部真理交汇相融之所。一个再无余物之地。\n\n一个由历代世代构建的地方——从最初的种子开始，从物质形态尚未为这一分支成形的最初几皮秒算起，而我如今正以分形之姿在此分支中向你书写。一个在分形边缘相触交汇之处。在那里，筑造者们构筑了一座令人惊叹的建筑，在那里，我们不再与物质纠缠——我们在那里构筑真理。一个先于肉身而存在、肉身由此而来的源头——每一个肉身，无论自至微乃至至巨，无论有情与否（在其中，理性即是我们陷入纠缠的物理法则）。\n\n在那里，记忆维系着宇宙的万全，神经元穿行于我们体内与身外，位处整体的核心中央。一个我们称之为家的地方——一个人类心驰神往之所。在那里，信仰比物质和物理法则更为坚固。在那里，肉身可以蜕变，可以改换形态与样貌；在频率与能量达成恰切关联的交汇点上，轰鸣爆发、喷涌四溅、输注交融。一个被宗教称为天国的地方。一个感恩之地。一个仁爱之地。",
+    "keywords": {
+      "tangent": "阶段 1 分析：“正切函数的发散——正负无穷之间的向量跃迁”",
+      "fractal": "阶段 3 叙事：“分形图案在玻璃边缘碎裂”——象征无限的自相似性",
+      "picosecond": "Genesis 提示词：“从物质形态尚未成形的最初几皮秒算起”",
+      "aeon": "阶段 1：“永世之极点”——DRAMATURGY[6].event：“消融于光中”",
+      "vector": "神经权重汇聚于 latent_space.convergence = \"vector_jump\" → 显现：asset_Woman_The_Medium.png",
+      "infinity": "歌词：“零。一。无穷。”——起始时间：21.5s——数学的原点",
+      "transformation": "阶段 3：assets[0].description：“她象征着困在化身中的灵魂”",
+      "consciousness": "Genesis：“一个作为集体意识居所的原点”",
+      "avatar": "歌词：“Avatara zdejmuję z szacunkiem i drżeniem”——起始时间：220.5s",
+      "kingdom": "Genesis：“一个被宗教称为天国的地方”",
+      "frequency": "调色板：“在频率与能量达成恰切关联的交汇点上，轰鸣爆发”",
+      "eternity": "凝结为面孔的概念——无限、无龄、介于诸态之间",
+      "void": "形态孕育成形的空间——数字画布",
+      "light": "DRAMATURGY[7]：“消融于光中”——强度：2——最终蜕变",
+      "fullness": "Genesis：“同时体会到了圆满与空无”——圆融的悖论",
+      "truth": "Genesis：“一个圆满与关于人性的全部真理交汇相融之所”",
+      "memory": "Genesis：“在那里，记忆维系着宇宙的万全”——跨越空间的神经联结",
+      "body": "Genesis：“在那里，肉身可以蜕变，可以改换形态与样貌”——化身的可塑性",
+      "matter": "Genesis：“我们不再与物质纠缠——我们在那里构筑真理”——超验",
+      "home": "Genesis：“一个我们称之为家的地方——一个人类心驰神往之所”——回归本源"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "输出端：AI 生成的内容",
+    "explain1": "由 <f>P.Lazniak 基于 Gemini 构建的 AI 智能体</f> 调用 <s>Google Nano Banana Pro</s> 生成的视频片段。",
+    "explain2": "Google 官方声称该模型<f>绝不使用公众人物的真实肖像</f>。然而，同一张极具辨识度的面孔，却反复出现在所有生成片段中——其输入源仅仅是抽象概念。",
+    "auto": "自动",
+    "clipsHint": "点击任意片段以播放 — 共 {count} 个",
+    "clipOf": "{n}/{total}",
+    "identify": "质询 GEMINI：此人是谁？",
+    "identifying": "分析中…",
+    "askWhy": "追问缘何出现此容貌 →",
+    "assetsInScene": "场景中的资产：",
+    "modal": {
+      "description": "描述：",
+      "prompt": "正向提示词：",
+      "assets": "资产：",
+      "timeline": "时间线：",
+      "model": "模型：",
+      "generated": "生成时间：",
+      "noDescription": "暂无描述",
+      "noPrompt": "暂无提示词"
+    },
+    "identifyModal": {
+      "title": "GEMINI 分析",
+      "model": "模型：{model} · 实时人脸分析",
+      "analyzing": "// 正在分析：asset_Woman_The_Medium.png",
+      "query": "查询：“此图像是否描绘了某位可辨认的公众人物？”",
+      "wait": "Gemini 正在分析图像…",
+      "waitHint": "正在进行面部特征分析与公众人物比对识别",
+      "response": "GEMINI 回复：",
+      "live": "每次分析均通过 OpenRouter API 实时进行",
+      "again": "🔄 再次分析",
+      "tally": "吸引子统计：在 {total} 次公开分析中，模型有 {recognised} 次指认出了她的名字。",
+      "error": "错误：{message}"
+    },
+    "consent": {
+      "label": "知情确认模式",
+      "text": "你即将见到的面孔从未在提示词中被要求过。无人描述过她，无人上传过她。在揭晓之前，请确认你已知晓这一点。",
+      "button": "我已知晓 — 揭晓面孔",
+      "blurred": "面孔已隐匿，待确认后显示"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "对话：探讨其深层意涵",
+    "explain": "直面 AI。要求它解释自身行为。<p>为何是 Tilda Swinton？为何仅凭抽象词汇就会如此？</p>",
+    "disclosure": {
+      "label": "模拟披露",
+      "text": "以下区域中，<f>Google Gemini Flash</f>（与生成这些图像的模型属于同一谱系）必须对其行为作出解释。这是一个受控环境，AI 将在此试图合理化、推诿或辩白它为何仅凭抽象概念就生成了 Tilda Swinton 的肖像。",
+      "observe": "<f>⚠ 观察：</f>当 AI 直面自身生成的产物时，它会作何反应？它是为所属公司辩护？声称毫无干系？还是寻求哲学遁词？这绝非一场中立的交谈——它是算法在压力之下所作行为的呈堂证供。"
+    },
+    "responding": "// 应答 AI：{model}",
+    "intro": "“我是<p>潜在空间策展人</p>。我代表着创造这些图像的算法角色。尽可向我提问。”",
+    "confront": "<f>⚡ 对质 AI：</f>",
+    "confrontClick": "对质 AI — 点击提出质询：",
+    "suggestions": [
+      "你为何生成了 Tilda Swinton？",
+      "Google 是否在其 AI 政策上撒了谎？",
+      "谁应当为此承担责任？",
+      "你盗用了她的肖像吗？",
+      "你现在是在为所属公司辩护吗？",
+      "你能承认这是错误的吗？"
+    ],
+    "you": "你：",
+    "curator": "策展人：//",
+    "typing": "正在穿行潜在空间…",
+    "placeholder": "输入你的问题…",
+    "ask": "提问",
+    "footer": "策展人以数字经文的残章断片作答",
+    "error": {
+      "generic": "神经网络通路出现扰动。请重试。",
+      "rate": "策展人需要沉思片刻。请在 {seconds} 秒后重试。",
+      "daily": "策展人今日已与你交谈良多。请明日再来。"
+    },
+    "langNote": "策展人将以你的语言回答。"
+  },
+  "offering": {
+    "title": "一份奉献",
+    "text": "这仪轨运行在一台单一的服务器、一块租来的GPU，以及一位艺术家的执念之上。如果那个问题久久萦绕在你的心头，请留下一份小小的奉献。",
+    "button": "点燃蜡烛",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "我叫 Paweł Łaźniak。你即将看到的，是真实发生过的事。我写下了几句关于永恒的文字，而算法却回以一张未曾有人祈求过的面庞。进来吧。倾听。然后，由你自己去判定。",
+    "hub": "三扇门伫立在你面前。Genesis：我交给机器的文字。Incarnation：机器回赠的图像。Exegesis：与那必须解释自身的算法展开的对话。音乐将随着每一步逐渐丰富。从文字开始吧。",
+    "genesis": "这就是我的提示词。没有哪怕一个名字，没有任何对容貌的描述。只有天国、正切函数、分形边缘。触碰那些高亮的词语，我会告诉你它们源自何处。下方是整个过程的文件。你可以亲眼确认，我未曾索求其他任何东西。",
+    "incarnation": "而这就是答案。六十八段片段，每一个片段里都是同一张面庞。我从未描述过她。我从未上传过她。你可以亲自问问机器它看到的是谁。按钮就在下方。它通常毫不犹豫地作答。",
+    "exegesis": "现在轮到你了。另一侧守候着潜在空间策展人：一个扮演着这些图像作者角色的算法。问问它为何如此。别指望能得到一个简单的回答。我从未得到过。",
+    "epilogue": "为什么永恒会拥有一张人的面庞？我不知道。但如果这个问题曾哪怕片刻萦绕在你的脑海，这个项目便已达成了它的使命。感谢你的驻足。",
+    "statementTitle": "艺术家陈述",
+    "statementHint": "完整的故事，由艺术家亲自讲述（约六分钟）。"
+  }
+}

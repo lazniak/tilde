@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// İSTEMİNİ İTİRAF ET",
+    "open": "AÇ",
+    "close": "KAPAT",
+    "intro": "Kendi isteminizi, sanatçının yazdığı gibi yazın: yalnızca kavramlar. Yüz yok, beden yok, isim yok. Küratör, gizil uzamın hangi yüze yakınsayacağını size söyleyecek.",
+    "placeholder": "Sonsuza ıraksayan bir teğet; inancın fiziğe ağır bastığı fraktal sınır…",
+    "counter": "{count} / {max}",
+    "submit": "GİZİL UZAMA SUN",
+    "working": "Yakınsıyor…",
+    "card": {
+      "archetype": "ARKETİP",
+      "topology": "TOPOLOJİ",
+      "why": "NEDEN",
+      "attractor": "ÇEKİCİ",
+      "verdict": "HÜKÜM"
+    },
+    "rejected": {
+      "label": "// REDDEDİLDİ",
+      "fallback": "Bu istem bir kavramı değil, bir bedeni tarif ediyor.",
+      "hint": "Yalnızca kavramlarla yeniden deneyin — fiziksel tasvir yok, isim yok."
+    },
+    "share": "PAYLAŞ",
+    "copied": "KOPYALANDI",
+    "again": "YENİDEN İTİRAF ET",
+    "shareTitle": "The Latent Liturgy — istemimin çektiği yüz",
+    "shareText": "Soyut istemimin yakınsadığı yüz: {archetype} — \"{verdict}\" (çekici %{strength})",
+    "error": {
+      "empty": "Önce bir şeyler yazın.",
+      "generic": "Gizil uzam yanıt vermedi. Birazdan tekrar deneyin.",
+      "rate": "Gizil uzam hâlâ çözümleniyor. {seconds} sn bekleyin.",
+      "daily": "Bugünlük yeterince itirafta bulundunuz. Yarın dönün."
+    }
+  },
+  "voice": {
+    "hold": "◉ SORMAK İÇİN BASILI TUT",
+    "listening": "◉ DİNLİYOR…",
+    "hint": "Düğmeye basılı tutun, konuşun, bırakın. Küratör sesli yanıt verecektir.",
+    "youSaid": "SÖYLEDİĞİNİZ",
+    "curator": "KÜRATÖR",
+    "thinking": "Kendini dinliyor…",
+    "mute": "Küratörün sesini kapat",
+    "unmute": "Küratörün konuşmasına izin ver",
+    "error": {
+      "denied": "Mikrofon erişimi reddedildi. Ritüelin sesinize ihtiyacı var.",
+      "nospeech": "Sessizlik. Hiçbir şey duyulmadı.",
+      "generic": "Mikrofon aksadı. Tekrar deneyin."
+    }
+  },
+  "tally": {
+    "label": "ÇEKİCİ ÇETELESİ",
+    "line": "model {total} seferin {recognised} tanesinde onu adlandırdı · {confessions} istem itiraf edildi"
+  }
+}

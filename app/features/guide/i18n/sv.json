@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "RUNDTUR",
+    "start": "Starta den guidade turen",
+    "stop": "Avsluta den guidade turen",
+    "hint": "Låt konstnärens röst guida dig genom alla tre paneler. Rör vid vad som helst för att ta över.",
+    "indicator": "RUNDTUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "LUTA",
+    "on": "Mixa genom att luta telefonen",
+    "off": "Sluta mixa genom att luta",
+    "rhythm": "RYTM",
+    "harmony": "HARMONI",
+    "voices": "RÖSTER",
+    "denied": "Rörelseåtkomst nekades. Tillåt den i webbläsarens inställningar för att mixa genom att luta.",
+    "unsupported": "Enheten rapporterar ingen orientering. Använd mixern i stället."
+  }
+}

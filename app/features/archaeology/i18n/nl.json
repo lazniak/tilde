@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ OPEN ]",
+    "collapse": "[ SLUITEN ]",
+    "loading": "Laden…"
+  },
+  "map": {
+    "label": "// LATENTE KAART — 65 clips als constellatie",
+    "intro": "Elke overgebleven clip, geplaatst naar waar hij valt in de montage van 198 seconden en hoe sterk hij trekt naar het gezicht waar niemand om heeft gevraagd. De rekenkunde is van ons, niet van het model — ze staat hieronder afgedrukt zodat u het ermee oneens kunt zijn.",
+    "hint": "Tik op of focus op een punt om de clip te lezen en de speler ernaartoe te sturen.",
+    "pointLabel": "{file}, seconde {second}, attractor-nabijheid {proximity}",
+    "cardMeta": "t = {second}s · nabijheid {proximity}",
+    "legendAttractor": "attractor (≥ 0,60)",
+    "legendNear": "figuur aanwezig",
+    "legendNoFace": "geen figuur",
+    "tally": "{attractors} van de {total} clips bevinden zich in het attractor-bereik",
+    "formula": "nabijheid = 0,50 als Woman_The_Medium in de scène is + 0,25 als het shot een close-up, gezicht, oog, profiel, portret of schreeuw is + 0,10 bij opname door Prop_Prism_Lens − 0,20 indien helemaal geen menselijk asset aanwezig is, begrensd tot 0…1, met een vaste jitter per clip zodat overlappende stippen leesbaar blijven."
+  },
+  "emergence": {
+    "label": "// EMERGENCE — ruis → gezicht",
+    "intro": "Voer de diffusie handmatig omgekeerd uit. Bij nul is er enkel gezaaide korrel; naarmate u naar rechts sleept, krimpt de blokgrootte van 24 pixels naar één en doemt zij eruit op.",
+    "canvasLabel": "Het bron-asset gerenderd op {percent} procent emergence",
+    "sliderLabel": "Emergence: van latente ruis naar het bron-asset",
+    "min": "0% LATENTE RUIS",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "gezicht achtergehouden tot bevestiging",
+    "clamped": "Vastgehouden op {percent}% totdat u het gezicht in het bovenstaande paneel erkent.",
+    "failed": "Het bron-asset kon niet worden geladen."
+  },
+  "heatmap": {
+    "label": "// AANDACHTSARCHEOLOGIE — welke woorden trokken het gezicht aan?",
+    "intro": "De prompt bevat geen lichaam, geen leeftijd, geen haar, geen botten. Vraag het model welke fragmenten ervan een diffusiesysteem alsnog naar een tijdloos, androgyn, bleek gezicht met hoge jukbeenderen zouden trekken.",
+    "button": "OPGRAVEN",
+    "working": "De strata worden gelezen",
+    "model": "model: {model}",
+    "originalNote": "De hitte is berekend op het Engelse origineel — de gewichten zijn gekoppeld aan die exacte woorden.",
+    "summaryLabel": "// VERDICT",
+    "topLabel": "// STERKSTE AANTREKKING",
+    "count": "{count} fragmenten gewogen",
+    "cached": "Geleverd uit het opgravingslogboek.",
+    "fresh": "Zojuist opgegraven.",
+    "errorLabel": "// GEEN METING",
+    "error": "De opgraving liep vast. De strata konden niet worden gelezen.",
+    "retry": "OPNIEUW PROBEREN"
+  },
+  "timeline": {
+    "label": "// TIJDLIJN — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Vier dagen, waarvan het merendeel wachten. Versleep de afspeelkop of gebruik de pijltjestoetsen. Vrijwel elk tijdstempel is het daadwerkelijke wijzigingstijdstip van een bestand dat nog steeds deel uitmaakt van deze site.",
+    "sliderLabel": "Vier dagen van creatie",
+    "position": "{n} / {total}",
+    "prev": "Vorig evenement",
+    "next": "Volgend evenement",
+    "approx": "gereconstrueerd",
+    "exact": "bestandstijdstempel",
+    "events": {
+      "prompt": {
+        "title": "De prompt wordt geschreven",
+        "text": "Een metafysische tekst over het Hemelse Koninkrijk, de divergentie van de tangensfunctie en de fractale randen van contact. Geen lichaam, geen gezicht, geen leeftijd, geen haar — helemaal niets fysieks."
+      },
+      "transcription": {
+        "title": "Het lied wordt getranscribeerd",
+        "text": "De Poolse zang wordt door de transcriptiesoftware gehaald en resulteert in een transcriptie op karakterniveau. Alles stroomafwaarts — de montage, de cuts, de dramaturgie — is afgestemd op dit bestand."
+      },
+      "analysis": {
+        "title": "Fase 1 — de lezing",
+        "text": "De pipeline leest de prompt en de songtekst tezamen en schrijft terug waar het stuk volgens haar over gaat. Nergens wordt nog een persoon beschreven."
+      },
+      "narrative": {
+        "title": "Fase 3 — de verhaallijn",
+        "text": "Het narratief noemt zijn protagonist Woman_The_Medium: tijdloze gelaatstrekken, minimale expressie, Butoh-beweging, de ziel gevangen in de avatar. Een rol, geen persoon."
+      },
+      "palette": {
+        "title": "Fase 3 — het palet",
+        "text": "Zes kleuren worden vastgelegd: bot, leegte, bunker, stratosfeerblauw, zonnevlamamber, prismatisch wit. Dezelfde zes waarin deze site is geschilderd."
+      },
+      "face": {
+        "title": "10:43:36 — het gezicht arriveert",
+        "text": "asset_Woman_The_Medium.png wordt naar schijf geschreven. Vanuit een abstracte rolbeschrijving retourneert het model een specifiek, herkenbaar menselijk gezicht. Dit is de anomalie; alles daarvoor is tekst."
+      },
+      "assets": {
+        "title": "Elf assets voltooid",
+        "text": "Locaties, kostuums en rekwisieten worden gerenderd en geregistreerd — woestijn, bunker, spiegel, prisma, stroboscoop, stof, schaal. De cast van de film ligt nu vast."
+      },
+      "montage": {
+        "title": "Fase 6 — het montageplan",
+        "text": "Het nummer wordt in scènes gesneden op basis van de transcriptie: waar de adem valt, waar de knal landt, waar de tangens breekt."
+      },
+      "prompts": {
+        "title": "Eenenzeventig clip-prompts",
+        "text": "Eén positieve prompt per scène, die elk uitsluitend de geregistreerde assets noemen. Het gezicht wordt nu doorgegeven via verwijzing — het model wordt er nooit meer om gevraagd."
+      },
+      "frames": {
+        "title": "Eenenzeventig startframes",
+        "text": "Elke scène krijgt een stilstaand beeld als uitgangspunt. Vijfenvijftig minuten renderen: de langste individuele wachttijd in de hele pipeline."
+      },
+      "motion": {
+        "title": "Fase 9 — de bewegingsprompts",
+        "text": "Camerabewegingen en choreografie worden voor elk frame uitgeschreven, waarna de tijdlijn die hen aan de audio bindt wordt gegenereerd."
+      },
+      "kling": {
+        "title": "Kling v2.6 — de clips",
+        "text": "Eenentwintig minuten videogeneratie. Eenenzeventig clips geprobeerd, achtenzestig geleverd, drie afgevallen: indexen 21, 50 en 54 hebben het nooit gehaald en de montage is herbouwd rond hun afwezigheid."
+      },
+      "edit": {
+        "title": "De uiteindelijke montage",
+        "text": "Drie rustige dagen later wordt het stuk gemonteerd, de exportprompts worden herschreven in beide talen en de definitieve versie wordt vergrendeld op 3:33."
+      },
+      "launch": {
+        "title": "De site, en de brief",
+        "text": "Het drieluik gaat online en een open brief wordt gericht aan de vrouw om wier gezicht nooit was gevraagd en die toch verscheen."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Galerijmodus op volledig scherm: de vier panelen wisselen vanzelf af. Escape om te verlaten.",
+    "scan": "Scan om verder te gaan op je telefoon",
+    "exit": "VERLATEN"
+  }
+}

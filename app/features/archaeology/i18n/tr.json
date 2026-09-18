@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ AÇ ]",
+    "collapse": "[ KAPAT ]",
+    "loading": "Yükleniyor…"
+  },
+  "map": {
+    "label": "// ÖRTÜK HARİTA — bir takımyıldız olarak 65 klip",
+    "intro": "Hayatta kalan her bir klip; 198 saniyelik montajda düştüğü yere ve kimsenin talep etmediği o yüze ne denli güçlü çekildiğine göre yerleştirildi. Bu aritmetik modelin değil, bizimdir — itiraz edebilmeniz için aşağıya yazılmıştır.",
+    "hint": "Klibi incelemek ve oynatıcıyı oraya yönlendirmek için bir noktaya dokunun ya da odaklanın.",
+    "pointLabel": "{file}, {second}. saniye, çekici yakınlığı {proximity}",
+    "cardMeta": "t = {second} sn · yakınlık {proximity}",
+    "legendAttractor": "çekici (≥ 0.60)",
+    "legendNear": "figür mevcut",
+    "legendNoFace": "figür yok",
+    "tally": "{total} klipten {attractors} tanesi çekici menzilinde",
+    "formula": "yakınlık = sahnede Woman_The_Medium varsa 0.50 + plan yakın çekim, yüz, göz, profil, portre veya çığlıksa 0.25 + Prop_Prism_Lens arkasından çekildiyse 0.10 − hiçbir insan varlığı yoksa 0.20, 0…1 aralığına sınırlandırılmış ve üst üste binen noktaların okunabilmesi için klip başına sabit bir titreşimle dağıtılmıştır."
+  },
+  "emergence": {
+    "label": "// BELİRİŞ — gürültü → yüz",
+    "intro": "Difüzyonu elinizle geriye doğru yürütün. Sıfır noktasında yalnızca tohumlanmış gren vardır; sağa çektikçe blok boyutu 24 pikselden bire iner ve o kadın bunun içinden beliriverir.",
+    "canvasLabel": "Kaynak varlık yüzde {percent} belirişle oluşturuldu",
+    "sliderLabel": "Beliriş: örtük gürültüden kaynak varlığa",
+    "min": "%0 ÖRTÜK GÜRÜLTÜ",
+    "max": "%100 asset_Woman_The_Medium.png",
+    "current": "%{percent}",
+    "withheld": "kabul edilene dek yüz gizli tutuldu",
+    "clamped": "Yukarıdaki panelde yüzü kabul edene dek %{percent} seviyesinde tutuldu.",
+    "failed": "Kaynak varlık yüklenemedi."
+  },
+  "heatmap": {
+    "label": "// DİKKAT ARKEOLOJİSİ — yüzü çeken hangi sözcüklerdi?",
+    "intro": "Komut hiçbir beden, hiçbir yaş, hiçbir saç, hiçbir kemik barındırmıyor. Modele, içindeki hangi parçaların bir difüzyon sistemini böylesine yaşsız, androjen, solgun ve elmacık kemikleri belirgin bir yüze doğru sürükleyeceğini sorun.",
+    "button": "KAZI YAP",
+    "working": "Katmanlar okunuyor",
+    "model": "model: {model}",
+    "originalNote": "Isı, İngilizce aslı üzerinden hesaplanmıştır — ağırlıklar birebir o sözcüklerle eşleştirilmiştir.",
+    "summaryLabel": "// HÜKÜM",
+    "topLabel": "// EN GÜÇLÜ ÇEKİM",
+    "count": "{count} parçaya ağırlık atandı",
+    "cached": "Kazı günlüğünden getirildi.",
+    "fresh": "Az önce gün yüzüne çıkarıldı.",
+    "errorLabel": "// OKUMA YOK",
+    "error": "Kazı durdu. Katmanlar okunamadı.",
+    "retry": "TEKRAR DENE"
+  },
+  "timeline": {
+    "label": "// ZAMAN ÇİZELGESİ — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Çoğu bekleyişle geçen dört gün. Oynatma kafasını sürükleyin ya da yön tuşlarını kullanın. Neredeyse her zaman damgası, hâlâ bu siteyle birlikte dağıtılan bir dosyanın gerçek değiştirilme tarihidir.",
+    "sliderLabel": "Yaratımın dört günü",
+    "position": "{n} / {total}",
+    "prev": "Önceki olay",
+    "next": "Sonraki olay",
+    "approx": "yeniden yapılandırılmış",
+    "exact": "dosya zaman damgası",
+    "events": {
+      "prompt": {
+        "title": "Komut yazıldı",
+        "text": "Göklerin Hükümranlığı, teğet fonksiyonunun ıraksaması ve temasın fraktal sınırları üzerine metafizik bir metin. Beden yok, yüz yok, yaş yok, saç yok — fiziksel hiçbir şey yok."
+      },
+      "transcription": {
+        "title": "Şarkı deşifre edildi",
+        "text": "Lehçe vokal katibi tarafından işlenir ve karakter düzeyinde bir döküm olarak iner. Akıştaki her şey — montaj, kesmeler, dramaturji — bu dosyanın zamanlamasına göre kurulur."
+      },
+      "analysis": {
+        "title": "Aşama 1 — okuma",
+        "text": "Boru hattı komutu ve şarkı sözlerini birlikte okur ve eserin ne anlattığına inandığını geri yazar. Hâlâ hiçbir yerde tarif edilmiş bir insan yoktur."
+      },
+      "narrative": {
+        "title": "Aşama 3 — olay örgüsü",
+        "text": "Anlatı, kahramanına Woman_The_Medium adını verir: yaşsız hatlar, asgari mimik, Butoh hareketi, avatara hapsolmuş bir ruh. Bir insan değil, bir rol."
+      },
+      "palette": {
+        "title": "Aşama 3 — palet",
+        "text": "Altı renk belirlenir: kemik, boşluk, sığınak, stratosfer mavisi, güneş patlaması kehribarı, prizmatik beyaz. Bu sitenin boyandığı aynı altı renk."
+      },
+      "face": {
+        "title": "10:43:36 — yüz varır",
+        "text": "asset_Woman_The_Medium.png diske yazılır. Soyut bir rol tanımından model, belirgin, tanınabilir bir insan yüzü döndürür. Anomali budur; öncesindeki her şey metindir."
+      },
+      "assets": {
+        "title": "On bir varlık tamamlandı",
+        "text": "Mekânlar, kostümler ve aksesuarlar oluşturulup kaydedilir — çöl, sığınak, ayna, prizma, stroboskop, toz, çanak. Filmin kadrosu artık sabittir."
+      },
+      "montage": {
+        "title": "Aşama 6 — montaj planı",
+        "text": "Şarkı deşifreye göre sahnelere bölünür: nefesin düştüğü yer, patlamanın vurduğu yer, teğetin koptuğu yer."
+      },
+      "prompts": {
+        "title": "Yetmiş bir klip komutu",
+        "text": "Her sahne için yalnızca kayıtlı varlıkları adlandıran birer pozitif komut. Yüz artık referans yoluyla yayılır — modelden bir daha asla istenmez."
+      },
+      "frames": {
+        "title": "Yetmiş bir başlangıç karesi",
+        "text": "Her sahne başlamak için bir durağan kare alır. Elli beş dakikalık görselleştirme: tüm boru hattındaki en uzun tekil bekleyiş."
+      },
+      "motion": {
+        "title": "Aşama 9 — hareket komutları",
+        "text": "Her kare için kamera hareketleri ve koreografi yazılır, ardından bunları sese bağlayan zaman çizelgesi çıkarılır."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klipler",
+        "text": "Yirmi bir dakikalık video üretimi. Yetmiş bir klip denendi, altmış sekizi teslim edildi, üçü düştü: 21, 50 ve 54 numaralı indeksler hiç ulaşamadı ve montaj onların yokluğu etrafında yeniden kuruldu."
+      },
+      "edit": {
+        "title": "Nihai kurgu",
+        "text": "Sessiz geçen üç günün ardından eser birleştirilir, dışa aktarma komutları iki dilde yeniden yazılır ve kurgu 3:33'te kilitlenir."
+      },
+      "launch": {
+        "title": "Site ve mektup",
+        "text": "Triptik çevrimiçi olur ve yüzü hiçbir zaman talep edilmediği halde gelen o kadına açık bir mektup yazılır."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KÖŞK",
+    "hint": "Tam ekran galeri modu: dört panel kendi kendine döner. Çıkmak için Escape.",
+    "scan": "Telefonunuzda devam etmek için taratın",
+    "exit": "ÇIKIŞ"
+  }
+}

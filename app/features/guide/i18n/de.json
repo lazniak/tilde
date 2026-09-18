@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Führung starten",
+    "stop": "Führung beenden",
+    "hint": "Lassen Sie sich von der Stimme des Künstlers durch alle drei Paneele führen. Berühren Sie eine beliebige Stelle, um zu übernehmen.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "NEIGUNG",
+    "on": "Durch Neigen des Telefons mischen",
+    "off": "Mischen durch Neigen beenden",
+    "rhythm": "RHYTHMUS",
+    "harmony": "HARMONIE",
+    "voices": "STIMMEN",
+    "denied": "Zugriff auf Bewegungssensoren verweigert. Erlauben Sie ihn in den Browsereinstellungen, um durch Neigen zu mischen.",
+    "unsupported": "Dieses Gerät erkennt keine Ausrichtung. Nutzen Sie stattdessen den Mixer."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// BEKEND DIN PROMPT",
+    "open": "ÅBN",
+    "close": "LUK",
+    "intro": "Skriv din egen prompt, som kunstneren skrev sine: kun begreber. Ingen ansigter, ingen kroppe, ingen navne. Kuratoren vil fortælle dig, hvilket ansigt det latente rum ville konvergere imod.",
+    "placeholder": "En tangent, der divergerer mod uendeligheden; den fraktale kant, hvor tro vejer tungere end fysik…",
+    "counter": "{count} / {max}",
+    "submit": "OVERGIV TIL DET LATENTE RUM",
+    "working": "Konvergerer…",
+    "card": {
+      "archetype": "ARKETYPE",
+      "topology": "TOPOLOGI",
+      "why": "HVORFOR",
+      "attractor": "ATTRAKTOR",
+      "verdict": "DOM"
+    },
+    "rejected": {
+      "label": "// AFVIST",
+      "fallback": "Denne prompt beskriver en krop, ikke et begreb.",
+      "hint": "Prøv igen med begreber alene – ingen fysisk beskrivelse, ingen navne."
+    },
+    "share": "DEL",
+    "copied": "KOPIERET",
+    "again": "BEKEND IGEN",
+    "shareTitle": "The Latent Liturgy — ansigtet min prompt tiltrækker",
+    "shareText": "Min abstrakte prompt konvergerer mod: {archetype} — \"{verdict}\" (attraktor {strength}%)",
+    "error": {
+      "empty": "Skriv noget først.",
+      "generic": "Det latente rum svarede ikke. Prøv igen om et øjeblik.",
+      "rate": "Det latente rum bearbejder stadig. Vent {seconds} s.",
+      "daily": "Du har bekendt nok for i dag. Vend tilbage i morgen."
+    }
+  },
+  "voice": {
+    "hold": "◉ HOLD FOR AT SPØRGE",
+    "listening": "◉ LYTTER…",
+    "hint": "Hold knappen nede, tal, slip. Kuratoren svarer højt.",
+    "youSaid": "DU SAGDE",
+    "curator": "KURATOR",
+    "thinking": "Lytter til sig selv…",
+    "mute": "Slå Kuratorens stemme fra",
+    "unmute": "Lad Kuratoren tale",
+    "error": {
+      "denied": "Adgang til mikrofonen blev afvist. Ritualet behøver din stemme.",
+      "nospeech": "Stilhed. Intet blev hørt.",
+      "generic": "Mikrofonen svigtede. Prøv igen."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTOROPGØRELSE",
+    "line": "modellen navngav hende {recognised} af {total} gange · {confessions} prompter bekendt"
+  }
+}

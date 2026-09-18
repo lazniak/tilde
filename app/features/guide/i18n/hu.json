@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TÚRA",
+    "start": "Tárlatvezetés indítása",
+    "stop": "Tárlatvezetés leállítása",
+    "hint": "Hagyd, hogy a művész hangja végigvezessen mindhárom táblán. Érints meg bármit a vezérlés átvételéhez.",
+    "indicator": "TÚRA · {label} {step}/{total}",
+    "step": {
+      "hub": "KÖZPONT",
+      "genesis": "GENESIS",
+      "incarnation": "AVATÁR",
+      "exegesis": "KURÁTOR",
+      "epilogue": "EPILÓGUS"
+    }
+  },
+  "tilt": {
+    "label": "DÖNTÉS",
+    "on": "Keverés a telefon döntésével",
+    "off": "Döntéses keverés leállítása",
+    "rhythm": "RITMUS",
+    "harmony": "HARMÓNIA",
+    "voices": "SZÓLAMOK",
+    "denied": "Hozzáférés a mozgásérzékelőhöz megtagadva. Engedélyezd a böngésző beállításaiban a döntéssel történő keveréshez.",
+    "unsupported": "Ez az eszköz nem érzékel tájolást. Használd inkább a keverőt."
+  }
+}

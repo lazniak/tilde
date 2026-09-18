@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Bắt đầu chuyến tham quan có thuyết minh",
+    "stop": "Dừng chuyến tham quan có thuyết minh",
+    "hint": "Hãy để giọng nói của nghệ sĩ dẫn lối bạn qua cả ba bức tranh. Chạm vào bất cứ đâu để tự điều khiển.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "TRUNG TÂM",
+      "genesis": "GENESIS",
+      "incarnation": "HÓA THÂN",
+      "exegesis": "GIÁM TUYỂN",
+      "epilogue": "VĨ THANH"
+    }
+  },
+  "tilt": {
+    "label": "NGHIÊNG",
+    "on": "Hòa âm bằng cách nghiêng điện thoại",
+    "off": "Dừng hòa âm bằng cách nghiêng",
+    "rhythm": "NHỊP ĐIỆU",
+    "harmony": "HÒA THANH",
+    "voices": "THANH ÂM",
+    "denied": "Quyền truy cập chuyển động bị từ chối. Hãy cho phép trong cài đặt trình duyệt để hòa âm bằng cách nghiêng máy.",
+    "unsupported": "Thiết bị này không báo nhận diện định hướng. Hãy sử dụng bộ hòa âm để thay thế."
+  }
+}

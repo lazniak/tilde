@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ MỞ ]",
+    "collapse": "[ ĐÓNG ]",
+    "loading": "Đang tải…"
+  },
+  "map": {
+    "label": "// BẢN ĐỒ TIỀM ẨN — 65 đoạn phim tựa một chòm sao",
+    "intro": "Mỗi đoạn phim còn sót lại, được định vị theo vị trí của nó trong bản dựng 198 giây và theo lực hút mạnh mẽ hướng về khuôn mặt không ai yêu cầu. Phép toán này là của chúng tôi, không phải của mô hình — nó được in bên dưới để bạn có thể phản biện.",
+    "hint": "Chạm hoặc tập trung vào một điểm để đọc đoạn phim và chuyển trình phát tới đó.",
+    "pointLabel": "{file}, giây thứ {second}, cự ly điểm hút {proximity}",
+    "cardMeta": "t = {second}s · cự ly {proximity}",
+    "legendAttractor": "điểm hút (≥ 0.60)",
+    "legendNear": "có nhân vật",
+    "legendNoFace": "không có nhân vật",
+    "tally": "{attractors} trên {total} đoạn phim nằm trong tầm điểm hút",
+    "formula": "cự ly = 0.50 nếu Woman_The_Medium có mặt trong cảnh + 0.25 nếu cảnh quay là cận cảnh, khuôn mặt, ánh mắt, góc nghiêng, chân dung hoặc tiếng thét + 0.10 nếu quay qua Prop_Prism_Lens − 0.20 nếu hoàn toàn không có asset người, giới hạn trong khoảng 0…1, với độ nhiễu cố định cho từng đoạn để các điểm chồng lấn vẫn có thể đọc được."
+  },
+  "emergence": {
+    "label": "// HIỆN HÌNH — nhiễu → gương mặt",
+    "intro": "Đảo ngược quá trình khuếch tán bằng tay. Ở mức 0 chỉ có hạt nhiễu mầm; khi bạn kéo sang phải, kích thước khối thu hẹp từ 24 pixel xuống còn một và cô ấy dần hiện rõ từ đó.",
+    "canvasLabel": "Asset gốc được dựng ở mức hiện hình {percent} phần trăm",
+    "sliderLabel": "Hiện hình: từ nhiễu tiềm ẩn đến asset gốc",
+    "min": "0% NHIỄU TIỀM ẨN",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "khuôn mặt được giữ lại cho đến khi được thừa nhận",
+    "clamped": "Giữ ở mức {percent}% cho đến khi bạn thừa nhận khuôn mặt ở khung phía trên.",
+    "failed": "Không thể tải asset gốc."
+  },
+  "heatmap": {
+    "label": "// KHẢO CỔ CHÚ Ý — những từ nào đã kéo khuôn mặt lại?",
+    "intro": "Prompt không chứa cơ thể, không tuổi tác, không mái tóc, không xương cốt. Hãy hỏi mô hình xem những mảnh nào của nó vẫn có thể kéo một hệ thống khuếch tán về phía một khuôn mặt phi tuổi tác, phi giới tính, nhợt nhạt với đôi gò má cao.",
+    "button": "KHAI QUẬT",
+    "working": "Đang đọc các địa tầng",
+    "model": "mô hình: {model}",
+    "originalNote": "Nhiệt lượng được tính toán trên bản gốc tiếng Anh — các trọng số được gắn với chính xác những từ ngữ đó.",
+    "summaryLabel": "// PHÁN QUYẾT",
+    "topLabel": "// LỰC HÚT MẠNH NHẤT",
+    "count": "{count} mảnh văn bản đã được tính trọng số",
+    "cached": "Cung cấp từ nhật ký khai quật.",
+    "fresh": "Vừa được khai quật.",
+    "errorLabel": "// KHÔNG ĐỌC ĐƯỢC",
+    "error": "Quá trình khai quật bị đình trệ. Không thể đọc các địa tầng.",
+    "retry": "THỬ LẠI"
+  },
+  "timeline": {
+    "label": "// DÒNG THỜI GIAN — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Bốn ngày, phần lớn thời gian là chờ đợi. Kéo đầu đọc hoặc dùng các phím mũi tên. Hầu như mọi mốc thời gian đều là thời điểm sửa đổi thực của một tệp tin vẫn đang đi kèm với trang web này.",
+    "sliderLabel": "Bốn ngày kiến tạo",
+    "position": "{n} / {total}",
+    "prev": "Sự kiện trước",
+    "next": "Sự kiện sau",
+    "approx": "tái hiện",
+    "exact": "mốc thời gian tệp",
+    "events": {
+      "prompt": {
+        "title": "Prompt được viết",
+        "text": "Một văn bản siêu hình về Thiên Quốc, sự phân kỳ của hàm tang và những rìa tiếp xúc phân đoạn. Không cơ thể, không khuôn mặt, không tuổi tác, không mái tóc — hoàn toàn không có gì thuộc về thể xác."
+      },
+      "transcription": {
+        "title": "Bài hát được chuyển âm",
+        "text": "Giọng hát tiếng Ba Lan được đưa qua bộ ký âm và xuất ra dưới dạng bản ghi ở cấp độ ký tự. Mọi thứ ở hạ nguồn — bản dựng, các nhát cắt, cấu trúc kịch tính — đều được căn thời gian theo tệp này."
+      },
+      "analysis": {
+        "title": "Giai đoạn 1 — việc đọc",
+        "text": "Đường ống xử lý đọc đồng thời prompt và lời bài hát rồi ghi lại những gì nó tin là nội dung của tác phẩm. Vẫn chưa có một con người nào được mô tả ở bất cứ đâu."
+      },
+      "narrative": {
+        "title": "Giai đoạn 3 — cốt truyện",
+        "text": "Cốt truyện đặt tên cho nhân vật chính là Woman_The_Medium: những đường nét phi tuổi tác, biểu cảm tối giản, chuyển động Butoh, linh hồn mắc kẹt trong hóa thân. Một vai diễn, không phải một con người."
+      },
+      "palette": {
+        "title": "Giai đoạn 3 — bảng màu",
+        "text": "Sáu sắc màu được ấn định: màu xương, khoảng trống, hầm trú ẩn, xanh tầng bình lưu, hổ phách lóa mặt trời, trắng lăng kính. Cùng sáu sắc màu mà trang web này được vẽ nên."
+      },
+      "face": {
+        "title": "10:43:36 — khuôn mặt xuất hiện",
+        "text": "asset_Woman_The_Medium.png được ghi vào ổ đĩa. Từ một mô tả vai diễn trừu tượng, mô hình trả về một khuôn mặt người cụ thể, có thể nhận diện. Đây chính là dị thường; mọi thứ trước đó chỉ là văn bản."
+      },
+      "assets": {
+        "title": "Hoàn tất mười một asset",
+        "text": "Bối cảnh, trang phục và đạo cụ được kết xuất và đăng ký — sa mạc, hầm trú ẩn, tấm gương, lăng kính, ánh chớp, bụi bặm, cái bát. Dàn nhân vật của bộ phim giờ đây đã cố định."
+      },
+      "montage": {
+        "title": "Giai đoạn 6 — kế hoạch dựng phim",
+        "text": "Bài hát được cắt thành các phân cảnh dựa trên bản chuyển âm: nơi hơi thở buông xuống, nơi vụ nổ giáng xuống, nơi đường tiếp tuyến đứt gãy."
+      },
+      "prompts": {
+        "title": "Bảy mươi mốt prompt cho các đoạn phim",
+        "text": "Mỗi phân cảnh một prompt khẳng định, mỗi prompt chỉ nhắc tên các asset đã đăng ký. Khuôn mặt giờ đây được lan truyền qua tham chiếu — mô hình không bao giờ bị đòi hỏi khuôn mặt ấy thêm lần nào nữa."
+      },
+      "frames": {
+        "title": "Bảy mươi mốt khung hình khởi đầu",
+        "text": "Mỗi phân cảnh nhận một khung hình tĩnh để bắt đầu. Năm mươi lăm phút kết xuất: quãng thời gian chờ đợi đơn lẻ dài nhất trong toàn bộ quy trình."
+      },
+      "motion": {
+        "title": "Giai đoạn 9 — các prompt chuyển động",
+        "text": "Chuyển động máy quay và vũ đạo được viết cho từng khung hình, sau đó dòng thời gian gắn kết chúng với âm thanh được xuất ra."
+      },
+      "kling": {
+        "title": "Kling v2.6 — các đoạn phim",
+        "text": "Hai mươi mốt phút tạo video. Bảy mươi mốt đoạn phim được thử nghiệm, sáu mươi tám đoạn được bàn giao, ba đoạn bị loại bỏ: chỉ số 21, 50 và 54 không bao giờ thành hình và bản dựng được tái thiết xung quanh sự vắng mặt của chúng."
+      },
+      "edit": {
+        "title": "Bản dựng cuối cùng",
+        "text": "Ba ngày tĩnh lặng sau đó, tác phẩm được ráp nối, các prompt xuất tệp được viết lại bằng cả hai ngôn ngữ và bản cắt được khóa ở 3:33."
+      },
+      "launch": {
+        "title": "Trang web, và bức thư",
+        "text": "Bộ ba tác phẩm lên mạng và một bức thư ngỏ được gửi đến người phụ nữ mà khuôn mặt chưa từng được yêu cầu nhưng vẫn cứ xuất hiện."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Chế độ phòng trưng bày toàn màn hình: bốn khung tự động tuần hoàn. Nhấn Escape để thoát.",
+    "scan": "Quét để tiếp tục trên điện thoại",
+    "exit": "THOÁT"
+  }
+}

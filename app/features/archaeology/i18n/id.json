@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ BUKA ]",
+    "collapse": "[ TUTUP ]",
+    "loading": "Memuat…"
+  },
+  "map": {
+    "label": "// PETA LATEN — 65 klip sebagai rasi bintang",
+    "intro": "Setiap klip yang bertahan, ditempatkan berdasarkan posisinya dalam montase 198 detik dan seberapa kuat tarikannya menuju wajah yang tak pernah diminta. Aritmetikanya adalah milik kita, bukan milik model — tercetak di bawah agar Anda dapat memperdebatkannya.",
+    "hint": "Ketuk atau sorot sebuah titik untuk membaca klip dan mengarahkan pemutar ke sana.",
+    "pointLabel": "{file}, detik {second}, proksimitas atraktor {proximity}",
+    "cardMeta": "t = {second}s · proksimitas {proximity}",
+    "legendAttractor": "atraktor (≥ 0.60)",
+    "legendNear": "sosok hadir",
+    "legendNoFace": "tanpa sosok",
+    "tally": "{attractors} dari {total} klip berada dalam jangkauan atraktor",
+    "formula": "proksimitas = 0.50 jika Woman_The_Medium ada dalam adegan + 0.25 jika bidikan berupa close-up, wajah, mata, profil, potret, atau jeritan + 0.10 jika dibidik melalui Prop_Prism_Lens − 0.20 jika tidak ada aset manusia sama sekali, dijepit pada 0…1, dengan jitter tetap per-klip agar titik-titik yang bertumpukan tetap terbaca."
+  },
+  "emergence": {
+    "label": "// KEMUNCULAN — derau → wajah",
+    "intro": "Jalankan difusi mundur secara manual. Pada titik nol hanya ada bulir terbenihkan; saat Anda menarik ke kanan, ukuran blok runtuh dari 24 piksel menjadi satu dan ia terurai keluar darinya.",
+    "canvasLabel": "Aset sumber dirender pada {percent} persen kemunculan",
+    "sliderLabel": "Kemunculan: dari derau laten ke aset sumber",
+    "min": "0% DERAU LATEN",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "wajah ditahan hingga diakui",
+    "clamped": "Tertahan di {percent}% hingga Anda mengakui wajah tersebut pada panel di atas.",
+    "failed": "Aset sumber gagal dimuat."
+  },
+  "heatmap": {
+    "label": "// ARKEOLOGI ATENSI — kata-kata mana yang menarik wajah itu?",
+    "intro": "Prompt ini tidak memuat tubuh, usia, rambut, tulang. Tanyakan pada model fragmen mana yang masih akan menyeret sistem difusi menuju wajah pucat, tanpa usia, androgini, dengan tulang pipi tinggi.",
+    "button": "EKSKAVASI",
+    "working": "Membaca strata",
+    "model": "model: {model}",
+    "originalNote": "Panas dihitung pada naskah asli bahasa Inggris — bobot dikunci pada kata-kata yang tepat tersebut.",
+    "summaryLabel": "// PUTUSAN",
+    "topLabel": "// TARIKAN TERKUAT",
+    "count": "{count} fragmen terbobot",
+    "cached": "Disajikan dari log ekskavasi.",
+    "fresh": "Baru saja diekskavasi.",
+    "errorLabel": "// TIDAK ADA BACAAN",
+    "error": "Ekskavasi terhenti. Strata tidak terbaca.",
+    "retry": "COBA LAGI"
+  },
+  "timeline": {
+    "label": "// LINIMASA — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Empat hari, sebagian besarnya menunggu. Geser playhead atau gunakan tombol panah. Hampir setiap stempel waktu adalah waktu modifikasi nyata dari berkas yang masih disertakan dalam situs ini.",
+    "sliderLabel": "Empat hari penciptaan",
+    "position": "{n} / {total}",
+    "prev": "Peristiwa sebelumnya",
+    "next": "Peristiwa berikutnya",
+    "approx": "direkonstruksi",
+    "exact": "stempel waktu berkas",
+    "events": {
+      "prompt": {
+        "title": "Prompt ditulis",
+        "text": "Teks metafisik tentang Kerajaan Surga, divergensi fungsi tangen, dan tepi-tepi fraktal persentuhan. Tanpa tubuh, tanpa wajah, tanpa usia, tanpa rambut — sama sekali tidak ada yang fisik."
+      },
+      "transcription": {
+        "title": "Lagu ditranskripsikan",
+        "text": "Vokal Polandia diproses melalui penyalin dan mendarat sebagai transkrip tingkat karakter. Segala hal di hilir — montase, pemotongan, dramaturgi — diatur waktunya berdasarkan berkas ini."
+      },
+      "analysis": {
+        "title": "Tahap 1 — pembacaan",
+        "text": "Alur pipa membaca prompt dan lirik bersama-sama lalu menuliskan kembali apa yang ia yakini sebagai makna karya ini. Masih belum ada sosok manusia yang dideskripsikan di mana pun."
+      },
+      "narrative": {
+        "title": "Tahap 3 — alur cerita",
+        "text": "Naratif menamai protagonisnya Woman_The_Medium: fitur tanpa usia, ekspresi minimal, gerakan Butoh, jiwa yang terperangkap dalam avatar. Sebuah peran, bukan seseorang."
+      },
+      "palette": {
+        "title": "Tahap 3 — palet",
+        "text": "Enam warna ditetapkan: tulang, kehampaan, bungker, biru stratosfer, ambar suar surya, putih prisma. Enam warna yang sama yang melukisi situs ini."
+      },
+      "face": {
+        "title": "10:43:36 — wajah tiba",
+        "text": "asset_Woman_The_Medium.png ditulis ke cakram. Dari deskripsi peran yang abstrak, model mengembalikan wajah manusia yang spesifik dan dapat dikenali. Inilah anomalinya; segala sesuatu sebelumnya adalah teks."
+      },
+      "assets": {
+        "title": "Sebelas aset rampung",
+        "text": "Lokasi, kostum, dan properti dirender dan didaftarkan — gurun, bungker, cermin, prisma, strobo, debu, mangkuk. Para pemeran film kini telah ditetapkan."
+      },
+      "montage": {
+        "title": "Tahap 6 — rencana montase",
+        "text": "Lagu dipotong menjadi adegan-adegan bersesuaian dengan transkripsi: di mana napas jatuh, di mana ledakan mendarat, di mana tangen patah."
+      },
+      "prompts": {
+        "title": "Tujuh puluh satu prompt klip",
+        "text": "Satu prompt positif per adegan, masing-masing hanya menyebutkan aset-aset yang terdaftar. Wajah kini diperbanyak melalui rujukan — model tidak pernah memintanya lagi."
+      },
+      "frames": {
+        "title": "Tujuh puluh satu bingkai awal",
+        "text": "Setiap adegan mendapat satu gambar diam untuk memulai. Lima puluh lima menit perenderan: penantian tunggal terlama di seluruh alur pipa."
+      },
+      "motion": {
+        "title": "Tahap 9 — prompt gerak",
+        "text": "Pergerakan kamera dan koreografi ditulis untuk setiap bingkai, lalu linimasa yang mengikatnya ke audio dipancarkan."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klip-klip",
+        "text": "Dua puluh satu menit pembuatan video. Tujuh puluh satu klip dicoba, enam puluh delapan dikirim, tiga gugur: indeks 21, 50, dan 54 tidak pernah berhasil dan montase dibangun kembali di sekitar ketiadaan mereka."
+      },
+      "edit": {
+        "title": "Penyuntingan akhir",
+        "text": "Tiga hari hening kemudian, karya ini dirangkai, prompt ekspor ditulis ulang dalam kedua bahasa dan potongan dikunci pada 3:33."
+      },
+      "launch": {
+        "title": "Situs, dan surat itu",
+        "text": "Triptych tayang daring dan sepucuk surat terbuka ditujukan kepada wanita yang wajahnya tak pernah diminta namun tetap hadir."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Mode galeri layar penuh: keempat panel berganti secara otomatis. Escape untuk keluar.",
+    "scan": "Pindai untuk melanjutkan di ponsel Anda",
+    "exit": "KELUAR"
+  }
+}

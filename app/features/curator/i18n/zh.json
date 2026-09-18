@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// 告解你的提示词",
+    "open": "开启",
+    "close": "关闭",
+    "intro": "像艺术家那样写下你自己的提示词：仅限概念。不可有人脸，不可有躯体，不可有名字。策展人会告诉你，潜在空间最终将收敛于哪一张面孔。",
+    "placeholder": "一条向无穷发散的切线；信仰压倒物理法则的分形边缘……",
+    "counter": "{count} / {max}",
+    "submit": "呈交至潜在空间",
+    "working": "收敛中……",
+    "card": {
+      "archetype": "原型",
+      "topology": "拓扑",
+      "why": "缘由",
+      "attractor": "吸引子",
+      "verdict": "判词"
+    },
+    "rejected": {
+      "label": "// 驳回",
+      "fallback": "此提示词描述的是肉身，而非概念。",
+      "hint": "请仅用概念重试——不可有外貌描写，不可有名字。"
+    },
+    "share": "分享",
+    "copied": "已复制",
+    "again": "再次告解",
+    "shareTitle": "The Latent Liturgy —— 我的提示词所引向的面孔",
+    "shareText": "我的抽象提示词收敛于：{archetype} —— “{verdict}”（吸引子强度 {strength}%）",
+    "error": {
+      "empty": "请先写下内容。",
+      "generic": "潜在空间未作回应。请稍后再试。",
+      "rate": "潜在空间仍在解析中。请等待 {seconds} 秒。",
+      "daily": "你今日的告解已足够。请明日再来。"
+    }
+  },
+  "voice": {
+    "hold": "◉ 按住提问",
+    "listening": "◉ 聆听中……",
+    "hint": "按住按钮，说话，松开。策展人将出声回答。",
+    "youSaid": "你说",
+    "curator": "策展人",
+    "thinking": "正在倾听自身……",
+    "mute": "将策展人的声音静音",
+    "unmute": "让策展人出声",
+    "error": {
+      "denied": "麦克风访问被拒绝。仪式需要你的声音。",
+      "nospeech": "一片死寂。未曾听到任何声音。",
+      "generic": "麦克风出现异常。请重试。"
+    }
+  },
+  "tally": {
+    "label": "吸引子计数",
+    "line": "模型在 {total} 次中识别出她 {recognised} 次 · 已告解 {confessions} 条提示词"
+  }
+}

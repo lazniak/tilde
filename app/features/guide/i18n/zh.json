@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "导览",
+    "start": "开始导览",
+    "stop": "停止导览",
+    "hint": "让艺术家的声音引领你走过全部三幅画板。轻触任意位置即可接管。",
+    "indicator": "导览 · {label} {step}/{total}",
+    "step": {
+      "hub": "枢纽",
+      "genesis": "GENESIS",
+      "incarnation": "化身",
+      "exegesis": "策展人",
+      "epilogue": "尾声"
+    }
+  },
+  "tilt": {
+    "label": "倾斜",
+    "on": "倾斜手机以混音",
+    "off": "停止倾斜混音",
+    "rhythm": "节奏",
+    "harmony": "和声",
+    "voices": "人声",
+    "denied": "动作感应权限被拒。请在浏览器设置中允许访问，以通过倾斜进行混音。",
+    "unsupported": "该设备未检测到方向感应。请改用混音台。"
+  }
+}

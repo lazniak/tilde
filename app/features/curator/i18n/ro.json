@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// MĂRTURISEȘTE-ȚI PROMPTUL",
+    "open": "DESCHIDE",
+    "close": "ÎNCHIDE",
+    "intro": "Scrie propriul tău prompt așa cum l-a scris artistul: doar concepte. Fără chipuri, fără trupuri, fără nume. Curatorul îți va spune spre ce chip ar converge spațiul latent.",
+    "placeholder": "O tangentă ce diverge spre infinit; marginea fractală unde credința atârnă mai greu decât fizica…",
+    "counter": "{count} / {max}",
+    "submit": "TRIMITE CĂTRE SPAȚIUL LATENT",
+    "working": "Convergență…",
+    "card": {
+      "archetype": "ARHETIP",
+      "topology": "TOPOLOGIE",
+      "why": "DE CE",
+      "attractor": "ATRACTOR",
+      "verdict": "VERDICT"
+    },
+    "rejected": {
+      "label": "// REFUZAT",
+      "fallback": "Acest prompt descrie un trup, nu un concept.",
+      "hint": "Încearcă din nou doar prin concepte — fără descrieri fizice, fără nume."
+    },
+    "share": "DISTRIBUIE",
+    "copied": "COPIAT",
+    "again": "MĂRTURISEȘTE DIN NOU",
+    "shareTitle": "The Latent Liturgy — chipul atras de promptul meu",
+    "shareText": "Promptul meu abstract converge spre: {archetype} — „{verdict}” (atractor {strength}%)",
+    "error": {
+      "empty": "Scrie ceva mai întâi.",
+      "generic": "Spațiul latent nu a răspuns. Încearcă din nou într-o clipă.",
+      "rate": "Spațiul latent încă rezolvă. Așteaptă {seconds} s.",
+      "daily": "Ai mărturisit destul pentru astăzi. Întoarce-te mâine."
+    }
+  },
+  "voice": {
+    "hold": "◉ ȚINE APĂSAT PENTRU A ÎNTREBA",
+    "listening": "◉ ASCULT…",
+    "hint": "Ține apăsat butonul, vorbește, eliberează. Curatorul răspunde cu voce tare.",
+    "youSaid": "AI SPUS",
+    "curator": "CURATOR",
+    "thinking": "Se ascultă pe sine…",
+    "mute": "Redu la tăcere vocea Curatorului",
+    "unmute": "Lasă Curatorul să vorbească",
+    "error": {
+      "denied": "Accesul la microfon a fost refuzat. Ritualul are nevoie de vocea ta.",
+      "nospeech": "Tăcere. Nu s-a auzit nimic.",
+      "generic": "Microfonul a ezitat. Încearcă din nou."
+    }
+  },
+  "tally": {
+    "label": "EVIDENȚA ATRACTORILOR",
+    "line": "modelul a numit-o de {recognised} din {total} ori · {confessions} prompturi mărturisite"
+  }
+}

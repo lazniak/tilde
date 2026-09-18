@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TANÚSÁGTÉTELEK — KINEK AZ ARCA EZ?",
+    "title": "A tanúk fala",
+    "intro": "Egyetlen mondat. Kit látsz az arcban, amelynek megalkotására senki sem kérte a gépet? A litánia lassan gördül, mint egy film stáblistája, amelyhez senki sem válogatott szereplőket.",
+    "count": "{n} tanúságtétel rögzítve",
+    "loading": "A fal olvasása…",
+    "empty": "Még senki sem szólt. Légy te az első tanú.",
+    "anonymous": "Névtelen",
+    "share": "Megosztás",
+    "copied": "Hivatkozás másolva",
+    "pause": "Szünet",
+    "resume": "Folytatás",
+    "pauseHint": "Vidd a kurzort a litánia fölé vagy érintsd meg a megállításához.",
+    "form": {
+      "sentenceLabel": "A te mondatod",
+      "sentencePlaceholder": "Olyasvalakit látok, akit sosem fényképeztek le…",
+      "nameLabel": "Név (opcionális)",
+      "namePlaceholder": "Ahogyan szerepelni kívánsz",
+      "counter": "{n} / {max}",
+      "submit": "Tanúságtétel beküldése",
+      "sending": "Rögzítés…",
+      "thanks": "Rögzítve. A mondatod felkerült a falra.",
+      "queued": "Rögzítve. Egy moderátor hamarosan jóváhagyja a falon."
+    },
+    "errors": {
+      "empty": "Előbb mondj valamit.",
+      "rate": "Túl gyors. Hagyd lélegezni a litániát.",
+      "url": "Ez a fal mondatokat őriz, nem hivatkozásokat.",
+      "email": "Ez a fal mondatokat őriz, nem címeket.",
+      "slur": "Ez a mondat nem kerül ide vésésre.",
+      "duplicate": "Ezt már mondtad.",
+      "network": "A fal nem válaszolt. Próbáld újra.",
+      "generic": "A fal visszautasította a felajánlást. Próbáld újra."
+    }
+  },
+  "cosign": {
+    "label": "// CSATLAKOZZ A TILDA SWINTONNAK SZÓLÓ LEVÉLHEZ",
+    "title": "Add a neved a levélhez",
+    "readLetter": "Olvasd el a teljes levelet",
+    "hideLetter": "A levél elrejtése",
+    "counting": "Aláírások számlálása…",
+    "count": "{n} ember csatlakozott az aláíráshoz",
+    "privacy": "A teljes nevedet eltároljuk, de nyilvánosan mindig csak a keresztneved és a vezetékneved kezdőbetűje jelenik meg. A város megadása opcionális, és úgy jelenik meg, ahogyan beírtad.",
+    "form": {
+      "nameLabel": "Név",
+      "namePlaceholder": "A teljes neved",
+      "cityLabel": "Város / ország (opcionális)",
+      "cityPlaceholder": "Budapest, HU",
+      "consent": "Saját nevemben írom alá, és hozzájárulok a nevem megjelenítéséhez.",
+      "submit": "Csatlakozás a levélhez",
+      "sending": "Aláírás…",
+      "thanks": "Aláírva. Köszönjük, hogy kiállsz a kérdés mellett."
+    },
+    "errors": {
+      "name": "Az aláíráshoz név szükséges.",
+      "consent": "Jelöld be a négyzetet, hogy saját nevedben írsz alá.",
+      "rate": "Ma már aláírtad.",
+      "duplicate": "Erről az eszközről már történt aláírás.",
+      "rejected": "Csak nevek — linkek és sértések nélkül.",
+      "network": "A nyilvántartás nem válaszolt. Próbáld újra.",
+      "generic": "A nyilvántartás elutasította az aláírást. Próbáld újra."
+    }
+  },
+  "embed": {
+    "kicker": "AZ ALGORITMIKUS VÉGZET TRIPTYCHONJA",
+    "title": "The Latent Liturgy",
+    "question": "Miért vált az „átalakulás” és az „örökkévalóság” az ő arcává?",
+    "clips": "klipek",
+    "testimonies": "tanúságtételek",
+    "verdicts": "ítéletek",
+    "enter": "LÉPJ BE A LITURGIÁBA"
+  }
+}

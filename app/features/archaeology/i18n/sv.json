@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ ÖPPNA ]",
+    "collapse": "[ STÄNG ]",
+    "loading": "Laddar…"
+  },
+  "map": {
+    "label": "// LATENT KARTA — 65 klipp som en konstellation",
+    "intro": "Varje överlevande klipp, placerat efter var det infaller i det 198 sekunder långa montaget och hur starkt det dras mot ansiktet ingen bad om. Aritmetiken är vår, inte modellens — den står utskriven nedan så att du kan invända mot den.",
+    "hint": "Tryck eller markera en punkt för att läsa om klippet och flytta spelaren dit.",
+    "pointLabel": "{file}, sekund {second}, attraktornärhet {proximity}",
+    "cardMeta": "t = {second} s · närhet {proximity}",
+    "legendAttractor": "attraktor (≥ 0.60)",
+    "legendNear": "gestalt närvarande",
+    "legendNoFace": "ingen gestalt",
+    "tally": "{attractors} av {total} klipp befinner sig inom attraktorintervall",
+    "formula": "proximity = 0.50 if Woman_The_Medium is in the scene + 0.25 if the shot is a close-up, face, eye, profile, portrait or scream + 0.10 if shot through Prop_Prism_Lens − 0.20 if no human asset at all, clamped to 0…1, with a fixed per-clip jitter so overlapping dots stay readable."
+  },
+  "emergence": {
+    "label": "// FRAMTRÄDANDE — brus → ansikte",
+    "intro": "Kör diffusionen baklänges för hand. Vid noll finns bara genererat korn; när du drar åt höger kollapsar blockstorleken från 24 pixlar till en och hon träder fram ur det.",
+    "canvasLabel": "Källtillgången renderad vid {percent} procents framträdande",
+    "sliderLabel": "Framträdande: från latent brus till källtillgången",
+    "min": "0% LATENT BRUS",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "ansiktet undanhållet tills det bekräftas",
+    "clamped": "Hålls vid {percent}% tills du bekräftar ansiktet i panelen ovanför.",
+    "failed": "Källtillgången kunde inte läsas in."
+  },
+  "heatmap": {
+    "label": "// UPPMÄRKSAMHETSARKEOLOGI — vilka ord drog fram ansiktet?",
+    "intro": "Prompten innehåller ingen kropp, ingen ålder, inget hår, inga ben. Fråga modellen vilka fragment av den som ändå skulle dra ett diffusionssystem mot ett tidlöst, androgynt, blekt ansikte med höga kindben.",
+    "button": "GRÄV UT",
+    "working": "Läser av lagren",
+    "model": "modell: {model}",
+    "originalNote": "Värmen beräknas på det engelska originalet — vikterna är knutna till exakt de orden.",
+    "summaryLabel": "// VERDIKT",
+    "topLabel": "// STARKAST DRAGNINGSKRAFT",
+    "count": "{count} fragment vägda",
+    "cached": "Hämtad ur utgrävningsloggen.",
+    "fresh": "Utgrävd nyss.",
+    "errorLabel": "// INGEN AVLÄSNING",
+    "error": "Utgrävningen avstannade. Lagren kunde inte läsas.",
+    "retry": "FÖRSÖK IGEN"
+  },
+  "timeline": {
+    "label": "// TIDSLINJE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Fyra dagar, de flesta i väntan. Dra i spelhuvudet eller använd piltangenterna. Nästan varje tidsstämpel är den faktiska ändringstiden för en fil som fortfarande finns kvar på denna webbplats.",
+    "sliderLabel": "Fyra dagars skapande",
+    "position": "{n} / {total}",
+    "prev": "Föregående händelse",
+    "next": "Nästa händelse",
+    "approx": "rekonstruerad",
+    "exact": "filtidsstämpel",
+    "events": {
+      "prompt": {
+        "title": "Prompten skrivs",
+        "text": "En metafysisk text om Himmelriket, tangensfunktionens divergens och kontaktens fraktala gränser. Ingen kropp, inget ansikte, ingen ålder, inget hår — ingenting fysiskt alls."
+      },
+      "transcription": {
+        "title": "Sången transkriberas",
+        "text": "Den polska sången körs genom skrivaren och landar som ett transkript på teckennivå. Allt i senare led — montaget, klippen, dramaturgin — tajmas mot denna fil."
+      },
+      "analysis": {
+        "title": "Steg 1 — läsningen",
+        "text": "Pipelinen läser prompten och sångtexten tillsammans och skriver tillbaka vad den anser att verket handlar om. Fortfarande beskrivs ingen person någonstans."
+      },
+      "narrative": {
+        "title": "Steg 3 — berättelsen",
+        "text": "Berättelsen ger sin huvudperson namnet Woman_The_Medium: tidlösa drag, minimalt uttryck, Butoh-rörelser, själen fångad i avataren. En roll, inte en person."
+      },
+      "palette": {
+        "title": "Steg 3 — färgpaletten",
+        "text": "Sex färger slås fast: ben, tomrum, bunker, stratosfärblå, solstormsamber, prismatisk vit. Samma sex som denna webbplats är målad i."
+      },
+      "face": {
+        "title": "10:43:36 — ansiktet anländer",
+        "text": "asset_Woman_The_Medium.png skrivs till disk. Från en abstrakt rollbeskrivning returnerar modellen ett specifikt, igenkännbart mänskligt ansikte. Detta är anomalin; allt före det är text."
+      },
+      "assets": {
+        "title": "Elva assets färdigställda",
+        "text": "Platser, kostymer och rekvisita renderas och registreras — öken, bunker, spegel, prisma, stroboskop, damm, skål. Filmens ensemble är nu fastställd."
+      },
+      "montage": {
+        "title": "Steg 6 — montageplanen",
+        "text": "Sången klipps till scener mot transkriberingen: var andetaget faller, var stötvågen träffar, var tangenten bryts."
+      },
+      "prompts": {
+        "title": "Sjuttioen klipp-prompter",
+        "text": "En positiv prompt per scen, där varje prompt enbart nämner de registrerade tillgångarna. Ansiktet förs nu vidare genom referens — modellen blir aldrig tillfrågad om det igen."
+      },
+      "frames": {
+        "title": "Sjuttioen startbildrutor",
+        "text": "Varje scen får en stillbild att börja från. Femtiofem minuters rendering: den längsta enskilda väntan i hela pipelinen."
+      },
+      "motion": {
+        "title": "Steg 9 — rörelseprompterna",
+        "text": "Kamerarörelser och koreografi skrivs för varje bildruta, sedan genereras tidslinjen som binder dem till ljudet."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klippen",
+        "text": "Tjugoen minuters videogenerering. Sjuttioen klipp försöktes, sextioåtta levererades, tre föll bort: index 21, 50 och 54 kom aldrig fram och montaget byggdes om kring deras frånvaro."
+      },
+      "edit": {
+        "title": "Den slutliga klippningen",
+        "text": "Tre tysta dagar senare sätts verket samman, exportprompterna skrivs om på båda språken och klippningen låses vid 3:33."
+      },
+      "launch": {
+        "title": "Sajten och brevet",
+        "text": "Triptyken läggs ut och ett öppet brev adresseras till kvinnan vars ansikte aldrig efterfrågades, men ändå anlände."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Helskärmsläge för galleri: de fyra panelerna växlar av sig själva. Tryck Escape för att avsluta.",
+    "scan": "Skanna för att fortsätta i mobilen",
+    "exit": "AVSLUTA"
+  }
+}

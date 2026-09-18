@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "PROHLÍDKA",
+    "start": "Spustit komentovanou prohlídku",
+    "stop": "Ukončit komentovanou prohlídku",
+    "hint": "Nechte se hlasem umělce provést všemi třemi panely. Dotykem kdekoli převezmete kontrolu.",
+    "indicator": "PROHLÍDKA · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURÁTOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "NÁKLON",
+    "on": "Mixovat nakláněním telefonu",
+    "off": "Zastavit mixování náklonem",
+    "rhythm": "RYTMUS",
+    "harmony": "HARMONIE",
+    "voices": "HLASY",
+    "denied": "Přístup k pohybovým senzorům byl odepřen. Povolte jej v nastavení prohlížeče a mixujte náklonem.",
+    "unsupported": "Toto zařízení nerozpoznává orientaci v prostoru. Použijte raději mixážní pult."
+  }
+}

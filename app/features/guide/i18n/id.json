@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TUR",
+    "start": "Mulai tur berpemandu",
+    "stop": "Hentikan tur berpemandu",
+    "hint": "Biarkan suara sang seniman memandu Anda menelusuri ketiga panel. Sentuh apa pun untuk mengambil alih.",
+    "indicator": "TUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURATOR",
+      "epilogue": "EPILOG"
+    }
+  },
+  "tilt": {
+    "label": "MIRINGKAN",
+    "on": "Padukan dengan memiringkan ponsel",
+    "off": "Hentikan pemaduan via kemiringan",
+    "rhythm": "RITME",
+    "harmony": "HARMONI",
+    "voices": "SUARA",
+    "denied": "Akses gerak ditolak. Izinkan di pengaturan peramban Anda untuk memadukan dengan memiringkan ponsel.",
+    "unsupported": "Perangkat ini tidak mendeteksi orientasi. Gunakan mikser sebagai gantinya."
+  }
+}

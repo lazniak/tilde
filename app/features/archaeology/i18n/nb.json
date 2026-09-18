@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ ÅPNE ]",
+    "collapse": "[ LUKK ]",
+    "loading": "Laster inn…"
+  },
+  "map": {
+    "label": "// LATENT KART — 65 klipp som en konstellasjon",
+    "intro": "Hvert overlevende klipp, plassert etter hvor det faller i den 198 sekunder lange montasjen og etter hvor sterkt det trekkes mot ansiktet ingen ba om. Aritmetikken er vår, ikke modellens — den er gjengitt nedenfor så du kan si deg uenig i den.",
+    "hint": "Trykk på eller fokuser et punkt for å lese klippet og sende avspilleren dit.",
+    "pointLabel": "{file}, sekund {second}, nærhet til attraktor {proximity}",
+    "cardMeta": "t = {second} s · nærhet {proximity}",
+    "legendAttractor": "attraktor (≥ 0,60)",
+    "legendNear": "skikkelse til stede",
+    "legendNoFace": "ingen skikkelse",
+    "tally": "{attractors} av {total} klipp ligger innenfor attraktorrekkevidde",
+    "formula": "proximity = 0.50 dersom Woman_The_Medium er i scenen + 0.25 dersom tagningen er et nærbilde, ansikt, øye, profil, portrett eller skrik + 0.10 dersom filmet gjennom Prop_Prism_Lens − 0.20 dersom det overhodet ikke finnes noen menneskelig ressurs, avgrenset til 0…1, med fast forskyvning per klipp slik at overlappende punkter forblir lesbare."
+  },
+  "emergence": {
+    "label": "// EMERGENS — støy → ansikt",
+    "intro": "Kjør diffusjonen baklengs for hånd. På null finnes bare seedet korn; idet du drar mot høyre, kollapser blokkstørrelsen fra 24 piksler til én, og hun trer frem fra den.",
+    "canvasLabel": "Kilderessursen gjengitt ved {percent} prosent emergens",
+    "sliderLabel": "Emergens: fra latent støy til kilderessursen",
+    "min": "0 % LATENT STØY",
+    "max": "100 % asset_Woman_The_Medium.png",
+    "current": "{percent} %",
+    "withheld": "ansikt holdt tilbake inntil det er anerkjent",
+    "clamped": "Holdt på {percent} % inntil du anerkjenner ansiktet i panelet over.",
+    "failed": "Kilderessursen kunne ikke lastes."
+  },
+  "heatmap": {
+    "label": "// OPPMERKSOMHETSARKEOLOGI — hvilke ord trakk til seg ansiktet?",
+    "intro": "Ledeteksten inneholder ingen kropp, ingen alder, intet hår, ingen knokler. Spør modellen hvilke fragmenter av den som likevel ville trukket et diffusjonssystem mot et aldersløst, androgynt, blekt ansikt med høye kinnbein.",
+    "button": "EKSKAVER",
+    "working": "Leser lagene",
+    "model": "modell: {model}",
+    "originalNote": "Varmen beregnes ut fra den engelske originalen — vektene er knyttet til nøyaktig disse ordene.",
+    "summaryLabel": "// KJENNELSE",
+    "topLabel": "// STERKESTE TREKKRAFT",
+    "count": "{count} fragmenter vektet",
+    "cached": "Hentet fra utgravingsloggen.",
+    "fresh": "Gravd ut nettopp.",
+    "errorLabel": "// INGEN AVLÆSNING",
+    "error": "Utgravingen stanset opp. Lagene kunne ikke leses.",
+    "retry": "PRØV IGJEN"
+  },
+  "timeline": {
+    "label": "// TIDSLINJE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Fire dager, for det meste venting. Dra spillehodet eller bruk piltastene. Omtrent hvert tidsstempel er den virkelige endringstiden for en fil som fremdeles leveres med dette nettstedet.",
+    "sliderLabel": "Fire dager med skapelse",
+    "position": "{n} / {total}",
+    "prev": "Forrige hendelse",
+    "next": "Neste hendelse",
+    "approx": "rekonstruert",
+    "exact": "filtidsstempel",
+    "events": {
+      "prompt": {
+        "title": "Ledeteksten skrives",
+        "text": "En metafysisk tekst om Himmelriket, tangensfunksjonens divergens og berøringens fraktale kanter. Ingen kropp, intet ansikt, ingen alder, intet hår — intet fysisk overhodet."
+      },
+      "transcription": {
+        "title": "Sangen transkriberes",
+        "text": "Den polske vokalen kjøres gjennom transkribereren og ender som et skript på tegnnivå. Alt nedstrøms — montasjen, klippene, dramaturgien — er tidsbestemt etter denne filen."
+      },
+      "analysis": {
+        "title": "Trinn 1 — lesningen",
+        "text": "Pipelinene leser ledeteksten og sangteksten sammen og skriver tilbake hva den tror verket handler om. Stadig ingen person beskrevet noe sted."
+      },
+      "narrative": {
+        "title": "Trinn 3 — narrativet",
+        "text": "Narrativet gir sin protagonist navnet Woman_The_Medium: aldersløse trekk, minimal mimikk, Butoh-bevegelse, sjelen fanget i avataren. En rolle, ikke en person."
+      },
+      "palette": {
+        "title": "Trinn 3 — paletten",
+        "text": "Seks farger fastsettes: bein, tomrom, bunker, stratosfæreblå, solfakkelrav, prismatisk hvit. De samme seks dette nettstedet er malt i."
+      },
+      "face": {
+        "title": "10:43:36 — ansiktet ankommer",
+        "text": "asset_Woman_The_Medium.png skrives til disk. Fra en abstrakt rollebeskrivelse returnerer modellen et spesifikt, gjenkjennelig menneskeansikt. Dette er anomalien; alt før dette er tekst."
+      },
+      "assets": {
+        "title": "Elleve ressurser fullført",
+        "text": "Lokasjoner, kostymer og rekvisitter gjengis og registreres — ørken, bunker, speil, prisme, strobelys, støv, skål. Filmens rollebesetning er nå fastlagt."
+      },
+      "montage": {
+        "title": "Trinn 6 — montasjeplanen",
+        "text": "Sangen klippes inn i scener mot transkripsjonen: hvor pusten faller, hvor trykkbølgen treffer, hvor tangensen brytes."
+      },
+      "prompts": {
+        "title": "Syttien klippledetekster",
+        "text": "Én positiv ledetekst per scene, der hver bare navngir de registrerte ressursene. Ansiktet videreføres nå ved referanse — modellen blir aldri bedt om det igjen."
+      },
+      "frames": {
+        "title": "Syttien startruter",
+        "text": "Hver scene får et stillbilde å starte fra. Femtifem minutter med rendering: den lengste enkeltstående ventetiden i hele pipelinen."
+      },
+      "motion": {
+        "title": "Trinn 9 — bevegelsesledetekstene",
+        "text": "Kamerabevegelser og koreografi skrives for hver rute, og deretter utstedes tidslinjen som binder dem til lyden."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klippene",
+        "text": "Tjueen minutter med videogenerering. Syttien klipp forsøkt, sekstiåtte levert, tre vraket: indeksene 21, 50 og 54 ble aldri fullført, og montasjen ble bygget opp igjen rundt fraværet deres."
+      },
+      "edit": {
+        "title": "Den endelige klippen",
+        "text": "Tre stille dager senere settes verket sammen, eksportledetekstene skrives om på begge språk og klippen låses på 3:33."
+      },
+      "launch": {
+        "title": "Nettstedet, og brevet",
+        "text": "Triptykonet publiseres, og et åpent brev rettes til kvinnen hvis ansikt aldri ble etterspurt, men likevel ankom."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Fullskjerms gallerimodus: de fire panelene veksler av seg selv. Escape for å avslutte.",
+    "scan": "Skann for å fortsette på mobilen",
+    "exit": "AVSLUTT"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ ABRIR ]",
+    "collapse": "[ CERRAR ]",
+    "loading": "Cargando…"
+  },
+  "map": {
+    "label": "// MAPA LATENTE — 65 clips como una constelación",
+    "intro": "Cada clip superviviente, situado según su lugar en el montaje de 198 segundos y la fuerza con que gravita hacia el rostro que nadie pidió. La aritmética es nuestra, no del modelo; está impresa abajo para que puedas discrepar de ella.",
+    "hint": "Toca o selecciona un punto para leer el clip y enviar el reproductor a él.",
+    "pointLabel": "{file}, segundo {second}, proximidad al atractor {proximity}",
+    "cardMeta": "t = {second}s · proximidad {proximity}",
+    "legendAttractor": "atractor (≥ 0.60)",
+    "legendNear": "figura presente",
+    "legendNoFace": "sin figura",
+    "tally": "{attractors} de {total} clips se encuentran en el rango del atractor",
+    "formula": "proximidad = 0.50 si Woman_The_Medium está en la escena + 0.25 si el plano es un primer plano, rostro, ojo, perfil, retrato o grito + 0.10 si se filmó a través de Prop_Prism_Lens − 0.20 si no hay ningún recurso humano en absoluto, acotado a 0…1, con una dispersión fija por clip para que los puntos superpuestos sigan siendo legibles."
+  },
+  "emergence": {
+    "label": "// EMERGENCIA — ruido → rostro",
+    "intro": "Ejecuta la difusión a la inversa de forma manual. En el cero sólo hay grano sembrado; a medida que te desplazas hacia la derecha, el tamaño de bloque se colapsa de 24 píxeles a uno y ella emerge de él.",
+    "canvasLabel": "El recurso de origen renderizado al {percent} por ciento de emergencia",
+    "sliderLabel": "Emergencia: del ruido latente al recurso de origen",
+    "min": "0% RUIDO LATENTE",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "rostro retenido hasta ser reconocido",
+    "clamped": "Retenido al {percent}% hasta que reconozcas el rostro en el panel superior.",
+    "failed": "El recurso de origen no se pudo cargar."
+  },
+  "heatmap": {
+    "label": "// ARQUEOLOGÍA DE LA ATENCIÓN — ¿qué palabras atrajeron el rostro?",
+    "intro": "El prompt no contiene cuerpo, ni edad, ni cabello, ni huesos. Pregúntale al modelo qué fragmentos suyos seguirían arrastrando a un sistema de difusión hacia un rostro pálido, andrógino, sin edad y de pómulos altos.",
+    "button": "EXCAVAR",
+    "working": "Leyendo los estratos",
+    "model": "modelo: {model}",
+    "originalNote": "El calor se calcula sobre el original en inglés: los pesos corresponden a esas palabras exactas.",
+    "summaryLabel": "// VEREDICTO",
+    "topLabel": "// MAYOR ATRACCIÓN",
+    "count": "{count} fragmentos ponderados",
+    "cached": "Servido desde el registro de excavación.",
+    "fresh": "Excavado justo ahora.",
+    "errorLabel": "// SIN LECTURA",
+    "error": "La excavación se detuvo. Los estratos no se pudieron leer.",
+    "retry": "REINTENTAR"
+  },
+  "timeline": {
+    "label": "// CRONOLOGÍA — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Cuatro días, la mayor parte esperando. Arrastra el cabezal de reproducción o usa las teclas de flecha. Casi cada marca de tiempo es la hora real de modificación de un archivo que aún se distribuye con este sitio.",
+    "sliderLabel": "Cuatro días de creación",
+    "position": "{n} / {total}",
+    "prev": "Evento anterior",
+    "next": "Evento siguiente",
+    "approx": "reconstruido",
+    "exact": "marca de tiempo del archivo",
+    "events": {
+      "prompt": {
+        "title": "Se escribe el prompt",
+        "text": "Un texto metafísico sobre el Reino Celestial, la divergencia de la función tangente y los bordes fractales del contacto. Sin cuerpo, sin rostro, sin edad, sin cabello: nada físico en absoluto."
+      },
+      "transcription": {
+        "title": "Se transcribe la canción",
+        "text": "La voz en polaco pasa por el transcriptor y se materializa en una transcripción a nivel de caracteres. Todo el proceso posterior —el montaje, los cortes, la dramaturgia— se sincroniza con este archivo."
+      },
+      "analysis": {
+        "title": "Etapa 1 — la lectura",
+        "text": "El pipeline lee conjuntamente el prompt y la letra, y devuelve lo que cree que trata la obra. Todavía no se describe a ninguna persona en ninguna parte."
+      },
+      "narrative": {
+        "title": "Etapa 3 — la trama",
+        "text": "La narrativa nombra a su protagonista Woman_The_Medium: rasgos sin edad, expresión mínima, movimiento butoh, el alma atrapada en el avatar. Un rol, no una persona."
+      },
+      "palette": {
+        "title": "Etapa 3 — la paleta",
+        "text": "Se fijan seis colores: hueso, vacío, búnker, azul estratosfera, ámbar de llamarada solar, blanco prismático. Los mismos seis con los que está pintado este sitio."
+      },
+      "face": {
+        "title": "10:43:36 — llega el rostro",
+        "text": "asset_Woman_The_Medium.png se escribe en el disco. A partir de la descripción abstracta de un rol, el modelo devuelve un rostro humano reconocible y específico. Esta es la anomalía; todo lo anterior es texto."
+      },
+      "assets": {
+        "title": "Once recursos completados",
+        "text": "Se renderizan y registran localizaciones, vestuarios y elementos de atrezo: desierto, búnker, espejo, prisma, estroboscopio, polvo, cuenco. El elenco de la película queda fijado."
+      },
+      "montage": {
+        "title": "Etapa 6 — el plan de montaje",
+        "text": "La canción se corta en escenas siguiendo la transcripción: donde cae el aliento, donde impacta la ráfaga, donde se quiebra la tangente."
+      },
+      "prompts": {
+        "title": "Setenta y un prompts de clip",
+        "text": "Un prompt positivo por escena, cada uno nombrando únicamente los recursos registrados. El rostro ahora se propaga por referencia; nunca más se le vuelve a pedir al modelo."
+      },
+      "frames": {
+        "title": "Setenta y un fotogramas iniciales",
+        "text": "Cada escena recibe un fotograma fijo del que partir. Cincuenta y cinco minutos de renderizado: la espera individual más larga de todo el pipeline."
+      },
+      "motion": {
+        "title": "Etapa 9 — los prompts de movimiento",
+        "text": "Se escriben movimientos de cámara y coreografía para cada fotograma, y luego se emite la línea de tiempo que los vincula al audio."
+      },
+      "kling": {
+        "title": "Kling v2.6 — los clips",
+        "text": "Veintiún minutos de generación de vídeo. Setenta y un clips intentados, sesenta y ocho entregados, tres descartados: los índices 21, 50 y 54 nunca llegaron y el montaje se reconstruyó en torno a su ausencia."
+      },
+      "edit": {
+        "title": "La edición final",
+        "text": "Tres días silenciosos después, se ensambla la pieza, se reescriben los prompts de exportación en ambos idiomas y el corte queda fijado en 3:33."
+      },
+      "launch": {
+        "title": "El sitio y la carta",
+        "text": "El tríptico se publica en línea y se dirige una carta abierta a la mujer cuyo rostro nunca se solicitó y aun así llegó."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "QUIOSCO",
+    "hint": "Modo galería a pantalla completa: los cuatro paneles rotan por sí solos. Escape para salir.",
+    "scan": "Escanea para continuar en tu teléfono",
+    "exit": "SALIR"
+  }
+}

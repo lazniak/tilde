@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// CONFIESA TU PROMPT",
+    "open": "ABRIR",
+    "close": "CERRAR",
+    "intro": "Escribe tu propio prompt del mismo modo que el artista escribió los suyos: solo conceptos. Sin rostros, sin cuerpos, sin nombres. El Curador te dirá hacia qué rostro convergería el espacio latente.",
+    "placeholder": "Una tangente que diverge hacia el infinito; el borde fractal donde la fe pesa más que la física…",
+    "counter": "{count} / {max}",
+    "submit": "SOMETER AL ESPACIO LATENTE",
+    "working": "Convergiendo…",
+    "card": {
+      "archetype": "ARQUETIPO",
+      "topology": "TOPOLOGÍA",
+      "why": "POR QUÉ",
+      "attractor": "ATRACTOR",
+      "verdict": "VEREDICTO"
+    },
+    "rejected": {
+      "label": "// RECHAZADO",
+      "fallback": "Este prompt describe un cuerpo, no un concepto.",
+      "hint": "Inténtalo de nuevo solo con conceptos — sin descripciones físicas, sin nombres."
+    },
+    "share": "COMPARTIR",
+    "copied": "COPIADO",
+    "again": "CONFESAR DE NUEVO",
+    "shareTitle": "The Latent Liturgy — el rostro que atrae mi prompt",
+    "shareText": "Mi prompt abstracto converge en: {archetype} — \"{verdict}\" (atractor {strength}%)",
+    "error": {
+      "empty": "Escribe algo primero.",
+      "generic": "El espacio latente no respondió. Inténtalo de nuevo en un momento.",
+      "rate": "El espacio latente aún se está resolviendo. Espera {seconds} s.",
+      "daily": "Ya has confesado suficiente por hoy. Regresa mañana."
+    }
+  },
+  "voice": {
+    "hold": "◉ MANTÉN PARA PREGUNTAR",
+    "listening": "◉ ESCUCHANDO…",
+    "hint": "Mantén presionado el botón, habla, suelta. El Curador responde en voz alta.",
+    "youSaid": "DIJISTE",
+    "curator": "CURADOR",
+    "thinking": "Escuchándose a sí mismo…",
+    "mute": "Silenciar la voz del Curador",
+    "unmute": "Permitir que el Curador hable",
+    "error": {
+      "denied": "El acceso al micrófono fue denegado. El ritual necesita tu voz.",
+      "nospeech": "Silencio. No se escuchó nada.",
+      "generic": "El micrófono falló. Inténtalo de nuevo."
+    }
+  },
+  "tally": {
+    "label": "RECUENTO DE ATRACTORES",
+    "line": "el modelo la nombró {recognised} de {total} veces · {confessions} prompts confesados"
+  }
+}

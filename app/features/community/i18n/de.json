@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// ZEUGNISSE — WESSEN GESICHT IST ES?",
+    "title": "Die Wand der Zeugen",
+    "intro": "Ein Satz. Wen sehen Sie in dem Gesicht, um dessen Erschaffung die Maschine nie gebeten wurde? Die Litanei zieht langsam vorbei, wie der Abspann eines Films, den niemand besetzt hat.",
+    "count": "{n} Zeugnisse aufgezeichnet",
+    "loading": "Die Wand wird gelesen…",
+    "empty": "Noch hat niemand gesprochen. Seien Sie der erste Zeuge.",
+    "anonymous": "Anonym",
+    "share": "Teilen",
+    "copied": "Link kopiert",
+    "pause": "Pause",
+    "resume": "Fortsetzen",
+    "pauseHint": "Mit der Maus berühren oder antippen, um die Litanei anzuhalten.",
+    "form": {
+      "sentenceLabel": "Ihr Satz",
+      "sentencePlaceholder": "Ich sehe jemanden, der nie fotografiert wurde…",
+      "nameLabel": "Name (optional)",
+      "namePlaceholder": "Wie Sie genannt werden möchten",
+      "counter": "{n} / {max}",
+      "submit": "Zeugnis hinterlassen",
+      "sending": "Wird aufgezeichnet…",
+      "thanks": "Aufgezeichnet. Ihr Satz steht an der Wand.",
+      "queued": "Aufgezeichnet. Ein Moderator wird ihn für die Wand freigeben."
+    },
+    "errors": {
+      "empty": "Sagen Sie zuerst etwas.",
+      "rate": "Zu schnell. Lassen Sie der Litanei Zeit zum Atmen.",
+      "url": "Diese Wand trägt Sätze, keine Links.",
+      "email": "Diese Wand trägt Sätze, keine Adressen.",
+      "slur": "Dieser Satz wird hier nicht eingemeißelt.",
+      "duplicate": "Das haben Sie bereits gesagt.",
+      "network": "Die Wand hat nicht geantwortet. Versuchen Sie es erneut.",
+      "generic": "Die Wand hat die Gabe abgewiesen. Versuchen Sie es erneut."
+    }
+  },
+  "cosign": {
+    "label": "// DEN BRIEF AN TILDA SWINTON MITUNTERZEICHNEN",
+    "title": "Fügen Sie Ihren Namen dem Brief hinzu",
+    "readLetter": "Den vollständigen Brief lesen",
+    "hideLetter": "Brief verbergen",
+    "counting": "Unterschriften werden gezählt…",
+    "count": "{n} Personen haben mitunterzeichnet",
+    "privacy": "Wir speichern Ihren vollständigen Namen, zeigen aber stets nur den Vornamen und die Initiale des Nachnamens an. Die Angabe der Stadt ist optional und wird wie eingegeben angezeigt.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "cityLabel": "Stadt / Land (optional)",
+      "cityPlaceholder": "Warschau, PL",
+      "consent": "Ich unterzeichne als ich selbst und erkläre mich mit der Anzeige meines Namens einverstanden.",
+      "submit": "Den Brief mitunterzeichnen",
+      "sending": "Wird unterzeichnet…",
+      "thanks": "Unterzeichnet. Danke, dass Sie der Frage beistehen."
+    },
+    "errors": {
+      "name": "Eine Unterschrift braucht einen Namen.",
+      "consent": "Aktivieren Sie das Kontrollkästchen, um als Sie selbst zu unterzeichnen.",
+      "rate": "Sie haben heute bereits unterzeichnet.",
+      "duplicate": "Von diesem Gerät wurde bereits unterzeichnet.",
+      "rejected": "Nur Namen — keine Links, keine Beleidigungen.",
+      "network": "Das Register hat nicht geantwortet. Versuchen Sie es erneut.",
+      "generic": "Das Register hat die Unterschrift verweigert. Versuchen Sie es erneut."
+    }
+  },
+  "embed": {
+    "kicker": "EIN TRIPTYCHON ALGORITHMISCHEN SCHICKSALS",
+    "title": "The Latent Liturgy",
+    "question": "Warum wurden „Transformation“ und „Ewigkeit“ zu ihrem Gesicht?",
+    "clips": "Clips",
+    "testimonies": "Zeugnisse",
+    "verdicts": "Urteile",
+    "enter": "DIE LITURGIE BETRETEN"
+  }
+}

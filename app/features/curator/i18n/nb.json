@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// BEKJENN DITT PROMPT",
+    "open": "ÅPNE",
+    "close": "LUKK",
+    "intro": "Skriv ditt eget prompt slik kunstneren skrev sitt: kun begreper. Ingen ansikter, ingen kropper, ingen navn. Kuratoren vil fortelle deg hvilket ansikt det latente rommet ville konvergert mot.",
+    "placeholder": "En tangent som divergerer mot uendelig; den fraktale kanten der tro veier tyngre enn fysikk …",
+    "counter": "{count} / {max}",
+    "submit": "OVERGI TIL DET LATENTE ROMMET",
+    "working": "Konvergerer …",
+    "card": {
+      "archetype": "ARKETYPE",
+      "topology": "TOPOLOGI",
+      "why": "HVORFOR",
+      "attractor": "ATTRAKTOR",
+      "verdict": "DOM"
+    },
+    "rejected": {
+      "label": "// AVVIST",
+      "fallback": "Dette promptet beskriver en kropp, ikke et begrep.",
+      "hint": "Prøv igjen med kun begreper – ingen fysisk beskrivelse, ingen navn."
+    },
+    "share": "DEL",
+    "copied": "KOPIERT",
+    "again": "BEKJENN IGJEN",
+    "shareTitle": "The Latent Liturgy — ansiktet mitt prompt tiltrekker",
+    "shareText": "Mitt abstrakte prompt konvergerer mot: {archetype} — «{verdict}» (attraktor {strength} %)",
+    "error": {
+      "empty": "Skriv noe først.",
+      "generic": "Det latente rommet svarte ikke. Prøv igjen om et øyeblikk.",
+      "rate": "Det latente rommet bearbeider fortsatt. Vent {seconds} s.",
+      "daily": "Du har bekjent nok for i dag. Vend tilbake i morgen."
+    }
+  },
+  "voice": {
+    "hold": "◉ HOLD FOR Å SPØRRE",
+    "listening": "◉ LYTTER …",
+    "hint": "Hold inne knappen, snakk, slipp. Kuratoren svarer høyt.",
+    "youSaid": "DU SA",
+    "curator": "KURATOR",
+    "thinking": "Lytter til seg selv …",
+    "mute": "Demp Kuratorens stemme",
+    "unmute": "La Kuratoren tale",
+    "error": {
+      "denied": "Mikrofontilgang ble avvist. Ritualet trenger stemmen din.",
+      "nospeech": "Stillhet. Ingenting ble hørt.",
+      "generic": "Mikrofonen sviktet. Prøv igjen."
+    }
+  },
+  "tally": {
+    "label": "ATTRAKTORTELLING",
+    "line": "modellen navnga henne {recognised} av {total} ganger · {confessions} prompter bekjent"
+  }
+}

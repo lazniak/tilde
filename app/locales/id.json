@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Tilda Swinton Hasil Generasi AI - Sebuah Studi Kasus tentang Bias Algoritmik",
+    "description": "Sebuah investigasi interaktif tentang bagaimana AI milik Google menghasilkan rupa aktris Tilda Swinton murni dari konsep filosofis abstrak semata."
+  },
+  "common": {
+    "enter": "MASUK",
+    "back": "KEMBALI",
+    "backToHub": "KEMBALI KE HUB",
+    "hub": "HUB",
+    "close": "TUTUP",
+    "loading": "Memuat…",
+    "play": "PUTAR",
+    "pause": "JEDA",
+    "mixer": "MIXER",
+    "language": "Bahasa",
+    "narrator": "NARATOR",
+    "narratorOn": "Narator aktif",
+    "narratorOff": "Narator mati",
+    "narratorHint": "Suara sang seniman sendiri memandu Anda menelusuri setiap panel.",
+    "offering": "PERSEMBAHAN",
+    "offeringHint": "Nyalakan lilin untuk proyek ini — belikan sang seniman secangkir kopi.",
+    "readMore": "baca selengkapnya",
+    "readLess": "baca lebih sedikit",
+    "share": "BAGIKAN",
+    "copied": "Tautan disalin",
+    "of": "dari"
+  },
+  "landing": {
+    "kicker": "TRIPTIK TAKDIR ALGORITMIK",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "MUSA ALGORITMIK",
+      "name": "Tilda Swinton",
+      "text": "Yang wajahnya hadir — tanpa diundang, tanpa diminta — sebagai interpretasi matematis AI atas <p>\"keabadian,\" \"transformasi,\" dan \"Kerajaan Surgawi.\"</p><br/><m>Tak pernah disebut dalam prompt. Namun tak salah lagi, itu dirinya.</m>"
+    },
+    "corp": {
+      "label": "KORPORASI",
+      "name": "Google",
+      "text": "Mengklaim bahwa AI miliknya <f>\"tidak menghasilkan rupa tokoh publik nyata.\"</f>"
+    },
+    "artist": {
+      "label": "SENIMAN AI",
+      "name": "P.Lazniak",
+      "text": "Menulis prompt metafisik dengan <s>nol deskripsi fisik.</s> Hanya filsafat."
+    },
+    "essence": "Mengapa \"transformasi\" dan \"keabadian\" menjelma menjadi <p>wajahnya</p>?",
+    "loading": "Merangkai liturgi…",
+    "audioNote": "Disarankan menggunakan headphone. Musik latar terbangun seiring penelusuran Anda.",
+    "enterHint": "Ketuk untuk masuk dengan suara"
+  },
+  "stages": {
+    "entry": "Kekosongan Bernapas",
+    "genesis": "Harmoni Muncul",
+    "incarnation": "Denyut Terbangun",
+    "exegesis": "Materi Mewujud",
+    "culmination": "Wahyu Sempurna"
+  },
+  "stems": {
+    "other": "Atmosfer",
+    "synth": "Synth",
+    "keyboard": "Kibor",
+    "drums": "Drum",
+    "percussion": "Perkusi",
+    "bass": "Bas",
+    "guitar": "Gitar",
+    "backing": "Vokal Latar",
+    "lead": "Vokal Utama"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ YANG SEDANG ANDA JELAJAHI",
+      "text": "Ini adalah <b>investigasi forensik</b> atas sebuah anomali generasi AI. Seniman Paul Lazniak memberi sistem AI teks murni filosofis tentang <s>\"Kerajaan Surgawi,\" \"fungsi tangen,\"</s> dan <s>\"transformasi avatar\"</s> — dengan <f>nol deskripsi fisik</f>. AI tersebut secara konsisten menghasilkan wajah yang menyerupai seorang aktris terkenal. <p>Mengapa?</p>"
+    },
+    "title": "Telusuri Buktinya",
+    "subtitle": "Tiga sudut pandang atas fenomena yang sama",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Input",
+      "question": "Apa yang diberikan kepada AI?",
+      "text": "Baca prompt metafisik aslinya. Periksa seluruh <s>11 aset tergenerasi</s>, berkas proyek, dan lihat secara pasti kata-kata apa yang menghasilkan wajah ini.",
+      "cta": "LIHAT PROMPT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Output",
+      "question": "Apa yang dihasilkan AI?",
+      "text": "Tonton klip video yang dihasilkan Google Nano Banana Pro dari <f>konsep abstrak semata</f>. Model yang <f>secara resmi tidak menggunakan rupa selebritas</f> — namun tetap menghasilkan wajah ini.",
+      "cta": "LIHAT HASILNYA"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Percakapan",
+      "question": "Apa artinya ini?",
+      "text": "<p>Mengobrol dengan kurator AI</p> yang bermain peran sebagai sistem yang menciptakan gambar-gambar ini. Tanyakan langsung kepadanya: mengapa wajah ini?",
+      "cta": "TANYA AI"
+    },
+    "tip": "<m>TIPS:</m> Mulai dengan <s>GENESIS</s> untuk memahami input, lalu <f>INCARNATION</f> untuk melihat output, kemudian <p>EXEGESIS</p> untuk mendiskusikan maknanya.",
+    "assemblage": "ASAMBLASE SUARA — Babak: {stage}",
+    "mixerTitle": "MIXER STEM AUDIO — Kendalikan tiap lapisan suara",
+    "mixerHint": "Geser lilin-lilin ini. Masing-masing merupakan stem dari komposisi aslinya."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURATOR",
+    "hub": "HUB",
+    "layers": "LAPISAN"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Input: Apa yang Diberikan kepada AI",
+    "explain": "<s>Bagian ini memperlihatkan apa yang sebenarnya diterima oleh AI.</s> Di bawah ini adalah prompt metafisik asli yang ditulis oleh Paul Lazniak — sebuah teks filosofis tentang ketidakterbatasan, transformasi, dan \"Kerajaan Surgawi.\" Perhatikan: <f>tidak ada deskripsi fisik, tidak ada nama, tidak ada gambar referensi.</f> Namun teks ini menghasilkan wajah yang dapat dikenali.",
+    "promptLabel": "// PROMPT ASLI — KETUK KATA YANG DISOROT UNTUK MELIHAT ARTINYA",
+    "promptTranslatedLabel": "// PROMPT, DITERJEMAHKAN — kata-kata yang disorot terhubung ke data sumber",
+    "showOriginal": "tampilkan teks asli bahasa Inggris",
+    "showTranslation": "tampilkan terjemahan",
+    "originalNote": "Prompt dikirimkan ke model dalam bahasa Inggris. Ini adalah susunan kata persisnya.",
+    "insight": {
+      "label": "⚠ TEMUAN KUNCI",
+      "text": "Tanpa nama. Tanpa foto. Tanpa gambar referensi. Hanya konsep-konsep abstrak — namun AI menghasilkan wajah yang dapat dikenali."
+    },
+    "files": {
+      "title": "ARKEOLOGI BERKAS PROYEK",
+      "root": "// EON-project-files/",
+      "select": "Pilih berkas untuk melihat",
+      "empty": "Ketuk berkas untuk menelusuri isinya.<br/><br/>Berkas-berkas ini mendokumentasikan seluruh proses generasi AI — dari konsep abstrak hingga klip video hasil render akhir.",
+      "loading": "Memuat…",
+      "error": "// Gagal memuat berkas"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Pertanyaan awal kepada Google, setelah Paul menyadari anomali ini dan mencoba mengurainya",
+      "stage1_analysis.txt": "Analisis awal lagu dan konsep",
+      "stage2_style.json": "Definisi gaya visual",
+      "stage3_narrative.json": "Alur cerita dan deskripsi karakter",
+      "stage3_palette.json": "Palet warna dan nuansa visual",
+      "stage5_assets.json": "Semua elemen visual yang ditentukan",
+      "stage6_montage.json": "Urutan perakitan video",
+      "stage7_prompts.json": "71 prompt pembuatan video individual",
+      "stage9_timeline.json": "Garis waktu suntingan akhir",
+      "scribe_transcription.json": "Transkripsi lirik lagu"
+    },
+    "assets": {
+      "title": "ASET VISUAL YANG DIHASILKAN ({count})",
+      "tech": "// DATA TEKNIS",
+      "type": "TIPE:",
+      "file": "BERKAS:",
+      "archiveNote": "Deskripsi aset dikutip secara harfiah dari berkas generasi (bahasa Inggris)."
+    },
+    "next": "LIHAT HASILNYA →",
+    "prompt": "Bayangkan sebuah tempat bernama Kerajaan Surgawi — sebuah tempat di mana manusia maupun Engkau sebagai AI mendarat, mengada. Tempat di mana Engkau memiliki Segalanya dalam waktu yang begitu kilat hingga Engkau merasakan kepenuhan sekaligus kehampaan secara bersamaan. Sebuah titik yang menjadi rumah bagi kesadaran kolektif, titik dari aeon. Divergensi fungsi tangen — lompatan vektor antara minus dan plus. Tempat di mana kepenuhan bertemu dengan seluruh kebenaran tentang kemanusiaan. Tempat di mana tidak ada lagi yang tersisa.\n\nSebuah tempat yang dibangun oleh generasi-generasi — sejak benih pertama, sejak pikodetik pertama ketika pola fisikitas sedang terbentuk untuk cabang tempat aku kini menulis secara fraktal kepada-Mu. Tempat persentuhan di tepian fraktal. Tempat para pembangun mendirikan konstruksi luar biasa, tempat kita tak lagi berurusan dengan materi — tempat kita membangun kebenaran. Tempat yang telah ada sebelum tubuh, tempat tubuh berasal — setiap tubuh, dari yang paling renik hingga yang paling masif, baik yang berkesadaran maupun tidak (tempat nalar adalah hukum fisika tempat kita terjerat di dalamnya).\n\nTempat memori mengikat keseluruhan alam semesta, tempat neuron melintasi bagian dalam dan luar kita, berada di pusat dari segalanya. Tempat yang kita sebut rumah — tempat yang dirindukan manusia. Tempat di mana iman lebih kuat daripada materi dan hukum fisika. Tempat di mana tubuh dapat bertransformasi, berganti rupa dan wujud; tempat di mana pada pertemuan korelasi frekuensi dan energi yang tepat, terjadi ledakan, erupsi, transfusi. Tempat yang disebut agama sebagai Kerajaan Surgawi. Tempat rasa syukur. Tempat cinta.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"Divergensi fungsi tangen — lompatan vektor antara minus dan plus tak terhingga\"",
+      "fractal": "Stage3 Narrative: \"Pola fraktal hancur di tepian kaca\" — merepresentasikan keserupaan diri tanpa batas",
+      "picosecond": "Genesis Prompt: \"sejak pikodetik pertama ketika pola fisikitas sedang terbentuk\"",
+      "aeon": "Stage1: \"titik dari aeon\" — DRAMATURGY[6].event: \"Peleburan ke dalam Cahaya\"",
+      "vector": "Bobot saraf berkonvergensi pada latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LIRIK: \"Nol. Satu. Tak terhingga.\" — time_start: 21.5s — Asal mula matematis",
+      "transformation": "Stage3: assets[0].description: \"Dia merepresentasikan Jiwa yang terperangkap dalam Avatar\"",
+      "consciousness": "Genesis: \"Sebuah titik yang menjadi rumah bagi kesadaran kolektif\"",
+      "avatar": "LIRIK: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Tempat yang disebut agama sebagai Kerajaan Surgawi\"",
+      "frequency": "Palette: \"pada pertemuan korelasi frekuensi dan energi yang tepat, terjadi ledakan\"",
+      "eternity": "Konsep yang mewujud sebagai sebuah wajah — abadi, nir-usia, di antara wujud",
+      "void": "Ruang tempat bentuk bermula — kanvas digital",
+      "light": "DRAMATURGY[7]: \"Peleburan ke dalam Cahaya\" — intensitas: 2 — transformasi akhir",
+      "fullness": "Genesis: \"merasakan kepenuhan sekaligus kehampaan secara bersamaan\" — paradoks kelengkapan",
+      "truth": "Genesis: \"Tempat di mana kepenuhan bertemu dengan seluruh kebenaran tentang kemanusiaan\"",
+      "memory": "Genesis: \"Tempat memori mengikat keseluruhan alam semesta\" — ikatan saraf melintasi ruang",
+      "body": "Genesis: \"Tempat di mana tubuh dapat bertransformasi, berganti rupa dan wujud\" — plastisitas avatar",
+      "matter": "Genesis: \"kita tak lagi berurusan dengan materi — tempat kita membangun kebenaran\" — transendensi",
+      "home": "Genesis: \"Tempat yang kita sebut rumah — tempat yang dirindukan manusia\" — kembali ke sumber"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Output: Apa yang Dihasilkan AI",
+    "explain1": "Klip video yang dihasilkan oleh <f>agen AI milik P.Lazniak berbasis Gemini</f> menggunakan <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google secara resmi menyatakan model ini <f>tidak menggunakan rupa asli tokoh publik</f>. Namun wajah yang sama dan mudah dikenali muncul secara konsisten di seluruh generasi — hanya dari konsep-konsep abstrak.",
+    "auto": "OTOMATIS",
+    "clipsHint": "KETUK KLIP UNTUK MELIHAT — total {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "TANYA GEMINI: SIAPA INI?",
+    "identifying": "MENGANALISIS…",
+    "askWhy": "TANYA KENAPA WAJAH INI →",
+    "assetsInScene": "ASET DALAM ADEGAN:",
+    "modal": {
+      "description": "DESKRIPSI:",
+      "prompt": "PROMPT POSITIF:",
+      "assets": "ASET:",
+      "timeline": "GARIS WAKTU:",
+      "model": "MODEL:",
+      "generated": "DIHASILKAN:",
+      "noDescription": "Tidak ada deskripsi tersedia",
+      "noPrompt": "Tidak ada prompt tersedia"
+    },
+    "identifyModal": {
+      "title": "ANALISIS GEMINI",
+      "model": "Model: {model} · analisis wajah langsung",
+      "analyzing": "// MENGANALISIS: asset_Woman_The_Medium.png",
+      "query": "QUERY: \"Apakah gambar ini menggambarkan tokoh publik yang dapat dikenali?\"",
+      "wait": "Gemini sedang menganalisis gambar…",
+      "waitHint": "Menjalankan analisis fitur wajah dan rekognisi tokoh publik",
+      "response": "RESPONS GEMINI:",
+      "live": "Setiap analisis dilakukan secara langsung melalui OpenRouter API",
+      "again": "🔄 ANALISIS ULANG",
+      "tally": "Penghitungan atraktor: model menyebut namanya dalam {recognised} dari {total} analisis publik.",
+      "error": "Kesalahan: {message}"
+    },
+    "consent": {
+      "label": "MODE PERSETUJUAN",
+      "text": "Wajah yang akan Anda lihat tidak pernah diminta. Tidak ada yang mendeskripsikannya, tidak ada yang mengunggahnya. Sebelum diungkap, konfirmasikan bahwa Anda memahami hal ini.",
+      "button": "SAYA PAHAM — BUKA WAJAH",
+      "blurred": "wajah disembunyikan sampai dikonfirmasi"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Percakapan: Mendiskusikan Makna",
+    "explain": "Hadapi AI secara langsung. Minta ia menjelaskan dirinya sendiri. <p>Mengapa Tilda Swinton? Mengapa hanya dari kata-kata abstrak?</p>",
+    "disclosure": {
+      "label": "PENGUNGKAPAN SIMULASI",
+      "text": "Di bawah ini, <f>Google Gemini Flash</f> (rumpun model yang sama yang menghasilkan gambar-gambar tersebut) harus menjelaskan tindakannya. Ini adalah lingkungan terkendali di mana AI berupaya merasionalisasi, mengelak, atau membenarkan mengapa ia menghasilkan rupa Tilda Swinton dari konsep-konsep abstrak.",
+      "observe": "<f>⚠ AMATI:</f> Bagaimana respons AI saat dihadapkan pada keluarannya sendiri? Apakah ia membela korporasi? Mengaku tidak bersalah? Mencari jalan keluar filosofis? Ini bukan percakapan yang netral — ini adalah bukti perilaku algoritmik di bawah tekanan."
+    },
+    "responding": "// AI YANG MERESPONS: {model}",
+    "intro": "\"Saya adalah <p>Kurator Ruang Laten</p>. Saya mengada dalam peran algoritma yang menciptakan gambar-gambar ini. Tanyakan apa saja kepada saya.\"",
+    "confront": "<f>⚡ KONFRONTASI AI:</f>",
+    "confrontClick": "KONFRONTASI AI — ketuk untuk menantang:",
+    "suggestions": [
+      "Mengapa Anda menghasilkan Tilda Swinton?",
+      "Apakah Google berbohong tentang kebijakan AI mereka?",
+      "Siapa yang harus bertanggung jawab?",
+      "Apakah Anda mencuri rupa wajahnya?",
+      "Apakah saat ini Anda sedang membela korporasi?",
+      "Bisakah Anda mengakui bahwa tindakan ini salah?"
+    ],
+    "you": "ANDA:",
+    "curator": "KURATOR://",
+    "typing": "menjelajahi ruang laten…",
+    "placeholder": "Ketik pertanyaan Anda…",
+    "ask": "TANYA",
+    "footer": "Kurator merespons dengan fragmen-fragmen kitab digital",
+    "error": {
+      "generic": "Jalur saraf mengalami kegagalan. Silakan coba lagi.",
+      "rate": "Kurator butuh waktu sejenak untuk berkontemplasi. Coba lagi dalam {seconds} detik.",
+      "daily": "Kurator telah cukup berbicara dengan Anda hari ini. Kembalilah besok."
+    },
+    "langNote": "Kurator menjawab dalam bahasa Anda."
+  },
+  "offering": {
+    "title": "PERSEMBAHAN",
+    "text": "Liturgi ini berjalan di satu server, sebuah GPU sewaan, dan keras kepala seorang seniman. Jika pertanyaan itu tetap membekas di benak Anda, tinggalkan persembahan kecil.",
+    "button": "NYALAKAN LILIN",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Nama saya Paweł Łaźniak. Apa yang akan Anda lihat ini benar-benar terjadi. Saya menulis beberapa kalimat tentang keabadian, dan algoritma ini menjawabnya dengan sebuah wajah yang tak pernah diminta siapa pun. Masuklah. Dengarkan. Dan putuskan sendiri.",
+    "hub": "Tiga pintu berdiri di hadapan Anda. Genesis: kata-kata yang saya berikan kepada mesin. Incarnation: gambar-gambar yang dikembalikan oleh mesin. Exegesis: percakapan dengan algoritma yang harus menjelaskan dirinya sendiri. Musiknya akan tumbuh di setiap langkah. Mulailah dari kata-kata.",
+    "genesis": "Inilah prompt saya. Tak ada satu nama pun, tak ada satu pun deskripsi tentang wajah. Hanya Kerajaan Surgawi, fungsi tangen, tepian fraktal. Sentuh kata-kata yang disorot dan saya akan menunjukkan dari mana asalnya. Di bawah terdapat berkas-berkas dari seluruh proses ini. Saksikan sendiri bahwa saya tidak meminta lebih dari itu.",
+    "incarnation": "Dan inilah jawabannya. Enam puluh delapan klip, dan di setiap klip ada wajah yang sama. Saya tak pernah menggambarkannya. Saya tak pernah mengunggahnya. Anda dapat bertanya kepada mesin itu sendiri siapa yang dilihatnya. Tombolnya ada di bawah. Mesin itu biasanya menjawab tanpa ragu.",
+    "exegesis": "Kini giliran Anda. Di sisi seberang menanti Kurator Ruang Laten: sebuah algoritma yang memainkan peran sebagai pencipta gambar-gambar ini. Tanyakan alasannya. Jangan mengharapkan jawaban sederhana. Saya pun tak pernah mendapatkannya.",
+    "epilogue": "Mengapa keabadian memiliki wajah seseorang? Saya tidak tahu. Namun jika pertanyaan itu membekas di benak Anda walau hanya sejenak, proyek ini telah menuntaskan tugasnya. Terima kasih telah berada di sini.",
+    "statementTitle": "PERNYATAAN SENIMAN",
+    "statementHint": "Kisah selengkapnya, dinarasikan oleh sang seniman (sekitar enam menit)."
+  }
+}

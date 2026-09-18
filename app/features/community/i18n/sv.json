@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// VITTNESMÅL — VEMS ANSIKTE ÄR DET?",
+    "title": "Vittnenas vägg",
+    "intro": "En mening. Vem ser du i ansiktet maskinen aldrig ombads att skapa? Litanian rullar långsamt, som eftertexterna till en film ingen har rollsatt.",
+    "count": "{n} vittnesmål registrerade",
+    "loading": "Läser av väggen…",
+    "empty": "Ingen har talat än. Bli det första vittnet.",
+    "anonymous": "Anonym",
+    "share": "Dela",
+    "copied": "Länk kopierad",
+    "pause": "Pausa",
+    "resume": "Återuppta",
+    "pauseHint": "Håll muspekaren över eller tryck på litanian för att hejda den.",
+    "form": {
+      "sentenceLabel": "Din mening",
+      "sentencePlaceholder": "Jag ser någon som aldrig fotograferades…",
+      "nameLabel": "Namn (valfritt)",
+      "namePlaceholder": "Hur du vill anges",
+      "counter": "{n} / {max}",
+      "submit": "Lämna vittnesmål",
+      "sending": "Registrerar…",
+      "thanks": "Registrerat. Din mening finns på väggen.",
+      "queued": "Registrerat. En moderator kommer att släppa ut den på väggen."
+    },
+    "errors": {
+      "empty": "Säg något först.",
+      "rate": "För fort. Låt litanian andas.",
+      "url": "Denna vägg bär meningar, inte länkar.",
+      "email": "Denna vägg bär meningar, inte adresser.",
+      "slur": "Den meningen kommer inte att ristas här.",
+      "duplicate": "Det har du redan sagt.",
+      "network": "Väggen svarade inte. Försök igen.",
+      "generic": "Väggen avvisade gåvan. Försök igen."
+    }
+  },
+  "cosign": {
+    "label": "// UNDERTECKNA BREVET TILL TILDA SWINTON",
+    "title": "Lägg ditt namn till brevet",
+    "readLetter": "Läs hela brevet",
+    "hideLetter": "Dölj brevet",
+    "counting": "Räknar underskrifterna…",
+    "count": "{n} personer har undertecknat",
+    "privacy": "Vi lagrar ditt fullständiga namn, men visar endast förnamn och initial. Staden är valfri och visas som den skrivits.",
+    "form": {
+      "nameLabel": "Namn",
+      "namePlaceholder": "Ditt fullständiga namn",
+      "cityLabel": "Stad / land (valfritt)",
+      "cityPlaceholder": "Warszawa, PL",
+      "consent": "Jag undertecknar som mig själv och samtycker till att mitt namn visas.",
+      "submit": "Underteckna brevet",
+      "sending": "Undertecknar…",
+      "thanks": "Undertecknat. Tack för att du sluter upp kring frågan."
+    },
+    "errors": {
+      "name": "En underskrift kräver ett namn.",
+      "consent": "Kryssa i rutan för att underteckna som dig själv.",
+      "rate": "Du har redan undertecknat idag.",
+      "duplicate": "Denna enhet har redan undertecknat.",
+      "rejected": "Endast namn — inga länkar, inga förolämpningar.",
+      "network": "Registret svarade inte. Försök igen.",
+      "generic": "Registret avvisade underskriften. Försök igen."
+    }
+  },
+  "embed": {
+    "kicker": "EN TRIPTYK OM ALGORITMISKT ÖDE",
+    "title": "The Latent Liturgy",
+    "question": "Varför blev \"förvandling\" och \"evighet\" till hennes ansikte?",
+    "clips": "klipp",
+    "testimonies": "vittnesmål",
+    "verdicts": "domslut",
+    "enter": "TRÄD IN I LITURGIN"
+  }
+}

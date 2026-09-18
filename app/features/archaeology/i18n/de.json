@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ ÖFFNEN ]",
+    "collapse": "[ SCHLIESSEN ]",
+    "loading": "Laden…"
+  },
+  "map": {
+    "label": "// LATENTER RAUMPLAN — 65 Clips als Konstellation",
+    "intro": "Jeder erhaltene Clip, verortet danach, wo er in der 198-Sekunden-Montage liegt und wie stark er zu dem Gesicht zieht, nach dem niemand gefragt hat. Die Arithmetik stammt von uns, nicht vom Modell — sie steht unten, damit Sie ihr widersprechen können.",
+    "hint": "Tippen oder fokussieren Sie einen Punkt, um den Clip zu lesen und den Player dorthin zu steuern.",
+    "pointLabel": "{file}, Sekunde {second}, Attraktor-Nähe {proximity}",
+    "cardMeta": "t = {second}s · Nähe {proximity}",
+    "legendAttractor": "Attraktor (≥ 0.60)",
+    "legendNear": "Figur anwesend",
+    "legendNoFace": "keine Figur",
+    "tally": "{attractors} von {total} Clips liegen im Attraktor-Bereich",
+    "formula": "proximity = 0.50, wenn Woman_The_Medium in der Szene ist + 0.25, wenn die Einstellung Nahaufnahme, Gesicht, Auge, Profil, Porträt oder Schrei ist + 0.10 bei Aufnahme durch Prop_Prism_Lens − 0.20, wenn keinerlei menschliches Asset vorliegt, begrenzt auf 0…1, mit festem Jitter pro Clip, damit überlappende Punkte lesbar bleiben."
+  },
+  "emergence": {
+    "label": "// EMERGENZ — Rauschen → Gesicht",
+    "intro": "Lassen Sie die Diffusion manuell rückwärts laufen. Bei null gibt es nur gesetztes Korn; zieht man nach rechts, kollabiert die Blockgröße von 24 Pixeln auf einen, und sie schält sich daraus hervor.",
+    "canvasLabel": "Das Ausgangs-Asset gerendert bei {percent} Prozent Emergenz",
+    "sliderLabel": "Emergenz: vom latenten Rauschen zum Ausgangs-Asset",
+    "min": "0% LATENTES RAUSCHEN",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "Gesicht zurückgehalten bis zur Bestätigung",
+    "clamped": "Bei {percent}% gehalten, bis Sie das Gesicht im Panel oben bestätigen.",
+    "failed": "Das Ausgangs-Asset konnte nicht geladen werden."
+  },
+  "heatmap": {
+    "label": "// AUFMERKSAMKEITS-ARCHÄOLOGIE — welche Wörter zogen das Gesicht herbei?",
+    "intro": "Der Prompt enthält keinen Körper, kein Alter, kein Haar, keine Knochen. Fragen Sie das Modell, welche seiner Fragmente ein Diffusionssystem dennoch zu einem alterslosen, androgynen, blassen Gesicht mit hohen Wangenknochen ziehen würden.",
+    "button": "FREILEGEN",
+    "working": "Schichten werden gelesen",
+    "model": "Modell: {model}",
+    "originalNote": "Die Hitze wird auf dem englischen Original berechnet — die Gewichte sind an genau diese Wörter gekoppelt.",
+    "summaryLabel": "// BEFUND",
+    "topLabel": "// STÄRKSTER ZUG",
+    "count": "{count} Fragmente gewichtet",
+    "cached": "Aus dem Grabungsprotokoll geladen.",
+    "fresh": "Gerade eben freigelegt.",
+    "errorLabel": "// KEIN MESSWERT",
+    "error": "Die Freilegung stockte. Die Schichten ließen sich nicht lesen.",
+    "retry": "ERNEUT VERSUCHEN"
+  },
+  "timeline": {
+    "label": "// ZEITLEISTE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Vier Tage, die meiste Zeit davon Warten. Ziehen Sie den Abspielkopf oder nutzen Sie die Pfeiltasten. Fast jeder Zeitstempel ist der reale Änderungszeitpunkt einer Datei, die noch immer Teil dieser Seite ist.",
+    "sliderLabel": "Vier Tage der Entstehung",
+    "position": "{n} / {total}",
+    "prev": "Vorheriges Ereignis",
+    "next": "Nächstes Ereignis",
+    "approx": "rekonstruiert",
+    "exact": "Datei-Zeitstempel",
+    "events": {
+      "prompt": {
+        "title": "Der Prompt wird geschrieben",
+        "text": "Ein metaphysischer Text über das Himmelreich, die Divergenz der Tangensfunktion und die fraktalen Ränder der Berührung. Kein Körper, kein Gesicht, kein Alter, kein Haar — absolut nichts Physisches."
+      },
+      "transcription": {
+        "title": "Das Lied wird transkribiert",
+        "text": "Der polnische Gesang durchläuft den Transkribierer und landet als zeichengenaues Transkript. Alles Nachfolgende — Montage, Schnitte, Dramaturgie — wird auf diese Datei getaktet."
+      },
+      "analysis": {
+        "title": "Stufe 1 — die Lesung",
+        "text": "Die Pipeline liest Prompt und Liedtext zusammen und formuliert zurück, worum es in dem Werk ihrer Ansicht nach geht. Noch immer wird nirgends eine Person beschrieben."
+      },
+      "narrative": {
+        "title": "Stufe 3 — die Handlung",
+        "text": "Die Narration benennt ihre Protagonistin Woman_The_Medium: alterslose Züge, minimale Mimik, Butoh-Bewegung, die im Avatar gefangene Seele. Eine Rolle, keine Person."
+      },
+      "palette": {
+        "title": "Stufe 3 — die Farbpalette",
+        "text": "Sechs Farben werden festgelegt: Knochen, Leere, Bunker, Stratosphärenblau, Sonneneruptions-Bernstein, prismatisches Weiß. Dieselben sechs, in denen diese Seite gehalten ist."
+      },
+      "face": {
+        "title": "10:43:36 — das Gesicht erscheint",
+        "text": "asset_Woman_The_Medium.png wird auf die Festplatte geschrieben. Aus einer abstrakten Rollenbeschreibung liefert das Modell ein konkretes, wiedererkennbares menschliches Gesicht. Dies ist die Anomalie; alles davor ist Text."
+      },
+      "assets": {
+        "title": "Elf Assets komplett",
+        "text": "Schauplätze, Kostüme und Requisiten werden gerendert und registriert — Wüste, Bunker, Spiegel, Prisma, Stroboskop, Staub, Schale. Das Ensemble des Films steht nun fest."
+      },
+      "montage": {
+        "title": "Stufe 6 — der Montageplan",
+        "text": "Das Lied wird anhand der Transkription in Szenen geschnitten: wo der Atem stockt, wo die Druckwelle trifft, wo der Tangens bricht."
+      },
+      "prompts": {
+        "title": "Einundsiebzig Clip-Prompts",
+        "text": "Ein positiver Prompt pro Szene, der jeweils nur die registrierten Assets nennt. Das Gesicht wird nun per Referenz weitergereicht — das Modell wird nie wieder danach gefragt."
+      },
+      "frames": {
+        "title": "Einundsiebzig Start-Frames",
+        "text": "Jede Szene erhält ein Standbild als Ausgangspunkt. Fünfundfünfzig Minuten Rendering: das längste einzelne Warten in der gesamten Pipeline."
+      },
+      "motion": {
+        "title": "Stufe 9 — die Bewegungsprompts",
+        "text": "Kamerabewegungen und Choreografie werden für jedes Frame verfasst, dann wird die Timeline ausgegeben, die sie an das Audio bindet."
+      },
+      "kling": {
+        "title": "Kling v2.6 — die Clips",
+        "text": "Einundzwanzig Minuten Videogenerierung. Einundsiebzig Clips versucht, achtundsechzig geliefert, drei verworfen: Die Indizes 21, 50 und 54 kamen nie an, und die Montage wurde um ihr Fehlen herum neu aufgebaut."
+      },
+      "edit": {
+        "title": "Der finale Schnitt",
+        "text": "Drei ruhige Tage später wird das Werk assembliert, die Export-Prompts werden in beiden Sprachen neu verfasst und der Schnitt wird bei 3:33 fixiert."
+      },
+      "launch": {
+        "title": "Die Website und der Brief",
+        "text": "Das Triptychon geht online und ein offener Brief ergeht an die Frau, deren Gesicht nie angefordert wurde und die dennoch erschien."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Vollbild-Galeriemodus: Die vier Panels wechseln von selbst. Escape zum Verlassen.",
+    "scan": "Scannen, um auf dem Smartphone fortzufahren",
+    "exit": "BEENDEN"
+  }
+}

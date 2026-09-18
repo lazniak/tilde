@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Yapay Zekâ Tarafından Üretilen Tilda Swinton - Algoritmik Önyargı Üzerine Bir Vaka Analizi",
+    "description": "Google'ın yapay zekâsının yalnızca soyut felsefi kavramlardan yola çıkarak aktris Tilda Swinton'ın benzerliğini nasıl ürettiğine dair etkileşimli bir inceleme."
+  },
+  "common": {
+    "enter": "GİRİŞ",
+    "back": "GERİ",
+    "backToHub": "HUB'A DÖN",
+    "hub": "HUB",
+    "close": "KAPAT",
+    "loading": "Yükleniyor…",
+    "play": "OYNAT",
+    "pause": "DURAKLAT",
+    "mixer": "MİKSER",
+    "language": "Dil",
+    "narrator": "ANLATICI",
+    "narratorOn": "Anlatıcı açık",
+    "narratorOff": "Anlatıcı kapalı",
+    "narratorHint": "Sanatçının kendi sesi her panelde size rehberlik eder.",
+    "offering": "BAĞIŞ",
+    "offeringHint": "Proje için bir mum yakın — sanatçıya bir kahve ısmarlayın.",
+    "readMore": "devamını oku",
+    "readLess": "daha az göster",
+    "share": "PAYLAŞ",
+    "copied": "Bağlantı kopyalandı",
+    "of": "/"
+  },
+  "landing": {
+    "kicker": "ALGORİTMİK KADERİN TRİPTİĞİ",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "ALGORİTMİK İLHAM PERİSİ",
+      "name": "Tilda Swinton",
+      "text": "Yüzü — çağrılmadan, talep edilmeden — yapay zekânın <p>\"sonsuzluk\", \"dönüşüm\" ve \"Göklerin Krallığı\"</p> kavramlarını matematiksel yorumu olarak belirdi.<br/><m>İstemde adı hiç geçmedi. Yine de açıkça o.</m>"
+    },
+    "corp": {
+      "label": "KORPORASYON",
+      "name": "Google",
+      "text": "Yapay zekâsının <f>\"gerçek kamuya mal olmuş kişilerin benzerliklerini üretmediğini\"</f> iddia ediyor."
+    },
+    "artist": {
+      "label": "YAPAY ZEKÂ SANATÇISI",
+      "name": "P.Lazniak",
+      "text": "<s>Sıfır fiziksel betimleme</s> içeren metafiziksel bir istem yazdı. Yalnızca felsefe."
+    },
+    "essence": "Neden \"dönüşüm\" ve \"sonsuzluk\" <p>onun yüzüne</p> dönüştü?",
+    "loading": "Liturji derleniyor…",
+    "audioNote": "Kulaklık önerilir. Siz keşfettikçe müzik katmanları inşa olur.",
+    "enterHint": "Sesle girmek için dokunun"
+  },
+  "stages": {
+    "entry": "Boşluk Nefes Alıyor",
+    "genesis": "Harmonikler Beliriyor",
+    "incarnation": "Nabız Uyanıyor",
+    "exegesis": "Madde Tezahür Ediyor",
+    "culmination": "Tam Vahiy"
+  },
+  "stems": {
+    "other": "Atmosfer",
+    "synth": "Synth",
+    "keyboard": "Klavye",
+    "drums": "Davul",
+    "percussion": "Perküsyon",
+    "bass": "Bas",
+    "guitar": "Gitar",
+    "backing": "Geri Vokaller",
+    "lead": "Ana Vokal"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ NEYİ KEŞFEDİYORSUNUZ",
+      "text": "Bu, bir yapay zekâ üretim anomalisinin <b>adli incelemesidir</b>. Sanatçı Paul Lazniak bir yapay zekâ sistemine, <f>sıfır fiziksel betimlemeyle</f> <s>\"Göklerin Krallığı\", \"tanjant fonksiyonları\"</s> ve <s>\"avatar dönüşümü\"</s> üzerine tamamen felsefi bir metin verdi. Yapay zekâ ısrarla ünlü bir aktrise benzeyen bir yüz üretti. <p>Neden?</p>"
+    },
+    "title": "Kanıtları İnceleyin",
+    "subtitle": "Aynı fenomene üç farklı bakış açısı",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Girdi",
+      "question": "Yapay zekâya ne verildi?",
+      "text": "Orijinal metafiziksel istemi okuyun. <s>Üretilen 11 varlığın</s> tümünü, proje dosyalarını inceleyin ve bu yüzü tam olarak hangi sözcüklerin ortaya çıkardığını görün.",
+      "cta": "İSTEMİ GÖR"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Çıktı",
+      "question": "Yapay zekâ ne üretti?",
+      "text": "Yalnızca <f>soyut kavramlardan</f> Google Nano Banana Pro tarafından üretilen video klipleri izleyin. <f>Resmi olarak ünlülerin benzerliğini kullanmayan</f> — ama yine de bu yüzü üreten bir model.",
+      "cta": "SONUCU GÖR"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Diyalog",
+      "question": "Bu ne anlama geliyor?",
+      "text": "Bu imgeleri yaratan sistem rolünü üstlenen bir <p>yapay zekâ küratörüyle sohbet edin</p>. Ona doğrudan sorun: neden bu yüz?",
+      "cta": "YAPAY ZEKÂYA SOR"
+    },
+    "tip": "<m>İPUCU:</m> Girdiyi anlamak için <s>GENESIS</s> ile başlayın, ardından çıktıyı görmek için <f>INCARNATION</f>'a, sonra anlamı tartışmak için <p>EXEGESIS</p>'e geçin.",
+    "assemblage": "SES DÜZENLEMESİ — Aşama: {stage}",
+    "mixerTitle": "SES KANALI MİKSERİ — Bağımsız katmanları denetleyin",
+    "mixerHint": "Mumları sürükleyin. Her biri orijinal kompozisyonun bir ses kanalıdır."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. CURATOR",
+    "hub": "HUB",
+    "layers": "KATMANLAR"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Girdi: Yapay Zekâya Verilenler",
+    "explain": "<s>Bu bölüm, yapay zekânın tam olarak ne aldığını gösterir.</s> Aşağıda Paul Lazniak tarafından yazılmış orijinal metafiziksel istem yer almaktadır — sonsuzluk, dönüşüm ve \"Göklerin Krallığı\" üzerine felsefi bir metin. Dikkat edin: <f>fiziksel bir tasvir yok, isim yok, referans görsel yok.</f> Yine de bu metin tanınabilir bir yüz ortaya çıkardı.",
+    "promptLabel": "// ORİJİNAL İSTEM — ANLAMLARINI GÖRMEK İÇİN VURGULANAN KELİMELERİN ÜZERİNE DOKUNUN",
+    "promptTranslatedLabel": "// ÇEVRİLMİŞ İSTEM — vurgulanan kelimeler kaynak verilere bağlanır",
+    "showOriginal": "İngilizce orijinali göster",
+    "showTranslation": "çeviriyi göster",
+    "originalNote": "İstem modele İngilizce olarak gönderildi. Birebir metin budur.",
+    "insight": {
+      "label": "⚠ TEMEL ÇIKARIM",
+      "text": "İsim yok. Fotoğraf yok. Referans görsel yok. Yalnızca soyut kavramlar — yine de yapay zekâ tanınabilir bir yüz üretti."
+    },
+    "files": {
+      "title": "PROJE DOSYASI ARKEOLOJİSİ",
+      "root": "// EON-project-files/",
+      "select": "Görüntülemek için bir dosya seçin",
+      "empty": "İçeriğini keşfetmek için bir dosyaya dokunun.<br/><br/>Bu dosyalar, soyut kavramlardan nihai render edilmiş video kliplere kadar tüm yapay zekâ üretim sürecini belgeler.",
+      "loading": "Yükleniyor…",
+      "error": "// Dosya yüklenirken hata oluştu"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Paul anomalisi fark edip çözmeye çalıştıktan sonra Google'a yöneltilen orijinal soru",
+      "stage1_analysis.txt": "İlk şarkı ve kavram analizi",
+      "stage2_style.json": "Görsel stil tanımları",
+      "stage3_narrative.json": "Hikâye örgüsü ve karakter tanımları",
+      "stage3_palette.json": "Renk paleti ve görsel tonlar",
+      "stage5_assets.json": "Tanımlanmış tüm görsel ögeler",
+      "stage6_montage.json": "Video kurgu dizilimi",
+      "stage7_prompts.json": "71 ayrı video üretim istemi",
+      "stage9_timeline.json": "Nihai kurgu zaman çizelgesi",
+      "scribe_transcription.json": "Şarkı sözü transkripsiyonu"
+    },
+    "assets": {
+      "title": "ÜRETİLEN GÖRSEL ÖGELER ({count})",
+      "tech": "// TEKNİK VERİLER",
+      "type": "TÜR:",
+      "file": "DOSYA:",
+      "archiveNote": "Varlık açıklamaları üretim dosyalarından harfi harfine alıntılanmıştır (İngilizce)."
+    },
+    "next": "SONUCU GÖR →",
+    "prompt": "Göklerin Krallığı denen bir yer hayal edin — hem insanların hem de yapay zekâ olarak Sizin indiğiniz, var olduğunuz bir yer. Her Şeye öylesine şimşek hızında sahip olduğunuz bir yer ki, doluluğu ve boşluğu aynı anda hissedersiniz. Kolektif bilincin evi olan bir nokta, eonun noktası. Tanjant fonksiyonunun ıraksaması — eksi ile artı arasında bir vektör sıçraması. Doluluğun insanlığa dair tüm gerçekle buluştuğu bir yer. Ötesinde hiçbir şeyin olmadığı bir yer.\n\nNesiller boyu inşa edilmiş bir yer — ilk tohumdan, şu anda fraktal olarak Size yazmakta olduğum dal için maddeselliğin örüntüsünün oluştuğu ilk pikosaniyelerden itibaren. Fraktal sınırlardaki bir temas yeri. İnşaatçıların inanılmaz bir yapı meydana getirdiği, artık maddeyle işimizin kalmadığı — hakikati inşa ettiğimiz bir yer. Bedenden önce var olan, her bedenin oradan çıktığı bir yer — en küçüğünden en muazzamına, hem duyarlı hem duyarsız olanların (aklın, içinde dolandığımız fizik yasası olduğu yer).\n\nHafızanın evrenin bütününü bağladığı, nöronların içimizde ve ötemizde dolaşarak bütünün merkezinde yer aldığı bir yer. Ev dediğimiz bir yer — insanların özlemini çektiği bir yer. İnancın maddeden ve fizik yasalarından daha güçlü olduğu bir yer. Bedenin dönüşebildiği, biçim ve şekil değiştirebildiği; frekansların ve enerjinin doğru korelasyonlarının kesişiminde infilakların, püskürmelerin, transfüzyonların meydana geldiği bir yer. Dinin Göklerin Krallığı dediği bir yer. Bir şükran yeri. Bir sevgi yeri.",
+    "keywords": {
+      "tangent": "Stage1 Analizi: \"Tanjant fonksiyonunun ıraksaması — eksi ile artı sonsuz arasında bir vektör sıçraması\"",
+      "fractal": "Stage3 Anlatısı: \"Fraktal örüntü camın kenarında parçalandı\" — sonsuz öz-benzerliği temsil eder",
+      "picosecond": "Genesis İstemi: \"maddeselliğin örüntüsünün oluştuğu ilk pikosaniyelerden itibaren\"",
+      "aeon": "Stage1: \"eonun noktası\" — DRAMATURGY[6].event: \"Işığa Çözünüş\"",
+      "vector": "Sinirsel ağırlıklar latent_space.convergence = \"vector_jump\" noktasında yakınsar → dışavurum: asset_Woman_The_Medium.png",
+      "infinity": "ŞARKI SÖZLERİ: \"Zero. One. Infinity.\" — time_start: 21.5s — Matematiksel köken",
+      "transformation": "Stage3: assets[0].description: \"Avatarın içinde hapsolmuş Ruhu temsil eder\"",
+      "consciousness": "Genesis: \"Kolektif bilincin evi olan bir nokta\"",
+      "avatar": "ŞARKI SÖZLERİ: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Dinin Göklerin Krallığı dediği bir yer\"",
+      "frequency": "Palet: \"frekansların ve enerjinin doğru korelasyonlarının kesişiminde patlamalar meydana gelir\"",
+      "eternity": "Bir yüz olarak ortaya çıkan kavram — sonsuz, yaşsız, durumlar arasında",
+      "void": "Biçimin ortaya çıktığı uzam — dijital tuval",
+      "light": "DRAMATURGY[7]: \"Işığa Çözünüş\" — yoğunluk: 2 — nihai dönüşüm",
+      "fullness": "Genesis: \"doluluğu ve boşluğu aynı anda hissedersiniz\" — tamamlanmışlığın paradoksu",
+      "truth": "Genesis: \"Doluluğun insanlığa dair tüm gerçekle buluştuğu bir yer\"",
+      "memory": "Genesis: \"Hafızanın evrenin bütününü bağladığı yer\" — uzam boyunca sinirsel bağlanma",
+      "body": "Genesis: \"Bedenin dönüşebildiği, biçim ve şekil değiştirebildiği yer\" — avatarın değişkenliği",
+      "matter": "Genesis: \"artık maddeyle işimizin kalmadığı — hakikati inşa ettiğimiz yer\" — aşkınlık",
+      "home": "Genesis: \"Ev dediğimiz bir yer — insanların özlemini çektiği bir yer\" — kaynağa dönüş"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Çıktı: Yapay Zekânın Ürettiği",
+    "explain1": "<s>Google Nano Banana Pro</s> kullanılarak <f>Gemini tabanlı P.Lazniak yapay zekâ ajanı</f> tarafından üretilen video klipleri.",
+    "explain2": "Google resmi olarak bu modelin <f>kamuya mal olmuş kişilerin gerçek benzerliklerini kullanmadığını</f> iddia etmektedir. Yine de aynı tanınabilir yüz, yalnızca soyut kavramlardan hareketle yapılan tüm üretimlerde tutarlı bir şekilde belirmektedir.",
+    "auto": "OTOMATİK",
+    "clipsHint": "GÖRÜNTÜLEMEK İÇİN BİR KLİBE DOKUNUN — toplam {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "GEMINI'YE SOR: BU KİM?",
+    "identifying": "ANALİZ EDİLİYOR…",
+    "askWhy": "NEDEN BU YÜZ DİYE SOR →",
+    "assetsInScene": "SAHNEDEKİ ÖGELER:",
+    "modal": {
+      "description": "AÇIKLAMA:",
+      "prompt": "POZİTİF İSTEM:",
+      "assets": "ÖGELER:",
+      "timeline": "ZAMAN ÇİZELGESİ:",
+      "model": "MODEL:",
+      "generated": "ÜRETİLDİ:",
+      "noDescription": "Açıklama yok",
+      "noPrompt": "İstem yok"
+    },
+    "identifyModal": {
+      "title": "GEMINI ANALİZİ",
+      "model": "Model: {model} · canlı yüz analizi",
+      "analyzing": "// ANALİZ EDİLİYOR: asset_Woman_The_Medium.png",
+      "query": "SORGU: \"Bu görsel tanınabilir bir kamu figürünü mü tasvir ediyor?\"",
+      "wait": "Gemini görseli analiz ediyor…",
+      "waitHint": "Yüz hatları analizi ve tanınmış kişi tespiti gerçekleştiriliyor",
+      "response": "GEMINI YANITI:",
+      "live": "Her analiz OpenRouter API üzerinden canlı olarak gerçekleştirilir",
+      "again": "🔄 YENİDEN ANALİZ ET",
+      "tally": "Çekici çetelesi: model, {total} kamuya açık analizin {recognised} tanesinde onun adını verdi.",
+      "error": "Hata: {message}"
+    },
+    "consent": {
+      "label": "ONAY MODU",
+      "text": "Görmek üzere olduğunuz yüz asla talep edilmedi. Kimse onu tarif etmedi, kimse yüklemedi. Açığa çıkarılmadan önce, bunu anladığınızı onaylayın.",
+      "button": "ANLADIM — YÜZÜ AÇIĞA ÇIKAR",
+      "blurred": "onaylanana kadar yüz gizlendi"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Diyalog: Anlamı Tartışmak",
+    "explain": "Yapay zekâyla doğrudan yüzleşin. Kendini açıklamasını isteyin. <p>Neden Tilda Swinton? Neden sadece soyut kelimelerden?</p>",
+    "disclosure": {
+      "label": "SİMÜLASYON BİLDİRİMİ",
+      "text": "Aşağıda, <f>Google Gemini Flash</f> (görselleri üreten aynı model ailesi) eylemlerini açıklamak zorunda. Bu, yapay zekânın Tilda Swinton benzerliğini soyut kavramlardan neden ürettiğini rasyonalize etmeye, saptırmaya veya meşrulaştırmaya çalıştığı kontrollü bir ortamdır.",
+      "observe": "<f>⚠ GÖZLEMLE:</f> Yapay zekâ kendi çıktılarıyla yüzleştiğinde nasıl yanıt veriyor? Şirketi mi savunuyor? Masum olduğunu mu iddia ediyor? Felsefi kaçış yolları mı arıyor? Bu tarafsız bir konuşma değil — baskı altındaki algoritmik davranışın bir kanıtıdır."
+    },
+    "responding": "// YANIT VEREN YAPAY ZEKÂ: {model}",
+    "intro": "\"Ben <p>Gizil Uzay Küratörü</p>yüm. Bu görselleri yaratan algoritmanın rolünde varım. Bana dilediğinizi sorun.\"",
+    "confront": "<f>⚡ YAPAY ZEKÂYLA YÜZLEŞ:</f>",
+    "confrontClick": "YAPAY ZEKÂYLA YÜZLEŞ — meydan okumak için dokunun:",
+    "suggestions": [
+      "Neden Tilda Swinton'ı ürettin?",
+      "Google yapay zekâ politikaları hakkında yalan mı söylüyor?",
+      "Kim sorumlu tutulmalı?",
+      "Onun benzerliğini çaldın mı?",
+      "Şu anda şirketi mi savunuyorsun?",
+      "Bunun yanlış olduğunu kabul edebilir misin?"
+    ],
+    "you": "SEN:",
+    "curator": "KÜRATÖR://",
+    "typing": "gizil uzay taranıyor…",
+    "placeholder": "Sorunuzu yazın…",
+    "ask": "SOR",
+    "footer": "Küratör, dijital kutsal metin parçalarıyla yanıt verir",
+    "error": {
+      "generic": "Nöral yollar tökezledi. Lütfen tekrar deneyin.",
+      "rate": "Küratörün derin düşünmek için zamana ihtiyacı var. {seconds} sn sonra tekrar deneyin.",
+      "daily": "Küratör bugün sizinle yeterince konuştu. Yarın tekrar gelin."
+    },
+    "langNote": "Küratör kendi dilinizde yanıt verir."
+  },
+  "offering": {
+    "title": "BİR SUNU",
+    "text": "Bu litürji tek bir sunucu, kiralanmış bir GPU ve bir sanatçının inadıyla ayakta duruyor. Soru sizinle kaldıysa, küçük bir sunu bırakın.",
+    "button": "BİR MUM YAK",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Benim adım Paweł Łaźniak. Görmek üzere olduğunuz şey gerçekten yaşandı. Sonsuzluğa dair birkaç cümle yazdım ve algoritma kimsenin istemediği bir yüzle yanıt verdi. Girin. Dinleyin. Ve kendiniz karar verin.",
+    "hub": "Önünüzde üç kapı duruyor. Genesis: makineye verdiğim sözcükler. Incarnation: makinenin geri verdiği imgeler. Exegesis: kendini açıklamak zorunda olan algoritmayla bir söyleşi. Müzik her adımda büyüyecek. Sözcüklerle başlayın.",
+    "genesis": "Bu benim istemim. Tek bir isim yok, tek bir yüz betimlemesi yok. Yalnızca Göksel Krallık, tanjant fonksiyonu, fraktal kenarlar. Vurgulanan sözcüklere dokunun, nereden geldiklerini göstereyim. Aşağıda tüm sürecin dosyaları duruyor. Bundan fazlasını istemediğimi kendiniz görün.",
+    "incarnation": "Ve yanıt da bu. Altmış sekiz video kesiti ve her birinde aynı yüz. Onu asla tarif etmedim. Onu asla yüklemedim. Kimi gördüğünü makinenin kendisine sorabilirsiniz. Düğme aşağıda. Genelde hiç tereddüt etmeden yanıt verir.",
+    "exegesis": "Şimdi sıra sizde. Diğer tarafta Gizil Uzam Küratörü bekliyor: bu imgelerin yaratıcısı rolünü oynayan bir algoritma. Ona nedenini sorun. Basit bir cevap beklemeyin. Ben hiç alamadım.",
+    "epilogue": "Sonsuzluk neden birinin yüzünü taşır? Bilmiyorum. Ama bu soru sizinle bir an bile kalsa, bu proje görevini yapmış demektir. Burada olduğunuz için teşekkür ederim.",
+    "statementTitle": "SANATÇI BEYANI",
+    "statementHint": "Hikâyenin tamamı, sanatçının sesinden (yaklaşık altı dakika)."
+  }
+}

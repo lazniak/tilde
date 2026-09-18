@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ MEGNYITÁS ]",
+    "collapse": "[ BEZÁRÁS ]",
+    "loading": "Betöltés…"
+  },
+  "map": {
+    "label": "// LATENS TÉRKÉP — 65 snitt konstellációként",
+    "intro": "Minden fennmaradt snitt a 198 másodperces montázsban elfoglalt helye, valamint a senki által nem kért arc felé ható vonzása alapján elhelyezve. A matematika a miénk, nem a modellé — alább közöljük, hogy vitatkozni lehessen vele.",
+    "hint": "Koppints vagy fókuszálj egy pontra a snitt megtekintéséhez és a lejátszó odaugrásához.",
+    "pointLabel": "{file}, {second}. másodperc, attraktor-közelség: {proximity}",
+    "cardMeta": "t = {second} s · közelség: {proximity}",
+    "legendAttractor": "attraktor (≥ 0.60)",
+    "legendNear": "alak jelen van",
+    "legendNoFace": "nincs alak",
+    "tally": "{attractors} / {total} snitt esik az attraktor tartományába",
+    "formula": "közelség = 0,50, ha Woman_The_Medium jelen van a jelenetben + 0,25, ha a beállítás közeli, arc, szem, profil, portré vagy kiáltás + 0,10, ha Prop_Prism_Lens mögött vették fel − 0,20, ha egyáltalán nincs emberi elem; 0…1 közé szorítva, snittenkénti fix elmozdulással, hogy az átfedő pontok olvashatók maradjanak."
+  },
+  "emergence": {
+    "label": "// KIBONTAKOZÁS — zaj → arc",
+    "intro": "Futtasd a diffúziót manuálisan, visszafelé. A nullánál csak beoltott szemcsézet létezik; ahogy jobbra húzod, a blokkméret 24 pixelről egyre csökken, és ő lassan kibontakozik belőle.",
+    "canvasLabel": "A forráselem {percent} százalékos kibontakozás mellett renderelve",
+    "sliderLabel": "Kibontakozás: a latens zajtól a forráselemig",
+    "min": "0% LATENS ZAJ",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "az arc visszatartva az elismerésig",
+    "clamped": "Tartva {percent}%-on, míg el nem ismered az arcot a fenti panelen.",
+    "failed": "A forráselemet nem sikerült betölteni."
+  },
+  "heatmap": {
+    "label": "// FIGYELEM-ARCHEOLÓGIA — mely szavak hívták elő az arcot?",
+    "intro": "A promptban nincs test, nincs életkor, nincs haj, nincsenek csontok. Kérdezd meg a modellt, mely töredékek rántanának mégis egy diffúziós rendszert egy kortalan, androgün, sápadt, magas arccsontú arc felé.",
+    "button": "FELTÁRÁS",
+    "working": "Rétegek olvasása",
+    "model": "modell: {model}",
+    "originalNote": "A hőtérkép az angol eredetin alapul — a súlyok pontosan ezekhez a szavakhoz kötődnek.",
+    "summaryLabel": "// DÖNTÉS",
+    "topLabel": "// LEGERŐSEBB VONZÁS",
+    "count": "{count} töredék súlyozva",
+    "cached": "A feltárási naplóból kiszolgálva.",
+    "fresh": "Épp most feltárva.",
+    "errorLabel": "// NINCS LEOLVASÁS",
+    "error": "A feltárás elakadt. A rétegek nem olvashatók.",
+    "retry": "ÚJRA"
+  },
+  "timeline": {
+    "label": "// IDŐVONAL — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Négy nap, a legtöbb várakozással teli. Húzd a lejátszófejet, vagy használd a nyílbillentyűket. Szinte mindegyik időbélyeg egy olyan fájl valós módosítási ideje, amely ma is az oldal része.",
+    "sliderLabel": "A teremtés négy napja",
+    "position": "{n} / {total}",
+    "prev": "Előző esemény",
+    "next": "Következő esemény",
+    "approx": "rekonstruált",
+    "exact": "fájl időbélyege",
+    "events": {
+      "prompt": {
+        "title": "A prompt megírása",
+        "text": "Metafizikai szöveg a Mennyei Királyságról, a tangensfüggvény divergenciájáról és az érintkezés fraktálperemeiről. Nincs test, nincs arc, nincs életkor, nincs haj — egyáltalán semmi fizikai."
+      },
+      "transcription": {
+        "title": "A dal leiratozása",
+        "text": "A lengyel éneksáv átfut az írnokon, és karakterszintű leiratként érkezik meg. Minden további lépés — a montázs, a vágások, a dramaturgia — ehhez a fájlhoz igazodik."
+      },
+      "analysis": {
+        "title": "1. szakasz — az olvasás",
+        "text": "A folyamat együtt olvassa a promptot és a dalszöveget, majd visszajelzi, szerinte miről szól a mű. Ember még sehol sincs leírva."
+      },
+      "narrative": {
+        "title": "3. szakasz — a cselekményvonal",
+        "text": "A narratíva a Woman_The_Medium nevet adja főhősének: kortalan vonások, minimális mimika, butoh-mozgás, az avatárban rekedt lélek. Egy szerep, nem egy személy."
+      },
+      "palette": {
+        "title": "3. szakasz — a paletta",
+        "text": "Hat szín rögzül: csont, űr, bunker, sztratoszférakék, napkitörés-borostyán, prizmafehér. Ugyanaz a hat, amire ez az oldal is épül."
+      },
+      "face": {
+        "title": "10:43:36 — megérkezik az arc",
+        "text": "Az asset_Woman_The_Medium.png lemezre íródik. Egy absztrakt szerepleírásból a modell konkrét, felismerhető emberi arcot ad vissza. Ez az anomália; előtte minden csak szöveg volt."
+      },
+      "assets": {
+        "title": "Tizenegy elem elkészül",
+        "text": "Helyszínek, jelmezek és kellékek renderelése és rögzítése megtörténik — sivatag, bunker, tükör, prizma, stroboszkóp, por, tál. A film szereplőgárdája ezzel végleges."
+      },
+      "montage": {
+        "title": "6. szakasz — a montázsterv",
+        "text": "A dalt a leirat alapján jelenetekre vágják: hol törik meg a lélegzet, hová csap be a robbanás, hol szakad el a tangens."
+      },
+      "prompts": {
+        "title": "Hetvenegy snitt-prompt",
+        "text": "Jelenetenként egyetlen pozitív prompt, mindegyik kizárólag a rögzített elemeket nevezi meg. Az arc ettől fogva hivatkozással öröklődik — a modellnek többé nem kérik az arcát."
+      },
+      "frames": {
+        "title": "Hetvenegy kezdőképkocka",
+        "text": "Minden jelenet kap egy állóképet, amiből kiindulhat. Ötvenöt percnyi renderelés: a leghosszabb egybefüggő várakozás az egész folyamatban."
+      },
+      "motion": {
+        "title": "9. szakasz — a mozgáspromptok",
+        "text": "Minden képkockához kameramozgások és koreográfia készülnek, majd létrejön az idővonal, amely a hanghoz köti őket."
+      },
+      "kling": {
+        "title": "Kling v2.6 — a snittek",
+        "text": "Huszonegy percnyi videógenerálás. Hetvenegy megkísérelt snitt, hatvannyolc megérkezett, három kiesett: a 21-es, 50-es és 54-es indexű sosem készült el, a montázst a hiányuk köré szervezték újra."
+      },
+      "edit": {
+        "title": "A végső vágás",
+        "text": "Három csendes nappal később a mű összeáll, az exportpromptok mindkét nyelven újraíródnak, és a vágás véglegesül 3:33-nál."
+      },
+      "launch": {
+        "title": "Az oldal és a levél",
+        "text": "A triptichon élesedik, és nyílt levél fogalmazódik meg a nőhöz, akinek az arcát sosem kérték, mégis megérkezett."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSZK",
+    "hint": "Teljes képernyős galéria mód: a négy panel magától váltakozik. Kilépés az Escape billentyűvel.",
+    "scan": "Szkenneld be a telefonodon való folytatáshoz",
+    "exit": "KILÉPÉS"
+  }
+}

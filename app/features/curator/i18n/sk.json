@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// VYZNAJTE SVOJ PROMPT",
+    "open": "OTVORIŤ",
+    "close": "ZATVORIŤ",
+    "intro": "Napíšte vlastný prompt tak, ako ten svoj písal umelec: iba koncepty. Žiadne tváre, žiadne telá, žiadne mená. Kurátor vám povie, ku ktorej tvári by latentný priestor konvergoval.",
+    "placeholder": "Dotyčnica rozbiehajúca sa k nekonečnu; fraktálna hrana, kde viera prevažuje nad fyzikou…",
+    "counter": "{count} / {max}",
+    "submit": "ODOVZDAŤ LATENTNÉMU PRIESTORU",
+    "working": "Konvergovanie…",
+    "card": {
+      "archetype": "ARCHETYP",
+      "topology": "TOPOLÓGIA",
+      "why": "PREČO",
+      "attractor": "ATRAKTOR",
+      "verdict": "VERDIKT"
+    },
+    "rejected": {
+      "label": "// ODMIETNUTÉ",
+      "fallback": "Tento prompt opisuje telo, nie koncept.",
+      "hint": "Skúste to znova len s konceptmi — bez fyzického opisu, bez mien."
+    },
+    "share": "ZDIEĽAŤ",
+    "copied": "SKOPÍROVANÉ",
+    "again": "VYZNAŤ ZNOVA",
+    "shareTitle": "The Latent Liturgy — tvár, ktorú priťahuje môj prompt",
+    "shareText": "Môj abstraktný prompt konverguje k: {archetype} — „{verdict}“ (atraktor {strength} %)",
+    "error": {
+      "empty": "Najprv niečo napíšte.",
+      "generic": "Latentný priestor neodpovedal. Skúste to o chvíľu znova.",
+      "rate": "Latentný priestor sa stále ustáľuje. Počkajte {seconds} s.",
+      "daily": "Na dnes ste sa vyznali dosť. Vráťte sa zajtra."
+    }
+  },
+  "voice": {
+    "hold": "◉ PODRŽTE PRE OTÁZKU",
+    "listening": "◉ POČÚVAM…",
+    "hint": "Podržte tlačidlo, hovorte, pustite. Kurátor odpovie nahlas.",
+    "youSaid": "POVEDALI STE",
+    "curator": "KURÁTOR",
+    "thinking": "Počúva samého seba…",
+    "mute": "Stíšiť hlas Kurátora",
+    "unmute": "Nechať Kurátora hovoriť",
+    "error": {
+      "denied": "Prístup k mikrofónu bol odmietnutý. Rituál potrebuje váš hlas.",
+      "nospeech": "Ticho. Nič nebolo počuť.",
+      "generic": "Mikrofón zlyhal. Skúste to znova."
+    }
+  },
+  "tally": {
+    "label": "BILANCIA ATRAKTOROV",
+    "line": "model ju pomenoval v {recognised} z {total} prípadov · {confessions} vyznaných promptov"
+  }
+}

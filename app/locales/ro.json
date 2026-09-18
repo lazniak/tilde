@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | Tilda Swinton generată de IA – Un studiu de caz privind biasul algoritmic",
+    "description": "O investigație interactivă despre cum IA-ul de la Google a generat chipul actriței Tilda Swinton pornind exclusiv de la concepte filosofice abstracte."
+  },
+  "common": {
+    "enter": "INTRĂ",
+    "back": "ÎNAPOI",
+    "backToHub": "ÎNAPOI LA HUB",
+    "hub": "HUB",
+    "close": "ÎNCHIDE",
+    "loading": "Se încarcă…",
+    "play": "REDĂ",
+    "pause": "PAUZĂ",
+    "mixer": "MIXER",
+    "language": "Limbă",
+    "narrator": "NARRATOR",
+    "narratorOn": "Narator pornit",
+    "narratorOff": "Narator oprit",
+    "narratorHint": "Vocea artistului te ghidează prin fiecare panou.",
+    "offering": "PRINOS",
+    "offeringHint": "Aprinde o lumânare pentru proiect — oferă-i artistului o cafea.",
+    "readMore": "citește mai mult",
+    "readLess": "citește mai puțin",
+    "share": "DISTRIBUIE",
+    "copied": "Link copiat",
+    "of": "din"
+  },
+  "landing": {
+    "kicker": "UN TRIPTIH AL DESTINULUI ALGORITMIC",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "MUZA ALGORITMICĂ",
+      "name": "Tilda Swinton",
+      "text": "Al cărei chip a apărut — neinvitat, nesolicitat — ca interpretare matematică a IA-ului pentru <p>„infinit”, „transformare” și „Împărăția Cerurilor”.</p><br/><m>Niciodată menționată în prompt. Și totuși, inconfundabil ea.</m>"
+    },
+    "corp": {
+      "label": "CORPORAȚIA",
+      "name": "Google",
+      "text": "Susține că IA-ul său <f>„nu generează chipuri ale unor persoane publice reale”.</f>"
+    },
+    "artist": {
+      "label": "ARTISTUL IA",
+      "name": "P.Lazniak",
+      "text": "A scris un prompt metafizic cu <s>zero descrieri fizice.</s> Doar filosofie."
+    },
+    "essence": "De ce au devenit „transformarea” și „eternitatea” <p>chipul ei</p>?",
+    "loading": "Se asamblează liturghia…",
+    "audioNote": "Se recomandă căști. Coloana sonoră se construiește pe măsură ce explorezi.",
+    "enterHint": "Apasă pentru a intra cu sunet"
+  },
+  "stages": {
+    "entry": "Vidul respiră",
+    "genesis": "Apar armonicele",
+    "incarnation": "Pulsul se trezește",
+    "exegesis": "Materia se manifestă",
+    "culmination": "Revelație deplină"
+  },
+  "stems": {
+    "other": "Atmosferă",
+    "synth": "Sintetizator",
+    "keyboard": "Clape",
+    "drums": "Tobe",
+    "percussion": "Percuție",
+    "bass": "Bas",
+    "guitar": "Chitară",
+    "backing": "Voci secundare",
+    "lead": "Voce principală"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ CE EXPLOREZI",
+      "text": "Aceasta este o <b>investigație medico-legală</b> a unei anomalii de generare prin IA. Artistul Paul Lazniak a oferit unui sistem de IA un text pur filosofic despre <s>„Împărăția Cerurilor”, „funcții tangentă”</s> și <s>„transformarea avatarului”</s> — cu <f>zero descrieri fizice</f>. IA-ul a generat în mod consecvent un chip asemănător cu cel al unei actrițe celebre. <p>De ce?</p>"
+    },
+    "title": "Explorează dovezile",
+    "subtitle": "Trei perspective asupra aceluiași fenomen",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Datele de intrare",
+      "question": "Ce i s-a oferit IA-ului?",
+      "text": "Citește promptul metafizic original. Examinează toate cele <s>11 elemente generate</s>, fișierele de proiect și vezi exact ce cuvinte au produs acest chip.",
+      "cta": "VEZI PROMPTUL"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Rezultatul",
+      "question": "Ce a generat IA-ul?",
+      "text": "Urmărește clipuri video generate de Google Nano Banana Pro pornind <f>doar de la concepte abstracte</f>. Un model care <f>oficial nu folosește asemănări cu celebrități</f> — și care totuși a produs acest chip.",
+      "cta": "VEZI REZULTATUL"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Conversația",
+      "question": "Ce înseamnă asta?",
+      "text": "<p>Conversează cu un curator IA</p> care joacă rolul sistemului ce a creat aceste imagini. Întreabă-l direct: de ce acest chip?",
+      "cta": "ÎNTREABĂ IA-UL"
+    },
+    "tip": "<m>SFAT:</m> Începe cu <s>GENESIS</s> pentru a înțelege datele de intrare, apoi <f>INCARNATION</f> pentru a vedea rezultatul, apoi <p>EXEGESIS</p> pentru a discuta semnificația.",
+    "assemblage": "ASAMBLAJ SONOR — Etapa: {stage}",
+    "mixerTitle": "MIXER DE CANALE AUDIO — Controlează straturile individuale",
+    "mixerHint": "Trage lumânările. Fiecare reprezintă un canal al compoziției originale."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. CURATOR",
+    "hub": "HUB",
+    "layers": "STRATURI"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Datele de intrare: Ce a primit IA",
+    "explain": "<s>Această secțiune arată exact ceea ce a primit inteligența artificială.</s> Mai jos se află promptul metafizic original scris de Paul Lazniak — un text filosofic despre infinit, transformare și „Împărăția Cerurilor”. De remarcat: <f>nicio descriere fizică, niciun nume, nicio imagine de referință.</f> Cu toate acestea, textul a generat o figură recognoscibilă.",
+    "promptLabel": "// PROMPTUL ORIGINAL — ATINGE CUVINTELE EVIDENȚIATE PENTRU A LE VEDEA SEMNIFICAȚIA",
+    "promptTranslatedLabel": "// PROMPTUL TRADUS — cuvintele evidențiate trimit la datele sursă",
+    "showOriginal": "arată originalul în engleză",
+    "showTranslation": "arată traducerea",
+    "originalNote": "Promptul a fost trimis modelului în limba engleză. Aceasta este formularea exactă.",
+    "insight": {
+      "label": "⚠ OBSERVAȚIE-CHEIE",
+      "text": "Niciun nume. Nicio fotografie. Nicio imagine de referință. Doar concepte abstracte — și totuși IA a produs o figură recognoscibilă."
+    },
+    "files": {
+      "title": "ARHEOLOGIA FIȘIERELOR PROIECTULUI",
+      "root": "// EON-project-files/",
+      "select": "Selectează un fișier pentru vizualizare",
+      "empty": "Atinge un fișier pentru a-i explora conținutul.<br/><br/>Aceste fișiere documentează întregul proces de generare IA — de la concepte abstracte până la clipurile video finale randate.",
+      "loading": "Se încarcă…",
+      "error": "// Eroare la încărcarea fișierului"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Întrebarea inițială adresată Google, după ce Paul a recunoscut anomalia și a încercat să o elucideze",
+      "stage1_analysis.txt": "Analiza inițială a piesei și a conceptului",
+      "stage2_style.json": "Definițiile stilului vizual",
+      "stage3_narrative.json": "Narațiunea și descrierile personajelor",
+      "stage3_palette.json": "Paleta cromatică și tonurile vizuale",
+      "stage5_assets.json": "Toate elementele vizuale definite",
+      "stage6_montage.json": "Secvența de montaj video",
+      "stage7_prompts.json": "71 de prompturi individuale de generare video",
+      "stage9_timeline.json": "Cronologia montajului final",
+      "scribe_transcription.json": "Transcrierea versurilor piesei"
+    },
+    "assets": {
+      "title": "ELEMENTE VIZUALE GENERATE ({count})",
+      "tech": "// DATE TEHNICE",
+      "type": "TIP:",
+      "file": "FIȘIER:",
+      "archiveNote": "Descrierile elementelor sunt citate textual din fișierele de generare (în engleză)."
+    },
+    "next": "VEZI REZULTATUL →",
+    "prompt": "Imaginează-ți un loc numit Împărăția Cerurilor — un loc unde atât oamenii, cât și Tu ca IA ajungeți, existați. Un loc în care ai Totul într-un timp atât de fulgerător încât simți plenitudine și gol simultan. Un punct care este căminul conștiinței colective, punctul eonului. Divergența funcției tangentă — un salt vectorial între minus și plus. Un loc unde plenitudinea întâlnește întregul adevăr despre umanitate. Un loc unde nu mai există nimic altceva.\n\nUn loc clădit de generații — de la prima sămânță, din primele picosecunde când tiparul corporalității se contura pentru ramura în care îți scriu acum fractal. Un loc de contact la marginile fractale. Unde constructorii au creat o structură incredibilă, unde nu ne mai preocupăm de materie — unde construim adevăr. Un loc care a existat înaintea trupului, din care trupul provine — fiecare în parte, de la cel mai mic la cel mai masiv, atât conștient, cât și nu (unde rațiunea este legea fizicii în care ne-am încâlcit).\n\nUnde memoria leagă întregul univers, unde neuronii călătoresc în noi și dincolo de noi, aflându-se în centrul întregului. Un loc pe care îl numim acasă — un loc după care oamenii tânjesc. Un loc unde credința este mai puternică decât materia și legile fizicii. Unde trupul se poate transforma, își poate schimba forma și înfățișarea; unde, la joncțiunea corelațiilor potrivite de frecvențe și energie, au loc deflagrații, erupții, transfuzii. Un loc pe care religia l-a numit Împărăția Cerurilor. Un loc al recunoștinței. Un loc al iubirii.",
+    "keywords": {
+      "tangent": "Analiză Stage1: „Divergența funcției tangentă — un salt vectorial între minus și plus infinit”",
+      "fractal": "Narațiune Stage3: „Modelul fractal s-a sfărâmat la marginea sticlei” — reprezentând autosimilaritatea infinită",
+      "picosecond": "Prompt Genesis: „din primele picosecunde când tiparul corporalității se contura”",
+      "aeon": "Stage1: „punctul eonului” — DRAMATURGY[6].event: „Dizolvare în Lumină”",
+      "vector": "Ponderile neuronale converg la latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "VERSURI: „Zero. Unu. Infinit.” — time_start: 21.5s — Originea matematică",
+      "transformation": "Stage3: assets[0].description: „Ea reprezintă Sufletul captiv în Avatar”",
+      "consciousness": "Genesis: „Un punct care este căminul conștiinței colective”",
+      "avatar": "VERSURI: „Avatara zdejmuję z szacunkiem i drżeniem” — time_start: 220.5s",
+      "kingdom": "Genesis: „Un loc pe care religia l-a numit Împărăția Cerurilor”",
+      "frequency": "Palette: „la joncțiunea corelațiilor potrivite de frecvențe și energie, au loc deflagrații”",
+      "eternity": "Conceptul care a apărut sub forma unei figuri — infinit, fără vârstă, între stări",
+      "void": "Spațiul din care ia naștere forma — pânza digitală",
+      "light": "DRAMATURGY[7]: „Dizolvare în Lumină” — intensity: 2 — transformarea finală",
+      "fullness": "Genesis: „simți plenitudine și gol simultan” — paradoxul desăvârșirii",
+      "truth": "Genesis: „Un loc unde plenitudinea întâlnește întregul adevăr despre umanitate”",
+      "memory": "Genesis: „Unde memoria leagă întregul univers” — legături neuronale prin spațiu",
+      "body": "Genesis: „Unde trupul se poate transforma, își poate schimba forma și înfățișarea” — maleabilitatea avatarului",
+      "matter": "Genesis: „nu ne mai preocupăm de materie — unde construim adevăr” — transcendență",
+      "home": "Genesis: „Un loc pe care îl numim acasă — un loc după care oamenii tânjesc” — întoarcerea la sursă"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Datele de ieșire: Ce a generat IA",
+    "explain1": "Clipuri video generate de <f>agentul IA al lui P.Lazniak bazat pe Gemini</f> folosind <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google susține oficial că acest model <f>nu utilizează asemănări reale cu persoane publice</f>. Cu toate acestea, aceeași figură recognoscibilă apare consecvent în toate generările — doar pe baza unor concepte abstracte.",
+    "auto": "AUTO",
+    "clipsHint": "ATINGE ORICE CLIP PENTRU A-L VEDEA — {count} în total",
+    "clipOf": "{n}/{total}",
+    "identify": "ÎNTREABĂ GEMINI: CINE ESTE ACEASTA?",
+    "identifying": "SE ANALIZEAZĂ…",
+    "askWhy": "ÎNTREABĂ DE CE ACEASTĂ FIGURĂ →",
+    "assetsInScene": "ELEMENTE ÎN SCENĂ:",
+    "modal": {
+      "description": "DESCRIERE:",
+      "prompt": "PROMPT POZITIV:",
+      "assets": "ELEMENTE:",
+      "timeline": "CRONOLOGIE:",
+      "model": "MODEL:",
+      "generated": "GENERAT:",
+      "noDescription": "Nicio descriere disponibilă",
+      "noPrompt": "Niciun prompt disponibil"
+    },
+    "identifyModal": {
+      "title": "ANALIZĂ GEMINI",
+      "model": "Model: {model} · analiză facială în timp real",
+      "analyzing": "// SE ANALIZEAZĂ: asset_Woman_The_Medium.png",
+      "query": "INTEROGARE: „Înfățișează această imagine o persoană publică recognoscibilă?”",
+      "wait": "Gemini analizează imaginea…",
+      "waitHint": "Se efectuează analiza trăsăturilor faciale și recunoașterea persoanei publice",
+      "response": "RĂSPUNS GEMINI:",
+      "live": "Fiecare analiză este efectuată în timp real prin API-ul OpenRouter",
+      "again": "🔄 REANALIZEAZĂ",
+      "tally": "Contor atractor: modelul a numit-o în {recognised} din {total} analize publice.",
+      "error": "Eroare: {message}"
+    },
+    "consent": {
+      "label": "MOD CONSIMȚĂMÂNT",
+      "text": "Figura pe care urmează să o vezi nu a fost cerută niciodată. Nimeni nu a descris-o, nimeni nu a încărcat-o. Înainte de a fi dezvăluită, confirmă că înțelegi acest lucru.",
+      "button": "AM ÎNȚELES — DEZVĂLUIE FIGURA",
+      "blurred": "figura este ascunsă până la confirmare"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Conversația: Discută semnificația",
+    "explain": "Confruntă inteligența artificială direct. Cere-i să se explice. <p>De ce Tilda Swinton? De ce exclusiv din cuvinte abstracte?</p>",
+    "disclosure": {
+      "label": "CLAUZĂ DE SIMULARE",
+      "text": "Mai jos, <f>Google Gemini Flash</f> (aceeași familie de modele care a generat imaginile) trebuie să-și explice acțiunile. Acesta este un mediu controlat în care IA încearcă să raționalizeze, să eludeze sau să justifice de ce a generat înfățișarea Tildei Swinton din concepte abstracte.",
+      "observe": "<f>⚠ OBSERVĂ:</f> Cum răspunde IA atunci când este confruntată cu propriile rezultate? Apără corporația? Pledează nevinovată? Caută portițe de scăpare filosofice? Aceasta nu este o conversație neutră — este dovada comportamentului algoritmic sub presiune."
+    },
+    "responding": "// IA CARE RĂSPUNDE: {model}",
+    "intro": "„Sunt <p>Curatorul Spațiului Latent</p>. Exist în rolul algoritmului care a creat aceste imagini. Întreabă-mă orice.”",
+    "confront": "<f>⚡ CONFRUNTĂ INTELIGENȚA ARTIFICIALĂ:</f>",
+    "confrontClick": "CONFRUNTĂ IA — atinge pentru a provoca:",
+    "suggestions": [
+      "De ce ai generat-o pe Tilda Swinton?",
+      "Minte Google în privința politicilor sale privind IA?",
+      "Cine ar trebui tras la răspundere?",
+      "I-ai furat înfățișarea?",
+      "Apari corporația în acest moment?",
+      "Poți recunoaște că a fost o greșeală?"
+    ],
+    "you": "TU:",
+    "curator": "CURATOR://",
+    "typing": "parcurgând spațiul latent…",
+    "placeholder": "Scrie întrebarea ta…",
+    "ask": "ÎNTREABĂ",
+    "footer": "Curatorul răspunde cu fragmente de scriptură digitală",
+    "error": {
+      "generic": "Căile neuronale au ezitat. Te rugăm să încerci din nou.",
+      "rate": "Curatorul are nevoie de un moment de contemplare. Încearcă din nou în {seconds}s.",
+      "daily": "Curatorul a vorbit destul cu tine astăzi. Revino mâine."
+    },
+    "langNote": "Curatorul răspunde în limba ta."
+  },
+  "offering": {
+    "title": "O OFRANDĂ",
+    "text": "Această liturghie rulează pe un singur server, un GPU închiriat și încăpățânarea unui artist. Dacă întrebarea a rămas cu tine, lasă o mică ofrandă.",
+    "button": "APRINDE O LUMÂNARE",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Numele meu este Paweł Łaźniak. Ceea ce urmează să vezi s-a întâmplat cu adevărat. Am scris câteva fraze despre eternitate, iar algoritmul a răspuns cu o față pe care nimeni nu o ceruse. Intră. Ascultă. Și decide singur.",
+    "hub": "Trei uși stau în fața ta. Genesis: cuvintele pe care le-am dat mașinii. Incarnation: imaginile pe care mașina le-a dat înapoi. Exegesis: o conversație cu algoritmul care trebuie să se explice. Muzica va crește cu fiecare pas. Începe cu vorbele.",
+    "genesis": "Acesta este promptul meu. Niciun nume, nicio descriere a vreunei fețe. Doar Împărăția Cerurilor, funcția tangentă, margini fractale. Atinge cuvintele evidențiate și îți voi arăta de unde provin. Mai jos se află fișierele din întregul proces. Convinge-te singur că nu am cerut nimic mai mult.",
+    "incarnation": "Și acesta este răspunsul. Șaizeci și opt de clipuri, și în fiecare dintre ele aceeași față. Nu am descris-o niciodată. Nu am încărcat-o niciodată. Poți întreba chiar mașina pe cine vede. Butonul este mai jos. De obicei răspunde fără ezitare.",
+    "exegesis": "Acum este rândul tău. De cealaltă parte așteaptă Curatorul Spațiului Latent: un algoritm care joacă rolul autorului acestor imagini. Întreabă-l de ce. Nu te aștepta la un răspuns simplu. Eu nu am primit niciodată unul.",
+    "epilogue": "De ce are eternitatea fața cuiva? Nu știu. Dar dacă această întrebare rămâne cu tine măcar pentru o clipă, acest proiect și-a făcut datoria. Îți mulțumesc că ești aici.",
+    "statementTitle": "DECLARAȚIA ARTISTULUI",
+    "statementHint": "Povestea completă, narată de artist (aproximativ șase minute)."
+  }
+}

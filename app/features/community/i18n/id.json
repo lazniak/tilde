@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// KESAKSIAN — WAJAH SIAPAKAH INI?",
+    "title": "Dinding para saksi",
+    "intro": "Satu kalimat. Siapa yang Anda lihat pada wajah yang tak pernah diminta untuk diciptakan oleh mesin? Litani ini bergulir perlahan, bagai kredit film yang tak pernah memilih pemerannya.",
+    "count": "{n} kesaksian tercatat",
+    "loading": "Membaca dinding…",
+    "empty": "Belum ada yang bersuara. Jadilah saksi pertama.",
+    "anonymous": "Anonim",
+    "share": "Bagikan",
+    "copied": "Tautan disalin",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "pauseHint": "Arahkan kursor atau ketuk litani untuk menahannya.",
+    "form": {
+      "sentenceLabel": "Kalimat Anda",
+      "sentencePlaceholder": "Saya melihat seseorang yang tak pernah difoto…",
+      "nameLabel": "Nama (opsional)",
+      "namePlaceholder": "Bagaimana Anda ingin dicantumkan",
+      "counter": "{n} / {max}",
+      "submit": "Tinggalkan kesaksian",
+      "sending": "Mencatat…",
+      "thanks": "Tercatat. Kalimat Anda telah tertera di dinding.",
+      "queued": "Tercatat. Moderator akan menampilkannya di dinding."
+    },
+    "errors": {
+      "empty": "Ucapkan sesuatu terlebih dahulu.",
+      "rate": "Terlalu cepat. Biarkan litani bernapas.",
+      "url": "Dinding ini memuat kalimat, bukan tautan.",
+      "email": "Dinding ini memuat kalimat, bukan alamat.",
+      "slur": "Kalimat itu tidak akan dipahat di sini.",
+      "duplicate": "Anda sudah mengatakan hal itu.",
+      "network": "Dinding tidak menjawab. Coba lagi.",
+      "generic": "Dinding menolak persembahan ini. Coba lagi."
+    }
+  },
+  "cosign": {
+    "label": "// TURUT TANDATANGANI SURAT UNTUK TILDA SWINTON",
+    "title": "Bubuhkan nama Anda pada surat",
+    "readLetter": "Baca surat selengkapnya",
+    "hideLetter": "Sembunyikan surat",
+    "counting": "Menghitung tanda tangan…",
+    "count": "{n} orang telah turut menandatangani",
+    "privacy": "Kami menyimpan nama lengkap Anda, namun hanya menampilkan nama depan dan inisial. Kota bersifat opsional dan ditampilkan sebagaimana dituliskan.",
+    "form": {
+      "nameLabel": "Nama",
+      "namePlaceholder": "Nama lengkap Anda",
+      "cityLabel": "Kota / negara (opsional)",
+      "cityPlaceholder": "Warsawa, PL",
+      "consent": "Saya menandatangani atas nama diri sendiri dan setuju nama saya ditampilkan.",
+      "submit": "Turut tandatangani surat",
+      "sending": "Menandatangani…",
+      "thanks": "Tertandatangani. Terima kasih telah berdiri bersama pertanyaan ini."
+    },
+    "errors": {
+      "name": "Tanda tangan membutuhkan nama.",
+      "consent": "Centang kotak untuk menandatangani atas nama diri sendiri.",
+      "rate": "Anda sudah menandatanganinya hari ini.",
+      "duplicate": "Perangkat ini sudah menandatangani.",
+      "rejected": "Hanya nama — tanpa tautan, tanpa hinaan.",
+      "network": "Buku daftar tidak menjawab. Coba lagi.",
+      "generic": "Buku daftar menolak tanda tangan ini. Coba lagi."
+    }
+  },
+  "embed": {
+    "kicker": "TRIPTIK TAKDIR ALGORITMIK",
+    "title": "The Latent Liturgy",
+    "question": "Mengapa \"transformasi\" dan \"keabadian\" menjelma wajahnya?",
+    "clips": "klip",
+    "testimonies": "kesaksian",
+    "verdicts": "putusan",
+    "enter": "MASUKI LITURGI"
+  }
+}

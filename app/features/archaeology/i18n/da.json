@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ ÅBN ]",
+    "collapse": "[ LUK ]",
+    "loading": "Indlæser…"
+  },
+  "map": {
+    "label": "// LATENT KORT — 65 klip som en konstellation",
+    "intro": "Hvert overlevende klip, placeret efter hvor det falder i den 198 sekunder lange montage, og efter hvor stærkt det trækker mod ansigtet, ingen bad om. Aritmetikken er vores, ikke modellens — den er trykt nedenfor, så du kan erklære dig uenig i den.",
+    "hint": "Tryk på eller fokusér et punkt for at læse klippet og føre afspilleren dertil.",
+    "pointLabel": "{file}, sekund {second}, tiltrækningsnærhed {proximity}",
+    "cardMeta": "t = {second}s · nærhed {proximity}",
+    "legendAttractor": "attraktor (≥ 0.60)",
+    "legendNear": "figur til stede",
+    "legendNoFace": "ingen figur",
+    "tally": "{attractors} af {total} klip ligger inden for attraktorens rækkevidde",
+    "formula": "nærhed = 0.50 hvis Woman_The_Medium er i scenen + 0.25 hvis indstillingen er et nærbillede, ansigt, øje, profil, portræt eller skrig + 0.10 hvis optaget gennem Prop_Prism_Lens − 0.20 hvis intet menneskeligt element overhovedet, begrænset til 0…1, med en fast rystelse pr. klip, så overlappende punkter forbliver læselige."
+  },
+  "emergence": {
+    "label": "// FREMKOMST — støj → ansigt",
+    "intro": "Kør diffusionen baglæns i hånden. Ved nul er der kun sået korn; når du trækker mod højre, falder blokstørrelsen sammen fra 24 pixels til én, og hun træder frem af det.",
+    "canvasLabel": "Kildeelementet gengivet ved {percent} procents fremkomst",
+    "sliderLabel": "Fremkomst: fra latent støj til kildeelementet",
+    "min": "0% LATENT STØJ",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "ansigt tilbageholdt indtil anerkendelse",
+    "clamped": "Fastholdt ved {percent}%, indtil du anerkender ansigtet i panelet ovenfor.",
+    "failed": "Kildeelementet kunne ikke indlæses."
+  },
+  "heatmap": {
+    "label": "// OPMÆRKSOMHEDSARKÆOLOGI — hvilke ord fremkaldte ansigtet?",
+    "intro": "Prompten rummer ingen krop, ingen alder, intet hår, ingen knogler. Spørg modellen, hvilke fragmenter af den der alligevel ville trække et diffusionssystem mod et aldersløst, androgynt, blegt ansigt med høje kindben.",
+    "button": "UDGRAV",
+    "working": "Læser lagene",
+    "model": "model: {model}",
+    "originalNote": "Varmen beregnes på den engelske original — vægtningerne er knyttet til netop disse ord.",
+    "summaryLabel": "// KENDELSE",
+    "topLabel": "// STÆRKESTE TRÆKKRAFT",
+    "count": "{count} fragmenter vægtet",
+    "cached": "Hentet fra udgravningsloggen.",
+    "fresh": "Udgravet netop nu.",
+    "errorLabel": "// INGEN AFLÆSNING",
+    "error": "Udgravningen gik i stå. Lagene kunne ikke aflæses.",
+    "retry": "PRØV IGEN"
+  },
+  "timeline": {
+    "label": "// TIDSLINJE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Fire dage, det meste af tiden en venten. Træk afspilningshovedet, eller brug piletasterne. Næsten hvert tidsstempel er den reelle ændringstid for en fil, der stadig følger med dette websted.",
+    "sliderLabel": "Fire dages skabelse",
+    "position": "{n} / {total}",
+    "prev": "Forrige begivenhed",
+    "next": "Næste begivenhed",
+    "approx": "rekonstrueret",
+    "exact": "filtidsstempel",
+    "events": {
+      "prompt": {
+        "title": "Prompten skrives",
+        "text": "En metafysisk tekst om Himmeriget, tangensfunktionens divergens og berøringens fraktale rande. Ingen krop, intet ansigt, ingen alder, intet hår — slet intet fysisk."
+      },
+      "transcription": {
+        "title": "Sangen transskriberes",
+        "text": "Den polske vokal køres gennem skriveren og lander som en transskription på tegnniveau. Alt i det videre forløb — montagen, klippene, dramaturgien — er timet op mod denne fil."
+      },
+      "analysis": {
+        "title": "Fase 1 — læsningen",
+        "text": "Pipelinesystemet læser prompten og teksten sammen og skriver tilbage, hvad det mener, værket handler om. Stadig ingen person beskrevet nogen steder."
+      },
+      "narrative": {
+        "title": "Fase 3 — fortællingen",
+        "text": "Narrativet navngiver sin hovedperson Woman_The_Medium: aldersløse træk, minimal mimik, Butoh-bevægelse, sjælen fanget i avataren. En rolle, ikke en person."
+      },
+      "palette": {
+        "title": "Fase 3 — paletten",
+        "text": "Seks farver lægges fast: ben, tomrum, bunker, stratosfæreblå, soludbrudsrav, prismatisk hvid. De samme seks, som dette websted er malet i."
+      },
+      "face": {
+        "title": "10:43:36 — ansigtet ankommer",
+        "text": "asset_Woman_The_Medium.png skrives til disken. Ud fra en abstrakt rollebeskrivelse returnerer modellen et specifikt, genkendeligt menneskeansigt. Dette er anomalien; alt forud for det er tekst."
+      },
+      "assets": {
+        "title": "Elleve elementer fuldført",
+        "text": "Lokaliteter, kostumer og rekvisitter renderes og registreres — ørken, bunker, spejl, prisme, stroboskop, støv, skål. Filmens besætning er nu fastlagt."
+      },
+      "montage": {
+        "title": "Fase 6 — montageplanen",
+        "text": "Sangen klippes i scener op mod transskriptionen: hvor åndedrættet falder, hvor trykbølgen rammer, hvor tangenten knækker."
+      },
+      "prompts": {
+        "title": "Enoghalvfjerds klipprompter",
+        "text": "Én positiv prompt pr. scene, som hver især kun nævner de registrerede elementer. Ansigtet videreføres nu via reference — modellen bliver aldrig bedt om det igen."
+      },
+      "frames": {
+        "title": "Enoghalvfjerds startbilleder",
+        "text": "Hver scene får et stillbillede at begynde fra. Femoghalvtreds minutters rendering: den længste enkelte ventetid i hele processen."
+      },
+      "motion": {
+        "title": "Fase 9 — bevægelsesprompterne",
+        "text": "Kamerabevægelser og koreografi skrives for hvert billede, hvorefter den tidslinje, der binder dem til lyden, udsendes."
+      },
+      "kling": {
+        "title": "Kling v2.6 — klippene",
+        "text": "Enogtyve minutters videogenerering. Enoghalvfjerds klip forsøgt, otteogtres leveret, tre tabt: indeks 21, 50 og 54 nåede aldrig frem, og montagen blev genopbygget omkring deres fravær."
+      },
+      "edit": {
+        "title": "Den endelige klipning",
+        "text": "Tre stille dage senere er værket samlet, eksportprompterne er omskrevet på begge sprog, og klippet er låst ved 3:33."
+      },
+      "launch": {
+        "title": "Webstedet og brevet",
+        "text": "Triptykonet går online, og et åbent brev stiles til kvinden, hvis ansigt aldrig blev efterspurgt, og som alligevel ankom."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "KIOSK",
+    "hint": "Galleritilstand i fuld skærm: de fire paneler skifter af sig selv. Tryk Escape for at forlade.",
+    "scan": "Scan for at fortsætte på mobilen",
+    "exit": "AFSLUT"
+  }
+}

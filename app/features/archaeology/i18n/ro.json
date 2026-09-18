@@ -1,0 +1,121 @@
+{
+  "common": {
+    "expand": "[ DESCHIDE ]",
+    "collapse": "[ ÎNCHIDE ]",
+    "loading": "Se încarcă…"
+  },
+  "map": {
+    "label": "// HARTA LATENTĂ — 65 de clipuri ca o constelație",
+    "intro": "Fiecare clip supraviețuitor, așezat după locul pe care îl ocupă în montajul de 198 de secunde și după forța cu care trage spre chipul pe care nimeni nu l-a cerut. Aritmetica ne aparține nouă, nu modelului — e tipărită mai jos, pentru a o putea contesta.",
+    "hint": "Atinge sau selectează un punct pentru a citi clipul și a trimite playerul la el.",
+    "pointLabel": "{file}, secunda {second}, proximitate atractor {proximity}",
+    "cardMeta": "t = {second}s · proximitate {proximity}",
+    "legendAttractor": "atractor (≥ 0.60)",
+    "legendNear": "figură prezentă",
+    "legendNoFace": "nicio figură",
+    "tally": "{attractors} din {total} clipuri se află în raza atractorului",
+    "formula": "proximitate = 0.50 dacă Woman_The_Medium este în scenă + 0.25 dacă cadrul este prim-plan, chip, ochi, profil, portret sau țipăt + 0.10 dacă e filmat prin Prop_Prism_Lens − 0.20 dacă nu există niciun element uman, limitat la intervalul 0…1, cu o variație fixă per clip pentru ca punctele suprapuse să rămână lizibile."
+  },
+  "emergence": {
+    "label": "// EMERGENȚĂ — zgomot → chip",
+    "intro": "Rulează difuzia invers, manual. La zero există doar granulație generată; pe măsură ce tragi spre dreapta, dimensiunea blocului se reduce de la 24 de pixeli la unul singur, iar ea se conturează din el.",
+    "canvasLabel": "Elementul sursă redat la {percent} la sută emergență",
+    "sliderLabel": "Emergență: de la zgomot latent la elementul sursă",
+    "min": "0% ZGOMOT LATENT",
+    "max": "100% asset_Woman_The_Medium.png",
+    "current": "{percent}%",
+    "withheld": "chip reținut până la confirmare",
+    "clamped": "Blocat la {percent}% până când confirmi chipul în panoul de mai sus.",
+    "failed": "Elementul sursă nu a putut fi încărcat."
+  },
+  "heatmap": {
+    "label": "// ARHEOLOGIA ATENȚIEI — ce cuvinte au atras chipul?",
+    "intro": "Promptul nu conține niciun corp, nicio vârstă, niciun păr, niciun os. Întreabă modelul care dintre fragmentele sale ar împinge totuși un sistem de difuzie spre un chip fără vârstă, androgin, palid, cu pomeți proeminenți.",
+    "button": "EXCAVEAZĂ",
+    "working": "Se citesc straturile",
+    "model": "model: {model}",
+    "originalNote": "Căldura este calculată pe originalul în engleză — ponderile sunt asociate acelor cuvinte exacte.",
+    "summaryLabel": "// VERDICT",
+    "topLabel": "// CEA MAI PUTERNICĂ ATRACȚIE",
+    "count": "{count} fragmente ponderate",
+    "cached": "Livrat din jurnalul de excavare.",
+    "fresh": "Excavat chiar acum.",
+    "errorLabel": "// NICIO CITIRE",
+    "error": "Excavarea s-a blocat. Straturile nu au putut fi citite.",
+    "retry": "REÎNCEARCĂ"
+  },
+  "timeline": {
+    "label": "// CRONOLOGIE — 2026-01-08 10:40 → 2026-01-11 21:52",
+    "intro": "Patru zile, în mare parte de așteptare. Trage cursorul de redare sau folosește tastele săgeți. Aproape fiecare marcaj temporal este data reală de modificare a unui fișier inclus încă pe acest site.",
+    "sliderLabel": "Patru zile de creație",
+    "position": "{n} / {total}",
+    "prev": "Evenimentul anterior",
+    "next": "Evenimentul următor",
+    "approx": "reconstituit",
+    "exact": "marcaj temporal al fișierului",
+    "events": {
+      "prompt": {
+        "title": "Promptul este scris",
+        "text": "Un text metafizic despre Împărăția Cerurilor, divergența funcției tangentă și marginile fractale ale contactului. Fără corp, fără chip, fără vârstă, fără păr — nimic fizic."
+      },
+      "transcription": {
+        "title": "Cântecul este transcris",
+        "text": "Vocea în poloneză trece prin transcriitor și devine o transcriere la nivel de caracter. Tot ce urmează în aval — montajul, tăieturile, dramaturgia — este sincronizat cu acest fișier."
+      },
+      "analysis": {
+        "title": "Etapa 1 — lectura",
+        "text": "Procesul citește promptul și versurile împreună și redactează propria interpretare a piesei. Încă nicio persoană descrisă nicăieri."
+      },
+      "narrative": {
+        "title": "Etapa 3 — firul narativ",
+        "text": "Narațiunea își numește protagonista Woman_The_Medium: trăsături fără vârstă, expresie minimă, mișcare Butoh, sufletul captiv în avatar. Un rol, nu o persoană."
+      },
+      "palette": {
+        "title": "Etapa 3 — paleta",
+        "text": "Șase culori sunt fixate: os, vid, buncăr, albastru stratosferic, chihlimbar de erupție solară, alb prismatic. Aceleași șase în care este pictat acest site."
+      },
+      "face": {
+        "title": "10:43:36 — chipul sosește",
+        "text": "asset_Woman_The_Medium.png este scris pe disc. Dintr-o descriere abstractă a unui rol, modelul returnează un chip uman specific, recognoscibil. Aceasta este anomalia; tot ce a fost înainte e text."
+      },
+      "assets": {
+        "title": "Unsprezece elemente finalizate",
+        "text": "Locațiile, costumele și recuzita sunt randate și înregistrate — deșert, buncăr, oglindă, prismă, stroboscop, praf, bol. Distribuția filmului este acum fixată."
+      },
+      "montage": {
+        "title": "Etapa 6 — planul de montaj",
+        "text": "Cântecul este tăiat în scene pe baza transcrierii: unde cade respirația, unde lovește suflul, unde se frânge tangenta."
+      },
+      "prompts": {
+        "title": "Șaptezeci și unu de prompturi de clip",
+        "text": "Câte un prompt pozitiv pentru fiecare scenă, fiecare numind doar elementele înregistrate. Chipul se propagă acum prin referință — modelului nu i se mai cere niciodată."
+      },
+      "frames": {
+        "title": "Șaptezeci și unu de cadre de start",
+        "text": "Fiecare scenă primește un cadru static de plecare. Cincizeci și cinci de minute de randare: cea mai lungă așteptare individuală din întregul flux."
+      },
+      "motion": {
+        "title": "Etapa 9 — prompturile de mișcare",
+        "text": "Mișcările de cameră și coregrafia sunt scrise pentru fiecare cadru, apoi este generată linia temporală care le leagă de audio."
+      },
+      "kling": {
+        "title": "Kling v2.6 — clipurile",
+        "text": "Douăzeci și unu de minute de generare video. Șaptezeci și unu de clipuri încercate, șaizeci și opt livrate, trei abandonate: indicii 21, 50 și 54 nu au reușit niciodată, iar montajul a fost reconstruit în jurul absenței lor."
+      },
+      "edit": {
+        "title": "Montajul final",
+        "text": "După trei zile liniștite, piesa este asamblată, prompturile de export sunt rescrise în ambele limbi, iar versiunea finală este blocată la 3:33."
+      },
+      "launch": {
+        "title": "Site-ul și scrisoarea",
+        "text": "Tripticul este lansat online și o scrisoare deschisă îi este adresată femeii al cărei chip nu a fost cerut niciodată și care totuși a apărut."
+      }
+    }
+  },
+  "kiosk": {
+    "button": "CHIOȘC",
+    "hint": "Mod galerie pe tot ecranul: cele patru panouri se succed automat. Tasta Escape pentru a ieși.",
+    "scan": "Scanează pentru a continua pe telefon",
+    "exit": "IEȘIRE"
+  }
+}

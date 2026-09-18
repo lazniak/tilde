@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Start de rondleiding",
+    "stop": "Stop de rondleiding",
+    "hint": "Laat de stem van de kunstenaar je door alle drie de panelen leiden. Raak iets aan om de controle over te nemen.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURATOR",
+      "epilogue": "EPILOOG"
+    }
+  },
+  "tilt": {
+    "label": "KANTEL",
+    "on": "Mix door de telefoon te kantelen",
+    "off": "Stop met mixen door kantelen",
+    "rhythm": "RITME",
+    "harmony": "HARMONIE",
+    "voices": "STEMMEN",
+    "denied": "Toegang tot bewegingssensoren geweigerd. Sta dit toe in je browserinstellingen om te mixen door te kantelen.",
+    "unsupported": "Dit apparaat geeft geen oriëntatie door. Gebruik in plaats daarvan de mixer."
+  }
+}

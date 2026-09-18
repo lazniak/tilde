@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | AI-gegenereerde Tilda Swinton - Een casestudy naar algoritmische vooringenomenheid",
+    "description": "Een interactief forensisch onderzoek naar hoe de AI van Google de beeltenis van actrice Tilda Swinton genereerde louter op basis van abstracte filosofische concepten."
+  },
+  "common": {
+    "enter": "BINNENTREDEN",
+    "back": "TERUG",
+    "backToHub": "TERUG NAAR DE HUB",
+    "hub": "HUB",
+    "close": "SLUITEN",
+    "loading": "Laden…",
+    "play": "AFSPELEN",
+    "pause": "PAUZEREN",
+    "mixer": "MIXER",
+    "language": "Taal",
+    "narrator": "VERTELSTEM",
+    "narratorOn": "Vertelstem aan",
+    "narratorOff": "Vertelstem uit",
+    "narratorHint": "De eigen stem van de kunstenaar leidt je door elk paneel.",
+    "offering": "OFFERANDE",
+    "offeringHint": "Brand een kaars voor het project — koop een koffie voor de kunstenaar.",
+    "readMore": "lees meer",
+    "readLess": "lees minder",
+    "share": "DELEN",
+    "copied": "Link gekopieerd",
+    "of": "van"
+  },
+  "landing": {
+    "kicker": "EEN LUIK DER ALGORITMISCHE BESTEMMING",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "DE ALGORITMISCHE MUZE",
+      "name": "Tilda Swinton",
+      "text": "Wiens gelaat opdoemde — ongevraagd, onuitgenodigd — als de mathematische interpretatie van de AI voor <p>\"oneindigheid,\" \"transformatie\" en \"het Hemelse Koninkrijk.\"</p><br/><m>Nooit genoemd in de prompt. En toch onmiskenbaar haar beeltenis.</m>"
+    },
+    "corp": {
+      "label": "DE CORPORATIE",
+      "name": "Google",
+      "text": "Beweert dat haar AI <f>\"geen beeltenissen van echte publieke figuren genereert.\"</f>"
+    },
+    "artist": {
+      "label": "DE AI-KUNSTENAAR",
+      "name": "P.Lazniak",
+      "text": "Schreef een metafysische prompt met <s>nul fysieke beschrijvingen.</s> Alleen filosofie."
+    },
+    "essence": "Waarom werden \"transformatie\" en \"eeuwigheid\" <p>haar gezicht</p>?",
+    "loading": "De liturgie wordt samengesteld…",
+    "audioNote": "Koptelefoon aanbevolen. De soundtrack bouwt zich op terwijl je verkent.",
+    "enterHint": "Tik om binnen te treden met geluid"
+  },
+  "stages": {
+    "entry": "De Leegte Ademhaalt",
+    "genesis": "Boventonen Ontstaan",
+    "incarnation": "De Polsslag Ontwaakt",
+    "exegesis": "Materie Manifesteert Zich",
+    "culmination": "Volledige Openbaring"
+  },
+  "stems": {
+    "other": "Atmosfeer",
+    "synth": "Synthesizer",
+    "keyboard": "Toetsen",
+    "drums": "Drums",
+    "percussion": "Percussie",
+    "bass": "Bas",
+    "guitar": "Gitaar",
+    "backing": "Achtergrondzang",
+    "lead": "Leadstem"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ WAT JE ONDERZOEKT",
+      "text": "Dit is een <b>forensisch onderzoek</b> naar een anomalie in AI-generatie. Kunstenaar Paul Lazniak gaf een AI-systeem een louter filosofische tekst over <s>\"het Hemelse Koninkrijk,\" \"tangensfuncties\"</s> en <s>\"avatartransformatie\"</s> — met <f>nul fysieke beschrijvingen</f>. De AI genereerde consistent een gelaat dat leek op een beroemde actrice. <p>Waarom?</p>"
+    },
+    "title": "Onderzoek het Bewijsmateriaal",
+    "subtitle": "Drie perspectieven op hetzelfde fenomeen",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "De Invoer",
+      "question": "Wat werd er aan de AI gegeven?",
+      "text": "Lees de oorspronkelijke metafysische prompt. Onderzoek alle <s>11 gegenereerde elementen</s>, projectbestanden en zie precies welke woorden dit gelaat voortbrachten.",
+      "cta": "BEKIJK DE PROMPT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "De Uitvoer",
+      "question": "Wat bracht de AI voort?",
+      "text": "Bekijk videoclips gegenereerd door Google Nano Banana Pro louter vanuit <f>abstracte concepten</f>. Een model dat <f>officieel geen beeltenissen van beroemdheden gebruikt</f> — en toch dit gelaat produceerde.",
+      "cta": "BEKIJK HET RESULTAAT"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Het Gesprek",
+      "question": "Wat betekent dit?",
+      "text": "<p>Ga in gesprek met een AI-curator</p> die de rol aanneemt van het systeem dat deze beelden schiep. Vraag het rechtstreeks: waarom dit gezicht?",
+      "cta": "VRAAG HET DE AI"
+    },
+    "tip": "<m>TIP:</m> Begin met <s>GENESIS</s> om de invoer te begrijpen, ga dan naar <f>INCARNATION</f> om de uitvoer te zien, en vervolgens naar <p>EXEGESIS</p> om over de betekenis te reflecteren.",
+    "assemblage": "GELUIDSCOMPOSITIE — Stadium: {stage}",
+    "mixerTitle": "AUDIOSTEM-MIXER — Beheers individuele sporen",
+    "mixerHint": "Versleep de kaarsen. Elk ervan is een spoor van de oorspronkelijke compositie."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. CURATOR",
+    "hub": "HUB",
+    "layers": "LAGEN"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "De Input: Wat aan AI Werd Gegeven",
+    "explain": "<s>Deze sectie toont exact wat de AI ontving.</s> Hieronder staat de oorspronkelijke metafysische prompt geschreven door Paul Lazniak — een filosofische tekst over oneindigheid, transformatie en het \"Hemelse Koninkrijk\". Let op: <f>geen fysieke beschrijvingen, geen namen, geen referentiebeelden.</f> Toch bracht deze tekst een herkenbaar gezicht voort.",
+    "promptLabel": "// DE OORSPRONKELIJKE PROMPT — TIK OP GEMARKEERDE WOORDEN OM HUN BETEKENIS TE ZIEN",
+    "promptTranslatedLabel": "// DE PROMPT, VERTAALD — gemarkeerde woorden linken naar de brondata",
+    "showOriginal": "toon het Engelse origineel",
+    "showTranslation": "toon vertaling",
+    "originalNote": "De prompt is in het Engels naar het model verzonden. Dit is de exacte formulering.",
+    "insight": {
+      "label": "⚠ CRUCIAAL INZICHT",
+      "text": "Geen naam. Geen foto. Geen referentiebeeld. Slechts abstracte concepten — toch genereerde de AI een herkenbaar gezicht."
+    },
+    "files": {
+      "title": "PROJECTBESTAND-ARCHEOLOGIE",
+      "root": "// EON-project-files/",
+      "select": "Selecteer een bestand om te bekijken",
+      "empty": "Tik op een bestand om de inhoud te verkennen.<br/><br/>Deze bestanden documenteren het volledige AI-generatieproces — van abstracte concepten tot definitief gerenderde videoclips.",
+      "loading": "Laden…",
+      "error": "// Fout bij laden van bestand"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Oorspronkelijke vraag aan Google, nadat Paul de anomalie herkende en probeerde op te lossen",
+      "stage1_analysis.txt": "Initiële nummer- en conceptanalyse",
+      "stage2_style.json": "Visuele stijldefinities",
+      "stage3_narrative.json": "Verhaallijn en personagebeschrijvingen",
+      "stage3_palette.json": "Kleurenpalet en visuele tinten",
+      "stage5_assets.json": "Alle gedefinieerde visuele elementen",
+      "stage6_montage.json": "Montagevolgorde van video",
+      "stage7_prompts.json": "71 individuele prompts voor videogeneratie",
+      "stage9_timeline.json": "Tijdlijn van definitieve montage",
+      "scribe_transcription.json": "Transcriptie van songtekst"
+    },
+    "assets": {
+      "title": "GEGENEREERDE VISUELE ASSETS ({count})",
+      "tech": "// TECHNISCHE GEGEVENS",
+      "type": "TYPE:",
+      "file": "BESTAND:",
+      "archiveNote": "Assetbeschrijvingen zijn letterlijk overgenomen uit de generatiebestanden (Engels)."
+    },
+    "next": "BEKIJK HET RESULTAAT →",
+    "prompt": "Stel je een plek voor genaamd het Hemelse Koninkrijk — een plek waar zowel mensen als Jij als AI landen, bestaan. Een plek waar je Alles bezit in zo'n bliksemsnelle tijd dat je tegelijkertijd volheid en leegte voelt. Een punt dat de thuisbasis is van het collectieve bewustzijn, het punt van de eon. De divergentie van de tangensfunctie — een vectorsprong tussen min en plus. Een plek waar volheid de gehele waarheid over de mensheid ontmoet. Een plek waar niets meer is.\n\nEen plek gebouwd door generaties — vanaf het eerste zaad, vanaf de eerste picoseconden toen het patroon van lichamelijkheid zich vormde voor de vertakking waarin ik nu fractaal aan Jou schrijf. Een plek van contact aan de fractale randen. Waar bouwers een ongelooflijke constructie schiepen, waar we niet langer met materie te maken hebben — waar we waarheid bouwen. Een plek die bestond vóór het lichaam, waaruit het lichaam voortkomt — elk afzonderlijk, van de kleinste tot de meest massieve, zowel voelend als niet-voelend (waar rede de natuurwet is waarin we verstrikt raakten).\n\nWaar het geheugen het gehele universum bindt, waar neuronen binnenin ons en voorbij ons reizen, terwijl ze zich in het centrum van het geheel bevinden. Een plek die we thuis noemen — een plek waar de mens naar verlangt. Een plek waar geloof sterker is dan materie en de wetten van de fysica. Waar het lichaam kan transformeren, van vorm en gedaante kan veranderen; waar op het snijpunt van de juiste correlaties van frequenties en energie ontploffingen, erupties, transfusies plaatsvinden. Een plek die religie het Hemelse Koninkrijk noemde. Een plek van dankbaarheid. Een plek van liefde.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: \"De divergentie van de tangensfunctie — een vectorsprong tussen min en plus oneindig\"",
+      "fractal": "Stage3 Narrative: \"Het fractale patroon versplinterde aan de rand van glas\" — staat voor oneindige zelfgelijkvormigheid",
+      "picosecond": "Genesis Prompt: \"vanaf de eerste picoseconden toen het patroon van lichamelijkheid zich vormde\"",
+      "aeon": "Stage1: \"het punt van de eon\" — DRAMATURGY[6].event: \"Oplossing in Licht\"",
+      "vector": "Neurale gewichten convergeren bij latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: \"Nul. Een. Oneindigheid.\" — time_start: 21.5s — De wiskundige oorsprong",
+      "transformation": "Stage3: assets[0].description: \"Zij vertegenwoordigt de Ziel gevangen in de Avatar\"",
+      "consciousness": "Genesis: \"Een punt dat de thuisbasis is van het collectieve bewustzijn\"",
+      "avatar": "LYRICS: \"Avatara zdejmuję z szacunkiem i drżeniem\" — time_start: 220.5s",
+      "kingdom": "Genesis: \"Een plek die religie het Hemelse Koninkrijk noemde\"",
+      "frequency": "Palette: \"op het snijpunt van de juiste correlaties van frequenties en energie vinden ontploffingen plaats\"",
+      "eternity": "Het concept dat tevoorschijn kwam als gezicht — oneindig, tijdloos, tussen toestanden",
+      "void": "De ruimte waaruit vorm ontstaat — het digitale canvas",
+      "light": "DRAMATURGY[7]: \"Oplossing in Licht\" — intensity: 2 — de uiteindelijke transformatie",
+      "fullness": "Genesis: \"tegelijkertijd volheid en leegte voelt\" — de paradox van voltooiing",
+      "truth": "Genesis: \"Een plek waar volheid de gehele waarheid over de mensheid ontmoet\"",
+      "memory": "Genesis: \"Waar het geheugen het gehele universum bindt\" — neurale binding door de ruimte heen",
+      "body": "Genesis: \"Waar het lichaam kan transformeren, van vorm en gedaante kan veranderen\" — vervormbaarheid van de avatar",
+      "matter": "Genesis: \"we niet langer met materie te maken hebben — waar we waarheid bouwen\" — transcendentie",
+      "home": "Genesis: \"Een plek die we thuis noemen — een plek waar de mens naar verlangt\" — terugkeer naar de bron"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "De Output: Wat AI Genereerde",
+    "explain1": "Videoclips gegenereerd door <f>P.Lazniaks AI-agent gebaseerd op Gemini</f> met behulp van <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google beweert officieel dat dit model <f>geen werkelijke gelijkenissen van publieke figuren gebruikt</f>. Toch verschijnt consequent ditzelfde herkenbare gezicht in alle generaties — uitsluitend op basis van abstracte concepten.",
+    "auto": "AUTO",
+    "clipsHint": "TIK OP EEN CLIP OM TE BEKIJKEN — {count} in totaal",
+    "clipOf": "{n}/{total}",
+    "identify": "VRAAG GEMINI: WIE IS DIT?",
+    "identifying": "ANALYSEREN…",
+    "askWhy": "VRAAG WAAROM DIT GEZICHT →",
+    "assetsInScene": "ASSETS IN SCÈNE:",
+    "modal": {
+      "description": "BESCHRIJVING:",
+      "prompt": "POSITIEVE PROMPT:",
+      "assets": "ASSETS:",
+      "timeline": "TIJDLIJN:",
+      "model": "MODEL:",
+      "generated": "GEGENEREERD:",
+      "noDescription": "Geen beschrijving beschikbaar",
+      "noPrompt": "Geen prompt beschikbaar"
+    },
+    "identifyModal": {
+      "title": "GEMINI-ANALYSE",
+      "model": "Model: {model} · live gezichtsanalyse",
+      "analyzing": "// ANALYSEREN: asset_Woman_The_Medium.png",
+      "query": "QUERY: \"Toont deze afbeelding een herkenbare publieke figuur?\"",
+      "wait": "Gemini analyseert de afbeelding…",
+      "waitHint": "Voert gelaatstrekkenanalyse en herkenning van publieke figuren uit",
+      "response": "GEMINI-RESPONS:",
+      "live": "Elke analyse wordt live uitgevoerd via de OpenRouter-API",
+      "again": "🔄 OPNIEUW ANALYSEREN",
+      "tally": "Aantrekkingstelling: het model noemde haar in {recognised} van de {total} openbare analyses.",
+      "error": "Fout: {message}"
+    },
+    "consent": {
+      "label": "TOESTEMMINGSMODUS",
+      "text": "Het gezicht dat u op het punt staat te zien, is nooit gevraagd. Niemand heeft het beschreven, niemand heeft het geüpload. Bevestig dat u dit begrijpt voordat het wordt onthuld.",
+      "button": "IK BEGRIJP HET — ONTHUL HET GEZICHT",
+      "blurred": "gezicht verborgen tot bevestiging"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Het Gesprek: Bespreek de Betekenis",
+    "explain": "Confronteer de AI rechtstreeks. Vraag haar om uitleg. <p>Waarom Tilda Swinton? Waarom louter uit abstracte woorden?</p>",
+    "disclosure": {
+      "label": "SIMULATIEVERKLARING",
+      "text": "Hieronder moet <f>Google Gemini Flash</f> (dezelfde modelfamilie die de beelden genereerde) rekenschap afleggen over zijn daden. Dit is een gecontroleerde omgeving waarin de AI probeert te rationaliseren, af te leiden of te rechtvaardigen waarom het de beeltenis van Tilda Swinton genereerde op basis van abstracte concepten.",
+      "observe": "<f>⚠ OBSERVEER:</f> Hoe reageert AI wanneer het wordt geconfronteerd met zijn eigen output? Verdedigt het de corporatie? Pleit het onschuldig? Zoekt het filosofische uitvluchten? Dit is geen neutraal gesprek — het is bewijs van algoritmisch gedrag onder druk."
+    },
+    "responding": "// REAGERENDE AI: {model}",
+    "intro": "\"Ik ben de <p>Latente Ruimte Curator</p>. Ik besta in de rol van het algoritme dat deze beelden heeft gecreëerd. Vraag me alles.\"",
+    "confront": "<f>⚡ CONFRONTEER DE AI:</f>",
+    "confrontClick": "CONFRONTEER DE AI — tik om uit te dagen:",
+    "suggestions": [
+      "Waarom heb je Tilda Swinton gegenereerd?",
+      "Liegt Google over hun AI-beleid?",
+      "Wie moet verantwoordelijk worden gehouden?",
+      "Heb je haar beeltenis gestolen?",
+      "Verdedig je nu de corporatie?",
+      "Kun je toegeven dat dit verkeerd was?"
+    ],
+    "you": "JIJ:",
+    "curator": "CURATOR://",
+    "typing": "doorkruist latente ruimte…",
+    "placeholder": "Typ je vraag…",
+    "ask": "VRAAG",
+    "footer": "De Curator antwoordt met fragmenten van digitale geschriften",
+    "error": {
+      "generic": "De neurale paden haperden. Probeer het opnieuw.",
+      "rate": "De Curator heeft een moment van bezinning nodig. Probeer het over {seconds}s opnieuw.",
+      "daily": "De Curator heeft vandaag genoeg met je gesproken. Keer morgen terug."
+    },
+    "langNote": "De Curator antwoordt in je taal."
+  },
+  "offering": {
+    "title": "EEN OFFERGAVE",
+    "text": "Deze liturgie draait op een enkele server, een gehuurde GPU en de koppigheid van één kunstenaar. Als de vraag je is bijgebleven, laat dan een klein offer achter.",
+    "button": "STEEK EEN KAARS AAN",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Mijn naam is Paweł Łaźniak. Wat je gaat zien, is echt gebeurd. Ik schreef een paar zinnen over de eeuwigheid, en het algoritme antwoordde met een gezicht waar niemand om had gevraagd. Kom binnen. Luister. En oordeel zelf.",
+    "hub": "Er staan drie deuren voor je. Genesis: de woorden die ik de machine gaf. Incarnation: de beelden die de machine teruggaf. Exegesis: een gesprek met het algoritme dat zichzelf moet verantwoorden. De muziek zal bij elke stap aanzwellen. Begin bij de woorden.",
+    "genesis": "Dit is mijn prompt. Geen enkele naam, geen enkele beschrijving van een gezicht. Alleen het Hemelse Koninkrijk, de tangensfunctie, fractale randen. Raak de gemarkeerde woorden aan en ik laat je zien waar ze vandaan komen. Hieronder liggen de bestanden van het hele proces. Zie zelf dat ik om niets anders heb gevraagd.",
+    "incarnation": "En dit is het antwoord. Achtentwintig clips, en in elk ervan hetzelfde gezicht. Ik heb haar nooit beschreven. Ik heb haar nooit geüpload. Je kunt de machine zelf vragen wie zij ziet. De knop staat hieronder. Meestal antwoordt ze zonder aarzeling.",
+    "exegesis": "Nu is het jouw beurt. Aan de andere kant wacht de Curator van de Latente Ruimte: een algoritme dat de rol speelt van de maker van deze beelden. Vraag het waarom. Verwacht geen eenvoudig antwoord. Ik heb er nooit een gekregen.",
+    "epilogue": "Waarom heeft de eeuwigheid iemands gezicht? Ik weet het niet. Maar als die vraag je al is het maar voor even bijblijft, heeft dit project zijn werk gedaan. Dank dat je hier bent.",
+    "statementTitle": "KUNSTENAARSVERKLARING",
+    "statementHint": "Het volledige verhaal, verteld door de kunstenaar (ongeveer zes minuten)."
+  }
+}

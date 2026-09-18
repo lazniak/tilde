@@ -1,0 +1,74 @@
+{
+  "testimonies": {
+    "label": "// TESTIMONIANZE — DI CHI È QUESTO VOLTO?",
+    "title": "Il muro dei testimoni",
+    "intro": "Una sola frase. Chi vedi nel volto che alla macchina non è mai stato chiesto di creare? La litania scorre lentamente, come i titoli di coda di un film per cui nessuno ha fatto il cast.",
+    "count": "{n} testimonianze registrate",
+    "loading": "Lettura del muro…",
+    "empty": "Nessuno ha ancora parlato. Sii il primo testimone.",
+    "anonymous": "Anonimo",
+    "share": "Condividi",
+    "copied": "Link copiato",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "pauseHint": "Passa sopra o tocca la litania per fermarla.",
+    "form": {
+      "sentenceLabel": "La tua frase",
+      "sentencePlaceholder": "Vedo qualcuno che non è mai stato fotografato…",
+      "nameLabel": "Nome (facoltativo)",
+      "namePlaceholder": "Come desideri apparire",
+      "counter": "{n} / {max}",
+      "submit": "Lascia una testimonianza",
+      "sending": "Registrazione…",
+      "thanks": "Registrata. La tua frase è sul muro.",
+      "queued": "Registrata. Un moderatore la renderà visibile sul muro."
+    },
+    "errors": {
+      "empty": "Prima dì qualcosa.",
+      "rate": "Troppo in fretta. Lascia respirare la litania.",
+      "url": "Questo muro accoglie frasi, non link.",
+      "email": "Questo muro accoglie frasi, non indirizzi.",
+      "slur": "Questa frase non verrà incisa qui.",
+      "duplicate": "L'hai già detto.",
+      "network": "Il muro non ha risposto. Riprova.",
+      "generic": "Il muro ha rifiutato l'offerta. Riprova."
+    }
+  },
+  "cosign": {
+    "label": "// CO-FIRMA LA LETTERA A TILDA SWINTON",
+    "title": "Aggiungi il tuo nome alla lettera",
+    "readLetter": "Leggi l'intera lettera",
+    "hideLetter": "Nascondi la lettera",
+    "counting": "Conteggio delle firme…",
+    "count": "{n} persone hanno co-firmato",
+    "privacy": "Conserviamo il tuo nome completo, ma mostriamo solo il nome di battesimo e un'iniziale. La città è facoltativa e mostrata così come scritta.",
+    "form": {
+      "nameLabel": "Nome",
+      "namePlaceholder": "Il tuo nome e cognome",
+      "cityLabel": "Città / paese (facoltativo)",
+      "cityPlaceholder": "Varsavia, PL",
+      "consent": "Firmo a mio nome e acconsento a rendere visibile il mio nome.",
+      "submit": "Co-firma la lettera",
+      "sending": "Firma in corso…",
+      "thanks": "Firmato. Grazie per sostenere questa domanda."
+    },
+    "errors": {
+      "name": "Una firma richiede un nome.",
+      "consent": "Spunta la casella per firmare a tuo nome.",
+      "rate": "Hai già firmato oggi.",
+      "duplicate": "Questo dispositivo ha già firmato.",
+      "rejected": "Solo nomi — niente link, nessun insulto.",
+      "network": "Il registro non ha risposto. Riprova.",
+      "generic": "Il registro ha rifiutato la firma. Riprova."
+    }
+  },
+  "embed": {
+    "kicker": "UN TRITTICO DI DESTINO ALGORITMICO",
+    "title": "The Latent Liturgy",
+    "question": "Perché \"trasformazione\" ed \"eternità\" hanno preso il suo volto?",
+    "clips": "clip",
+    "testimonies": "testimonianze",
+    "verdicts": "verdetto",
+    "enter": "ENTRA NELLA LITURGIA"
+  }
+}

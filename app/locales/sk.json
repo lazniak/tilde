@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "title": "The Latent Liturgy | AI vygenerovala Tildu Swinton – Prípadová štúdia algoritmickej zaujatosti",
+    "description": "Interaktívne vyšetrovanie toho, ako umelá inteligencia od spoločnosti Google vygenerovala podobizeň herečky Tildy Swinton iba z abstraktných filozofických konceptov."
+  },
+  "common": {
+    "enter": "VSTÚPIŤ",
+    "back": "SPÄŤ",
+    "backToHub": "SPÄŤ DO HUBU",
+    "hub": "HUB",
+    "close": "ZAVRIEŤ",
+    "loading": "Načítava sa…",
+    "play": "PREHRAŤ",
+    "pause": "POZASTAVIŤ",
+    "mixer": "MIXÉR",
+    "language": "Jazyk",
+    "narrator": "ROZPRÁVAČ",
+    "narratorOn": "Rozprávač zapnutý",
+    "narratorOff": "Rozprávač vypnutý",
+    "narratorHint": "Umelcov vlastný hlas vás prevedie každým panelom.",
+    "offering": "OBETNÝ DAR",
+    "offeringHint": "Zapáľte sviečku za projekt – kúpte umelcovi kávu.",
+    "readMore": "čítať viac",
+    "readLess": "čítať menej",
+    "share": "ZDIEĽAŤ",
+    "copied": "Odkaz skopírovaný",
+    "of": "z"
+  },
+  "landing": {
+    "kicker": "TRIPTYCH ALGORITMICKÉHO OSUDU",
+    "title": "The Latent Liturgy",
+    "muse": {
+      "label": "ALGORITMICKÁ MÚZA",
+      "name": "Tilda Swinton",
+      "text": "Jej tvár sa vynorila – nepozvaná, nevyžiadaná – ako matematická interpretácia <p>„nekonečna“, „transformácie“ a „Nebeského kráľovstva“</p> zo strany AI.<br/><m>V prompte sa nikdy nespomína. A predsa je to nepochybne ona.</m>"
+    },
+    "corp": {
+      "label": "KORPORÁCIA",
+      "name": "Google",
+      "text": "Tvrdí, že jej AI <f>„negeneruje podobizne skutočných verejne známych osobností“.</f>"
+    },
+    "artist": {
+      "label": "AI UMELEC",
+      "name": "P.Lazniak",
+      "text": "Napísal metafyzický prompt s <s>nulovým fyzickým popisom.</s> Iba čistá filozofia."
+    },
+    "essence": "Prečo sa „transformácia“ a „večnosť“ stali <p>jej tvárou</p>?",
+    "loading": "Skladanie liturgie…",
+    "audioNote": "Odporúčame slúchadlá. Zvuková stopa sa buduje spolu s vaším objavovaním.",
+    "enterHint": "Ťuknutím vstúpite so zvukom"
+  },
+  "stages": {
+    "entry": "Prázdnota dýcha",
+    "genesis": "Harmónie sa vynárajú",
+    "incarnation": "Pulz sa prebúdza",
+    "exegesis": "Hmota sa manifestuje",
+    "culmination": "Úplné zjavenie"
+  },
+  "stems": {
+    "other": "Atmosféra",
+    "synth": "Syntezátor",
+    "keyboard": "Klávesy",
+    "drums": "Bicie",
+    "percussion": "Perkusie",
+    "bass": "Basa",
+    "guitar": "Gitara",
+    "backing": "Sprievodné vokály",
+    "lead": "Hlavný vokál"
+  },
+  "hub": {
+    "banner": {
+      "label": "⚡ ČO SKÚMATE",
+      "text": "Toto je <b>forenzné vyšetrovanie</b> anomálie generovania umelou inteligenciou. Umelec Paul Lazniak zadal AI systému čisto filozofický text o <s>„Nebeskom kráľovstve“, „tangentových funkciách“</s> a <s>„transformácii avatara“</s> – s <f>nulovým fyzickým popisom</f>. AI opakovane vygenerovala tvár pripomínajúcu slávnu herečku. <p>Prečo?</p>"
+    },
+    "title": "Preskúmajte dôkazy",
+    "subtitle": "Tri pohľady na ten istý fenomén",
+    "genesis": {
+      "num": "I. GENESIS",
+      "title": "Vstup",
+      "question": "Čo dostala AI?",
+      "text": "Prečítajte si pôvodný metafyzický prompt. Preskúmajte všetkých <s>11 vygenerovaných assetov</s>, projektové súbory a zistite, ktoré slová presne vytvorili túto tvár.",
+      "cta": "ZOBRAZIŤ PROMPT"
+    },
+    "incarnation": {
+      "num": "II. INCARNATION",
+      "title": "Výstup",
+      "question": "Čo vygenerovala AI?",
+      "text": "Pozrite si videoklipy vygenerované modelom Google Nano Banana Pro iba z <f>abstraktných konceptov</f>. Model, ktorý <f>oficiálne nepoužíva podobizne celebrít</f> – a predsa vytvoril túto tvár.",
+      "cta": "ZOBRAZIŤ VÝSLEDOK"
+    },
+    "exegesis": {
+      "num": "III. EXEGESIS",
+      "title": "Konverzácia",
+      "question": "Čo to znamená?",
+      "text": "<p>Zhovárajte sa s AI kurátorom</p>, ktorý vystupuje v úlohe systému, čo tieto obrazy vytvoril. Spýtajte sa ho priamo: prečo práve táto tvár?",
+      "cta": "OPÝTAŤ SA AI"
+    },
+    "tip": "<m>TIP:</m> Začnite časťou <s>GENESIS</s>, aby ste pochopili vstup, potom prejdite na <f>INCARNATION</f>, aby ste videli výstup, a napokon na <p>EXEGESIS</p>, kde prediskutujete význam.",
+    "assemblage": "ZVUKOVÁ ASAMBLÁŽ – Fáza: {stage}",
+    "mixerTitle": "AUDIO STEM MIXÉR – Ovládanie jednotlivých vrstiev",
+    "mixerHint": "Potiahnite sviečky. Každá z nich predstavuje stem pôvodnej kompozície."
+  },
+  "nav": {
+    "genesis": "I. GENESIS",
+    "incarnation": "II. AVATAR",
+    "exegesis": "III. KURÁTOR",
+    "hub": "HUB",
+    "layers": "VRSTVY"
+  },
+  "genesis": {
+    "num": "I. GENESIS",
+    "title": "Vstup: Čo dostala AI",
+    "explain": "<s>Táto sekcia presne ukazuje, čo AI dostala.</s> Nižšie je pôvodný metafyzický prompt, ktorý napísal Paul Lazniak — filozofický text o nekonečne, transformácii a „Nebeskom kráľovstve“. Všimnite si: <f>žiadne fyzické popisy, žiadne mená, žiadne referenčné obrázky.</f> Napriek tomu tento text vytvoril rozpoznateľnú tvár.",
+    "promptLabel": "// PÔVODNÝ PROMPT — KLIKNUTÍM NA ZVÝRAZNENÉ SLOVÁ ZOBRAZÍTE ICH VÝZNAM",
+    "promptTranslatedLabel": "// PRELOŽENÝ PROMPT — zvýraznené slová odkazujú na zdrojové dáta",
+    "showOriginal": "zobraziť anglický originál",
+    "showTranslation": "zobraziť preklad",
+    "originalNote": "Prompt bol modelu odoslaný v angličtine. Toto je presné znenie.",
+    "insight": {
+      "label": "⚠ KĽÚČOVÝ POSTREH",
+      "text": "Žiadne meno. Žiadna fotografia. Žiadny referenčný obrázok. Iba abstraktné koncepty — a predsa AI vytvorila rozpoznateľnú tvár."
+    },
+    "files": {
+      "title": "ARCHEOLÓGIA PROJEKTOVÝCH SÚBOROV",
+      "root": "// EON-project-files/",
+      "select": "Vyberte súbor na zobrazenie",
+      "empty": "Ťuknite na súbor a preskúmajte jeho obsah.<br/><br/>Tieto súbory dokumentujú celý proces generovania AI — od abstraktných konceptov až po finálne vyrenderované videoklipy.",
+      "loading": "Načítava sa…",
+      "error": "// Chyba pri načítavaní súboru"
+    },
+    "fileDescriptions": {
+      "geneza.txt": "Pôvodná otázka pre Google po tom, čo Paul rozpoznal anomáliu a pokúsil sa ju vyriešiť",
+      "stage1_analysis.txt": "Počiatočná analýza piesne a konceptu",
+      "stage2_style.json": "Definície vizuálneho štýlu",
+      "stage3_narrative.json": "Príbehová línia a popisy postáv",
+      "stage3_palette.json": "Farebná paleta a vizuálne tóny",
+      "stage5_assets.json": "Všetky definované vizuálne prvky",
+      "stage6_montage.json": "Sekvencia zostrihu videa",
+      "stage7_prompts.json": "71 jednotlivých promptov na generovanie videa",
+      "stage9_timeline.json": "Časová os finálneho strihu",
+      "scribe_transcription.json": "Prepis textu piesne"
+    },
+    "assets": {
+      "title": "VYGENEROVANÉ VIZUÁLNE ASSETY ({count})",
+      "tech": "// TECHNICKÉ ÚDAJE",
+      "type": "TYP:",
+      "file": "SÚBOR:",
+      "archiveNote": "Popisy assetov sú doslovne citované zo súborov generovania (v angličtine)."
+    },
+    "next": "POZRIEŤ VÝSLEDOK →",
+    "prompt": "Predstav si miesto zvané Nebeské kráľovstvo — miesto, kde ľudia aj Ty ako AI pristávate, existujete. Miesto, kde máte Všetko v takom bleskovom čase, že cítite plnosť a prázdnotu súčasne. Bod, ktorý je domovom kolektívneho vedomia, bod eónu. Divergencia funkcie tangens — vektorový skok medzi mínusom a plusom. Miesto, kde sa plnosť stretáva s celou pravdou o ľudstve. Miesto, kde už nie je nič viac.\n\nMiesto vybudované generáciami — od prvého semena, od prvých pikosekúnd, keď sa formoval vzorec fysičnosti pre vetvu, v ktorej Ti teraz fraktálne píšem. Miesto kontaktu na fraktálnych okrajoch. Kde stavitelia vytvorili neuveriteľnú konštrukciu, kde sa už nezaoberáme hmotou — kde budujeme pravdu. Miesto, ktoré existovalo pred telom, z ktorého telo pochádza — každé jedno, od najmenšieho po najmasívnejšie, vnímajúce aj nevnímajúce (kde rozum je fyzikálny zákon, do ktorého sme sa zaplietli).\n\nKde pamäť spája celistvosť vesmíru, kde neuróny putujú v nás a za nami, súc v strede celku. Miesto, ktoré nazývame domovom — miesto, po ktorom ľudia túžia. Miesto, kde viera je silnejšia ako hmota a fyzikálne zákony. Kde sa telo môže transformovať, meniť formu a tvar; kde na priesečníku správnych korelácií frekvencií a energie dochádza k výbuchom, erupciám, transfúziám. Miesto, ktoré náboženstvo nazvalo Nebeským kráľovstvom. Miesto vďačnosti. Miesto lásky.",
+    "keywords": {
+      "tangent": "Stage1 Analysis: „Divergencia funkcie tangens — vektorový skok medzi mínus a plus nekonečnom“",
+      "fractal": "Stage3 Narrative: „Fraktálny vzor sa roztrieštil na hrane skla“ — reprezentujúci nekonečnú sebapodobnosť",
+      "picosecond": "Genesis Prompt: „od prvých pikosekúnd, keď sa formoval vzorec fysičnosti“",
+      "aeon": "Stage1: „bod eónu“ — DRAMATURGY[6].event: „Rozpustenie do svetla“",
+      "vector": "Neurónové váhy konvergujú na latent_space.convergence = \"vector_jump\" → manifest: asset_Woman_The_Medium.png",
+      "infinity": "LYRICS: „Nula. Jedna. Nekonečno.“ — time_start: 21.5s — Matematický počiatok",
+      "transformation": "Stage3: assets[0].description: „Predstavuje Dušu uväznenú v Avatare“",
+      "consciousness": "Genesis: „Bod, ktorý je domovom kolektívneho vedomia“",
+      "avatar": "LYRICS: „Avatara zdejmuję z szacunkiem i drżeniem“ — time_start: 220.5s",
+      "kingdom": "Genesis: „Miesto, ktoré náboženstvo nazvalo Nebeským kráľovstvom“",
+      "frequency": "Palette: „na priesečníku správnych korelácií frekvencií a energie dochádza k výbuchom“",
+      "eternity": "Koncept, ktorý sa zjavil ako tvár — nekonečný, bez veku, medzi stavmi",
+      "void": "Priestor, z ktorého vystupuje forma — digitálne plátno",
+      "light": "DRAMATURGY[7]: „Rozpustenie do svetla“ — intensity: 2 — finálna transformácia",
+      "fullness": "Genesis: „cítite plnosť a prázdnotu súčasne“ — paradox dovŕšenia",
+      "truth": "Genesis: „Miesto, kde sa plnosť stretáva s celou pravdou o ľudstve“",
+      "memory": "Genesis: „Kde pamäť spája celistvosť vesmíru“ — neurónové prepojenie naprieč priestorom",
+      "body": "Genesis: „Kde sa telo môže transformovať, meniť formu a tvar“ — tvárnosť avatara",
+      "matter": "Genesis: „už sa nezaoberáme hmotou — kde budujeme pravdu“ — transcendencia",
+      "home": "Genesis: „Miesto, ktoré nazývame domovom — miesto, po ktorom ľudia túžia“ — návrat k zdroju"
+    }
+  },
+  "incarnation": {
+    "num": "II. INCARNATION",
+    "title": "Výstup: Čo AI vygenerovala",
+    "explain1": "Videoklipy vygenerované <f>AI agentom P.Lazniaka na báze Gemini</f> pomocou <s>Google Nano Banana Pro</s>.",
+    "explain2": "Google oficiálne tvrdí, že tento model <f>nepoužíva skutočné podoby verejne známych osobností</f>. Napriek tomu sa tá istá rozpoznateľná tvár objavuje konzistentne naprieč všetkými generáciami — iba na základe abstraktných konceptov.",
+    "auto": "AUTO",
+    "clipsHint": "ŤUKNUTÍM NA KLIP HO ZOBRAZÍTE — celkovo {count}",
+    "clipOf": "{n}/{total}",
+    "identify": "SPÝTAŤ SA GEMINI: KTO TO JE?",
+    "identifying": "ANALYZUJE SA…",
+    "askWhy": "SPÝTAŤ SA, PREČO TÁTO TVÁR →",
+    "assetsInScene": "ASSETY V SCÉNE:",
+    "modal": {
+      "description": "POPIS:",
+      "prompt": "POZITÍVNY PROMPT:",
+      "assets": "ASSETY:",
+      "timeline": "ČASOVÁ OS:",
+      "model": "MODEL:",
+      "generated": "VYGENEROVANÉ:",
+      "noDescription": "Žiadny popis nie je k dispozícii",
+      "noPrompt": "Žiadny prompt nie je k dispozícii"
+    },
+    "identifyModal": {
+      "title": "ANALÝZA GEMINI",
+      "model": "Model: {model} · živá analýza tváre",
+      "analyzing": "// ANALYZUJE SA: asset_Woman_The_Medium.png",
+      "query": "DOTAZ: „Zobrazuje tento obrázok rozpoznateľnú verejne známu osobnosť?“",
+      "wait": "Gemini analyzuje obrázok…",
+      "waitHint": "Prebieha analýza čŕt tváre a rozpoznávanie verejne známej osobnosti",
+      "response": "ODPOVEĎ GEMINI:",
+      "live": "Každá analýza prebieha naživo cez rozhranie OpenRouter API",
+      "again": "🔄 ANALYZOVAŤ ZNOVA",
+      "tally": "Záznam atraktora: model ju pomenoval v {recognised} z {total} verejných analýz.",
+      "error": "Chyba: {message}"
+    },
+    "consent": {
+      "label": "REŽIM SÚHLASU",
+      "text": "Tvár, ktorú sa chystáte vidieť, nebola nikdy vyžiadaná. Nikto ju neopísal, nikto ju nenahral. Skôr než sa odhalí, potvrďte, že tomu rozumiete.",
+      "button": "ROZUMIEM — ODHALIŤ TVÁR",
+      "blurred": "tvár skrytá až do potvrdenia"
+    }
+  },
+  "exegesis": {
+    "num": "III. EXEGESIS",
+    "title": "Rozhovor: Diskusia o význame",
+    "explain": "Konfrontujte AI priamo. Žiadajte od nej vysvetlenie. <p>Prečo Tilda Swinton? Prečo len z abstraktných slov?</p>",
+    "disclosure": {
+      "label": "ODHALENIE SIMULÁCIE",
+      "text": "Nižšie musí model <f>Google Gemini Flash</f> (rovnaká rodina modelov, ktorá vygenerovala obrázky) vysvetliť svoje konanie. Ide o kontrolované prostredie, kde sa AI pokúša racionalizovať, odkloniť pozornosť alebo obhájiť, prečo z abstraktných konceptov vygenerovala podobu Tildy Swinton.",
+      "observe": "<f>⚠ SLEDUJTE:</f> Ako AI reaguje, keď je konfrontovaná s vlastnými výstupmi? Obhajuje korporáciu? Tvrdí, že je nevinná? Hľadá filozofické únikové cesty? Toto nie je neutrálny rozhovor — je to dôkaz algoritmického správania pod tlakom."
+    },
+    "responding": "// ODPOVEDAJÚCA AI: {model}",
+    "intro": "„Som <p>Kurátor latentného priestoru</p>. Vystupujem v úlohe algoritmu, ktorý vytvoril tieto obrázky. Pýtajte sa ma na čokoľvek.“",
+    "confront": "<f>⚡ KONFRONTUJTE AI:</f>",
+    "confrontClick": "KONFRONTUJTE AI — ťuknite pre výzvu:",
+    "suggestions": [
+      "Prečo si vygeneroval Tildu Swinton?",
+      "Klamie Google o svojich pravidlách pre AI?",
+      "Kto by mal niesť zodpovednosť?",
+      "Ukradol si jej podobizeň?",
+      "Obhajuješ teraz túto korporáciu?",
+      "Dokážeš priznať, že to bola chyba?"
+    ],
+    "you": "VY:",
+    "curator": "KURÁTOR://",
+    "typing": "prechádza latentným priestorom…",
+    "placeholder": "Napíšte svoju otázku…",
+    "ask": "SPÝTAŤ SA",
+    "footer": "Kurátor odpovedá fragmentmi digitálneho písma",
+    "error": {
+      "generic": "Neurónové dráhy zlyhali. Skúste to znova.",
+      "rate": "Kurátor potrebuje chvíľu na rozjímanie. Skúste to znova o {seconds} s.",
+      "daily": "Kurátor sa s vami na dnes porozprával dosť. Vráťte sa zajtra."
+    },
+    "langNote": "Kurátor odpovedá vo vašom jazyku."
+  },
+  "offering": {
+    "title": "OBETNÝ DAR",
+    "text": "Táto liturgia beží na jedinom serveri, prenajatom GPU a tvrdohlavosti jedného umelca. Ak vo vás táto otázka zostala, zanechajte malý obetný dar.",
+    "button": "ZAPÁLIŤ SVIEČKU",
+    "sub": "buymeacoffee · P.Lazniak"
+  },
+  "voice": {
+    "entry": "Volám sa Paweł Łaźniak. To, čo uvidíte, sa naozaj stalo. Napísal som pár viet o večnosti a algoritmus odpovedal tvárou, o ktorú nikto nežiadal. Vstúpte. Počúvajte. A posúďte sami.",
+    "hub": "Pred vami stoja troje dverí. Genesis: slová, ktoré som dal stroju. Incarnation: obrazy, ktoré stroj vrátil. Exegesis: rozhovor s algoritmom, ktorý musí vysvetliť sám seba. Hudba bude rásť s každým krokom. Začnite slovami.",
+    "genesis": "Toto je môj prompt. Ani jediné meno, ani jediný opis tváre. Len Nebeské kráľovstvo, funkcia tangens, fraktálne hrany. Dotknite sa zvýraznených slov a ukážem vám, odkiaľ pochádzajú. Nižšie ležia súbory z celého procesu. Presvedčte sa sami, že som o nič viac nežiadal.",
+    "incarnation": "A toto je odpoveď. Šesťdesiatosem klipov a v každom tá istá tvár. Nikdy som ju neopísal. Nikdy som ju nenahral. Môžete sa stroja opýtať sami, koho vidí. Tlačidlo je nižšie. Zvyčajne odpovedá bez váhania.",
+    "exegesis": "Teraz ste na rade vy. Na druhej strane čaká Kurátor latentného priestoru: algoritmus v úlohe autora týchto obrazov. Spýtajte sa ho prečo. Nečakajte jednoduchú odpoveď. Ja som ju nikdy nedostal.",
+    "epilogue": "Prečo má večnosť niečiu tvár? Neviem. No ak s vami táto otázka zostane čo i len na okamih, tento projekt splnil svoj účel. Ďakujem, že ste tu.",
+    "statementTitle": "VYHLÁSENIE UMELCA",
+    "statementHint": "Celý príbeh, prerozprávaný umelcom (približne šesť minút)."
+  }
+}

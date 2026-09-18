@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// CONFESSEZ VOTRE PROMPT",
+    "open": "OUVRIR",
+    "close": "FERMER",
+    "intro": "Écrivez votre propre prompt comme l’artiste a écrit le sien : des concepts uniquement. Ni visages, ni corps, ni noms. Le Conservateur vous dira vers quel visage converge l’espace latent.",
+    "placeholder": "Une tangente divergeant vers l’infini ; la frontière fractale où la foi l’emporte sur la physique…",
+    "counter": "{count} / {max}",
+    "submit": "SOUMETTRE À L’ESPACE LATENT",
+    "working": "Convergence en cours…",
+    "card": {
+      "archetype": "ARCHÉTYPE",
+      "topology": "TOPOLOGIE",
+      "why": "POURQUOI",
+      "attractor": "ATTRACTEUR",
+      "verdict": "VERDICT"
+    },
+    "rejected": {
+      "label": "// REFUSÉ",
+      "fallback": "Ce prompt décrit un corps, non un concept.",
+      "hint": "Réessayez avec des concepts seuls — aucune description physique, aucun nom."
+    },
+    "share": "PARTAGER",
+    "copied": "COPIÉ",
+    "again": "CONFESSER À NOUVEAU",
+    "shareTitle": "The Latent Liturgy — le visage qu’attire mon prompt",
+    "shareText": "Mon prompt abstrait converge vers : {archetype} — « {verdict} » (attracteur {strength} %)",
+    "error": {
+      "empty": "Écrivez quelque chose d’abord.",
+      "generic": "L’espace latent n’a pas répondu. Réessayez dans un instant.",
+      "rate": "L’espace latent se résout encore. Attendez {seconds} s.",
+      "daily": "Vous vous êtes assez confessé pour aujourd’hui. Revenez demain."
+    }
+  },
+  "voice": {
+    "hold": "◉ MAINTENIR POUR DEMANDER",
+    "listening": "◉ EN ÉCOUTE…",
+    "hint": "Maintenez le bouton, parlez, relâchez. Le Conservateur répond à voix haute.",
+    "youSaid": "VOUS AVEZ DIT",
+    "curator": "CONSERVATEUR",
+    "thinking": "À l’écoute de lui-même…",
+    "mute": "Couper la voix du Conservateur",
+    "unmute": "Laisser parler le Conservateur",
+    "error": {
+      "denied": "L’accès au microphone a été refusé. Le rituel a besoin de votre voix.",
+      "nospeech": "Silence. Rien n’a été entendu.",
+      "generic": "Le microphone a faibli. Réessayez."
+    }
+  },
+  "tally": {
+    "label": "DÉCOMPTE DES ATTRACTEURS",
+    "line": "le modèle l’a nommée {recognised} fois sur {total} · {confessions} prompts confessés"
+  }
+}

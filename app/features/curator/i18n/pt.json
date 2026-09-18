@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// CONFESSE O SEU PROMPT",
+    "open": "ABRIR",
+    "close": "FECHAR",
+    "intro": "Escreva o seu próprio prompt como o artista escreveu o seu: apenas conceitos. Sem rostos, sem corpos, sem nomes. O Curador dirá em que rosto o espaço latente convergiria.",
+    "placeholder": "Uma tangente divergindo em direção ao infinito; a borda fractal onde a fé supera a física…",
+    "counter": "{count} / {max}",
+    "submit": "SUBMETER AO ESPAÇO LATENTE",
+    "working": "Convergindo…",
+    "card": {
+      "archetype": "ARQUÉTIPO",
+      "topology": "TOPOLOGIA",
+      "why": "PORQUÊ",
+      "attractor": "ATRATOR",
+      "verdict": "VEREDITO"
+    },
+    "rejected": {
+      "label": "// RECUSADO",
+      "fallback": "Este prompt descreve um corpo, não um conceito.",
+      "hint": "Tente novamente apenas com conceitos — sem descrição física, sem nomes."
+    },
+    "share": "COMPARTILHAR",
+    "copied": "COPIADO",
+    "again": "CONFESSAR NOVAMENTE",
+    "shareTitle": "The Latent Liturgy — o rosto que o meu prompt atrai",
+    "shareText": "O meu prompt abstrato converge em: {archetype} — \"{verdict}\" (atrator {strength}%)",
+    "error": {
+      "empty": "Escreva algo primeiro.",
+      "generic": "O espaço latente não respondeu. Tente novamente em instantes.",
+      "rate": "O espaço latente ainda está em resolução. Aguarde {seconds} s.",
+      "daily": "Você já confessou o suficiente por hoje. Volte amanhã."
+    }
+  },
+  "voice": {
+    "hold": "◉ SEGURE PARA PERGUNTAR",
+    "listening": "◉ OUVINDO…",
+    "hint": "Segure o botão, fale, solte. O Curador responde em voz alta.",
+    "youSaid": "VOCÊ DISSE",
+    "curator": "CURADOR",
+    "thinking": "Ouvindo a si mesmo…",
+    "mute": "Silenciar a voz do Curador",
+    "unmute": "Permitir a voz do Curador",
+    "error": {
+      "denied": "O acesso ao microfone foi recusado. O ritual precisa da sua voz.",
+      "nospeech": "Silêncio. Nada foi ouvido.",
+      "generic": "O microfone falhou. Tente novamente."
+    }
+  },
+  "tally": {
+    "label": "CONTAGEM DE ATRATORES",
+    "line": "o modelo a nomeou {recognised} de {total} vezes · {confessions} prompts confessados"
+  }
+}

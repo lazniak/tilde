@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// CONFESSA IL TUO PROMPT",
+    "open": "APRI",
+    "close": "CHIUDI",
+    "intro": "Scrivi il tuo prompt come l'artista ha scritto i suoi: solo concetti. Nessun volto, nessun corpo, nessun nome. Il Curatore ti dirà verso quale volto convergerebbe lo spazio latente.",
+    "placeholder": "Una tangente che diverge verso l'infinito; il bordo frattale dove la fede supera la fisica…",
+    "counter": "{count} / {max}",
+    "submit": "INVIA ALLO SPAZIO LATENTE",
+    "working": "Convergenza in corso…",
+    "card": {
+      "archetype": "ARCHETIPO",
+      "topology": "TOPOLOGIA",
+      "why": "PERCHÉ",
+      "attractor": "ATTRATTORE",
+      "verdict": "VERDETTO"
+    },
+    "rejected": {
+      "label": "// RIFIUTATO",
+      "fallback": "Questo prompt descrive un corpo, non un concetto.",
+      "hint": "Riprova usando solo concetti — nessuna descrizione fisica, nessun nome."
+    },
+    "share": "CONDIVIDI",
+    "copied": "COPIATO",
+    "again": "CONFESSA DI NUOVO",
+    "shareTitle": "The Latent Liturgy — il volto attratto dal mio prompt",
+    "shareText": "Il mio prompt astratto converge su: {archetype} — \"{verdict}\" (attrattore {strength}%)",
+    "error": {
+      "empty": "Scrivi prima qualcosa.",
+      "generic": "Lo spazio latente non ha risposto. Riprova tra un istante.",
+      "rate": "Lo spazio latente si sta ancora risolvendo. Attendi {seconds} s.",
+      "daily": "Hai confessato abbastanza per oggi. Ritorna domani."
+    }
+  },
+  "voice": {
+    "hold": "◉ TIENI PREMUTO PER CHIEDERE",
+    "listening": "◉ ASCOLTO…",
+    "hint": "Tieni premuto il pulsante, parla, rilascia. Il Curatore risponde a voce.",
+    "youSaid": "HAI DETTO",
+    "curator": "CURATORE",
+    "thinking": "In ascolto di se stesso…",
+    "mute": "Silenzia la voce del Curatore",
+    "unmute": "Lascia parlare il Curatore",
+    "error": {
+      "denied": "L'accesso al microfono è stato rifiutato. Il rito ha bisogno della tua voce.",
+      "nospeech": "Silenzio. Non è stato udito nulla.",
+      "generic": "Il microfono ha vacillato. Riprova."
+    }
+  },
+  "tally": {
+    "label": "CONTEGGIO DEGLI ATTRATTORI",
+    "line": "il modello l'ha nominata {recognised} volte su {total} · {confessions} prompt confessati"
+  }
+}

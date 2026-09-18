@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Iniciar a visita guiada",
+    "stop": "Parar a visita guiada",
+    "hint": "Deixe a voz do artista conduzir você pelos três painéis. Toque em qualquer lugar para assumir o controle.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURADOR",
+      "epilogue": "EPÍLOGO"
+    }
+  },
+  "tilt": {
+    "label": "INCLINAR",
+    "on": "Misturar inclinando o telefone",
+    "off": "Parar de misturar por inclinação",
+    "rhythm": "RITMO",
+    "harmony": "HARMONIA",
+    "voices": "VOZES",
+    "denied": "Acesso aos sensores de movimento recusado. Permita-o nas configurações do navegador para misturar por inclinação.",
+    "unsupported": "Este dispositivo não detecta orientação. Em vez disso, use o mixer."
+  }
+}

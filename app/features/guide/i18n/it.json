@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "TOUR",
+    "start": "Avvia la visita guidata",
+    "stop": "Interrompi la visita guidata",
+    "hint": "Lascia che la voce dell'artista ti guidi attraverso tutti e tre i pannelli. Tocca un punto qualsiasi per prendere il controllo.",
+    "indicator": "TOUR · {label} {step}/{total}",
+    "step": {
+      "hub": "HUB",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "CURATORE",
+      "epilogue": "EPILOGO"
+    }
+  },
+  "tilt": {
+    "label": "INCLINA",
+    "on": "Mixa inclinando il telefono",
+    "off": "Interrompi il mix tramite inclinazione",
+    "rhythm": "RITMO",
+    "harmony": "ARMONIA",
+    "voices": "VOCI",
+    "denied": "Accesso ai sensori di movimento negato. Consentilo nelle impostazioni del browser per mixare tramite inclinazione.",
+    "unsupported": "Questo dispositivo non rileva l'orientamento. Utilizza invece il mixer."
+  }
+}

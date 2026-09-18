@@ -1,0 +1,26 @@
+{
+  "tour": {
+    "label": "OPASTUS",
+    "start": "Aloita opastettu kierros",
+    "stop": "Lopeta opastettu kierros",
+    "hint": "Anna taiteilijan äänen johdattaa sinut kaikkien kolmen paneelin läpi. Kosketa mitä tahansa ottaaksesi ohjat.",
+    "indicator": "OPASTUS · {label} {step}/{total}",
+    "step": {
+      "hub": "KESKUS",
+      "genesis": "GENESIS",
+      "incarnation": "AVATAR",
+      "exegesis": "KURAATTORI",
+      "epilogue": "EPILOGI"
+    }
+  },
+  "tilt": {
+    "label": "KALLISTUS",
+    "on": "Miksaa puhelinta kallistamalla",
+    "off": "Lopeta miksaus kallistamalla",
+    "rhythm": "RYTMI",
+    "harmony": "HARMONIA",
+    "voices": "ÄÄNET",
+    "denied": "Pääsy liiketietoihin estetty. Salli se selaimesi asetuksista miksataksesi kallistamalla.",
+    "unsupported": "Tämä laite ei tue asennontunnistusta. Käytä sen sijaan mikseriä."
+  }
+}

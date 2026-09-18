@@ -1,0 +1,54 @@
+{
+  "confess": {
+    "label": "// VYZPOVĚZTE SVŮJ PROMPT",
+    "open": "OTEVŘÍT",
+    "close": "ZAVŘÍT",
+    "intro": "Napište vlastní prompt tak, jak ten svůj psal umělec: pouze koncepty. Žádné tváře, žádná těla, žádná jména. Kurátor vám poví, ke které tváři by latentní prostor dospěl.",
+    "placeholder": "Tečna ubíhající k nekonečnu; fraktální hrana, kde víra převažuje fyziku…",
+    "counter": "{count} / {max}",
+    "submit": "ODEVZDAT LATENTNÍMU PROSTORU",
+    "working": "Konverguje…",
+    "card": {
+      "archetype": "ARCHETYP",
+      "topology": "TOPOLOGIE",
+      "why": "PROČ",
+      "attractor": "ATRAKTOR",
+      "verdict": "VERDIKT"
+    },
+    "rejected": {
+      "label": "// ODMÍTNUTO",
+      "fallback": "Tento prompt popisuje tělo, nikoli koncept.",
+      "hint": "Zkuste to znovu pouze s koncepty — bez fyzického popisu, beze jmen."
+    },
+    "share": "SDÍLET",
+    "copied": "ZKOPÍROVÁNO",
+    "again": "VYZPOVĚDĚT ZNOVU",
+    "shareTitle": "The Latent Liturgy — tvář, kterou přitahuje můj prompt",
+    "shareText": "Můj abstraktní prompt konverguje k: {archetype} — „{verdict}“ (atraktor {strength} %)",
+    "error": {
+      "empty": "Nejprve něco napište.",
+      "generic": "Latentní prostor neodpověděl. Zkuste to za chvíli znovu.",
+      "rate": "Latentní prostor se stále ustaluje. Počkejte {seconds} s.",
+      "daily": "Pro dnešek jste se vyzpovídali dost. Vraťte se zítra."
+    }
+  },
+  "voice": {
+    "hold": "◉ DRŽTE PRO DOTAZ",
+    "listening": "◉ POSLOUCHÁM…",
+    "hint": "Držte tlačítko, mluvte, pusťte. Kurátor odpoví nahlas.",
+    "youSaid": "ŘEKLI JSTE",
+    "curator": "KURÁTOR",
+    "thinking": "Naslouchá sám sobě…",
+    "mute": "Ztlumit hlas Kurátora",
+    "unmute": "Nechat Kurátora mluvit",
+    "error": {
+      "denied": "Přístup k mikrofonu byl odepřen. Rituál vyžaduje váš hlas.",
+      "nospeech": "Ticho. Nic nebylo slyšet.",
+      "generic": "Mikrofon selhal. Zkuste to znovu."
+    }
+  },
+  "tally": {
+    "label": "BILANCE ATRAKTORŮ",
+    "line": "model ji jmenoval v {recognised} z {total} případů · vyzpovídáno {confessions} promptů"
+  }
+}
